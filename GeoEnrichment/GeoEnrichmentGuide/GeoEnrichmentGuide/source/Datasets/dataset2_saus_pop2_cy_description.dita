@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset2_saus_pop2_cy_description" xml:lang="en-US">
+  <title>Dataset 2: SAUS POP2 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds2_cy_popcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an001afgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Afghan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an002albcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Albanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an003alscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Alsatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an004amecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: American</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an005egycy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Egyptian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an006irqcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Iraqi</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an007jorcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Jordanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an008lbncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Lebanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an009morcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Moroccan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an010palcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Palestinian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an011syrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Syrian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an012arbcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Arab/Arabic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an013oarcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab, Other Arab</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an014armcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Armenian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an015acscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Assyrian/Chaldean/Syriac</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an016auscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Australian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an017autcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Austrian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an018bascy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Basque</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an019belcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Belgian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an020bracy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Brazilian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an021bricy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: British</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an022bgrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Bulgarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an023cajcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Cajun</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an024cancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an025crucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Carpatho Rusyn</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an026celcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Celtic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an027crocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Croatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an028cypcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Cypriot</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an029czecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Czech</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an030czscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Czechoslovakian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an031dancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Danish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an032dutcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Dutch</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an033eeucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Eastern European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an034engcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: English</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an035estcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Estonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an036eurcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an037fincy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Finnish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an038frecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: French (except Basque)</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an039frccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: French Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an040gercy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an041grucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: German Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an042grecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an043guycy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Guyanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an044huncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an045icecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Icelander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an046irncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Iranian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an047iricy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an048isrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Israeli</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an049itacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an050latcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Latvian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an051litcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Lithuanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an052luxcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Luxemburger</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an053maccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Macedonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an054malcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Maltese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an055nzlcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: New Zealander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an056neucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Northern European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an057norcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Norwegian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an058pgecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Pennsylvania German</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an059polcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an060porcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Portuguese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an061romcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Romanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an062ruscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an063scacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Scandinavian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an064sircy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Scotch-Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an065scocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Scottish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an066sercy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Serbian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an067slacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Slavic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an068svkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Slovak</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an069svncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Slovene</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an070suncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Soviet Union</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an071cvecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Cape Verdean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an072ethcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Ethiopian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an073ghacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Ghanaian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an074kency</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Kenyan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an075lbrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Liberian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an076ngacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Nigerian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an077sency</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Senegalese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an078slecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Sierra Leonean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an079somcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Somalian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an080safcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, South African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an081sdncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Sudanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an082ugacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Ugandan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an083zwecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Zimbabwean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an084afrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an085osacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African, Other Subsaharan African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an086swecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Swedish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an087swicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Swiss</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an088turcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Turkish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an089ukrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Ukrainian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an090welcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Welsh</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an091bhscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Bahamian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an092brbcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Barbadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an093blzcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Belizean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an094bmucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Bermudan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an095bwicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), British West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an096dwicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Dutch West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an097haicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Haitian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an098jamcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Jamaican</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an099ttocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Trinidadian and Tobagonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an100vircy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), U.S. Virgin Islander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an101wincy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an102owicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups), Other West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an103yugcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Yugoslavian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an104ogrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Other groups</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_cy_an105unrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Unclassified or not reported</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

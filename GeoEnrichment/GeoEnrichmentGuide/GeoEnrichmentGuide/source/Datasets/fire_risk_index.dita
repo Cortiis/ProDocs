@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="fire_risk_index" xml:lang="en-US">
+  <title>Fire Risk Index</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pbkey</entry>
+              <entry>char (12)</entry>
+              <entry>Unique PB ID</entry>
+            </row>
+            <row>
+              <entry>fire_refid</entry>
+              <entry>integer</entry>
+              <entry>Unique reference value for data records.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

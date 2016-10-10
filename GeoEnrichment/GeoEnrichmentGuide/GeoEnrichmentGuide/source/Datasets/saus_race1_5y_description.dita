@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race1_5y_description" xml:lang="en-US">
+  <title>SAUS Race1 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds1_5y_whtpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtpmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 White alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtpa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtpamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 White alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 White alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 White alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 White alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 White alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_whtf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkpmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Black or African American alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkpa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkpamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Black or African American alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Black or African American alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Black or African American alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Black or African American alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Black or African American alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_blkf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indpmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 American Indian and Alaska Native alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indpa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indpamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 American Indian and Alaska Native alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 American Indian and Alaska Native alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 American Indian and Alaska Native alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 American Indian and Alaska Native alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 American Indian and Alaska Native alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_5y_indf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

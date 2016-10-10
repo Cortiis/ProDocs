@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="installing_datasets_Nix" xml:lang="en-US">
+	<title>Installing on Unix or Linux</title>
+	<taskbody>
+		<steps>
+			<step id="download">
+				<cmd>Download the dataset from the Pitney Bowes eStore using the link provided in the release
+					announcement or welcome email. You can also download the database from the
+					technical support web site, <xref href="http://www.g1.com/support/"
+						format="html" scope="external"/>.</cmd>
+			</step>
+			<step>
+				<cmd>The database is downloaded as a zip file. Unzip the database before proceeding with the installation.</cmd>
+			</step>
+			<step id="copy">
+				<cmd>Copy the data to any directory. Note the file name and path.</cmd>
+				<info><note>You may install datasets on a mapped drive, but performance will be affected since you will be 
+					accessing them on a network rather than accessing them locally.</note></info>
+			</step>
+			<step>
+				<cmd>After you install the dataset files, follow the procedure on <xref
+						href="GEM_SettingUp_DB_Resource.dita#settingup_dbresource"/>. </cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

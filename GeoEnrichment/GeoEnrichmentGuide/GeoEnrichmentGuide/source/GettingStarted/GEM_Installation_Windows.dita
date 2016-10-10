@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="GEM_installing_win" xml:lang="en-US">
+	<title>Installing on Windows</title>
+	<taskbody>
+		<context>
+			<note>In this procedure, <varname>SpectrumDirectory</varname> refers to the folder where you have
+				installed the <keyword keyref="productname"/> server.</note>
+		</context>
+		<steps>
+			<step>
+				<cmd>Stop the <keyword keyref="productname"/> server. To stop the server,
+					right-click the <keyword keyref="productname"/> icon in the Windows system tray
+					and select <uicontrol>Stop Server</uicontrol>. Alternatively, you can use the Windows
+					Services control panel and stop the Pitney Bowes <keyword keyref="productname"/>
+					service.</cmd>
+			</step>
+			<step>
+				<cmd>Extract the contents of the downloaded zip file to a temporary location.</cmd>
+			</step>
+			<step>
+				<cmd>Copy the <cite>.car</cite> file to:
+						<filepath><varname>SpectrumDirectory</varname>\server\app\deploy</filepath></cmd>
+			</step>
+			<step>
+				<cmd>Copy the <cite>gem</cite> directory to:
+						<filepath><varname>SpectrumDirectory</varname>\server\modules</filepath></cmd>
+			</step>
+			<step>
+				<cmd> In the <filepath><varname>SpectrumDirectory</varname>\server\modules\gem</filepath>
+					directory, rename the <cite>db.ini.sample</cite> file to
+					<cite>db.ini</cite>.</cmd>
+			</step>
+			<step>
+				<cmd>Start the <keyword keyref="productname"/> server. To start the server,
+					right-click the <keyword keyref="productname"/> icon in the Windows system tray
+					and select <uicontrol>Start Server</uicontrol>. Alternatively, you can use the Windows
+					Services control panel to start the Pitney Bowes <keyword keyref="productname"/>
+					service.</cmd>
+			</step>			
+		</steps>
+		<postreq>Download and install your dataset(s). For instructions, refer to <xref
+				href="GEM_Installing_Datasets.dita#installing_datasets"/>.</postreq>
+	</taskbody>
+</task>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+
+
+<concept id="gem_datasets" xml:lang="en-US">
+
+	<title outputclass="hard-pagebreak"><keyword keyref="modulename"/> Datasets</title>
+
+	<conbody>
+		<section>The <keyword keyref="modulename"/> datasets are installed on the <keyword
+				keyref="productname"/> server. The datasets are available by subscription from
+			Pitney Bowes and are updated regularly.</section>
+		<section>
+			<title>Dataset Descriptions</title>
+			<table frame="none" rowsep="0" colsep="0" id="table_ux2_xwp_f5">
+				<tgroup cols="2">
+					<colspec colname="c1" colnum="1" colwidth="1.0*"/>
+					<colspec colname="c2" colnum="2" colwidth="1.0*"/>
+					<thead>
+						<row>
+							<entry>Dataset Name</entry>
+							<entry>Description</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry><b>APN and Elevation</b></entry>
+							<entry>
+								<p>Returns Assessor's Parcel Number and elevation data.</p>
+								<p>For details on the returned data fields, see <xref href="../Datasets/apn_elevation_data.dita"/>.</p>
+							</entry>
+						</row>
+						<row>
+							<entry><b>Extended Attributes</b></entry>
+							<entry>Provides APN, elevation, property, geographic boundary and census information.<p>For details on the returned data fields, see <xref href="../Datasets/ext_attributes_data.dita"/>.</p></entry>
+						</row>
+						<row>
+							<entry><b>Distance to Coast</b></entry>
+							<entry><xref href="../Datasets/appendix_distance_to_coast.dita">Distance to Coast</xref></entry>
+						</row>
+						<row>
+							<entry><b>Fire Risk</b></entry>
+							<entry><xref href="../Datasets/appendix_fire_risk_demographics.dita">Fire Risk Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Flood Risk</b></entry>
+							<entry><xref href="../Datasets/appendix_flood_risk_demographics.dita">Flood Risk Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Property Attributes Datasets:</b><p>Offers 6 dataset versions, as follows:</p></entry>
+							<entry>For details on the returned data fields, see <xref href="../Datasets/property_attributes_data.dita"/>.</entry>
+						</row>
+						<row>
+							<entry>
+								<ul>
+									<li><b>Ownership Information</b></li>
+								</ul>
+							</entry>
+							<entry>Provides detailed property ownership contact information.</entry>
+						</row>
+						<row>
+							<entry>
+								<ul>
+									<li><b>Insurance Basic</b></li>
+								</ul>
+							</entry>
+							<entry>Contains property details that enables an insurer to accurately determine coverage amounts and insurance rates.</entry>
+						</row>
+						<row>
+							<entry>
+								<ul id="ul_wz2_yzp_f5">
+									<li><b>Insurance Extended</b></li>
+								</ul>
+							</entry>
+							<entry>Expands the Insurance Basic data with additional information such as market value, zoning, municipal and township information.</entry>
+						</row>
+						<row>
+							<entry>
+								<ul id="ul_pqn_syp_f5">
+									<li><b>Financial Services</b></li>
+								</ul>
+							</entry>
+							<entry>
+								<p>Contains the property details and valuation information to confidently determine loan valuations. </p>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<ul>
+									<li><b>Retail/Real Estate</b></li>
+								</ul>
+							</entry>
+							<entry>Returns real estate information that supports preparing real estate comparisons.</entry>
+						</row>
+						<row>
+							<entry>
+								<ul id="ul_dwl_zzp_f5">
+									<li><b>All Variables</b></li>
+								</ul>
+							</entry>
+							<entry>Offers all of the data in the Property Attributes Datasets.</entry>
+						</row>
+						<row>
+							<entry><b>Property Fire Protection</b></entry>
+							<entry>Contains place information and fire-fighting service data that enable an insurer to determine a property’s Fire Protection Class.<p>For details on the returned data fields, see <xref href="../Datasets/fire_protection_data.dita"/>.</p></entry>
+						</row>
+						<row>
+							<entry><b>Risk Data</b></entry>
+							<entry><xref href="../Datasets/appendix_risk_data_lookup.dita">Risk Data Lookup</xref></entry>
+						</row>
+						<row>
+							<entry><b>Demographic Index</b></entry>
+							<entry>
+								<p><xref href="../Datasets/appendix_demographic_index_lookup.dita">Demographic Index Lookup</xref></p>
+							</entry>
+						</row>
+						<row>
+							<entry><b>Ground View Business Summary</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_business_summary_demographics.dita">Ground View Business Summary Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Consumer Expenditure Potential</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_consumer_expenditure_potential_demographics.dita">Ground View Consumer Expenditure Potential Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Consumer Vitality</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_consumer_vitality_demographics.dita">Ground View Consumer Vitality Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Family</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_family_demographics.dita">Ground View Family Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Household Financial Asset and Wealth</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_household_financial_asset_and_wealth_demographics.dita">Ground View Household Financial Asset and Wealth Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Household Income</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_household_income_demographics.dita">Ground View Household Income Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Housing</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_housing_demographics.dita">Ground View Housing Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Population Bundle</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_population_bundle_demographics.dita">Ground View Population Bundle Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Population by Hispanic Non-Hispanic</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_population_by_hispanic_non_hispanic_demographics.dita">Ground View Population by Hispanic Non-Hispanic Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Population by Race</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_population_by_race_demographics.dita">Ground View Population by Race Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Retail Sales Potential</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_retail_sales_potential_demographics.dita">Ground View Retail Sales Potential Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Socio Economic</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_socio_economics_demographics.dita">Ground View Socio Economic Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Ground View Update Profile</b></entry>
+							<entry><xref href="../Datasets/appendix_ground_view_update_profile_demographics.dita">Ground View Update Profile Demographics</xref></entry>
+						</row>
+						<row>
+							<entry><b>Settlement Space</b></entry>
+							<entry><xref href="../Datasets/appendix_settlement_space_demographics.dita">Settlement Space Demographics</xref></entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</section>
+		
+	</conbody>
+
+</concept>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_rsp_description" xml:lang="en-US">
+  <title>SAUS RSP Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>rsp_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>rsp_au4411cy</entry>
+              <entry>float</entry>
+              <entry>2015 Automobile dealers</entry>
+            </row>
+            <row>
+              <entry>rsp_au4412cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other motor vehicle dealers</entry>
+            </row>
+            <row>
+              <entry>rsp_au44131cy</entry>
+              <entry>float</entry>
+              <entry>2015 Automotive parts &amp; accessories stores</entry>
+            </row>
+            <row>
+              <entry>rsp_au44132cy</entry>
+              <entry>float</entry>
+              <entry>2015 Tire dealers</entry>
+            </row>
+            <row>
+              <entry>rsp_bu44411cy</entry>
+              <entry>float</entry>
+              <entry>2015 Home centers</entry>
+            </row>
+            <row>
+              <entry>rsp_bu44412cy</entry>
+              <entry>float</entry>
+              <entry>2015 Paint &amp; wallpaper stores</entry>
+            </row>
+            <row>
+              <entry>rsp_bu44413cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hardware stores</entry>
+            </row>
+            <row>
+              <entry>rsp_bu44421cy</entry>
+              <entry>float</entry>
+              <entry>2015 Outdoor power equipment stores</entry>
+            </row>
+            <row>
+              <entry>rsp_bu44422cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nursery &amp; garden centers</entry>
+            </row>
+            <row>
+              <entry>rsp_ca44811cy</entry>
+              <entry>float</entry>
+              <entry>2015 Mens clothing stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca44812cy</entry>
+              <entry>float</entry>
+              <entry>2015 Womens clothing stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca44813cy</entry>
+              <entry>float</entry>
+              <entry>2015 Childrens &amp; Infants clothing stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca4482cy</entry>
+              <entry>float</entry>
+              <entry>2015 Shoe stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca44831cy</entry>
+              <entry>float</entry>
+              <entry>2015 Jewelry stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ea44311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Appliance, television, &amp; other electronics stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ea44312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Computer &amp; software stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ea44313cy</entry>
+              <entry>float</entry>
+              <entry>2015 Camera &amp; photographic supplies stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fb44511cy</entry>
+              <entry>float</entry>
+              <entry>2015 Supermarkets &amp; other grocery (except convenience) stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fb44512cy</entry>
+              <entry>float</entry>
+              <entry>2015 Convenience stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fb4453cy</entry>
+              <entry>float</entry>
+              <entry>2015 Beer, wine, &amp; liquor stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fu4421cy</entry>
+              <entry>float</entry>
+              <entry>2015 Furniture stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fu4422cy</entry>
+              <entry>float</entry>
+              <entry>2015 Home furnishings stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ga44711cy</entry>
+              <entry>float</entry>
+              <entry>2015 Gasoline stations with convenience stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ga44719cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other gasoline stations</entry>
+            </row>
+            <row>
+              <entry>rsp_gr452cy</entry>
+              <entry>float</entry>
+              <entry>2015 General merchandise stores</entry>
+            </row>
+            <row>
+              <entry>rsp_gr4521cy</entry>
+              <entry>float</entry>
+              <entry>2015 Department stores (excl leased depts)</entry>
+            </row>
+            <row>
+              <entry>rsp_hp44611cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pharmacies &amp; drug stores</entry>
+            </row>
+            <row>
+              <entry>rsp_hp44619cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other health &amp; personal care stores</entry>
+            </row>
+            <row>
+              <entry>rsp_mr45391cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pet &amp; pet supplies stores</entry>
+            </row>
+            <row>
+              <entry>rsp_re_cy</entry>
+              <entry>float</entry>
+              <entry>2015 Restaurant Expenditures</entry>
+            </row>
+            <row>
+              <entry>rsp_sp45111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sporting goods stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp45112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hobby, toy, &amp; game stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp45113cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sewing, needlework, &amp; piece goods stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp45114cy</entry>
+              <entry>float</entry>
+              <entry>2015 Musical instrument &amp; supplies stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp4512cy</entry>
+              <entry>float</entry>
+              <entry>2015 Book, periodical, &amp; music stores</entry>
+            </row>
+            <row>
+              <entry>rsp_gaf_cy</entry>
+              <entry>float</entry>
+              <entry>2015 General Merchandise, Apparel, and Furniture</entry>
+            </row>
+            <row>
+              <entry>rsp_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>rsp_au44115y</entry>
+              <entry>float</entry>
+              <entry>2020 Automobile dealers</entry>
+            </row>
+            <row>
+              <entry>rsp_au44125y</entry>
+              <entry>float</entry>
+              <entry>2020 Other motor vehicle dealers</entry>
+            </row>
+            <row>
+              <entry>rsp_au441315y</entry>
+              <entry>float</entry>
+              <entry>2020 Automotive parts &amp; accessories stores</entry>
+            </row>
+            <row>
+              <entry>rsp_au441325y</entry>
+              <entry>float</entry>
+              <entry>2020 Tire dealers</entry>
+            </row>
+            <row>
+              <entry>rsp_bu444115y</entry>
+              <entry>float</entry>
+              <entry>2020 Home centers</entry>
+            </row>
+            <row>
+              <entry>rsp_bu444125y</entry>
+              <entry>float</entry>
+              <entry>2020 Paint &amp; wallpaper stores</entry>
+            </row>
+            <row>
+              <entry>rsp_bu444135y</entry>
+              <entry>float</entry>
+              <entry>2020 Hardware stores</entry>
+            </row>
+            <row>
+              <entry>rsp_bu444215y</entry>
+              <entry>float</entry>
+              <entry>2020 Outdoor power equipment stores</entry>
+            </row>
+            <row>
+              <entry>rsp_bu444225y</entry>
+              <entry>float</entry>
+              <entry>2020 Nursery &amp; garden centers</entry>
+            </row>
+            <row>
+              <entry>rsp_ca448115y</entry>
+              <entry>float</entry>
+              <entry>2020 Mens clothing stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca448125y</entry>
+              <entry>float</entry>
+              <entry>2020 Womens clothing stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca448135y</entry>
+              <entry>float</entry>
+              <entry>2020 Childrens &amp; Infants clothing stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca44825y</entry>
+              <entry>float</entry>
+              <entry>2020 Shoe stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ca448315y</entry>
+              <entry>float</entry>
+              <entry>2020 Jewelry stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ea443115y</entry>
+              <entry>float</entry>
+              <entry>2020 Appliance, television, &amp; other electronics stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ea443125y</entry>
+              <entry>float</entry>
+              <entry>2020 Computer &amp; software stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ea443135y</entry>
+              <entry>float</entry>
+              <entry>2020 Camera &amp; photographic supplies stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fb445115y</entry>
+              <entry>float</entry>
+              <entry>2020 Supermarkets &amp; other grocery (except convenience) stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fb445125y</entry>
+              <entry>float</entry>
+              <entry>2020 Convenience stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fb44535y</entry>
+              <entry>float</entry>
+              <entry>2020 Beer, wine, &amp; liquor stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fu44215y</entry>
+              <entry>float</entry>
+              <entry>2020 Furniture stores</entry>
+            </row>
+            <row>
+              <entry>rsp_fu44225y</entry>
+              <entry>float</entry>
+              <entry>2020 Home furnishings stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ga447115y</entry>
+              <entry>float</entry>
+              <entry>2020 Gasoline stations with convenience stores</entry>
+            </row>
+            <row>
+              <entry>rsp_ga447195y</entry>
+              <entry>float</entry>
+              <entry>2020 Other gasoline stations</entry>
+            </row>
+            <row>
+              <entry>rsp_gr4525y</entry>
+              <entry>float</entry>
+              <entry>2020 General merchandise stores</entry>
+            </row>
+            <row>
+              <entry>rsp_gr45215y</entry>
+              <entry>float</entry>
+              <entry>2020 Department stores (excl leased depts)</entry>
+            </row>
+            <row>
+              <entry>rsp_hp446115y</entry>
+              <entry>float</entry>
+              <entry>2020 Pharmacies &amp; drug stores</entry>
+            </row>
+            <row>
+              <entry>rsp_hp446195y</entry>
+              <entry>float</entry>
+              <entry>2020 Other health &amp; personal care stores</entry>
+            </row>
+            <row>
+              <entry>rsp_mr453915y</entry>
+              <entry>float</entry>
+              <entry>2020 Pet &amp; pet supplies stores</entry>
+            </row>
+            <row>
+              <entry>rsp_re_5y</entry>
+              <entry>float</entry>
+              <entry>2020 Restaurant Expenditures</entry>
+            </row>
+            <row>
+              <entry>rsp_sp451115y</entry>
+              <entry>float</entry>
+              <entry>2020 Sporting goods stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp451125y</entry>
+              <entry>float</entry>
+              <entry>2020 Hobby, toy, &amp; game stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp451135y</entry>
+              <entry>float</entry>
+              <entry>2020 Sewing, needlework, &amp; piece goods stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp451145y</entry>
+              <entry>float</entry>
+              <entry>2020 Musical instrument &amp; supplies stores</entry>
+            </row>
+            <row>
+              <entry>rsp_sp45125y</entry>
+              <entry>float</entry>
+              <entry>2020 Book, periodical, &amp; music stores</entry>
+            </row>
+            <row>
+              <entry>rsp_gaf_5y</entry>
+              <entry>float</entry>
+              <entry>2020 General Merchandise, Apparel, and Furniture</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

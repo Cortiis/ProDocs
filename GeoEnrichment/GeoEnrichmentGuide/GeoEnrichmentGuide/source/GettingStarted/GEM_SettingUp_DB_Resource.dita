@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="settingup_dbresource" xml:lang="en-US">
+	<title>Adding a Database Resource</title>
+	<taskbody>
+		<context>
+			<p>After installing your dataset(s), perform the following procedure to add a database
+				resource.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Navigate to the <cite>gem</cite> folder. Open the <cite>db.ini</cite> file using a plain
+					text editor. </cmd>
+				<info>The file is located in: <ul>
+						<li>For Windows:
+								<filepath><varname>SpectrumDirectory</varname>\server\modules\gem</filepath></li>
+						<li>For UNIX/Linux:
+								<filepath><varname>SpectrumDirectory</varname>/server/modules/gem</filepath>
+						</li>
+					</ul><note>A single <cite>db.ini</cite> file can define multiple database
+						resources; however, there can be only one database resource per invocation
+						of the GeoEnrichmentLookup service.</note></info>
+			</step>
+			
+			<step id="addLine">
+				<cmd>For every database that you want to register, add a line to the file consisting of the
+					database file name and location.</cmd>
+				<info>For example:
+					<codeblock>PremiumAttributes=C:/Program Files/Pitney Bowes/
+        Spectrum/server/modules/gem/gem_data_dld.db.h2</codeblock></info>
+			</step>
+			<step>
+				<cmd>Save the file. Make note of the database file name which will need to be specified when
+					setting up the Options for the <keyword keyref="modulename"/>.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

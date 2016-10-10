@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="en-US">
+    <booktitle>
+        <mainbooktitle>GeoEnrichment Guide</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author><keyword keyref="companyname"/></author>
+        <prodinfo>
+            <prodname>
+                <keyword keyref="productname"/>
+            </prodname>
+            <vrmlist>
+                <vrm version="11.0"/>
+            </vrmlist>
+        </prodinfo>
+        <bookrights>
+            <copyrlast>
+                <year>2016</year>
+            </copyrlast>
+            <bookowner>
+                <organization><keyword keyref="companyname"/></organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+        <keydef keys="companyname">
+            <topicmeta>
+                <keywords>
+                    <keyword>Pitney Bowes</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="productname">
+            <topicmeta>
+                <keywords>
+                    <keyword>Spectrum<tm tmtype="reg"/> Technology Platform</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Spectrumname">
+            <topicmeta>
+                <keywords>
+                    <keyword>Spectrum</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="modulename">
+            <topicmeta>
+                <keywords>
+                    <keyword>GeoEnrichment Module</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </frontmatter>
+    <chapter href="GeoEnrichmentGuide/source/LandingPageForHelp.dita" print="no"/>
+    <chapter navtitle="Getting Started">
+        <topicref href="GeoEnrichmentGuide/source/GettingStarted/Intro_GeoEnrichment.dita"/>
+        <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Requirements.dita"/>
+        <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Stage.dita"/>
+        <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Datasets.dita"/>
+        <topicref navtitle="Installing the GeoEnrichment Module and Datasets">
+            <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Installing_Module.dita">
+                <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Installation_Windows.dita"></topicref>
+                <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Installation_Nix.dita"></topicref>
+            </topicref>
+            <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_Installing_Datasets.dita">
+                <topicref
+                    href="GeoEnrichmentGuide/source/GettingStarted/GEM_Installing_Datasets_Win.dita"/>
+            </topicref>
+            
+            <topicref href="GeoEnrichmentGuide/source/GettingStarted/GEM_SettingUp_DB_Resource.dita"
+            />
+        </topicref>
+    </chapter>
+    <chapter navtitle="GeoEnrichmentLookup">
+        <topicref href="GeoEnrichmentGuide/source/GeoEnrichmentLookup/Inputs.dita"/>
+        <topicref href="GeoEnrichmentGuide/source/GeoEnrichmentLookup/Options.dita"/>
+        <topicref href="GeoEnrichmentGuide/source/GeoEnrichmentLookup/Outputs.dita"/>
+    </chapter>
+    <appendices navtitle="Appendices">
+        <appendix navtitle="APN and Elevation Dataset Fields">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/apn_elevation_data.dita"/>
+        </appendix>
+        <appendix navtitle="Extended Attributes Dataset Fields">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/ext_attributes_data.dita"/>
+        </appendix>
+        <appendix navtitle="Distance to Coast" href="GeoEnrichmentGuide/source/Datasets/appendix_distance_to_coast.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/coastal_waters_attribute.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/coastal_waters_index.dita"/>
+        </appendix>
+        <appendix navtitle="Fire Risk" href="GeoEnrichmentGuide/source/Datasets/appendix_fire_risk.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/fire_risk_attribute.dita"/>
+            <!--<topicref href="GeoEnrichmentGuide/source/Datasets/fire_risk_index.dita"/>-->
+        </appendix>
+        <appendix navtitle="Flood Risk" href="GeoEnrichmentGuide/source/Datasets/appendix_flood_risk.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/flood_risk_attribute.dita"/>
+            <!--<topicref href="GeoEnrichmentGuide/source/Datasets/flood_risk_index.dita"/>-->
+        </appendix>
+        <appendix navtitle="Property Attributes Dataset Fields">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/property_attributes_data.dita"/>
+        </appendix>
+        <appendix navtitle="Property Fire Protection Dataset Fields">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/fire_protection_data.dita"/>
+        </appendix>
+        <appendix navtitle="Risk Data Lookup" href="GeoEnrichmentGuide/source/Datasets/appendix_risk_data_lookup.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/risk_data.dita"/>
+        </appendix>
+        <appendix navtitle="Demographic Index Lookup" href="GeoEnrichmentGuide/source/Datasets/appendix_demographic_index_lookup.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/demographics_index.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Business Summary Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_business_summary_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/naics_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/sic1_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/sic2_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Consumer Expenditure Potential Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_consumer_expenditure_potential_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_cep1_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_cep1_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_cep2_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_cep2_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset3_saus_cep3_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset3_saus_cep3_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Consumer Vitality Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_consumer_vitality_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/consumer_vitality.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Family Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_family_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_fam_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_fam_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_fam_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Household Financial Asset and Wealth Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_household_financial_asset_and_wealth_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/fa_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Household Income Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_household_income_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hi_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hi_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hi_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hi_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Housing Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_housing_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_hu1_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_hu1_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_hu1_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_hu2_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_hu2_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_hu2_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Population Bundle Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_population_bundle_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_pop1_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_pop1_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_pop1_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset1_saus_pop1_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_pop2_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_pop2_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset2_saus_pop2_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/dataset3_saus_health_ins_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Population by Hispanic Non-Hispanic Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_population_by_hispanic_non_hispanic_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hsp_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hsp_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hsp_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_hsp_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Population by Race Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_population_by_race_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race1_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race1_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race1_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race1_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race2_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race2_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race2_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race2_cy_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race3_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race3_5y_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race3_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_race3_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Retail Sales Potential Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_retail_sales_potential_demographics.dita">
+             <topicref href="GeoEnrichmentGuide/source/Datasets/saus_rsp_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Socio Economic Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_socio_economics_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_se_2k_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_se_by_description.dita"/>
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_se_cy_description.dita"/>
+        </appendix>
+        <appendix navtitle="Ground View Update Profile Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_ground_view_update_profile_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/saus_updateprofile_description.dita"/>
+        </appendix>
+        <appendix navtitle="Settlement Space Demographics" href="GeoEnrichmentGuide/source/Datasets/appendix_settlement_space_demographics.dita">
+            <topicref href="GeoEnrichmentGuide/source/Datasets/settlement_space.dita"/>
+        </appendix>
+    </appendices>
+    <backmatter>
+        <notices href="Shared/source/legalstuff/copyright.dita" toc="no" print="printonly"/>
+    </backmatter>
+</bookmap>

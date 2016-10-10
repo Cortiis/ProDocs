@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race1_cy_description" xml:lang="en-US">
+  <title>SAUS Race1 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds1_cy_whtpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtpmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 White alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtpacy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtpamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 White alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 White alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 White alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 White alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 White alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_whtf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkpmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Black or African American alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkpacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkpamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Black or African American alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Black or African American alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Black or African American alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Black or African American alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Black or African American alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_blkf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indpmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 American Indian and Alaska Native alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indpacy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indpamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 American Indian and Alaska Native alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 American Indian and Alaska Native alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 American Indian and Alaska Native alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 American Indian and Alaska Native alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 American Indian and Alaska Native alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_cy_indf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

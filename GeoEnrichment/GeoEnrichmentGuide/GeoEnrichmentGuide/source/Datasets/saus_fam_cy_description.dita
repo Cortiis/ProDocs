@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_fam_cy_description" xml:lang="en-US">
+  <title>SAUS FAM CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>fam_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha1524cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha2534cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha3544cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha4554cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha6574cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha7584cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fha85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha1524cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha2534cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha3544cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha4554cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha6574cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha7584cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfha85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhs2percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhs3percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhs4percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhs5percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhs6percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fhs7percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Family households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs1percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs2percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs3percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs4percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs5percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs6percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_nfhs7percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Nonfamily households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>fam_cy_hc1und18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_hc2und6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_hc3bothcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_cy_hc4ovr6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_hc5no18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: No own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc01hwcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Husband-wife family</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc02hw18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Husband-wife family: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc03hwu6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Husband-wife family: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc04hwbocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Husband-wife family: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc05hwo6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Husband-wife family: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc06hwnocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Husband-wife family: No own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc07othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Other family</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc08othmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Other family: Male householder, no wife</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc09om18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male householder, no wife: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc10omu6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male householder, no wife: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc11ombocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male householder, no wife: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc12omo6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male householder, no wife: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc13omnocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male householder, no wife: No own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc14othfcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Other family: Female householder, no husband</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc15of18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female householder, no husband: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc16ofu6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female householder, no husband: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc17ofbocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female householder, no husband: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc18ofo6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female householder, no husband: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_cy_fc19ofnocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female householder, no husband: No own children under 18</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

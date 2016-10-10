@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+		<!--
+		///////////////////////////////////////////////////////////////////
+		|                       *** NOTICE ***                            |
+		| THIS BUILD SCRIPT IS DESIGNED TO WORK WITH THE DITA OT INCLUDED |
+		| WITH OXYGEN. IT DOES NOT WORK WITH THE PB SOFTWARE DITA OT.     |
+		|                                                                 |
+		///////////////////////////////////////////////////////////////////
+		-->
+
+<project name="make_webhelp" default="all" basedir="../">
+	
+	<!-- (Because 'basedir' might already have been set in a calling script.) -->
+	<dirname property="thisdir" file="${ant.file}"/>
+	
+	<!-- Enter the output directory. Note that WebHelp output is moved to
+	     a common output folder after the build completes. -->
+	<property name="output" value="${thisdir}/target/webhelp"/>
+	
+	<target name="all" depends="make_webhelp"/>
+
+	<target name="make_webhelp">
+		<ant antfile="${dita.dir}/build.xml" target="init">
+			
+			<!-- Enter the source DITA map. -->
+			<property name="args.input" value="${thisdir}/../GeoEnrichmentGuide.ditamap"/>
+			
+			<!-- Enter the ditaval file -->
+			<property name="dita.input.valfile" value="${thisdir}/source/gui.ditaval"/>
+			
+			<!-- Enter the temp directory. -->
+			<property name="dita.temp.dir" value="${thisdir}/temp/webhelp"/>	
+			
+			<!-- Enter the output directory -->
+			<property name="output.dir" value="${output}"/>
+			
+			<!-- Enter the default language -->
+			<property name="args.default.language" value="${language}"/>
+			
+			<!-- Pull in common build properties -->
+			<property file="C:\PBSoftware_DITA_Customization\WebHelp\make.properties"/>
+		</ant>
+	</target>
+
+</project>

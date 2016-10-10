@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction" xml:lang="en-US">
+	<title>GeoEnrichment Module Q2 2016 Data Release Notes</title>
+	<conbody>
+	    <p>This document contains information about the <keyword keyref="productname"/> GeoEnrichment
+			Module data. You have access only to the modules you have licensed. To evaluate any
+			other modules, contact your <keyword keyref="companyname"/> account executive for a
+			trial license key. </p>
+		<p>Complete documentation can be found at <xref
+				href="http://support.pb.com/ekip/index?page=product_content&amp;cat=SC_SPECTRUM_TECHNOLOGY_PLATFORM"
+				scope="external" format="html">support.pb.com</xref>.</p>
+	</conbody>
+</concept>

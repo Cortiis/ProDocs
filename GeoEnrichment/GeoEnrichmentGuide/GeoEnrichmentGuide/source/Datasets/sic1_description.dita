@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="sic1_description" xml:lang="en-US">
+  <title>SIC #1 Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>bs_ds1_buscyemp</entry>
+              <entry>float</entry>
+              <entry>Total: Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_buscyest</entry>
+              <entry>float</entry>
+              <entry>Total: Establishments (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_buscypay</entry>
+              <entry>float</entry>
+              <entry>Total: Payroll (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_buscyrtl</entry>
+              <entry>float</entry>
+              <entry>Total: Retail Sales (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occmangmt</entry>
+              <entry>float</entry>
+              <entry>Occupation: Management occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occbusfn</entry>
+              <entry>float</entry>
+              <entry>Occupation: Business and financial operations occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occcomp</entry>
+              <entry>float</entry>
+              <entry>Occupation: Computer and mathematical occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occengin</entry>
+              <entry>float</entry>
+              <entry>Occupation: Architecture and engineering occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occsscie</entry>
+              <entry>float</entry>
+              <entry>Occupation: Life, physical, and social science occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occcomm</entry>
+              <entry>float</entry>
+              <entry>Occupation: Community and social services occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occlegal</entry>
+              <entry>float</entry>
+              <entry>Occupation: Legal occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occeduc</entry>
+              <entry>float</entry>
+              <entry>Occupation: Education, training, and library occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occarts</entry>
+              <entry>float</entry>
+              <entry>Occupation: Arts, design, entertainment, sports, and media occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occhlprac</entry>
+              <entry>float</entry>
+              <entry>Occupation: Healthcare practitioners and technical occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occhlsupp</entry>
+              <entry>float</entry>
+              <entry>Occupation: Healthcare support occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occprot</entry>
+              <entry>float</entry>
+              <entry>Occupation: Protective service occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occfood</entry>
+              <entry>float</entry>
+              <entry>Occupation: Food preparation and serving related occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occbuild</entry>
+              <entry>float</entry>
+              <entry>Occupation: Building and grounds cleaning and maintenance occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occpers</entry>
+              <entry>float</entry>
+              <entry>Occupation: Personal care and service occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occsale</entry>
+              <entry>float</entry>
+              <entry>Occupation: Sales and related occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occadmin</entry>
+              <entry>float</entry>
+              <entry>Occupation: Office and administrative support occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occagri</entry>
+              <entry>float</entry>
+              <entry>Occupation: Farming, fishing, and forestry occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occconst</entry>
+              <entry>float</entry>
+              <entry>Occupation: Construction and extraction occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occinstl</entry>
+              <entry>float</entry>
+              <entry>Occupation: Installation, maintenance, and repair occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occprod</entry>
+              <entry>float</entry>
+              <entry>Occupation: Production occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_occtrans</entry>
+              <entry>float</entry>
+              <entry>Occupation: Transportation and material moving occupations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcyagric</entry>
+              <entry>float</entry>
+              <entry>Emp: Agricultural, Forestry, Fishing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcyconst</entry>
+              <entry>float</entry>
+              <entry>Emp: Construction (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcyfire</entry>
+              <entry>float</entry>
+              <entry>Emp: Finance, Insurance and Real Estate (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcymanuf</entry>
+              <entry>float</entry>
+              <entry>Emp: Manufacturing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcymine</entry>
+              <entry>float</entry>
+              <entry>Emp: Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcypubad</entry>
+              <entry>float</entry>
+              <entry>Emp: Public Administration (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcyrtrad</entry>
+              <entry>float</entry>
+              <entry>Emp: Retail Trade (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcysrv</entry>
+              <entry>float</entry>
+              <entry>Emp: Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcytrans</entry>
+              <entry>float</entry>
+              <entry>Emp: Transportation and Communications (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcywtrad</entry>
+              <entry>float</entry>
+              <entry>Emp: Wholesale Trade (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcyuncla</entry>
+              <entry>float</entry>
+              <entry>Emp: Unclassified (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcyagric</entry>
+              <entry>float</entry>
+              <entry>Est: Agricultural, Forestry, Fishing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcyconst</entry>
+              <entry>float</entry>
+              <entry>Est: Construction (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcyfire</entry>
+              <entry>float</entry>
+              <entry>Est: Finance, Insurance and Real Estate (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcymanuf</entry>
+              <entry>float</entry>
+              <entry>Est: Manufacturing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcymine</entry>
+              <entry>float</entry>
+              <entry>Est: Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcypubad</entry>
+              <entry>float</entry>
+              <entry>Est: Public Administration (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcyrtrad</entry>
+              <entry>float</entry>
+              <entry>Est: Retail Trade (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcysrv</entry>
+              <entry>float</entry>
+              <entry>Est: Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcytrans</entry>
+              <entry>float</entry>
+              <entry>Est: Transportation and Communications (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcywtrad</entry>
+              <entry>float</entry>
+              <entry>Est: Wholesale Trade (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcyuncla</entry>
+              <entry>float</entry>
+              <entry>Est: Unclassified (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empacccy87</entry>
+              <entry>float</entry>
+              <entry>Emp: Accounting, Architecture, and Engineering (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy01</entry>
+              <entry>float</entry>
+              <entry>Emp: Agricultural Production - Crops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy02</entry>
+              <entry>float</entry>
+              <entry>Emp: Agricultural Production - Livestock (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy07</entry>
+              <entry>float</entry>
+              <entry>Emp: Agricultural Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy08</entry>
+              <entry>float</entry>
+              <entry>Emp: Forestry (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy09</entry>
+              <entry>float</entry>
+              <entry>Emp: Fishing, Hunting and Trapping (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy10</entry>
+              <entry>float</entry>
+              <entry>Emp: Metal Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy12</entry>
+              <entry>float</entry>
+              <entry>Emp: Coal Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy13</entry>
+              <entry>float</entry>
+              <entry>Emp: Oil and Gas Extraction (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empagrcy14</entry>
+              <entry>float</entry>
+              <entry>Emp: Nonmetallic Minerals, Except Fuels (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy70</entry>
+              <entry>float</entry>
+              <entry>Emp: Hotels and Other Lodging Places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy72</entry>
+              <entry>float</entry>
+              <entry>Emp: Personal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy73</entry>
+              <entry>float</entry>
+              <entry>Emp: Business Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy75</entry>
+              <entry>float</entry>
+              <entry>Emp: Auto Repair, Services, and Parking (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy76</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous Repair Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy78</entry>
+              <entry>float</entry>
+              <entry>Emp: Motion Pictures (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empbuscy79</entry>
+              <entry>float</entry>
+              <entry>Emp: Amusement and Recreation Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcnscy15</entry>
+              <entry>float</entry>
+              <entry>Emp: General Building Contractors (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcnscy16</entry>
+              <entry>float</entry>
+              <entry>Emp: Heavy Construction, Ex. Building (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empcnscy17</entry>
+              <entry>float</entry>
+              <entry>Emp: Special Trade Contractors (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empeducy82</entry>
+              <entry>float</entry>
+              <entry>Emp: Educational Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empeducy83</entry>
+              <entry>float</entry>
+              <entry>Emp: Social Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy60</entry>
+              <entry>float</entry>
+              <entry>Emp: Depository Institutions (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy61</entry>
+              <entry>float</entry>
+              <entry>Emp: Nondepository Institutions (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy62</entry>
+              <entry>float</entry>
+              <entry>Emp: Security and Commodity Brokers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy63</entry>
+              <entry>float</entry>
+              <entry>Emp: Insurance Carriers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy64</entry>
+              <entry>float</entry>
+              <entry>Emp: Insurance Agents, Brokers, and Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy65</entry>
+              <entry>float</entry>
+              <entry>Emp: Real Estate (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empfircy67</entry>
+              <entry>float</entry>
+              <entry>Emp: Holding and Other Investment Offices (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy91</entry>
+              <entry>float</entry>
+              <entry>Emp: Executive, Legislative, and General (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy92</entry>
+              <entry>float</entry>
+              <entry>Emp: Justice, Public Order, and Safety (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy93</entry>
+              <entry>float</entry>
+              <entry>Emp: Finance, Taxation and Monetary Policy (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy94</entry>
+              <entry>float</entry>
+              <entry>Emp: Administration of Human Resources (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy95</entry>
+              <entry>float</entry>
+              <entry>Emp: Environmental Quality and Housing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy96</entry>
+              <entry>float</entry>
+              <entry>Emp: Administration of Economic Programs (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empgovcy97</entry>
+              <entry>float</entry>
+              <entry>Emp: National Security and Intl. Affairs (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emphthcy80</entry>
+              <entry>float</entry>
+              <entry>Emp: Health Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emphhdcy88</entry>
+              <entry>float</entry>
+              <entry>Emp: Private Households (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emphhdcy89</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous Services NEC (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emplglcy81</entry>
+              <entry>float</entry>
+              <entry>Emp: Legal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy20</entry>
+              <entry>float</entry>
+              <entry>Emp: Food and Kindred Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy21</entry>
+              <entry>float</entry>
+              <entry>Emp: Tobacco Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy22</entry>
+              <entry>float</entry>
+              <entry>Emp: Textile Mill Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy23</entry>
+              <entry>float</entry>
+              <entry>Emp: Apparel and Other Textile Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy24</entry>
+              <entry>float</entry>
+              <entry>Emp: Lumber and Wood Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy25</entry>
+              <entry>float</entry>
+              <entry>Emp: Furniture and Fixtures (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy26</entry>
+              <entry>float</entry>
+              <entry>Emp: Paper and Allied Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy27</entry>
+              <entry>float</entry>
+              <entry>Emp: Printing and Publishing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy28</entry>
+              <entry>float</entry>
+              <entry>Emp: Chemicals and Allied Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy29</entry>
+              <entry>float</entry>
+              <entry>Emp: Petroleum and Coal Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy30</entry>
+              <entry>float</entry>
+              <entry>Emp: Rubber and Misc. Plastics Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy31</entry>
+              <entry>float</entry>
+              <entry>Emp: Leather and Leather Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy32</entry>
+              <entry>float</entry>
+              <entry>Emp: Stone, Clay and Glass Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy33</entry>
+              <entry>float</entry>
+              <entry>Emp: Primary Metal Industries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy34</entry>
+              <entry>float</entry>
+              <entry>Emp: Fabricated Metal Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy35</entry>
+              <entry>float</entry>
+              <entry>Emp: Industrial Machinery and Equipment (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy36</entry>
+              <entry>float</entry>
+              <entry>Emp: Electronic and Other Electric Equipment (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy37</entry>
+              <entry>float</entry>
+              <entry>Emp: Transportation Equipment (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy38</entry>
+              <entry>float</entry>
+              <entry>Emp: Instruments and Related Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmancy39</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous Manufacturing Industries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmemcy84</entry>
+              <entry>float</entry>
+              <entry>Emp: Museums, Botanical, Zoological Gardens (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empmemcy86</entry>
+              <entry>float</entry>
+              <entry>Emp: Membership Organizations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empncecy99</entry>
+              <entry>float</entry>
+              <entry>Emp: Non-Classified Establishments (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy52</entry>
+              <entry>float</entry>
+              <entry>Emp: Building Materials and Garden Supplies (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy53</entry>
+              <entry>float</entry>
+              <entry>Emp: General Merchandise Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy54</entry>
+              <entry>float</entry>
+              <entry>Emp: Food Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy55</entry>
+              <entry>float</entry>
+              <entry>Emp: Automotive Dealers and Service Stations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy56</entry>
+              <entry>float</entry>
+              <entry>Emp: Apparel and Accessory Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy57</entry>
+              <entry>float</entry>
+              <entry>Emp: Furniture and Homefurnishings Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy58</entry>
+              <entry>float</entry>
+              <entry>Emp: Eating and Drinking Places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empretcy59</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous Retail (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy40</entry>
+              <entry>float</entry>
+              <entry>Emp: Railroad Transportation (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy41</entry>
+              <entry>float</entry>
+              <entry>Emp: Local and Interurban Passenger Transit (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy42</entry>
+              <entry>float</entry>
+              <entry>Emp: Trucking and Warehousing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy43</entry>
+              <entry>float</entry>
+              <entry>Emp: U.S. Postal Service (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy44</entry>
+              <entry>float</entry>
+              <entry>Emp: Water Transportation (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy45</entry>
+              <entry>float</entry>
+              <entry>Emp: Transportation by Air (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy46</entry>
+              <entry>float</entry>
+              <entry>Emp: Pipelines, Except Natural Gas (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy47</entry>
+              <entry>float</entry>
+              <entry>Emp: Transportation Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy48</entry>
+              <entry>float</entry>
+              <entry>Emp: Communication (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_emptrncy49</entry>
+              <entry>float</entry>
+              <entry>Emp: Electric, Gas and Sanitary Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empwhlcy50</entry>
+              <entry>float</entry>
+              <entry>Emp: Wholesale Trade - Durable Goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_empwhlcy51</entry>
+              <entry>float</entry>
+              <entry>Emp: Wholesale Trade - Non-Durable Goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estacccy87</entry>
+              <entry>float</entry>
+              <entry>Est: Engineering and Management Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy01</entry>
+              <entry>float</entry>
+              <entry>Est: Agricultural Production - Crops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy02</entry>
+              <entry>float</entry>
+              <entry>Est: Agricultural Production - Livestock (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy07</entry>
+              <entry>float</entry>
+              <entry>Est: Agricultural Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy08</entry>
+              <entry>float</entry>
+              <entry>Est: Forestry (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy09</entry>
+              <entry>float</entry>
+              <entry>Est: Fishing, Hunting and Trapping (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy10</entry>
+              <entry>float</entry>
+              <entry>Est: Metal Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy12</entry>
+              <entry>float</entry>
+              <entry>Est: Coal Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy13</entry>
+              <entry>float</entry>
+              <entry>Est: Oil and Gas Extraction (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estagrcy14</entry>
+              <entry>float</entry>
+              <entry>Est: Nonmetallic Minerals, Except Fuels (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy70</entry>
+              <entry>float</entry>
+              <entry>Est: Hotels and Other Lodging Places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy72</entry>
+              <entry>float</entry>
+              <entry>Est: Personal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy73</entry>
+              <entry>float</entry>
+              <entry>Est: Business Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy75</entry>
+              <entry>float</entry>
+              <entry>Est: Auto Repair, Services, and Parking (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy76</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous Repair Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy78</entry>
+              <entry>float</entry>
+              <entry>Est: Motion Pictures (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estbuscy79</entry>
+              <entry>float</entry>
+              <entry>Est: Amusement and Recreation Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcnscy15</entry>
+              <entry>float</entry>
+              <entry>Est: General Building Contractors (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcnscy16</entry>
+              <entry>float</entry>
+              <entry>Est: Heavy Construction, Ex. Building (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estcnscy17</entry>
+              <entry>float</entry>
+              <entry>Est: Special Trade Contractors (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esteducy82</entry>
+              <entry>float</entry>
+              <entry>Est: Educational Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esteducy83</entry>
+              <entry>float</entry>
+              <entry>Est: Social Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy60</entry>
+              <entry>float</entry>
+              <entry>Est: Depository Institutions (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy61</entry>
+              <entry>float</entry>
+              <entry>Est: Nondepository Institutions (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy62</entry>
+              <entry>float</entry>
+              <entry>Est: Security and Commodity Brokers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy63</entry>
+              <entry>float</entry>
+              <entry>Est: Insurance Carriers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy64</entry>
+              <entry>float</entry>
+              <entry>Est: Insurance Agents, Brokers, and Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy65</entry>
+              <entry>float</entry>
+              <entry>Est: Real Estate (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estfircy67</entry>
+              <entry>float</entry>
+              <entry>Est: Holding and Other Investment Offices (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy91</entry>
+              <entry>float</entry>
+              <entry>Est: Executive, Legislative, and General (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy92</entry>
+              <entry>float</entry>
+              <entry>Est: Justice, Public Order, and Safety (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy93</entry>
+              <entry>float</entry>
+              <entry>Est: Finance, Taxation and Monetary Policy (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy94</entry>
+              <entry>float</entry>
+              <entry>Est: Administration of Human Resources (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy95</entry>
+              <entry>float</entry>
+              <entry>Est: Environmental Quality and Housing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy96</entry>
+              <entry>float</entry>
+              <entry>Est: Administration of Economic Programs (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estgovcy97</entry>
+              <entry>float</entry>
+              <entry>Est: National Security and Intl. Affairs (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esththcy80</entry>
+              <entry>float</entry>
+              <entry>Est: Health Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esthhdcy88</entry>
+              <entry>float</entry>
+              <entry>Est: Private Households (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esthhdcy89</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous Services NEC (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estlglcy81</entry>
+              <entry>float</entry>
+              <entry>Est: Legal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy20</entry>
+              <entry>float</entry>
+              <entry>Est: Food and Kindred Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy21</entry>
+              <entry>float</entry>
+              <entry>Est: Tobacco Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy22</entry>
+              <entry>float</entry>
+              <entry>Est: Textile Mill Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy23</entry>
+              <entry>float</entry>
+              <entry>Est: Apparel and Other Textile Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy24</entry>
+              <entry>float</entry>
+              <entry>Est: Lumber and Wood Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy25</entry>
+              <entry>float</entry>
+              <entry>Est: Furniture and Fixtures (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy26</entry>
+              <entry>float</entry>
+              <entry>Est: Paper and Allied Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy27</entry>
+              <entry>float</entry>
+              <entry>Est: Printing and Publishing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy28</entry>
+              <entry>float</entry>
+              <entry>Est: Chemicals and Allied Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy29</entry>
+              <entry>float</entry>
+              <entry>Est: Petroleum and Coal Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy30</entry>
+              <entry>float</entry>
+              <entry>Est: Rubber and Misc. Plastics Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy31</entry>
+              <entry>float</entry>
+              <entry>Est: Leather and Leather Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy32</entry>
+              <entry>float</entry>
+              <entry>Est: Stone, Clay and Glass Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy33</entry>
+              <entry>float</entry>
+              <entry>Est: Primary Metal Industries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy34</entry>
+              <entry>float</entry>
+              <entry>Est: Fabricated Metal Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy35</entry>
+              <entry>float</entry>
+              <entry>Est: Industrial Machinery and Equipment (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy36</entry>
+              <entry>float</entry>
+              <entry>Est: Electronic and Other Electric Equipment (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy37</entry>
+              <entry>float</entry>
+              <entry>Est: Transportation Equipment (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy38</entry>
+              <entry>float</entry>
+              <entry>Est: Instruments and Related Products (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmancy39</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous Manufacturing Industries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmemcy84</entry>
+              <entry>float</entry>
+              <entry>Est: Museums, Botanical, Zoological Gardens (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estmemcy86</entry>
+              <entry>float</entry>
+              <entry>Est: Membership Organizations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estncecy99</entry>
+              <entry>float</entry>
+              <entry>Est: Non-Classified Establishments (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy52</entry>
+              <entry>float</entry>
+              <entry>Est: Building Materials and Garden Supplies (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy53</entry>
+              <entry>float</entry>
+              <entry>Est: General Merchandise Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy54</entry>
+              <entry>float</entry>
+              <entry>Est: Food Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy55</entry>
+              <entry>float</entry>
+              <entry>Est: Automotive Dealers and Service Stations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy56</entry>
+              <entry>float</entry>
+              <entry>Est: Apparel and Accessory Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy57</entry>
+              <entry>float</entry>
+              <entry>Est: Furniture and Homefurnishings Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy58</entry>
+              <entry>float</entry>
+              <entry>Est: Eating and Drinking Places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estretcy59</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous Retail (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy40</entry>
+              <entry>float</entry>
+              <entry>Est: Railroad Transportation (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy41</entry>
+              <entry>float</entry>
+              <entry>Est: Local and Interurban Passenger Transit (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy42</entry>
+              <entry>float</entry>
+              <entry>Est: Trucking and Warehousing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy43</entry>
+              <entry>float</entry>
+              <entry>Est: U.S. Postal Service (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy44</entry>
+              <entry>float</entry>
+              <entry>Est: Water Transportation (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy45</entry>
+              <entry>float</entry>
+              <entry>Est: Transportation by Air (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy46</entry>
+              <entry>float</entry>
+              <entry>Est: Pipelines, Except Natural Gas (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy47</entry>
+              <entry>float</entry>
+              <entry>Est: Transportation Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy48</entry>
+              <entry>float</entry>
+              <entry>Est: Communication (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_esttrncy49</entry>
+              <entry>float</entry>
+              <entry>Est: Electric, Gas and Sanitary Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estwhlcy50</entry>
+              <entry>float</entry>
+              <entry>Est: Wholesale Trade - Durable Goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_estwhlcy51</entry>
+              <entry>float</entry>
+              <entry>Est: Wholesale Trade - Non-Durable Goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycyagric</entry>
+              <entry>float</entry>
+              <entry>Payroll: Agricultural, Forestry, Fishing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycyconst</entry>
+              <entry>float</entry>
+              <entry>Payroll: Construction (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycyfire</entry>
+              <entry>float</entry>
+              <entry>Payroll: Finance, Insurance and Real Estate (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycymanuf</entry>
+              <entry>float</entry>
+              <entry>Payroll: Manufacturing (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycymine</entry>
+              <entry>float</entry>
+              <entry>Payroll: Mining (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycypubad</entry>
+              <entry>float</entry>
+              <entry>Payroll: Public Administration (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycyrtrad</entry>
+              <entry>float</entry>
+              <entry>Payroll: Retail Trade (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycysrv</entry>
+              <entry>float</entry>
+              <entry>Payroll: Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycytrans</entry>
+              <entry>float</entry>
+              <entry>Payroll: Transportation and Communications (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycywtrad</entry>
+              <entry>float</entry>
+              <entry>Payroll: Wholesale Trade (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_paycyuncla</entry>
+              <entry>float</entry>
+              <entry>Payroll: Unclassified (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcya</entry>
+              <entry>float</entry>
+              <entry>Est: 1 - 4 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyb</entry>
+              <entry>float</entry>
+              <entry>Est: 5 - 9 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyc</entry>
+              <entry>float</entry>
+              <entry>Est: 10 - 19 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyd</entry>
+              <entry>float</entry>
+              <entry>Est: 20 - 49 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcye</entry>
+              <entry>float</entry>
+              <entry>Est: 50 - 99 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyf</entry>
+              <entry>float</entry>
+              <entry>Est: 100 - 249 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyg</entry>
+              <entry>float</entry>
+              <entry>Est: 250 - 499 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyh</entry>
+              <entry>float</entry>
+              <entry>Est: 500 - 999 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyi</entry>
+              <entry>float</entry>
+              <entry>Est: 1000 - 2499 Employees (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds1_eszcyo</entry>
+              <entry>float</entry>
+              <entry>Est: 2500 or more Employees (S)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

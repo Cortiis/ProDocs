@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hi_cy_description" xml:lang="en-US">
+  <title>SAUS HI CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hi_cy_popcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hhpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Population in households</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha1524cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha2534cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha3544cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha4554cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha6574cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha7584cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hha85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hi200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_himedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hiaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Household income: Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_hiavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Household income: Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_incpccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Per capita income</entry>
+            </row>
+            <row>
+              <entry>hi_cy_incphmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Per household member income</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i045kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i075kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75i200pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75imedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder under 25 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder 25 to 34 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder 35 to 44 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder 45 to 54 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder 55 to 64 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder 65 to 74 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75iaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Householder 75 years and over: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h15iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder under 25 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h25iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 25 to 34 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h35iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 35 to 44 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h45iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 45 to 54 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h55iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 55 to 64 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h65iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 65 to 74 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_cy_h75iavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder 75 years and over: Household income - Average</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

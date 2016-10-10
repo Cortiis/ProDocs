@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_hu1_by_description" xml:lang="en-US">
+  <title>Dataset1: SAUS HU1 BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hu_ds1_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh1whtcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is White alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh2blkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh3indcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh4asncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh5hpicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh6othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hh7twocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Householder who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_nhhhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hsphhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownpopcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total population in occupied housing units: Owner occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntpopcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total population in occupied housing units: Renter occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_avgownszcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Average household size: Owner occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_avgrntszcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Average household size: Renter occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own1whtcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is White alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own2blkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own3indcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own4asncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own5hpicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own6othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_own7twocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt1whtcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is White alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt2blkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt3indcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt4asncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt5hpicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt6othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnt7twocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownnhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownhspcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntnhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnthspcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns1percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 1-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns2percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 2-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns3percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 3-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns4percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 4-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns5percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 5-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns6percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 6-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owns7percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts1percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 1-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts2percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 2-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts3percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 3-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts4percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 4-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts5percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 5-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts6percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 6-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnts7percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna1524cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna2534cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna3544cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna4554cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna6574cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna7584cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_owna85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta1524cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta2534cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta3544cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta4554cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta6574cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta7584cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnta85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 1 room</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm2cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 2 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm3cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 3 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 4 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm5cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 5 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 6 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm7cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 7 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm8cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 8 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrm9cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 9 or more rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 1 room</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm2cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 2 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm3cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 3 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 4 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm5cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 5 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 6 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm7cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 7 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm8cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 8 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrm9cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 9 or more rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 1 room</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm2cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 2 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm3cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 3 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 4 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm5cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 5 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm6cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 6 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm7cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 7 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm8cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 8 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrm9cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 9 or more rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Households: Number of rooms - Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Owner occupied: Number of rooms - Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Renter occupied: Number of rooms - Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrmaggcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Number of rooms - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrmaggcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Number of rooms - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrmaggcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Number of rooms - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhrmavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Households: Number of rooms - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownrmavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Owner occupied: Number of rooms - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntrmavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Renter occupied: Number of rooms - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu01cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 1, detached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu01acy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 1, attached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu02cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 2</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu0304cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 3 or 4</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 5 to 9</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu1019cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 10 to 19</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu2049cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 20 to 49</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhu50pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: 50 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhumhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: Mobile home</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_hhurvcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupied units in structure: Boat, RV, van, etc.</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu01cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 1, detached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu01acy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 1, attached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu02cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 2</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu0304cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 3 or 4</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 5 to 9</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu1019cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 10 to 19</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu2049cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 20 to 49</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownu50pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: 50 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownumhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: Mobile home</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_ownurvcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied units in structure: Boat, RV, van, etc.</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu01cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 1, detached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu01acy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 1, attached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu02cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 2</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu0304cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 3 or 4</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 5 to 9</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu1019cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 10 to 19</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu2049cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 20 to 49</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntu50pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: 50 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rntumhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: Mobile home</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_cy_rnturvcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied units in structure: Boat, RV, van, etc.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

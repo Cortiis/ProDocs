@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset3_saus_cep3_cy_description" xml:lang="en-US">
+  <title>Dataset 3: SAUS CEP3 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>cep_ds3_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_totalexpcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total household expenditures</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_transcy</entry>
+              <entry>float</entry>
+              <entry>2015 Transportation</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vehpurchcy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle purchases (net outlay)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_newcarscy</entry>
+              <entry>float</entry>
+              <entry>2015 Cars and trucks, new</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_nc450110cy</entry>
+              <entry>float</entry>
+              <entry>2015 New cars</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_nc450210cy</entry>
+              <entry>float</entry>
+              <entry>2015 New trucks</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_usedcarscy</entry>
+              <entry>float</entry>
+              <entry>2015 Cars and trucks, used</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_uc460110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Used cars</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_uc460901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Used trucks</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_othvehclcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ov450220cy</entry>
+              <entry>float</entry>
+              <entry>2015 New motorcycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ov460902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Used motorcycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_gasoilcy</entry>
+              <entry>float</entry>
+              <entry>2015 Gasoline and motor oil</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ga470111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Gasoline</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ga470112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Diesel fuel</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ga470113cy</entry>
+              <entry>float</entry>
+              <entry>2015 Gasoline on out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ga470211cy</entry>
+              <entry>float</entry>
+              <entry>2015 Motor oil</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ga470212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Motor oil on out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vehothxpcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other vehicle expenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vehfinchcy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vf510110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Automobile finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vf510901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Truck finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vf510902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Motorcycle and plane finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vf850300cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other vehicle finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vehrentcy</entry>
+              <entry>float</entry>
+              <entry> 2015 Vehicle Rental Expenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vr520516cy</entry>
+              <entry>float</entry>
+              <entry>2015 Auto/truck rental </entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vr520517cy</entry>
+              <entry>float</entry>
+              <entry>2015 Auto/truck rental, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_carepaircy</entry>
+              <entry>float</entry>
+              <entry>2015 Maintenance and repairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr470220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Coolant, brake fluid, transmission fluid, and other</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr480110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Tires - purchased, replaced, installed</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr480213cy</entry>
+              <entry>float</entry>
+              <entry>2015 Parts, equipment, and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr480214cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle audio equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr480212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle products and cleaning services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr480215cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle video equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490000cy</entry>
+              <entry>float</entry>
+              <entry>2015 Misc. auto repair, servicing</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Body work and painting</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490211cy</entry>
+              <entry>float</entry>
+              <entry>2015 Clutch, transmission repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Drive shaft and rear-end repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490221cy</entry>
+              <entry>float</entry>
+              <entry>2015 Brake work, including adjustments</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490231cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair to steering or front-end</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490232cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair to engine cooling system</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490300cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle or engine repairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Motor tune-up</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lube, oil change, and oil filters</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490313cy</entry>
+              <entry>float</entry>
+              <entry>2015 Front-end alignment, wheel balance and rotation</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490314cy</entry>
+              <entry>float</entry>
+              <entry>2015 Shock absorber replacement</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490318cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair tires and other repair work</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490319cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle air conditioning repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490411cy</entry>
+              <entry>float</entry>
+              <entry>2015 Exhaust system repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490412cy</entry>
+              <entry>float</entry>
+              <entry>2015 Electrical system repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490413cy</entry>
+              <entry>float</entry>
+              <entry>2015 Motor repair, replacement</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cr490900cy</entry>
+              <entry>float</entry>
+              <entry>2015 Auto repair service policy</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_vehicinscy</entry>
+              <entry>float</entry>
+              <entry>2015 Vehicle insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_autoclubcy</entry>
+              <entry>float</entry>
+              <entry>2015 Automobile service clubs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_autogpscy</entry>
+              <entry>float</entry>
+              <entry>2015 Automobile service clubs and GPS services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pubtranscy</entry>
+              <entry>float</entry>
+              <entry>2015 Public transportation</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_airfarescy</entry>
+              <entry>float</entry>
+              <entry>2015 Airline fares</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_healthcy</entry>
+              <entry>float</entry>
+              <entry>2015 Healthcare</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_hlthinsrcy</entry>
+              <entry>float</entry>
+              <entry>2015 Health insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_comhltincy</entry>
+              <entry>float</entry>
+              <entry>2015 Commercial health insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ch580111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Traditional fee for service health plan (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ch580113cy</entry>
+              <entry>float</entry>
+              <entry>2015 Preferred provider health plan (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_bcbscy</entry>
+              <entry>float</entry>
+              <entry>2015 Blue Cross, Blue Shield</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_bc580112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Traditional fee for service health plan (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_bc580114cy</entry>
+              <entry>float</entry>
+              <entry>2015 Preferred provider health plan (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_bc580312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Health maintenance organization (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_bc580904cy</entry>
+              <entry>float</entry>
+              <entry>2015 Commercial medicare supplement (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_bc580906cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other health insurance (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_hlmaintocy</entry>
+              <entry>float</entry>
+              <entry>2015 Health maintenance organization (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_medipaytcy</entry>
+              <entry>float</entry>
+              <entry>2015 Medicare payments</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mediprescy</entry>
+              <entry>float</entry>
+              <entry>2015 Medicare prescription drug premium</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_comedothcy</entry>
+              <entry>float</entry>
+              <entry>2015 Commercial medicare supplements and other health</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cm580903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Commercial medicare supplement (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_cm580905cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other health insurance (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_lngtrmcrcy</entry>
+              <entry>float</entry>
+              <entry>2015 Long term care insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_medservscy</entry>
+              <entry>float</entry>
+              <entry>2015 Medical services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr560110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Physician's services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr560210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dental services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr560310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Eyecare services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr560400cy</entry>
+              <entry>float</entry>
+              <entry>2015 Service by professionals other than physician</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr560330cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lab tests, x-rays</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr570111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hospital room and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr570220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Care in convalescent or nursing home</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr570902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair of medical equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mr570230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other medical care services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_drugscy</entry>
+              <entry>float</entry>
+              <entry>2015 Drugs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_dr550210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nonprescription drugs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_dr550410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nonprescription vitamins</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_dr540000cy</entry>
+              <entry>float</entry>
+              <entry>2015 Prescription drugs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_medsupplcy</entry>
+              <entry>float</entry>
+              <entry>2015 Medical supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mp550110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Eyeglasses and contact lenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mp550340cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hearing aids</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mp550310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Topicals and dressings</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mp550320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Medical equipment for general use</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_mp550330cy</entry>
+              <entry>float</entry>
+              <entry>2015 Supportive and convalescent medical equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_entrtaincy</entry>
+              <entry>float</entry>
+              <entry>2015 Entertainment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_feesadmcy</entry>
+              <entry>float</entry>
+              <entry>2015 Fees and admissions</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe610900cy</entry>
+              <entry>float</entry>
+              <entry>2015 Recreation expenses, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Social, recreation, health club membership</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620121cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fees for participant sports</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620122cy</entry>
+              <entry>float</entry>
+              <entry>2015 Participant sports, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Movie, other admissions, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620213cy</entry>
+              <entry>float</entry>
+              <entry>2015 Play, theater, opera, concert</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620214cy</entry>
+              <entry>float</entry>
+              <entry>2015 Moves, parks, museums</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620221cy</entry>
+              <entry>float</entry>
+              <entry>2015 Admission to sporting events</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620222cy</entry>
+              <entry>float</entry>
+              <entry>2015 Admission to sports events, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fees for recreational lessons</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_fe620903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other entertainment services, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tvaudiocy</entry>
+              <entry>float</entry>
+              <entry>2015 Audio and visual equipment and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310140cy</entry>
+              <entry>float</entry>
+              <entry>2015 Televisions</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv270310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cable and satellite television services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310335cy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous video equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv270311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Satellite radio service</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310332cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sound equipment accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv620930cy</entry>
+              <entry>float</entry>
+              <entry>2015 Online gaming services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310210cy</entry>
+              <entry>float</entry>
+              <entry>2015 VCR's and video disc players</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Video cassettes, tapes, and discs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310231cy</entry>
+              <entry>float</entry>
+              <entry>2015 Video game software</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310232cy</entry>
+              <entry>float</entry>
+              <entry>2015 Video game hardware and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310240cy</entry>
+              <entry>float</entry>
+              <entry>2015 Streaming, downloading video</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv340610cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair of tv, radio, and sound equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310314cy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal digital audio players</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310316cy</entry>
+              <entry>float</entry>
+              <entry>2015 Stereos, radios, speakers, and sound components including those in vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310334cy</entry>
+              <entry>float</entry>
+              <entry>2015 Satellite dishes</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310340cy</entry>
+              <entry>float</entry>
+              <entry>2015 CDs, records, audio tapes</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310350cy</entry>
+              <entry>float</entry>
+              <entry>2015 Streaming, downloading audio</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv310400cy</entry>
+              <entry>float</entry>
+              <entry>2015 Applications, games, ringtones for handheld devices</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv610130cy</entry>
+              <entry>float</entry>
+              <entry>2015 Musical instruments and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv620917cy</entry>
+              <entry>float</entry>
+              <entry>2015 Rental of video hardware/accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv620918cy</entry>
+              <entry>float</entry>
+              <entry>2015 Rental of video software</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tv690320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Installation of televisions</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_petsplaycy</entry>
+              <entry>float</entry>
+              <entry>2015 Pets, toys, hobbies, and playground equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_petscy</entry>
+              <entry>float</entry>
+              <entry>2015 Pets</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pe610310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pet food</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pe610320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pet purchase, supplies, medicine</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pe620410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pet services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pe620420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vet services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_toygamescy</entry>
+              <entry>float</entry>
+              <entry>2015 Toys, games, arts and crafts, and tricycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_stmpcoincy</entry>
+              <entry>float</entry>
+              <entry>2015 Stamp and coin collecting</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_playgrndcy</entry>
+              <entry>float</entry>
+              <entry>2015 Playground equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_enterothcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other entertainment supplies, equipment, and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_unmtrbotcy</entry>
+              <entry>float</entry>
+              <entry>2015 Unmotored recreational vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_um600121cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boat without motor and boat trailers</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_um600122cy</entry>
+              <entry>float</entry>
+              <entry>2015 Trailer and other attachable campers</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pwrspvehcy</entry>
+              <entry>float</entry>
+              <entry>2015 Motorized recreational vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pw600142cy</entry>
+              <entry>float</entry>
+              <entry>2015 Purchase of other vehicle</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pw600132cy</entry>
+              <entry>float</entry>
+              <entry>2015 Purchase of boat with motor</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_recequipcy</entry>
+              <entry>float</entry>
+              <entry>2015 Sports, recreation and exercise equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Athletic gear, game tables, and exercise equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bicycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Camping equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hunting and fishing equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600430cy</entry>
+              <entry>float</entry>
+              <entry>2015 Winter sports equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Water sports equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other sports equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re600903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Global positioning system devices</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_photoeqcy</entry>
+              <entry>float</entry>
+              <entry>2015 Photographic equipment, supplies and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ph610210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Film</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ph620330cy</entry>
+              <entry>float</entry>
+              <entry>2015 Photo processing</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ph610230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Photographic equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ph620320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Photographer fees</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_firewrkscy</entry>
+              <entry>float</entry>
+              <entry>2015 Fireworks</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_souvenircy</entry>
+              <entry>float</entry>
+              <entry>2015 Souvenirs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_visgoodscy</entry>
+              <entry>float</entry>
+              <entry>2015 Visual goods</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pinevdgmcy</entry>
+              <entry>float</entry>
+              <entry>2015 Pinball, electronic video games</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_liventercy</entry>
+              <entry>float</entry>
+              <entry>2015 Live entertainment for catered affairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_perscarecy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal care products and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_persprodcy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal care products, total</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hair care products</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nonelectric articles for the hair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640130cy</entry>
+              <entry>float</entry>
+              <entry>2015 Wigs and hairpieces</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Oral hygiene products, articles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Shaving needs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cosmetics, perfume, bath preparations</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Deodorants, feminine hygiene, miscellaneous personal</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pp640420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Electric personal care appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_persservcy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal care services, total</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_pc650310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal care services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_readingcy</entry>
+              <entry>float</entry>
+              <entry>2015 Reading</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re590310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Newspaper, magazine by subscription</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re590410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Newspaper, magazine non-subscription</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re590220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Books thru book clubs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_re590230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Books not thru book clubs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_educatncy</entry>
+              <entry>float</entry>
+              <entry>2015 Education</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed670110cy</entry>
+              <entry>float</entry>
+              <entry>2015 College tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed670210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Elementary and high school tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed670410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vocational and technical school tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed670901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other schools tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed660110cy</entry>
+              <entry>float</entry>
+              <entry>2015 School books, supplies, equipment for college</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed660210cy</entry>
+              <entry>float</entry>
+              <entry>2015 School books, supplies, equipment for elementary, high school</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed660410cy</entry>
+              <entry>float</entry>
+              <entry>2015 School books, supplies, equipment for vocational and technical</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed660901cy</entry>
+              <entry>float</entry>
+              <entry>2015 School books, supplies, equipment for day care, nursery school</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_ed660902cy</entry>
+              <entry>float</entry>
+              <entry>2015 School books, supplies, equipment for other schools</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_tobaccocy</entry>
+              <entry>float</entry>
+              <entry>2015 Tobacco products and smoking supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_to630110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cigarettes</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_to630210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other tobacco products</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_cy_to630220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Smoking accessories</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_se_cy_description" xml:lang="en-US">
+  <title>SAUS SE CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>se_cy_ms01p15pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Population 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms02pnmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Population 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms03pmarcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Population 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms04psepcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Population 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms05pwidcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Population 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms06pdivcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Population 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms07m15pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Male 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms08mnmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Male 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms09mmarcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Male 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms10msepcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Male 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms11mwidcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Male 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms12mdivcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Male 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms13f15pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Female 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms14fnmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Female 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms15fmarcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Female 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms16fsepcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Female 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms17fwidcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Female 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_cy_ms18fdivcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Marital Status: Female 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_cy_wrkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Workers 16 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_wrknahcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Workers 16 years and over who did not work at home</entry>
+            </row>
+            <row>
+              <entry>se_cy_wrkahcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Workers 16 years and over who work at home</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt01dacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Car, truck, or van - Drove alone</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt02cpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Car, truck, or van - Carpooled</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt03buscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Public transportation - Bus</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt04stccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Public transportation - Streetcar</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt05subcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Public transportation - Subway</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt06railcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Public transportation - Railroad</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt07boatcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Public transportation - Ferryboat</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt08taxicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Taxicab</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt09mccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Motorcycle</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt10bikecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Bicycle</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt11walkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Walked</entry>
+            </row>
+            <row>
+              <entry>se_cy_mt12othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Means of transportation: Other means</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: Less than 5 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 5 to 9 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 10 to 14 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 15 to 19 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 20 to 24 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 25 to 29 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 30 to 34 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 35 to 39 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 40 to 44 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt4559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 45 to 59 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt6089cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 60 to 89 minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_tt90pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: 90 or more minutes</entry>
+            </row>
+            <row>
+              <entry>se_cy_ttaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Travel time: Aggregate (in minutes)</entry>
+            </row>
+            <row>
+              <entry>se_cy_ttavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Travel time: Average (in minutes)</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 12:00 a.m. to 4:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0500cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 5:00 a.m. to 5:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0530cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 5:30 a.m. to 5:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0600cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 6:00 a.m. to 6:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0630cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 6:30 a.m. to 6:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0700cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 7:00 a.m. to 7:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0730cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 7:30 a.m. to 7:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0800cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 8:00 a.m. to 8:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0830cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 8:30 a.m. to 8:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl0900cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 9:00 a.m. to 9:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl1000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 10:00 a.m. to 10:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl1100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 11:00 a.m. to 11:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl1200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 12:00 p.m. to 3:59 p.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_tl1600cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Time leaving: 4:00 p.m. to 11:59 p.m.</entry>
+            </row>
+            <row>
+              <entry>se_cy_se1p3pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Population 3 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_se2nspscy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Enrolled in nursery school, preschool</entry>
+            </row>
+            <row>
+              <entry>se_cy_se3kindcy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Enrolled in kindergarten</entry>
+            </row>
+            <row>
+              <entry>se_cy_se4gr14cy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Enrolled in grade 1 to grade 4</entry>
+            </row>
+            <row>
+              <entry>se_cy_se5gr58cy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Enrolled in grade 5 to grade 8</entry>
+            </row>
+            <row>
+              <entry>se_cy_se6gr912cy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Enrolled in grade 9 to grade 12</entry>
+            </row>
+            <row>
+              <entry>se_cy_se7ugradcy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Enrolled in college, undergraduate years</entry>
+            </row>
+            <row>
+              <entry>se_cy_se8gradcy</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Graduate or professional school</entry>
+            </row>
+            <row>
+              <entry>se_cy_se9notency</entry>
+              <entry>integer</entry>
+              <entry>2015 School enrollment: Not enrolled in school</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed01p25pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Population 25 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed02nsccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: No schooling completed</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed03grn4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Nursery to 4th grade</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed04gr56cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: 5th and 6th grade</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed05gr78cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: 7th and 8th grade</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed06gr9cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: 9th grade</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed07gr10cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: 10th grade</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed08gr11cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: 11th grade</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed09gr12cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: 12th grade, no diploma</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed10hschcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: High school graduate, GED, or alternative</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed11sc1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Some college, less than 1 year</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed12sc1pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Some college, 1 or more years, no degree</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed13assocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Associate's degree</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed14bachcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Bachelor's degree</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed15mastcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Master's degree</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed16profcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Professional school degree</entry>
+            </row>
+            <row>
+              <entry>se_cy_ed17doctcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Educational Attainment: Doctorate degree</entry>
+            </row>
+            <row>
+              <entry>se_cy_ecpop16pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Civilian employed population 16 years and over</entry>
+            </row>
+            <row>
+              <entry>se_cy_in01agrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Agriculture, forestry, fishing and hunting, and mining</entry>
+            </row>
+            <row>
+              <entry>se_cy_in02cnstcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Construction</entry>
+            </row>
+            <row>
+              <entry>se_cy_in03mfgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Manufacturing</entry>
+            </row>
+            <row>
+              <entry>se_cy_in04wtrdcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Wholesale trade</entry>
+            </row>
+            <row>
+              <entry>se_cy_in05rtrdcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Retail trade</entry>
+            </row>
+            <row>
+              <entry>se_cy_in06trancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Transportation and warehousing, and utilities</entry>
+            </row>
+            <row>
+              <entry>se_cy_in07infocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Information</entry>
+            </row>
+            <row>
+              <entry>se_cy_in08firecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Finance, insurance, real estate, and rental and leasing</entry>
+            </row>
+            <row>
+              <entry>se_cy_in09profcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Professional, scientific, and management</entry>
+            </row>
+            <row>
+              <entry>se_cy_in10educcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Educational services, health care and social assistance</entry>
+            </row>
+            <row>
+              <entry>se_cy_in11artscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Arts, entertainment, accommodation and food services</entry>
+            </row>
+            <row>
+              <entry>se_cy_in12othscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Other services, except public administration</entry>
+            </row>
+            <row>
+              <entry>se_cy_in13publcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Industry: Public administration</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc01mgntcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Management</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc02bfopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Business and financial operations</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc03compcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Computer and mathematical</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc04archcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Architecture and engineering</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc05lifecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Life, physical, and social science</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc06csscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Community and social service</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc07leglcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Legal</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc08etlcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Education, training, and library</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc09artscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Arts, design, entertainment, sports, and media</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc10hltdcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Health diagnosing and treating practitioners</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc11hlttcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Health technologists and technicians</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc12hltscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Healthcare support</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc13firecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Fire fighting and prevention</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc14lawcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Law enforcement workers</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc15foodcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Food preparation and serving related</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc16bldgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Building and grounds cleaning and maintenance</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc17perscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Personal care and service</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc18salecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Sales and related</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc19admncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Office and administrative support</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc20farmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Farming, fishing, and forestry</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc21cnstcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Construction and extraction</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc22instcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Installation, maintenance, and repair</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc23prodcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Production</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc24trancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Transportation</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc25matlcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Material moving</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc26wccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: White collar</entry>
+            </row>
+            <row>
+              <entry>se_cy_oc27bccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Occupation: Blue collar</entry>
+            </row>
+            <row>
+              <entry>se_cy_sescy</entry>
+              <entry>integer</entry>
+              <entry>2015 Socioeconomic score</entry>
+            </row>
+            <row>
+              <entry>se_cy_sesaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Socioeconomic score aggregate</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

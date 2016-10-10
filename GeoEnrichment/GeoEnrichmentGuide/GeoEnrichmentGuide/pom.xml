@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.pb.spectrum.webhelp.en-US</groupId>
+    <artifactId>GeoOther</artifactId>
+    <version>0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.pb.spectrum.webhelp.en-US.GeoOther</groupId>
+  <artifactId>GeoEnrichmentGuide-webhelp</artifactId>
+  <packaging>pom</packaging>
+  <name>Web Based Help - GeoEnrichment Guide</name>
+  <description>Web Based Help - GeoEnrichment Guide</description>
+  <properties>
+    <module>GeoEnrichmentGuide</module>
+  </properties>
+  <dependencies>
+    <!-- <dependency>       <groupId>org.apache.ant</groupId>       <artifactId>ant</artifactId>       <version>1.7.1</version>       <scope>compile</scope>     </dependency> -->      <dependency> 	  <groupId>ant</groupId> 	  <artifactId>ant-optional</artifactId>       <version>1.5</version>     </dependency> 	<dependency>        <groupId>ant-contrib</groupId>        <artifactId>ant-contrib</artifactId>        <version>1.0b3</version> 	</dependency>
+  </dependencies>
+  <build>
+    <resources>
+      <resource>
+        <directory>.</directory>
+        <filtering>false</filtering>
+        <includes>
+          <include>**/*.jpg</include>
+          <include>**/*.dita</include>
+          <include>**/*.ditamap</include>
+          <include>**/*.png</include>
+        </includes>
+      </resource>
+      <resource>
+        <directory>.</directory>
+        <filtering>true</filtering>
+        <excludes>
+          <exclude>**/*.jpg</exclude>
+          <exclude>**/*.dita</exclude>
+          <exclude>**/*.ditamap</exclude>
+          <exclude>**/*.png</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <directory>../../common/src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>test</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <java classname="org.apache.tools.ant.Main" errorproperty="fork.error" failonerror="false" fork="true" resultproperty="fork.result">
+                  <arg value="-file"/>
+                  <arg value="../../common/src/main/resources/scripts/build.xml"/>
+                  <arg value="-Dbasedir=${basedir}"/>
+				  <arg value="-Doxygen.dir=${oxygen.dir}"/>
+                  <arg value="-Dmodule=${module}"/>
+                  <arg value="-Dversion=${version}"/>
+                  <arg value="-Dlanguage=${language}"/>
+                  <arg value="-DartifactId=${project.artifactId}"/>
+                  <arg value="-Dproject.build.directory=${project.build.directory}"/>
+                  <arg value="-Dresource.dir=${project.build.directory}/resources"/>
+                  <arg value="build"/>
+                  <classpath>
+                    <fileset dir="${project.build.directory}/dependency">
+                      <include name="*.jar"/>
+                    </fileset>
+                  </classpath>
+                </java>
+                <fail message="Error occurred running tests [${fork.error}]">
+                  <condition>
+                    <not>
+                      <equals arg1="${fork.result}" arg2="0" trim="true"/>
+                    </not>
+                  </condition>
+                </fail>
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-dep</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.2</version>
+        <executions>
+          <execution>
+            <id>resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/resources</outputDirectory>
+              <includeEmptyDirectories>true</includeEmptyDirectories>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+	  <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>attach-artifact</goal>
+            </goals>
+            <configuration>
+              <artifacts>
+                <artifact>
+                  <file>${project.build.directory}/${project.artifactId}-${project.version}.zip</file>
+                  <type>zip</type>
+                </artifact>
+              </artifacts>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

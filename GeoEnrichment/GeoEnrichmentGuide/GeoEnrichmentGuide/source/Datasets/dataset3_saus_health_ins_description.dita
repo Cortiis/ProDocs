@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset3_saus_health_ins_description" xml:lang="en-US">
+  <title>Dataset 3: SAUS Health INS Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds3_h01tottpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Civilian noninstitutionalized population: Total</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h02onetpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With one type of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h03eb1tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With employer-based only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h04dp1tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With direct-purchase only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h05mc1tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With Medicare coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h06mp1tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With Medicaid/means-tested public coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h07tc1tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With TRICARE/military health coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h08va1tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With VA Health Care only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h09twotpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With two or more types of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h10ed2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With employer-based and direct-purchase coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h11em2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With employer-based and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h12dm2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With direct-purchase and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h13mm2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: With Medicare and Medicaid/means-tested public coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h14pr2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: Other private only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h15pu2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: Other public only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h16ot2tpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: Other coverage combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h17noctpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance: No coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h18tot00cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Civilian noninstitutionalized population: Under 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h19one00cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With one type of health insurance coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h20eb100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With employer-based only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h21dp100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With direct-purchase only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h22mc100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With Medicare coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h23mp100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With Medicaid/means-tested public coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h24tc100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With TRICARE/military health coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h25va100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With VA Health Care only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h26two00cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With two or more types of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h27ed200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With employer-based and direct-purchase coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h28em200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With employer-based and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h29mm200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: With Medicare and Medicaid/means-tested public coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h30pr200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: Other private only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h31pu200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: Other public only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h32ot200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: Other coverage combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h33noc00cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, under 18 years: No coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h34tot18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Civilian noninstitutionalized population: 18 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h35one18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With one type of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h36eb118cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With employer-based health insurance only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h37dp118cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With direct-purchase only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h38mc118cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With Medicare coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h39mp118cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With Medicaid/means-tested public coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h40tc118cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With TRICARE/military health coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h41va118cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With VA Health Care only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h42two18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With two or more types of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h43ed218cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With employer-based and direct-purchase coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h44em218cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With employer-based and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h45mm218cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: With Medicare and Medicaid/means-tested public coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h46pr218cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: Other private only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h47pu218cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: Other public only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h48ot218cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: Other coverage combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h49noc18cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 18 to 34 years: No coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h50tot35cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Civilian noninstitutionalized population: 35 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h51one35cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With one type of health insurance coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h52eb135cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With employer-based only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h53dp135cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With direct-purchase only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h54mc135cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With Medicare coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h55mp135cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With Medicaid/means-tested public coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h56tc135cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With TRICARE/military health coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h57va135cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With VA Health Care only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h58two35cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With two or more types of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h59ed235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With employer-based and direct-purchase coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h60em235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With employer-based and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h61dm235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With direct-purchase and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h62mm235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: With Medicare and Medicaid/means-tested public coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h63pr235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: Other private only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h64pu235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: Other public only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h65ot235cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: Other coverage combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h66noc35cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 35 to 64 years: No coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h67tot65cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Civilian noninstitutionalized population: 65 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h68one65cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With one type of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h69eb165cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With employer-based only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h70dp165cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With direct-purchase only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h71mc165cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With Medicare coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h72tc165cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With TRICARE/military health coverage only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h73va165cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With VA Health Care only</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h74two65cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With two or more types of coverage:</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h75ed265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With employer-based and direct-purchase coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h76em265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With employer-based and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h77dm265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With direct-purchase and Medicare coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h78mm265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: With Medicare and Medicaid/means-tested public coverage</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h79pr265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: Other private only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h80pu265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: Other public only combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h81ot265cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: Other coverage combinations</entry>
+            </row>
+            <row>
+              <entry>pop_ds3_h82noc65cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Health insurance, 65 years and over: No coverage</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

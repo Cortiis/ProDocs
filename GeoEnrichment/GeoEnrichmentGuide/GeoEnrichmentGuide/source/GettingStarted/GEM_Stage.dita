@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="GEM_Stage" xml:lang="en-US">
+  <title><keyword keyref="modulename"/> Stage</title>
+  <conbody>
+    <section>
+      <p>The <keyword keyref="modulename"/> consists of the following stage:</p>
+      <ul>
+        <li><b>GeoEnrichmentLookup</b> - Given a lookup key as input, the stage accesses a
+          registered database and returns additional attribute data for the referenced address.</li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

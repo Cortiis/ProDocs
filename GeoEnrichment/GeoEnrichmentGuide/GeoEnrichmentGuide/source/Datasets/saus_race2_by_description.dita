@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race2_by_description" xml:lang="en-US">
+  <title>SAUS Race2 BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds2_by_asnpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnpmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Asian alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnpaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnpamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Asian alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Asian alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Asian alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Asian alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Asian alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asnf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpipopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpipmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Native Hawaiian and OPI alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpipaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpipamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Native Hawaiian and OPI alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpip1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpimpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpimmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpimaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpimamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpim1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpifpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpifmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpifaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpifamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_hpif1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn01aiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Asian Indian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn02banby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Bangladeshi</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn03camby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Cambodian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn04chiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Chinese (except Taiwanese)</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn05filby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Filipino</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn06hmoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Hmong</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn07indby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Indonesian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn08japby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Japanese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn09korby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Korean</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn10laoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Laotian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn11malby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Malaysian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn12pakby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Pakistani</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn13slby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Sri Lankan</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn14taiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Taiwanese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn15thaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Thai</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn16vieby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Vietnamese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn17oasby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Other Asian, specified</entry>
+            </row>
+            <row>
+              <entry>race_ds2_by_asn18oanby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone: Other Asian, not specified</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset2_saus_pop2_2k_description" xml:lang="en-US">
+  <title>Dataset 2: SAUS POP2 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds2_2k_pop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an001afg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Afghan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an002alb2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Albanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an003als2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Alsatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an004ame2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: American</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an005egy2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Egyptian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an006irq2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Iraqi</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an007jor2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Jordanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an008lbn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Lebanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an009mor2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Moroccan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an010pal2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Palestinian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an011syr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Syrian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an012arb2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Arab/Arabic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an013oar2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab, Other Arab</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an014arm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Armenian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an015acs2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Assyrian/Chaldean/Syriac</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an016aus2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Australian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an017aut2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Austrian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an018bas2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Basque</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an019bel2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Belgian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an020bra2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Brazilian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an021bri2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: British</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an022bgr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Bulgarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an023caj2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Cajun</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an024can2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an025cru2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Carpatho Rusyn</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an026cel2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Celtic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an027cro2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Croatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an028cyp2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Cypriot</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an029cze2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Czech</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an030czs2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Czechoslovakian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an031dan2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Danish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an032dut2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Dutch</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an033eeu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Eastern European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an034eng2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: English</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an035est2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Estonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an036eur2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an037fin2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Finnish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an038fre2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: French (except Basque)</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an039frc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: French Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an040ger2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an041gru2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: German Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an042gre2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an043guy2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Guyanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an044hun2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an045ice2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Icelander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an046irn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Iranian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an047iri2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an048isr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Israeli</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an049ita2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an050lat2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Latvian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an051lit2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Lithuanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an052lux2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Luxemburger</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an053mac2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Macedonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an054mal2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Maltese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an055nzl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: New Zealander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an056neu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Northern European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an057nor2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Norwegian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an058pge2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Pennsylvania German</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an059pol2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an060por2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Portuguese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an061rom2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Romanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an062rus2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an063sca2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Scandinavian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an064sir2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Scotch-Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an065sco2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Scottish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an066ser2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Serbian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an067sla2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Slavic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an068svk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Slovak</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an069svn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Slovene</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an070sun2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Soviet Union</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an071cve2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Cape Verdean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an072eth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Ethiopian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an073gha2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Ghanaian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an074ken2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Kenyan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an075lbr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Liberian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an076nga2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Nigerian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an077sen2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Senegalese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an078sle2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Sierra Leonean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an079som2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Somalian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an080saf2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, South African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an081sdn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Sudanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an082uga2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Ugandan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an083zwe2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Zimbabwean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an084afr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an085osa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African, Other Subsaharan African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an086swe2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Swedish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an087swi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Swiss</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an088tur2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Turkish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an089ukr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Ukrainian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an090wel2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Welsh</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an091bhs2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Bahamian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an092brb2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Barbadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an093blz2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Belizean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an094bmu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Bermudan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an095bwi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), British West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an096dwi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Dutch West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an097hai2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Haitian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an098jam2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Jamaican</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an099tto2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Trinidadian and Tobagonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an100vir2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), U.S. Virgin Islander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an101win2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an102owi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups), Other West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an103yug2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Yugoslavian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an104ogr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Other groups</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_2k_an105unr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Unclassified or not reported</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

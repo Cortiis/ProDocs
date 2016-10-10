@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race2_5y_description" xml:lang="en-US">
+  <title>SAUS Race2 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds2_5y_asnpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnpmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Asian alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnpa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnpamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Asian alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Asian alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Asian alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Asian alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Asian alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_asnf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpipop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpipmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Native Hawaiian and OPI alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpipa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpipamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Native Hawaiian and OPI alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpip18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpimpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpimmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpima5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpimamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpim18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpifpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpifmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpifa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpifamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_5y_hpif18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

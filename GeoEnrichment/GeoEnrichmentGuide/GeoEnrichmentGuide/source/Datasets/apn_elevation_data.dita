@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="gem_apn_elevation_data" xml:lang="en-US">
+  <title>APN and Elevation Data</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldLength"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldLength">Max. Field Length</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry translate="no">PBKEY</entry>
+              <entry>12</entry>
+              <entry>A unique address identifier that is returned when an address match is made using
+                  the Master Location Dataset.
+              </entry>
+            </row>
+            <row>
+              <entry>APN</entry>
+              <entry>50</entry>
+              <entry>Assessor’s Parcel Number; blank if none.</entry>
+            </row>
+            <row>
+              <entry>ELEVATION</entry>
+              <entry>11</entry>
+              <entry>Elevation above sea level (in meters) expressed with an implied 1 digit of decimal precision. For example: 125 means 12.5 meters.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

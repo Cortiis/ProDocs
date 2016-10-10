@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race1_by_description" xml:lang="en-US">
+  <title>SAUS Race1 BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds1_by_whtpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtpmedby</entry>
+              <entry>float</entry>
+              <entry>2010 White alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtpaby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtpamedby</entry>
+              <entry>float</entry>
+              <entry>2010 White alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 White alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 White alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 White alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 White alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_whtf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkpmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Black or African American alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkpaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkpamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Black or African American alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Black or African American alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Black or African American alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Black or African American alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Black or African American alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_blkf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indpmedby</entry>
+              <entry>float</entry>
+              <entry>2010 American Indian and Alaska Native alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indpaby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indpamedby</entry>
+              <entry>float</entry>
+              <entry>2010 American Indian and Alaska Native alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 American Indian and Alaska Native alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 American Indian and Alaska Native alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 American Indian and Alaska Native alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 American Indian and Alaska Native alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_by_indf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="fa_description" xml:lang="en-US">
+  <title>FA Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>fa_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>fa_fa0kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets &lt; $5,000</entry>
+            </row>
+            <row>
+              <entry>fa_fa5kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $5,000-$14,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa15kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $15,000-$24,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa25kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $25,000-$34,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa35kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $35,000-$49,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa50kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $50,000-$74,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa75kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $75,000-$99,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $100,000-$149,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $150,000-$249,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa250kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $250,000-$499,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa500kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Financial Assets $500,000+</entry>
+            </row>
+            <row>
+              <entry>fa_wlth0kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth &lt; $25,000</entry>
+            </row>
+            <row>
+              <entry>fa_wlth25kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $25,000-$49,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth50kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $50,000-$99,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $100,000-$249,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth250kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $250,000-$499,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth500kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $500,000-$749,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth750kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $750,000-$999,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth1mmcy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $1,000,000-$1,499,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth1m5cy</entry>
+              <entry>integer</entry>
+              <entry>2015 HH Wealth $1,500,000+</entry>
+            </row>
+            <row>
+              <entry>fa_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>fa_fa0k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets &lt; $5,000</entry>
+            </row>
+            <row>
+              <entry>fa_fa5k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $5,000-$14,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa15k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $15,000-$24,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa25k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $25,000-$34,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa35k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $35,000-$49,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa50k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $50,000-$74,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa75k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $75,000-$99,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $100,000-$149,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $150,000-$249,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa250k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $250,000-$499,999</entry>
+            </row>
+            <row>
+              <entry>fa_fa500k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Financial Assets $500,000+</entry>
+            </row>
+            <row>
+              <entry>fa_wlth0k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth &lt; $25,000</entry>
+            </row>
+            <row>
+              <entry>fa_wlth25k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $25,000-$49,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth50k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $50,000-$99,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $100,000-$249,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth250k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $250,000-$499,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth500k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $500,000-$749,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth750k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $750,000-$999,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth1mm5y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $1,000,000-$1,499,999</entry>
+            </row>
+            <row>
+              <entry>fa_wlth1m55y</entry>
+              <entry>integer</entry>
+              <entry>2020 HH Wealth $1,500,000+</entry>
+            </row>
+            <row>
+              <entry>fa_avgfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Average Hh Financial Assets</entry>
+            </row>
+            <row>
+              <entry>fa_aggfacy</entry>
+              <entry>float</entry>
+              <entry>2015 HH Financial Assets Aggregate</entry>
+            </row>
+            <row>
+              <entry>fa_avgwlthcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Average Hh Wealth</entry>
+            </row>
+            <row>
+              <entry>fa_aggwlthcy</entry>
+              <entry>float</entry>
+              <entry>2015 HH Wealth Aggregate</entry>
+            </row>
+            <row>
+              <entry>fa_avgfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Average Hh Financial Assets</entry>
+            </row>
+            <row>
+              <entry>fa_aggfa5y</entry>
+              <entry>float</entry>
+              <entry>2020 HH Financial Assets Aggregate</entry>
+            </row>
+            <row>
+              <entry>fa_avgwlth5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Average Hh Wealth</entry>
+            </row>
+            <row>
+              <entry>fa_aggwlth5y</entry>
+              <entry>float</entry>
+              <entry>2020 HH Wealth Aggregate</entry>
+            </row>
+            <row>
+              <entry>fa_medfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Median Hh Financial Assets</entry>
+            </row>
+            <row>
+              <entry>fa_medwlthcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Median Hh Wealth</entry>
+            </row>
+            <row>
+              <entry>fa_medfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Median Hh Financial Assets</entry>
+            </row>
+            <row>
+              <entry>fa_medwlth5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Median Hh Wealth</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

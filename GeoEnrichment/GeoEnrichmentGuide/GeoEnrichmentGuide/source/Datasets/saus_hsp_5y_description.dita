@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hsp_5y_description" xml:lang="en-US">
+  <title>SAUS HSP 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hsp_5y_hsppop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hsppmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hsppa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hsppamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_hspf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhpmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Not Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhpa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhpamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Not Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Not Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Not Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Not Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Not Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_5y_nhf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="gem_ext_attributes_data" xml:lang="en-US">
+  <title>Extended Attributes Data</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldLength"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldLength">Max. Field Length</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry translate="no">PBKEY</entry>
+              <entry>12</entry>
+              <entry>
+                A unique address identifier that is returned when an address match is made using
+                  the Master Location Dataset.
+              </entry>
+            </row>
+            <row>
+              <entry translate="no">RESBUS</entry>
+              <entry>2</entry>
+              <entry>
+                <dl>
+                  <dlentry>
+                    <dt>R</dt>
+                    <dd>Residential use</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>B</dt>
+                    <dd>Business use</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>M</dt>
+                    <dd>Mixed use - residential and business</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>X</dt>
+                    <dd>Unknown use</dd>
+                  </dlentry>
+                </dl>
+              </entry>
+            </row>
+            <row>
+              <entry translate="no">ADDRTYPE</entry>
+              <entry>2</entry>
+              <entry>Address Type regarding number of units. <dl>
+                  <dlentry>
+                    <dt>S</dt>
+                    <dd>Single unit</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>M</dt>
+                    <dd>Multiple units</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>P</dt>
+                    <dd>Post Office box</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>X</dt>
+                    <dd>Unknown</dd>
+                  </dlentry>
+                </dl></entry>
+            </row>
+            <row>
+              <entry translate="no">APN</entry>
+              <entry>50</entry>
+              <entry>Assessor’s Parcel Number; blank if none.</entry>
+            </row>
+            <row>
+              <entry translate="no">ELEVATION</entry>
+              <entry>11</entry>
+              <entry>Elevation above sea level (in meters) expressed with an implied 1 digit of
+                decimal precision. For example: 125 means 12.5 meters.</entry>
+            </row>
+            <row>
+              <entry translate="no">LOTSIZE</entry>
+              <entry>10</entry>
+              <entry>Lot size of the parcel expressed in square meters; 0 if none.</entry>
+            </row>
+            <row>
+              <entry translate="no">TFID</entry>
+              <entry>10</entry>
+              <entry>TIGER Face Identifier; can be used to match to all Census geocodes using
+                external data; 0 if none.</entry>
+            </row>
+            <row>
+              <entry translate="no">URBANICITY</entry>
+              <entry>2</entry>
+              <entry>Urbanicity Indicator. An indicator that defines per the Census the Urbanicity
+                of the Address using Tiger UACE codes for categorization. <dl>
+                  <dlentry>
+                    <dt>L</dt>
+                    <dd>Large Urban Area (50,000 or greater population)</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>S</dt>
+                    <dd>Small Urban Area (2,500‐50,000 population)</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>R</dt>
+                    <dd>Rural</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>X</dt>
+                    <dd>Unknown</dd>
+                  </dlentry>
+                </dl></entry>
+            </row>
+            <row>
+              <entry translate="no">UACE</entry>
+              <entry>6</entry>
+              <entry>TIGER Urban Area Identifier. Defines the urban area if any; 0 if none.</entry>
+            </row>
+            <row>
+              <entry translate="no">UACEPOP</entry>
+              <entry>6</entry>
+              <entry>Census population of the urban area; 0 if none.</entry>
+            </row>
+            <row>
+              <entry translate="no">INC_IND</entry>
+              <entry>2</entry>
+              <entry>Incorporated Place Indicator. <dl>
+                  <dlentry>
+                    <dt>I</dt>
+                    <dd>Incorporated place</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>N</dt>
+                    <dd>Not an incorporated place</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>X</dt>
+                    <dd>Unknown</dd>
+                  </dlentry>
+                </dl></entry>
+            </row>
+            <row>
+              <entry>PLACE</entry>
+              <entry>8</entry>
+              <entry>TIGER Place code; 0 if none.</entry>
+            </row>
+            <row>
+              <entry>MEC_LAT</entry>
+              <entry>8</entry>
+              <entry>Latitude of Minimum Enclosing Circle expressed with an implied 6 digits of
+                decimal precision; 0 if none. For example: 34809676 means 34.809676</entry>
+            </row>
+            <row>
+              <entry>MEC_LON</entry>
+              <entry>10</entry>
+              <entry>Longitude of Minimum Enclosing Circle expressed with an implied 6 digits of
+                decimal precision; 0 if none. For example: -92447089 means -92.447089</entry>
+            </row>
+            <row>
+              <entry>MEC_RAD</entry>
+              <entry>6</entry>
+              <entry>Radius of Minimum Enclosing Circle (in meters) expressed with an implied 1
+                digit of decimal precision; 0 if none. For example: 1234 means 123.4 meters</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    
+    
+  </refbody>
+</reference>

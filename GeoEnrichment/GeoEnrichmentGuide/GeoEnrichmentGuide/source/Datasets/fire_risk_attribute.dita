@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="fire_risk_attribute" xml:lang="en-US">
+  <title>Fire Risk Attribute</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>fire_statecode</entry>
+              <entry>char (2)</entry>
+              <entry>State abbreviation</entry>
+            </row>
+            <row>
+              <entry>fire_fipscode</entry>
+              <entry>integer</entry>
+              <entry>Federal Information Processing Standard (FIPS) state code.</entry>
+            </row>
+            <row>
+              <entry>fire_risktype</entry>
+              <entry>char (2)</entry>
+              <entry>Risk type with one of possible values: IF = Interface, IM = Intermix, WL = Wildland</entry>
+            </row>
+            <row>
+              <entry>fire_risk50</entry>
+              <entry>integer</entry>
+              <entry>An overall risk rating to reflect the predicted fire behaviour and likelihood of ignition. 0 = Low Risk, 49 = High Risk. See product reference guide for important details on how to use this value for different values of RISKTYPE (such as Interface versus Intermix and Wild land). The RISK50 rating should always be used in conjunction with the RISKTYPE to understand the specific hazard(s).</entry>
+            </row>
+            <row>
+              <entry>fire_fireshedid</entry>
+              <entry>integer</entry>
+              <entry>FireShed identifier. Unique reference value when used with STATECODE and RISKTYPE.</entry>
+            </row>
+            <row>
+              <entry>fire_riskdesc</entry>
+              <entry>char (10)</entry>
+              <entry>Descriptive risk category.</entry>
+            </row>
+            <row>
+              <entry>fire_if_tier</entry>
+              <entry>integer</entry>
+              <entry>Type of threat present in this area. 0 = Flame Impingement/Embers/Smoke, 1 = Embers/Smoke, 2 = Smoke. Valid when RISKTYPE = IF.</entry>
+            </row>
+            <row>
+              <entry>fire_im_freq</entry>
+              <entry>integer</entry>
+              <entry>Likelihood of future wildfires based on simulation. 0 =Least Likely, 49 = Most likely.Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_fsprox</entry>
+              <entry>integer</entry>
+              <entry>Distance to nearest fire station to reflect probability of a successful wildfire suppression or structure protection effort. 0 = Closer to Fire Station, 49 = Farther from Fire Station. Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_cntnuit</entry>
+              <entry>char (10)</entry>
+              <entry>Effect related to the continuity of burnable area (roads, bare ground, etc.) which may reduce wildfire severity. Greatest mitigating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_pstfire</entry>
+              <entry>integer</entry>
+              <entry>Likelihood of future wildfires based on where they have occurred in the past. 0 = Least Likely, 49 = Most Likely. Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_severe</entry>
+              <entry>integer</entry>
+              <entry>Severity of fire behaviour based on topography (slope, aspect and elevation), prevailing weather patterns (based on weather readings at nation-wide stations) and the fuel type present (40 different subsets of grass, shrub and timber vegetation types). 0 = Lowest Severity, 49 = Highest Severity. Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_adjmnt</entry>
+              <entry>integer</entry>
+              <entry>Intermix risk adjustment due to weighted effect of aspect, crownfire, evc, foehn, golfcourse, roaddist, slope and waterdist values. 0 = Greatest Mitigating Effect, 49 = Greatest Aggravating Effect. Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_aspect</entry>
+              <entry>char (10)</entry>
+              <entry>Moisture drying effect relative to sun and topological slope. Greatest mitigating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_crown</entry>
+              <entry>char (10)</entry>
+              <entry>Crown fire effect. Least aggravating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_vegcvr</entry>
+              <entry>char (10)</entry>
+              <entry>Vegetation cover effect. Greatest mitigating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_foehn</entry>
+              <entry>char (10)</entry>
+              <entry>Warm dry wind effect. Least aggravating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_golfcrs</entry>
+              <entry>char (10)</entry>
+              <entry>Irrigated golf course effect. Greatest mitigating effect (Low) to least mitigating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_roadist</entry>
+              <entry>char (10)</entry>
+              <entry>Nearest important (evacuation/fire suppression access) road effect. Greatest mitigating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_slope</entry>
+              <entry>char (10)</entry>
+              <entry>Slope fire suppression effect. Greatest mitigating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_im_water</entry>
+              <entry>char (10)</entry>
+              <entry>Availability of water body sources. Greatest mitigating effect (Low) to greatest aggravating effect (High). Valid when RISKTYPE = IM.</entry>
+            </row>
+            <row>
+              <entry>fire_wl_freq</entry>
+              <entry>integer</entry>
+              <entry>Likelihood of future wildfires based on simulation. 0 = Least Likely, 49 = Most Likely. Valid when RISKTYPE = WL.</entry>
+            </row>
+            <row>
+              <entry>fire_wl_fsprox</entry>
+              <entry>integer</entry>
+              <entry>Distance to nearest fire station to reflect probability of a successful wildfire suppression or structure protection effort. 0 = Closer to Fire Station, 49 = Farther from Fire Station. Valid when RISKTYPE = WL.</entry>
+            </row>
+            <row>
+              <entry>fire_wl_nonburn</entry>
+              <entry>char (10)</entry>
+              <entry>Effect related to the continuity of burnable area (roads, bare ground, snow and ice, etc.) which may reduce wildfire severity. Captures coarser-scale interruptions in fuels than IM_VEGCVR component. Least mitigating (Low) to greatest mitigating (High). Valid when RISKTYPE = WL.</entry>
+            </row>
+            <row>
+              <entry>fire_wl_pstfire</entry>
+              <entry>integer</entry>
+              <entry>Likelihood of future wildfires based on where they have occurred in the past. 0 = least likely, 49 = most likely. Valid when RISKTYPE = WL.</entry>
+            </row>
+            <row>
+              <entry>fire_wl_severe</entry>
+              <entry>integer</entry>
+              <entry>Severity of fire behavior based on topography (slope, aspect and elevation), prevailing weather patterns (based on weather readings at nation-wide stations) and the fuel type present (40 different subsets of grass, shrub and timber vegetation types). 0 = Lowest Severity, 49 = Highest Severity. Valid when RISKTYPE = WL.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

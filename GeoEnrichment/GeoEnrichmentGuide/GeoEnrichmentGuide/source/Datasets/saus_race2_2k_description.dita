@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race2_2k_description" xml:lang="en-US">
+  <title>SAUS Race2 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds2_2k_asnpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnpmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Asian alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnpa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnpamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Asian alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Asian alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Asian alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Asian alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Asian alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asnf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpipop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpipmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Native Hawaiian and OPI alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpipa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpipamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Native Hawaiian and OPI alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpip18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpimpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpimmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpima2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpimamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpim18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpifpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpifmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpifa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpifamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_hpif18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn01ai2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Asian Indian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn02ban2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Bangladeshi</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn03cam2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Cambodian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn04chi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Chinese (except Taiwanese)</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn05fil2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Filipino</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn06hmo2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Hmong</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn07ind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Indonesian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn08jap2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Japanese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn09kor2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Korean</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn10lao2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Laotian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn11mal2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Malaysian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn12pak2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Pakistani</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn13sl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Sri Lankan</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn14tai2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Taiwanese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn15tha2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Thai</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn16vie2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Vietnamese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn17oas2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Other Asian, specified</entry>
+            </row>
+            <row>
+              <entry>race_ds2_2k_asn18oan2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone: Other Asian, not specified</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

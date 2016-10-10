@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_cep1_5y_description" xml:lang="en-US">
+  <title>Dataset 1: SAUS CEP1 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>cep_ds1_5y_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_totalexp5y</entry>
+              <entry>float</entry>
+              <entry>2020 Total household expenditures</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_foodtotl5y</entry>
+              <entry>float</entry>
+              <entry>2020 Food</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_foodhome5y</entry>
+              <entry>float</entry>
+              <entry>2020 Food at home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cerbakry5y</entry>
+              <entry>float</entry>
+              <entry>2020 Cereals and bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cereal5y</entry>
+              <entry>float</entry>
+              <entry>2020 Cereals and cereal products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ce0101105y</entry>
+              <entry>float</entry>
+              <entry>2020 Flour</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ce0101205y</entry>
+              <entry>float</entry>
+              <entry>2020 Prepared flour mixes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ce0102105y</entry>
+              <entry>float</entry>
+              <entry>2020 Ready-to-eat and cooked cereals</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ce0103105y</entry>
+              <entry>float</entry>
+              <entry>2020 Rice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ce0103205y</entry>
+              <entry>float</entry>
+              <entry>2020 Pasta, cornmeal and other cereal products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_bakery5y</entry>
+              <entry>float</entry>
+              <entry>2020 Bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_bread5y</entry>
+              <entry>float</entry>
+              <entry>2020 Bread</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_br0201105y</entry>
+              <entry>float</entry>
+              <entry>2020 White bread</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_br0202105y</entry>
+              <entry>float</entry>
+              <entry>2020 Bread, other than white</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_crakcook5y</entry>
+              <entry>float</entry>
+              <entry>2020 Cookies and crackers</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cc0205105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cookies</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cc0206105y</entry>
+              <entry>float</entry>
+              <entry>2020 Crackers</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_frzbakry5y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen and refrigerated bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othbakry5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ob0203105y</entry>
+              <entry>float</entry>
+              <entry>2020 Biscuits and rolls</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ob0204105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cakes and cupcakes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ob0206205y</entry>
+              <entry>float</entry>
+              <entry>2020 Bread and cracker products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ob0207105y</entry>
+              <entry>float</entry>
+              <entry>2020 Sweetrolls, coffee cakes, doughnuts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ob0208205y</entry>
+              <entry>float</entry>
+              <entry>2020 Pies, tarts, turnovers</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_animal5y</entry>
+              <entry>float</entry>
+              <entry>2020 Meats, poultry, fish, and eggs</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_beef5y</entry>
+              <entry>float</entry>
+              <entry>2020 Beef</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_grndbeef5y</entry>
+              <entry>float</entry>
+              <entry>2020 Ground beef</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_roast5y</entry>
+              <entry>float</entry>
+              <entry>2020 Roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ro0302105y</entry>
+              <entry>float</entry>
+              <entry>2020 Chuck roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ro0303105y</entry>
+              <entry>float</entry>
+              <entry>2020 Round roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ro0304105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_steak5y</entry>
+              <entry>float</entry>
+              <entry>2020 Steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_st0305105y</entry>
+              <entry>float</entry>
+              <entry>2020 Round steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_st0306105y</entry>
+              <entry>float</entry>
+              <entry>2020 Sirloin steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_st0307105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othbeef5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other beef</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_pork5y</entry>
+              <entry>float</entry>
+              <entry>2020 Pork</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_po0401105y</entry>
+              <entry>float</entry>
+              <entry>2020 Bacon</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_po0402105y</entry>
+              <entry>float</entry>
+              <entry>2020 Pork chops</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_porkham5y</entry>
+              <entry>float</entry>
+              <entry>2020 Ham</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ha0403105y</entry>
+              <entry>float</entry>
+              <entry>2020 Ham, not canned</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ha0406105y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned ham</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_po0405105y</entry>
+              <entry>float</entry>
+              <entry>2020 Sausage</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_po0404105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other pork</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othrmeat5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other meats</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_frankfrt5y</entry>
+              <entry>float</entry>
+              <entry>2020 Frankfurters</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lnchmeat5y</entry>
+              <entry>float</entry>
+              <entry>2020 Lunch meats (cold cuts)</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ln0502105y</entry>
+              <entry>float</entry>
+              <entry>2020 Bologna, liverwurst, salami</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ln0503105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other lunchmeats</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lambothr5y</entry>
+              <entry>float</entry>
+              <entry>2020 Lamb, organ meats and others</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_la0504105y</entry>
+              <entry>float</entry>
+              <entry>2020 Lamb and organ meats</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_la0509005y</entry>
+              <entry>float</entry>
+              <entry>2020 Mutton, goat and game</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_poultry5y</entry>
+              <entry>float</entry>
+              <entry>2020 Poultry</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_chicken5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh and frozen chickens</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ch0601105y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh and frozen whole chicken</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ch0602105y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh and frozen chicken parts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othpltry5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other poultry</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fishsea5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fish and seafood</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fi0701105y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned fish and seafood</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fi0702305y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh fish and shellfish</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fi0702405y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen fish and shellfish</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_eggs5y</entry>
+              <entry>float</entry>
+              <entry>2020 Eggs</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_dairy5y</entry>
+              <entry>float</entry>
+              <entry>2020 Dairy products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_milkcrm5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh milk and cream</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_mi0901105y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh milk, all types</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_mi0902105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cream</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othdairy5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other dairy products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_od1001105y</entry>
+              <entry>float</entry>
+              <entry>2020 Butter</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_od1002105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cheese</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_od1004105y</entry>
+              <entry>float</entry>
+              <entry>2020 Ice cream and related products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_od1005105y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous dairy products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fruitveg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fruits and vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_frshfrut5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ff1101105y</entry>
+              <entry>float</entry>
+              <entry>2020 Apples</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ff1102105y</entry>
+              <entry>float</entry>
+              <entry>2020 Bananas</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ff1103105y</entry>
+              <entry>float</entry>
+              <entry>2020 Oranges</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ff1105105y</entry>
+              <entry>float</entry>
+              <entry>2020 Citrus fruits, excluding oranges</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_ff1104105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other fresh fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_freshveg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fv1201105y</entry>
+              <entry>float</entry>
+              <entry>2020 Potatoes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fv1202105y</entry>
+              <entry>float</entry>
+              <entry>2020 Lettuce</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fv1203105y</entry>
+              <entry>float</entry>
+              <entry>2020 Tomatoes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fv1204105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other fresh vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_procfrut5y</entry>
+              <entry>float</entry>
+              <entry>2020 Processed fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_frznfrut5y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen fruits and fruit juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_zf1301105y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen orange juice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_zf1301215y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_zf1301225y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen fruit juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_canfruit5y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_dryfruit5y</entry>
+              <entry>float</entry>
+              <entry>2020 Dried fruit</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_freshfrj5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh fruit juice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cnbotfrj5y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned and bottled fruit juice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_procveg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Processed vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fzveget5y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_candveg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned and dried vegetables and juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1402105y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned beans</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1402205y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned corn</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1402305y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned miscellaneous vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1403205y</entry>
+              <entry>float</entry>
+              <entry>2020 Dried peas</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1403305y</entry>
+              <entry>float</entry>
+              <entry>2020 Dried beans</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1403405y</entry>
+              <entry>float</entry>
+              <entry>2020 Dried miscellaneous vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1403105y</entry>
+              <entry>float</entry>
+              <entry>2020 Dried processed vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1404105y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen vegetable juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cn1404205y</entry>
+              <entry>float</entry>
+              <entry>2020 Fresh and canned vegetable juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othrfood5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other food at home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sweets5y</entry>
+              <entry>float</entry>
+              <entry>2020 Sugar and other sweets</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sw1501105y</entry>
+              <entry>float</entry>
+              <entry>2020 Candy and chewing gum</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sw1502115y</entry>
+              <entry>float</entry>
+              <entry>2020 Sugar</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sw1502125y</entry>
+              <entry>float</entry>
+              <entry>2020 Artificial sweeteners</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sw1503105y</entry>
+              <entry>float</entry>
+              <entry>2020 Jams, preserves, other sweets</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fatsoils5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fats and oils</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fa1601105y</entry>
+              <entry>float</entry>
+              <entry>2020 Margarine</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fa1602115y</entry>
+              <entry>float</entry>
+              <entry>2020 Fats and oils</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fa1602125y</entry>
+              <entry>float</entry>
+              <entry>2020 Salad dressings</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fa1603105y</entry>
+              <entry>float</entry>
+              <entry>2020 Nondairy cream and imitation milk</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fa1603205y</entry>
+              <entry>float</entry>
+              <entry>2020 Peanut butter</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_miscfood5y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_frznprep5y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_zp1802105y</entry>
+              <entry>float</entry>
+              <entry>2020 Frozen meals</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_zp1802205y</entry>
+              <entry>float</entry>
+              <entry>2020 Other frozen prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cnpksoup5y</entry>
+              <entry>float</entry>
+              <entry>2020 Canned and packaged soups</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_snacks5y</entry>
+              <entry>float</entry>
+              <entry>2020 Potato chips, nuts, and other snacks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sn1803105y</entry>
+              <entry>float</entry>
+              <entry>2020 Potato chips and other snacks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sn1803205y</entry>
+              <entry>float</entry>
+              <entry>2020 Nuts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_condmnts5y</entry>
+              <entry>float</entry>
+              <entry>2020 Condiments and seasonings</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_co1804105y</entry>
+              <entry>float</entry>
+              <entry>2020 Salt, spices, other seasonings</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_co1804205y</entry>
+              <entry>float</entry>
+              <entry>2020 Olives, pickles, relishes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_co1805105y</entry>
+              <entry>float</entry>
+              <entry>2020 Sauces and gravies</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_co1805205y</entry>
+              <entry>float</entry>
+              <entry>2020 Baking needs and miscellaneous products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othrprep5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other canned and packaged prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_op1806115y</entry>
+              <entry>float</entry>
+              <entry>2020 Prepared salads</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_op1806125y</entry>
+              <entry>float</entry>
+              <entry>2020 Prepared desserts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_op1806205y</entry>
+              <entry>float</entry>
+              <entry>2020 Baby food</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_op1807105y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_op1807205y</entry>
+              <entry>float</entry>
+              <entry>2020 Vitamin supplements</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_nalcbevg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Nonalcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1701105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cola</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1702105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other carbonated drinks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1705205y</entry>
+              <entry>float</entry>
+              <entry>2020 Tea</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_nacoffee5y</entry>
+              <entry>float</entry>
+              <entry>2020 Coffee</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cf1703105y</entry>
+              <entry>float</entry>
+              <entry>2020 Roasted coffee</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_cf1704105y</entry>
+              <entry>float</entry>
+              <entry>2020 Instant and freeze dried coffee</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1705105y</entry>
+              <entry>float</entry>
+              <entry>2020 Noncarbonated fruit flavored drinks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1705315y</entry>
+              <entry>float</entry>
+              <entry>2020 Other noncarbonated beverages and ice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1705325y</entry>
+              <entry>float</entry>
+              <entry>2020 Bottled water</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na1705335y</entry>
+              <entry>float</entry>
+              <entry>2020 Sports drinks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_na2001125y</entry>
+              <entry>float</entry>
+              <entry>2020 Nonalcoholic beer</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_foodaway5y</entry>
+              <entry>float</entry>
+              <entry>2020 Food away from home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_restcoao5y</entry>
+              <entry>float</entry>
+              <entry>2020 Meals at restaurants, carry outs and other</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lunch5y</entry>
+              <entry>float</entry>
+              <entry>2020 Lunch</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lu1901115y</entry>
+              <entry>float</entry>
+              <entry>2020 Lunch at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lu1901125y</entry>
+              <entry>float</entry>
+              <entry>2020 Lunch at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lu1901135y</entry>
+              <entry>float</entry>
+              <entry>2020 Lunch at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_lu1901145y</entry>
+              <entry>float</entry>
+              <entry>2020 Lunch at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_dinner5y</entry>
+              <entry>float</entry>
+              <entry>2020 Dinner</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_di1902115y</entry>
+              <entry>float</entry>
+              <entry> 2020 Dinner at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_di1902125y</entry>
+              <entry>float</entry>
+              <entry>2020 Dinner at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_di1902135y</entry>
+              <entry>float</entry>
+              <entry>2020 Dinner at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_di1902145y</entry>
+              <entry>float</entry>
+              <entry>2020 Dinner at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_snknabev5y</entry>
+              <entry>float</entry>
+              <entry>2020 Snacks and nonalcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sa1903115y</entry>
+              <entry>float</entry>
+              <entry>2020 Snacks and nonalcoholic beverages at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sa1903125y</entry>
+              <entry>float</entry>
+              <entry>2020 Snacks and nonalcoholic beverages at full service</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sa1903135y</entry>
+              <entry>float</entry>
+              <entry>2020 Snacks and nonalcoholic beverages at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_sa1903145y</entry>
+              <entry>float</entry>
+              <entry>2020 Snacks and nonalcoholic beverages at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_brkfbrun5y</entry>
+              <entry>float</entry>
+              <entry>2020 Breakfast and brunch</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_bb1903215y</entry>
+              <entry>float</entry>
+              <entry>2020 Breakfast and brunch at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_bb1903225y</entry>
+              <entry>float</entry>
+              <entry>2020 Breakfast and brunch at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_bb1903235y</entry>
+              <entry>float</entry>
+              <entry>2020 Breakfast and brunch at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_bb1903245y</entry>
+              <entry>float</entry>
+              <entry>2020 Breakfast and brunch at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fdschool5y</entry>
+              <entry>float</entry>
+              <entry>2020 Food or board at school</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fdcaterd5y</entry>
+              <entry>float</entry>
+              <entry>2020 Catered affairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fdontrip5y</entry>
+              <entry>float</entry>
+              <entry>2020 Food on out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_fdschlun5y</entry>
+              <entry>float</entry>
+              <entry>2020 School lunches</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_alcbevg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Alcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_alchome5y</entry>
+              <entry>float</entry>
+              <entry>2020 At home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_al2001115y</entry>
+              <entry>float</entry>
+              <entry>2020 Beer and ale</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_al2002105y</entry>
+              <entry>float</entry>
+              <entry>2020 Whiskey</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_al2003105y</entry>
+              <entry>float</entry>
+              <entry>2020 Wine</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_al2004105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other alcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_alcaway5y</entry>
+              <entry>float</entry>
+              <entry>2020 Away from home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_beernale5y</entry>
+              <entry>float</entry>
+              <entry>2020 Beer and ale</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_be2005115y</entry>
+              <entry>float</entry>
+              <entry>2020 Beer and ale at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_be2005125y</entry>
+              <entry>float</entry>
+              <entry>2020 Beer and ale at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_be2005135y</entry>
+              <entry>float</entry>
+              <entry>2020 Beer and ale at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_wine5y</entry>
+              <entry>float</entry>
+              <entry>2020 Wine</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_wi2005215y</entry>
+              <entry>float</entry>
+              <entry>2020 Wine at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_wi2005225y</entry>
+              <entry>float</entry>
+              <entry>2020 Wine at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_othalcbv5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other alcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_oa2005315y</entry>
+              <entry>float</entry>
+              <entry>2020 Other alcoholic beverages at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_oa2005325y</entry>
+              <entry>float</entry>
+              <entry>2020 Other alcoholic beverages at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_5y_alchtrip5y</entry>
+              <entry>float</entry>
+              <entry>2020 Alcoholic beverages purchased on trips</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

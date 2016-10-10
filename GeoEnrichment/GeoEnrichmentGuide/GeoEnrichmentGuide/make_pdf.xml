@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+		<!--
+		///////////////////////////////////////////////////////////////////
+		|                       *** NOTICE ***                            |
+		| THIS BUILD SCRIPT IS DESIGNED TO WORK WITH THE DITA OT INCLUDED |
+		| WITH OXYGEN OR A STANDARD DITA OT. IT DOES NOT WORK WITH THE    |
+		| PB SOFTWARE DITA OT IMPLEMENTATION.                             |
+		|                                                                 |
+		///////////////////////////////////////////////////////////////////
+		-->
+
+<project name="make_pdf" default="all" basedir="../">
+
+	<property environment="env"/>
+	<property name="dita.dir" value="${env.DITA_DIR}"/>
+	
+	<!-- (Because 'basedir' might already have been set in a calling script.) -->
+	<dirname property="thisdir" file="${ant.file}"/>
+	
+	<!-- Enter the output directory. -->
+	<property name="outputDir" value="${thisdir}/output/pdf"/>
+
+	<!-- Enter the output filename. -->
+	<property name="outputFileName" value="Spectrum_0-SNAPSHOT_GeoEnrichmentGuide.pdf"/>
+	
+	<!-- Enter the location where you've installed the PB Software customization -->
+	<property name="pbSoftwareCustomization.dir" value="C:/PBSoftware_DITA_Customization"/>
+	
+	<!-- The following condition statements set xep properties based on whether
+         this is a local build or a build on the TNT server. Do not modify these
+ 		 condition statements. -->
+	<condition property="xepDir" value="${pbSoftwareCustomization.dir}/SupportingResources/xep">
+		<not>
+			<available file="C:/xep-ForProduction"/>
+		</not>
+	</condition>		
+	<condition property="customXepConfig" value="${pbSoftwareCustomization.dir}/SupportingResources/xep/xep-PBSoftware.xml">
+		<not>
+			<available file="C:/xep-ForProduction"/>
+		</not>
+	</condition>
+	<condition property="xepDir" value="C:/xep-ForProduction">
+		<available file="C:/xep-ForProduction"/>
+	</condition>
+	<condition property="customXepConfig" value="C:/xep-ForProduction/xep-PBSoftware.xml">
+		<available file="C:/xep-ForProduction"/>
+	</condition>
+		
+	<target name="all" depends="make_pdf"/>
+
+	<target name="make_pdf">
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="init">
+			
+			<!-- Enter the source DITA map. -->
+			<property name="args.input" value="${thisdir}/../GeoEnrichmentGuide.ditamap"/>
+			
+			<!-- Enter the ditaval file -->
+			<property name="dita.input.valfile" value="${thisdir}/source/gui.ditaval"/>
+			
+			<!-- Enter the temp directory. -->
+			<property name="dita.temp.dir" value="${thisdir}/temp/pdf"/>	
+			
+			<!-- Pull in common build properties -->
+			<property file="C:\PBSoftware_DITA_Customization\pdf.make.properties"/>
+		</ant>
+	</target>	
+
+	
+
+</project>

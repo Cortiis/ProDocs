@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="GGM_Workflow" xml:lang="en-US">
+    <title><keyword keyref="modulename"/> Workflow</title>
+    <shortdesc>The following procedure gives a general high-level workflow for installing, setting
+        up and implementing the <keyword keyref="modulename"/> in the <keyword keyref="productname"
+        />.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Make sure that you have reviewed the release notes provided with your
+                installation.</p>
+        </context>
+        <prereq>
+            <p>Prior to following this procedure, the following components need to be installed:
+                <ul>
+                    <li>Geocoder for USA and associated geocoding datasets</li>
+                    <li><keyword keyref="productname"></keyword> Management Console</li>
+                    <li><keyword keyref="productname"></keyword>Enterprise Designer</li>
+                </ul>
+            Refer to the associated manuals for installation and configuration details.</p>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>Install the <keyword keyref="modulename"/>. For instructions, refer to the
+                            <cite><keyword keyref="productname"/> Installation Guide</cite> for your
+                    platform. </cmd>
+            </step>
+            
+            <step>
+                <cmd>Download and install your <keyword keyref="modulename"/> dataset(s). For
+                    instructions, refer to <xref href="Installing_Datasets.dita#installing_data"
+                    />.</cmd>
+            </step>
+            <step id="MC">
+                <cmd>Add your <keyword keyref="modulename"/> dataset(s) as a database resource using
+                    the Management Console <keyword keyref="modulename"/> Database Utility. For the
+                    procedure, see TBD.</cmd>
+            </step>
+            <step id="ED">
+                <cmd>Create your geocoding dataflow in Enterprise Designer. A dataflow is a series
+                    of operations that takes data from a source, processes that data, then writes
+                    the output to a destination. Detailed information on using the Enterprise
+                    Designer and setting up dataflows can be located in the <cite>
+                        <keyword keyref="productname"/> Dataflow Designer's Guide</cite>. </cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Depending on which geocoding stage you added to your dataflow, select your
+                            geocoding or reverse geocoding options for searching, matching and geocoding,
+                            and for setting return values.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Add the <keyword keyref="modulename"></keyword> to the stage.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Connect the output of the geocoding stage to the input of the <keyword keyref="modulename"></keyword>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Connect the output of the <keyword keyref="modulename"></keyword> to the next stage
+                        in your dataflow.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Configuration options TBD.</cmd>
+            </step>
+            <step>
+                <cmd>Save and run your dataflow. </cmd>
+                <info><ul>
+                        <li>The output fields returned from the  <keyword keyref="modulename"/>
+                            depends on the  <keyword keyref="modulename"/> dataset that you
+                            installed. Refer to the applicable section in the Appendix.</li>
+                    </ul></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset2_saus_cep2_cy_description" xml:lang="en-US">
+  <title>Dataset 2: SAUS CEP2 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>cep_ds2_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_totalexpcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total household expenditures</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hhopercy</entry>
+              <entry>float</entry>
+              <entry>2015 Household Operations</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ownrepsvcy</entry>
+              <entry>float</entry>
+              <entry>2015 Maintenance and repair services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Painting and papering</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230113cy</entry>
+              <entry>float</entry>
+              <entry>2015 Plumbing and water heating</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230114cy</entry>
+              <entry>float</entry>
+              <entry>2015 Heat, a/c, electrical work</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230115cy</entry>
+              <entry>float</entry>
+              <entry>2015 Roofing and gutters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230151cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other repair and maintenance services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230122cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair and replacement of hard surface flooring</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sv230142cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair of built-in appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ownrepspcy</entry>
+              <entry>float</entry>
+              <entry>2015 Maintenance and repair commodities</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Paints, wallpaper and supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240122cy</entry>
+              <entry>float</entry>
+              <entry>2015 Tools and equipment for painting and wallpapering</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Plumbing supplies and equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240322cy</entry>
+              <entry>float</entry>
+              <entry>2015 Electrical supplies, heating and cooling</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240213cy</entry>
+              <entry>float</entry>
+              <entry>2015 Materials and equipment for roof and gutters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Materials for plaster., panel., siding, windows, doors, screens, awnings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp240222cy</entry>
+              <entry>float</entry>
+              <entry>2015 Materials for patio, walk, fence, driveway, masonry, brick and stucco work</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sp320612cy</entry>
+              <entry>float</entry>
+              <entry>2015 Material for insulation, other maintenance and repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_owninsurcy</entry>
+              <entry>float</entry>
+              <entry> 2015 Homeowners and related insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_si220121cy</entry>
+              <entry>float</entry>
+              <entry>2015 Homeowners insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_si210901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Ground rent</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_si320625cy</entry>
+              <entry>float</entry>
+              <entry>2015 Flooring installation, repair, replacement</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ownmnagecy</entry>
+              <entry>float</entry>
+              <entry>2015 Property management and security</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_mn230901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Property management</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_mn340911cy</entry>
+              <entry>float</entry>
+              <entry>2015 Management and upkeep services for security</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hhpersrvcy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal home services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sr340210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Babysitting and child care</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sr340906cy</entry>
+              <entry>float</entry>
+              <entry>2015 Care for elderly, invalids, handicapped, etc.</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sr340910cy</entry>
+              <entry>float</entry>
+              <entry>2015 Adult day care centers</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sr670310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Day care centers, nursery, and preschools</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hhothxpncy</entry>
+              <entry>float</entry>
+              <entry>2015 Other household expenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Housekeeping services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Gardening, lawn care service</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Water softening service</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340520cy</entry>
+              <entry>float</entry>
+              <entry>2015 Household laundry and dry cleaning, sent out</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340530cy</entry>
+              <entry>float</entry>
+              <entry>2015 Coin-operated household laundry and dry cleaning</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340914cy</entry>
+              <entry>float</entry>
+              <entry>2015 Services for termite/pest control</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340915cy</entry>
+              <entry>float</entry>
+              <entry>2015 Home security system service fee</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other home services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh330511cy</entry>
+              <entry>float</entry>
+              <entry>2015 Termite/pest control products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Moving, storage, freight</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340620cy</entry>
+              <entry>float</entry>
+              <entry>2015 Appliance repair, including service center</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340630cy</entry>
+              <entry>float</entry>
+              <entry>2015 Reupholstering, furniture repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh340913cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair of miscellaneous household equipment and furnishings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh690113cy</entry>
+              <entry>float</entry>
+              <entry>2015 Repair of computer systems for nonbusiness use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh690114cy</entry>
+              <entry>float</entry>
+              <entry>2015 Computer information services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_oh690310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Installation of computer</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hkpgsuppcy</entry>
+              <entry>float</entry>
+              <entry>2015 Housekeeping supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_laundrycy</entry>
+              <entry>float</entry>
+              <entry>2015 Laundry and cleaning supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ld330110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Soaps and detergents</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ld330210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other laundry cleaning products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hkpgothrcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other household products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_op330310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cleansing and toilet tissue, paper towels and napkins</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_op330510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous household products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_op330610cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lawn and garden supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_postagecy</entry>
+              <entry>float</entry>
+              <entry>2015 Postage and stationery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ps330410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Stationery, stationery supplies, giftwrap</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ps340110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Postage</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ps340120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Delivery services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hhfurnshcy</entry>
+              <entry>float</entry>
+              <entry>2015 Household furnishings and equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hhtxtilecy</entry>
+              <entry>float</entry>
+              <entry>2015 Household textiles</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_tx280110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bathroom linens</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_tx280120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bedroom linens</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_tx280140cy</entry>
+              <entry>float</entry>
+              <entry>2015 Kitchen, dining room , other linens</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_tx280210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Curtains and draperies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_tx280220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Slipcovers, decorative pillows</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_tx280230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sewing materials for slipcovers, curtains, other</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_furniturcy</entry>
+              <entry>float</entry>
+              <entry>2015 Furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Mattress and springs</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other bedroom furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sofas</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Living room chairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Living room tables</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Kitchen, dining room furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infants' furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290430cy</entry>
+              <entry>float</entry>
+              <entry>2015 Outdoor furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fu290440cy</entry>
+              <entry>float</entry>
+              <entry>2015 Wall units, cabinets and other occasional furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_floorcovcy</entry>
+              <entry>float</entry>
+              <entry>2015 Floor coverings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fl320111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Floor coverings, nonpermanent</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_majapplcy</entry>
+              <entry>float</entry>
+              <entry>2015 Major appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma230118cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dishwashers (built-in), garbage disposals, range hoods (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Refrigerators, freezers (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300217cy</entry>
+              <entry>float</entry>
+              <entry>2015 Clothes washer or dryer (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cooking stoves, ovens (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300322cy</entry>
+              <entry>float</entry>
+              <entry>2015 Microwave ovens (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300332cy</entry>
+              <entry>float</entry>
+              <entry>2015 Portable dishwasher (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300412cy</entry>
+              <entry>float</entry>
+              <entry>2015 Window air conditioners (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma320511cy</entry>
+              <entry>float</entry>
+              <entry>2015 Electric floor cleaning equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma320512cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sewing machines</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ma300900cy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous household appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_smapphwrcy</entry>
+              <entry>float</entry>
+              <entry>2015 Small appliances, miscellaneous housewares</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_houswarecy</entry>
+              <entry>float</entry>
+              <entry>2015 Housewares</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hw320330cy</entry>
+              <entry>float</entry>
+              <entry>2015 Flatware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hw320345cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dinnerware, glassware, serving pieces</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hw320370cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nonelectric cookware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_hw320380cy</entry>
+              <entry>float</entry>
+              <entry>2015 Tableware, nonelectric kitchenware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_smllapplcy</entry>
+              <entry>float</entry>
+              <entry>2015 Small appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sa320521cy</entry>
+              <entry>float</entry>
+              <entry>2015 Small electric kitchen appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_sa320522cy</entry>
+              <entry>float</entry>
+              <entry>2015 Portable heating and cooling equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_mischheqcy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous household equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Window coverings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320130cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infants' equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320140cy</entry>
+              <entry>float</entry>
+              <entry>2015 Laundry and cleaning equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320150cy</entry>
+              <entry>float</entry>
+              <entry>2015 Outdoor equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320221cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lamps, lighting fixtures, ceiling fans</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320233cy</entry>
+              <entry>float</entry>
+              <entry>2015 Clocks and other household decorative items</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320232cy</entry>
+              <entry>float</entry>
+              <entry>2015 Telephones and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms270106cy</entry>
+              <entry>float</entry>
+              <entry>2015 Residential telephone including VOIP</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lawn and garden equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Power tools</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Office furniture for home use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Hand tools</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Indoor plants, fresh flowers</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320904cy</entry>
+              <entry>float</entry>
+              <entry>2015 Closet and storage items</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms430130cy</entry>
+              <entry>float</entry>
+              <entry>2015 Luggage</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Computers and computer hardware for nonbusiness use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690115cy</entry>
+              <entry>float</entry>
+              <entry>2015 Personal digital assistants</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690116cy</entry>
+              <entry>float</entry>
+              <entry>2015 Internet services away from home</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690118cy</entry>
+              <entry>float</entry>
+              <entry>2015 Digital book readers</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690119cy</entry>
+              <entry>float</entry>
+              <entry>2015 Computer software</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Computer accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Telephone answering devices</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Business equipment for home use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320430cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other hardware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690242cy</entry>
+              <entry>float</entry>
+              <entry>2015 Smoke alarms (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms690245cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other household appliances (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_ms320905cy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous household equipment and parts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_apparelcy</entry>
+              <entry>float</entry>
+              <entry>2015 Apparel and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_menboyscy</entry>
+              <entry>float</entry>
+              <entry>2015 Men and boys</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_menscy</entry>
+              <entry>float</entry>
+              <entry>2015 Men, 16 and over</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's suits</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's sportcoats, tailored jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's underwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's nightwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360330cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360350cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360420cy</entry>
+              <entry>float</entry>
+              <entry> 2015 Men's shirts, sweaters, and vests</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360513cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's pants and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_me360902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_boyscy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys, 2 to 15</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370125cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' shirts and sweaters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370211cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' underwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' nightwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370213cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' suits, sportcoats, vests</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370314cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' pants and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370904cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_bo370902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wmnsgrlscy</entry>
+              <entry>float</entry>
+              <entry>2015 Women and girls</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_womenscy</entry>
+              <entry>float</entry>
+              <entry>2015 Women, 16 and over</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's dresses</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's sportcoats, tailored jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380315cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's sweaters, shirts, tops, vests</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's skirts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380333cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's pants and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380340cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's sleepwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's undergarments</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380430cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's suits</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_wo380903cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_girlscy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls, 2 to 15</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' dresses and suits</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' shirts, blouses, sweaters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390223cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' skirts, pants, and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' underwear and sleepwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390321cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390322cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_gi390902cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_infantcy</entry>
+              <entry>float</entry>
+              <entry>2015 Children under 2</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_in410110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infant coat, jacket, snowsuit</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_in410120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infant dresses, outerwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_in410130cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infant underwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_in410140cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infant nightwear, loungewear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_in410901cy</entry>
+              <entry>float</entry>
+              <entry>2015 Infant accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_footwearcy</entry>
+              <entry>float</entry>
+              <entry>2015 Footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fo400110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Men's footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fo400210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Boys' footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fo400310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Women's footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_fo400220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Girls' footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_othapprlcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other apparel products and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or420115cy</entry>
+              <entry>float</entry>
+              <entry> 2015 Material and supplies for sewing, needlework, quilting (includes household items)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or430110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Watches</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or430120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Jewelry</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or440110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Shoe repair and other shoe service</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or440120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Coin-operated apparel laundry and dry cleaning</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or440130cy</entry>
+              <entry>float</entry>
+              <entry>2015 Alteration, repair and tailoring of apparel and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or440150cy</entry>
+              <entry>float</entry>
+              <entry>2015 Watch and jewelry repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or440210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Apparel laundry and dry cleaning not coin-operated</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_cy_or440900cy</entry>
+              <entry>float</entry>
+              <entry>2015 Clothing storage</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hi_2k_description" xml:lang="en-US">
+  <title>SAUS HI 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hi_2k_pop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hhpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Population in households</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha15242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha25342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha35442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha45542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha55642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha65742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha75842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hha85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hi200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_himed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hiagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Household income: Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_hiavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Household income: Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_incpc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Per capita income</entry>
+            </row>
+            <row>
+              <entry>hi_2k_incphm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Per household member income</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h152k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h252k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h352k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h452k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h552k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h652k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h752k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i000k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i010k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i015k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i020k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i025k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i030k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i035k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i040k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i045k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i050k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i060k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i075k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i100k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i125k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i150k2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75i200p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75imed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder under 25 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder 25 to 34 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder 35 to 44 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder 45 to 54 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder 55 to 64 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder 65 to 74 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75iagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Householder 75 years and over: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h15iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder under 25 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h25iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 25 to 34 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h35iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 35 to 44 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h45iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 45 to 54 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h55iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 55 to 64 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h65iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 65 to 74 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_2k_h75iavg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder 75 years and over: Household income - Average</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

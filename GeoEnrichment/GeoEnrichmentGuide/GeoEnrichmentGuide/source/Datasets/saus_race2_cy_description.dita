@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race2_cy_description" xml:lang="en-US">
+  <title>SAUS Race2 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table>
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1"/>
+          <colspec colnum="2" colname="col2"/>
+          <colspec colnum="3" colname="col3"/>
+          <tbody>
+            <row>
+              <entry>variablename</entry>
+              <entry>datatypes</entry>
+              <entry>mi_description</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnpmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Asian alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnpacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnpamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Asian alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Asian alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Asian alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Asian alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Asian alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asnf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpipopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpipmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Native Hawaiian and OPI alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpipacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpipamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Native Hawaiian and OPI alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpip1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpimpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpimmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpimacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpimamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpim1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpifpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpifmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpifacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpifamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_hpif1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn01aicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Asian Indian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn02bancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Bangladeshi</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn03camcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Cambodian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn04chicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Chinese (except Taiwanese)</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn05filcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Filipino</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn06hmocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Hmong</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn07indcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Indonesian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn08japcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Japanese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn09korcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Korean</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn10laocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Laotian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn11malcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Malaysian</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn12pakcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Pakistani</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn13slcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Sri Lankan</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn14taicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Taiwanese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn15thacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Thai</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn16viecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Vietnamese</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn17oascy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Other Asian, specified</entry>
+            </row>
+            <row>
+              <entry>race_ds2_cy_asn18oancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone: Other Asian, not specified</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

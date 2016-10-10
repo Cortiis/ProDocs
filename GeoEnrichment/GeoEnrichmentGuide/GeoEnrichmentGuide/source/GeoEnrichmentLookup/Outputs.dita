@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GEM_Outputs" xml:lang="en-US">
+  <title outputclass="hard-pagebreak">Output</title>
+  <refbody>
+
+    <section>
+      <p/>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.5*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*" align="center"/>
+          <colspec colname="c3" colnum="3" colwidth="3.5*"/>
+          <thead>
+            <row>
+              <entry><ph otherprops="gui">Field Name</ph><ph otherprops="ws-rest "
+                >Parameter</ph></entry>
+              <entry>Type</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry translate="no">PBKEY</entry>
+              <entry>String</entry>
+              <entry>A unique address identifier that is returned when an address match is made 
+                using the Master Location Dataset.</entry>
+            </row>
+            <row>
+              <entry translate="no">RawOutput</entry>
+              <entry>String</entry>
+              <entry>A raw JSON string comprising all of the output fields. For a list and
+                descriptions of the output fields, refer to the appropriate dataset in the
+                appendix.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+
+
+  </refbody>
+</reference>

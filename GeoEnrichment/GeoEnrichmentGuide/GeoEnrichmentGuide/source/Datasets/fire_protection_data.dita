@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="gem_fire_protection_data" xml:lang="en-US">
+  <title>Property Fire Protection Data</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldLength"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldLength">Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry translate="no">PBKEY</entry>
+              <entry>char(12)</entry>
+              <entry>
+                A unique address identifier that is returned when an address match is made using
+                  the Master Location Dataset.
+              </entry>
+            </row>
+            <row>
+              <entry>place_code</entry>
+              <entry>char(12)</entry>
+              <entry>Incorporated Place ID. Its value willl be Null if the address is not in an
+                incorporated place.</entry>
+            </row>
+            <row>
+              <entry>place_name</entry>
+              <entry>char(40)</entry>
+              <entry>Incorporated Place Name. Its value willl be Null if the address is not in an
+                incorporated place.</entry>
+            </row>
+            <row>
+              <entry>fs1_department_id </entry>
+              <entry>integer</entry>
+              <entry>Fire Department ID of nearest firestation 1</entry>
+            </row>
+            <row>
+              <entry>fs1_department_type </entry>
+              <entry>char(20)</entry>
+              <entry>Department type of nearest firestation 1</entry>
+            </row>
+            <row>
+              <entry>fs1_station_id </entry>
+              <entry>integer</entry>
+              <entry>Station ID of nearest fireStation 1</entry>
+            </row>
+            <row>
+              <entry>fs1_drivetime_ampeak</entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 1 (end point) during the peak time of day in the AM.</entry>
+            </row>
+            <row>
+              <entry>fs1_drivetime_pmpeak </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 1 (end point) during the peak time of day in the PM.</entry>
+            </row>
+            <row>
+              <entry>fs1_drivetime_offpeak </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 1 (end point) during an off-peak time of day.</entry>
+            </row>
+            <row>
+              <entry>fs1_drivetime_night </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 1 (end point) during the night.</entry>
+            </row>
+            <row>
+              <entry>fs1_drivedistance </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive distance (in miles) from data point (start point) to nearest
+                firestation 1 (end point).</entry>
+            </row>
+            <row>
+              <entry>fs2_department_id </entry>
+              <entry>integer</entry>
+              <entry>Fire Department ID of nearest firestation 2</entry>
+            </row>
+            <row>
+              <entry>fs2_department_type </entry>
+              <entry>char(20)</entry>
+              <entry>Department type of nearest firestation 2</entry>
+            </row>
+            <row>
+              <entry>fs2_station_id </entry>
+              <entry>integer</entry>
+              <entry>Station ID of nearest fireStation 2</entry>
+            </row>
+            <row>
+              <entry>fs2_drivetime_ampeak</entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 2 (end point) during the peak time of day in the AM.</entry>
+            </row>
+            <row>
+              <entry>fs2_drivetime_pmpeak </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 2 (end point) during the peak time of day in the PM.</entry>
+            </row>
+            <row>
+              <entry>fs2_drivetime_offpeak </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 2 (end point) during an off-peak time of day.</entry>
+            </row>
+            <row>
+              <entry>fs2_drivetime_night </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 2 (end point) during the night.</entry>
+            </row>
+            <row>
+              <entry>fs2_drivedistance </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive distance (in miles) from data point (start point) to nearest
+                firestation 2 (end point).</entry>
+            </row>
+            <row>
+              <entry>fs3_department_id </entry>
+              <entry>integer</entry>
+              <entry>Fire Department ID of nearest firestation 3</entry>
+            </row>
+            <row>
+              <entry>fs3_department_type </entry>
+              <entry>char(20)</entry>
+              <entry>Department type of nearest firestation 3</entry>
+            </row>
+            <row>
+              <entry>fs3_station_id </entry>
+              <entry>integer</entry>
+              <entry>Station ID of nearest fireStation 3</entry>
+            </row>
+            <row>
+              <entry>fs3_drivetime_ampeak</entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 3 (end point) during the peak time of day in the AM.</entry>
+            </row>
+            <row>
+              <entry>fs3_drivetime_pmpeak </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 3 (end point) during the peak time of day in the PM.</entry>
+            </row>
+            <row>
+              <entry>fs3_drivetime_offpeak </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 3 (end point) during an off-peak time of day.</entry>
+            </row>
+            <row>
+              <entry>fs3_drivetime_night </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive time (in minutes) from data point (start point) to nearest
+                firestation 3 (end point) during the night.</entry>
+            </row>
+            <row>
+              <entry>fs3_drivedistance </entry>
+              <entry>double precision</entry>
+              <entry>Routing drive distance (in miles) from data point (start point) to nearest
+                firestation 3 (end point).</entry>
+            </row>
+            <row>
+              <entry>nearest_water_body </entry>
+              <entry>double precision</entry>
+              <entry>Distance (in feet) between data point and nearest waterbody point. .</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

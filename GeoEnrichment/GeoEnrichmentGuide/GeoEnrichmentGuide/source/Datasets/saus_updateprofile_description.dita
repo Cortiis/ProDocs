@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_updateprofile_description" xml:lang="en-US">
+  <title>SAUS Update Profile Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>up_pop2k</entry>
+              <entry>float</entry>
+              <entry>2000 Total population</entry>
+            </row>
+            <row>
+              <entry>up_popby</entry>
+              <entry>float</entry>
+              <entry>2010 Total population</entry>
+            </row>
+            <row>
+              <entry>up_popcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total population</entry>
+            </row>
+            <row>
+              <entry>up_pop5y</entry>
+              <entry>float</entry>
+              <entry>2020 Total population</entry>
+            </row>
+            <row>
+              <entry>up_p0004cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>up_p0509cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>up_p1014cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>up_p1519cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>up_p2024cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>up_p2534cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>up_p3544cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>up_p4554cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>up_p5559cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>up_p6064cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>up_p6574cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>up_p7584cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>up_p85pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>up_pmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 % Total population: Median age</entry>
+            </row>
+            <row>
+              <entry>up_malecy</entry>
+              <entry>float</entry>
+              <entry>2015 Male population</entry>
+            </row>
+            <row>
+              <entry>up_malecx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population</entry>
+            </row>
+            <row>
+              <entry>up_m0004cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>up_m0509cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>up_m1014cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>up_m1519cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>up_m2024cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>up_m2534cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>up_m3544cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>up_m4554cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>up_m5559cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>up_m6064cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>up_m6574cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>up_m7584cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>up_m85pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Male population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>up_mmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Male population: Median age</entry>
+            </row>
+            <row>
+              <entry>up_femalecy</entry>
+              <entry>float</entry>
+              <entry>2015 Female population</entry>
+            </row>
+            <row>
+              <entry>up_femalecx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population</entry>
+            </row>
+            <row>
+              <entry>up_f0004cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>up_f0509cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>up_f1014cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>up_f1519cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>up_f2024cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>up_f2534cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>up_f3544cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>up_f4554cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>up_f5559cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>up_f6064cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>up_f6574cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>up_f7584cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>up_f85pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Female population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>up_fmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: Median age</entry>
+            </row>
+            <row>
+              <entry>up_whtpopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % White alone</entry>
+            </row>
+            <row>
+              <entry>up_blkpopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>up_indpopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>up_asnpopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Asian alone</entry>
+            </row>
+            <row>
+              <entry>up_hpipopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>up_othpopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>up_twopopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Two or More Races</entry>
+            </row>
+            <row>
+              <entry>up_hsppopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Hispanic</entry>
+            </row>
+            <row>
+              <entry>up_nhpopcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>up_ms1p15pcy</entry>
+              <entry>float</entry>
+              <entry>2015 Marital Status: Population 15 years and over</entry>
+            </row>
+            <row>
+              <entry>up_ms2pnmcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Marital Status: Population 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>up_ms3pmarcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Marital Status: Population 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>up_ms4psepcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Marital Status: Population 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>up_ms5pwidcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Marital Status: Population 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>up_ms6pdivcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Marital Status: Population 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>up_wrkcy</entry>
+              <entry>float</entry>
+              <entry>2015 Workers 16 years and over</entry>
+            </row>
+            <row>
+              <entry>up_wrknahcy</entry>
+              <entry>float</entry>
+              <entry>2015 Workers 16 years and over who did not work at home</entry>
+            </row>
+            <row>
+              <entry>up_wrknahcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Workers 16 years and over who did not work at home</entry>
+            </row>
+            <row>
+              <entry>up_wrkahcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Workers 16 years and over who work at home</entry>
+            </row>
+            <row>
+              <entry>up_mt1dacx</entry>
+              <entry>float</entry>
+              <entry>2015 % Means of transportation: Car, truck, or van - Drove alone</entry>
+            </row>
+            <row>
+              <entry>up_mt2cpcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Means of transportation: Car, truck, or van - Carpooled</entry>
+            </row>
+            <row>
+              <entry>up_mt3buscx</entry>
+              <entry>float</entry>
+              <entry>2015 % Means of transportation: Public transportation</entry>
+            </row>
+            <row>
+              <entry>up_mt4walkcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Means of transportation: Walked</entry>
+            </row>
+            <row>
+              <entry>up_mt5tmbocx</entry>
+              <entry>float</entry>
+              <entry>2015 % Means of transportation: Taxicab, motorcycle, bicycle, or other means</entry>
+            </row>
+            <row>
+              <entry>up_tt0009cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: Less than 10 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt1014cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 10 to 14 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt1519cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 15 to 19 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt2024cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 20 to 24 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt2529cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 25 to 29 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt3034cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 30 to 34 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt3544cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 35 to 44 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt4559cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 45 to 59 minutes</entry>
+            </row>
+            <row>
+              <entry>up_tt60pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Travel time: 60 or more minutes</entry>
+            </row>
+            <row>
+              <entry>up_ttavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Travel time: Average (in minutes)</entry>
+            </row>
+            <row>
+              <entry>up_ed1p25pcy</entry>
+              <entry>float</entry>
+              <entry>2015 Educational Attainment: Population 25 years and over</entry>
+            </row>
+            <row>
+              <entry>up_ed2ltgr9cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: Less than 9th grade</entry>
+            </row>
+            <row>
+              <entry>up_ed3gr912cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: 9th to 12th grade, no diploma</entry>
+            </row>
+            <row>
+              <entry>up_ed4hschcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: High school graduate, GED, or alternative</entry>
+            </row>
+            <row>
+              <entry>up_ed5scndcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: Some college, no degree</entry>
+            </row>
+            <row>
+              <entry>up_ed6assocx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: Associate's degree</entry>
+            </row>
+            <row>
+              <entry>up_ed7bachcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: Bachelor's degree</entry>
+            </row>
+            <row>
+              <entry>up_ed8gradcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Educational Attainment: Graduate or professional degree</entry>
+            </row>
+            <row>
+              <entry>up_ecpop16pcy</entry>
+              <entry>float</entry>
+              <entry>2015 Civilian employed population 16 years and over</entry>
+            </row>
+            <row>
+              <entry>up_in01agrcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Agriculture, forestry, fishing and hunting, and mining</entry>
+            </row>
+            <row>
+              <entry>up_in02cnstcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Construction</entry>
+            </row>
+            <row>
+              <entry>up_in03mfgcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Manufacturing</entry>
+            </row>
+            <row>
+              <entry>up_in04wtrdcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Wholesale trade</entry>
+            </row>
+            <row>
+              <entry>up_in05rtrdcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Retail trade</entry>
+            </row>
+            <row>
+              <entry>up_in06trancx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Transportation and warehousing, and utilities</entry>
+            </row>
+            <row>
+              <entry>up_in07infocx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Information</entry>
+            </row>
+            <row>
+              <entry>up_in08firecx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Finance, insurance, real estate, and rental and leasing</entry>
+            </row>
+            <row>
+              <entry>up_in09profcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Professional, scientific, and management</entry>
+            </row>
+            <row>
+              <entry>up_in10educcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Educational services, health care and social assistance</entry>
+            </row>
+            <row>
+              <entry>up_in11artscx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Arts, entertainment, accommodation and food services</entry>
+            </row>
+            <row>
+              <entry>up_in12othscx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Other services, except public administration</entry>
+            </row>
+            <row>
+              <entry>up_in13publcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Industry: Public administration</entry>
+            </row>
+            <row>
+              <entry>up_oc1mbsacx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: Management, business, science, and arts occupations</entry>
+            </row>
+            <row>
+              <entry>up_oc2servcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: Service occupations</entry>
+            </row>
+            <row>
+              <entry>up_oc3salecx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: Sales and office occupations</entry>
+            </row>
+            <row>
+              <entry>up_oc4nrcmcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: Natural resources, construction, and maintenance occupations</entry>
+            </row>
+            <row>
+              <entry>up_oc5ptmmcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: Production, transportation, and material moving occupations</entry>
+            </row>
+            <row>
+              <entry>up_oc6wccx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: White collar</entry>
+            </row>
+            <row>
+              <entry>up_oc7bccx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupation: Blue collar</entry>
+            </row>
+            <row>
+              <entry>up_hh2k</entry>
+              <entry>float</entry>
+              <entry>2000 Households</entry>
+            </row>
+            <row>
+              <entry>up_hhby</entry>
+              <entry>float</entry>
+              <entry>2010 Households</entry>
+            </row>
+            <row>
+              <entry>up_hhcy</entry>
+              <entry>float</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>up_hh5y</entry>
+              <entry>float</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>up_hhpopcy</entry>
+              <entry>float</entry>
+              <entry>2015 Population in households</entry>
+            </row>
+            <row>
+              <entry>up_avghhszcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Average household size</entry>
+            </row>
+            <row>
+              <entry>up_gqpopcy</entry>
+              <entry>float</entry>
+              <entry>2015 Population in group quarters</entry>
+            </row>
+            <row>
+              <entry>up_hhs1percx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>up_hhs2percx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>up_hhs3percx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>up_hhs4percx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 4-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>up_owncy</entry>
+              <entry>float</entry>
+              <entry>2015 Owner occupied housing units</entry>
+            </row>
+            <row>
+              <entry>up_owncx</entry>
+              <entry>float</entry>
+              <entry>2015 % Owner occupied housing units</entry>
+            </row>
+            <row>
+              <entry>up_rntcy</entry>
+              <entry>float</entry>
+              <entry>2015 Renter occupied housing units</entry>
+            </row>
+            <row>
+              <entry>up_rntcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Renter occupied housing units</entry>
+            </row>
+            <row>
+              <entry>up_hh1whtcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is White alone</entry>
+            </row>
+            <row>
+              <entry>up_hh2blkcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>up_hh3indcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>up_hh4asncx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>up_hh5hpicx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>up_hh6othcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>up_hh7twocx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>up_nhhhcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>up_hsphhcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>up_hhu01cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupied units in structure: 1, detached or attached</entry>
+            </row>
+            <row>
+              <entry>up_hhu0209cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupied units in structure: 2 to 9</entry>
+            </row>
+            <row>
+              <entry>up_hhu10pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupied units in structure: 10 or more</entry>
+            </row>
+            <row>
+              <entry>up_hhuothcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Occupied units in structure: Mobile home and all other types of units</entry>
+            </row>
+            <row>
+              <entry>up_hhf1gascx</entry>
+              <entry>float</entry>
+              <entry>2015 % House heating fuel: Gas</entry>
+            </row>
+            <row>
+              <entry>up_hhf2eleccx</entry>
+              <entry>float</entry>
+              <entry>2015 % House heating fuel: Electricity</entry>
+            </row>
+            <row>
+              <entry>up_hhf3oilcx</entry>
+              <entry>float</entry>
+              <entry>2015 % House heating fuel: Fuel oil, kerosene, etc.</entry>
+            </row>
+            <row>
+              <entry>up_hhf4othcx</entry>
+              <entry>float</entry>
+              <entry>2015 % House heating fuel: All other fuels and no fuel used</entry>
+            </row>
+            <row>
+              <entry>up_hhveh0cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: No vehicle available</entry>
+            </row>
+            <row>
+              <entry>up_hhveh1cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 1 vehicle available</entry>
+            </row>
+            <row>
+              <entry>up_hhveh2cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 2 vehicles available</entry>
+            </row>
+            <row>
+              <entry>up_hhveh3pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Households: 3 or more vehicles available</entry>
+            </row>
+            <row>
+              <entry>up_hhvavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Households: Number of vehicles available - Average</entry>
+            </row>
+            <row>
+              <entry>up_crcashcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: With cash rent</entry>
+            </row>
+            <row>
+              <entry>up_cr0000cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: Less than $200</entry>
+            </row>
+            <row>
+              <entry>up_cr0200cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: $200 to $299</entry>
+            </row>
+            <row>
+              <entry>up_cr0300cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: $300 to $499</entry>
+            </row>
+            <row>
+              <entry>up_cr0500cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: $500 to $749</entry>
+            </row>
+            <row>
+              <entry>up_cr0750cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: $750 to $999</entry>
+            </row>
+            <row>
+              <entry>up_cr1000pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: $1,000 or more</entry>
+            </row>
+            <row>
+              <entry>up_crnocashcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Contract rent: No cash rent</entry>
+            </row>
+            <row>
+              <entry>up_crmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Contract rent: Median</entry>
+            </row>
+            <row>
+              <entry>up_cravgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Contract rent: Average</entry>
+            </row>
+            <row>
+              <entry>up_hv0000kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: Less than $50,000</entry>
+            </row>
+            <row>
+              <entry>up_hv0050kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $50,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>up_hv0100kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $100,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>up_hv0150kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>up_hv0200kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $200,000 to $299,999</entry>
+            </row>
+            <row>
+              <entry>up_hv0300kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $300,000 to $499,999</entry>
+            </row>
+            <row>
+              <entry>up_hv0500kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $500,000 to $999,999</entry>
+            </row>
+            <row>
+              <entry>up_hv1000kpcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Home value: $1,000,000 or more</entry>
+            </row>
+            <row>
+              <entry>up_hvmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Home value: Median</entry>
+            </row>
+            <row>
+              <entry>up_hvavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Home value: Average</entry>
+            </row>
+            <row>
+              <entry>up_hha1534cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 15 to 34 years</entry>
+            </row>
+            <row>
+              <entry>up_hha3544cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>up_hha4554cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>up_hha5564cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>up_hha6574cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>up_hha7584cx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>up_hha85pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>up_hi000kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>up_hi010kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>up_hi015kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $15,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>up_hi025kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $25,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>up_hi035kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $35,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>up_hi050kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $50,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>up_hi075kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>up_hi100kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $100,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>up_hi150kcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>up_hi200pcx</entry>
+              <entry>float</entry>
+              <entry>2015 % Household income: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>up_himedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Household income: Median</entry>
+            </row>
+            <row>
+              <entry>up_hiavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Household income: Average</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

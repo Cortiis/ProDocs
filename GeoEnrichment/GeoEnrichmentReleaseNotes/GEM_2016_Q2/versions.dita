@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+
+
+<concept id="GEM_version" xml:lang="en-US">
+
+	<title>Data Vintages Q2 2016</title>
+
+	<conbody>
+
+		<p>This release includes the following products and versions:</p>
+		<p>
+			<table>
+				<tgroup cols="4">
+					<colspec colname="c1" colnum="1" colwidth="28.5pt"/>
+					<colspec colname="newCol2" colnum="2" colwidth="1*"/>
+					<colspec colname="c2" colnum="3" colwidth="83.25pt"/>
+					<colspec colname="newCol3" colnum="4" colwidth="2.03*"/>
+					<thead>
+						<row>
+							<entry namest="c1" nameend="newCol2">Dataset</entry>
+							<entry>Version</entry>
+							<entry>Compatible with Master Location Dataset Version(s)</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry namest="c1" nameend="newCol2">APN and Elevation</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry namest="c1" nameend="newCol2">Extended Attributes</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry namest="c1" nameend="newCol2">Property Fire Protection</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry namest="c1" nameend="newCol2">Property Attributes
+								Datasets:</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry/>
+							<entry>All Variables</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry/>
+							<entry>Financial Services</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry/>
+							<entry>Insurance Basic</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry/>
+							<entry>Insurance Extended</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry/>
+							<entry>Ownership Information</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+						<row>
+							<entry/>
+							<entry>Retail/Real Estate</entry>
+							<entry>2016.06</entry>
+							<entry>16.04, 16.05, 16.06</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</p>
+		
+
+
+	</conbody>
+
+</concept>

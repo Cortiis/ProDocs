@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race1_2k_description" xml:lang="en-US">
+  <title>SAUS Race1 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds1_2k_whtpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtpmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 White alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtpa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtpamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 White alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 White alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 White alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 White alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 White alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_whtf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkpmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Black or African American alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkpa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkpamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Black or African American alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Black or African American alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Black or African American alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Black or African American alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Black or African American alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_blkf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indpmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 American Indian and Alaska Native alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indpa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indpamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 American Indian and Alaska Native alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 American Indian and Alaska Native alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 American Indian and Alaska Native alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 American Indian and Alaska Native alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 American Indian and Alaska Native alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds1_2k_indf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

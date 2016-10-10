@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_fam_2k_description" xml:lang="en-US">
+  <title>SAUS FAM 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>fam_2k_hh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha15242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha25342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha35442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha45542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha55642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha65742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha75842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fha85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha15242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha25342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha35442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha45542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha55642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha65742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha75842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfha85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fhs2per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fhs3per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fhs4per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fhs5per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fhs6per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fhs7per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Family households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs1per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs2per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs3per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs4per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs5per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs6per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_nfhs7per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Nonfamily households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>fam_2k_hc1und182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_hc2und62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_hc3both2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_2k_hc4ovr62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_hc5no182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: No own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc01hw2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Husband-wife family</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc02hw182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Husband-wife family: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc03hwu62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Husband-wife family: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc04hwbo2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Husband-wife family: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc05hwo62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Husband-wife family: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc06hwno2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Husband-wife family: No own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc07oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Other family</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc08othm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Other family: Male householder, no wife</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc09om182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male householder, no wife: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc10omu62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male householder, no wife: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc11ombo2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male householder, no wife: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc12omo62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male householder, no wife: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc13omno2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male householder, no wife: No own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc14othf2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Other family: Female householder, no husband</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc15of182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female householder, no husband: Own children under 18</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc16ofu62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female householder, no husband: Own children under 6 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc17ofbo2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female householder, no husband: Own children under 6 and 6 to 17</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc18ofo62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female householder, no husband: Own children 6 to 17 only</entry>
+            </row>
+            <row>
+              <entry>fam_2k_fc19ofno2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female householder, no husband: No own children under 18</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

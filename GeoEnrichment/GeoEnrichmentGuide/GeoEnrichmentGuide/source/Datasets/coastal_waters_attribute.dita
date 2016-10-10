@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="coastal_waters_attribute" xml:lang="en-US">
+  <title>Coastal Waters Attribute</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>dist_to_coast_name</entry>
+              <entry>char (40)</entry>
+              <entry>Name of water boundary</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_fips_cnty</entry>
+              <entry>char (5)</entry>
+              <entry>Five Character Census Bureau FIPS code that identifies the county from which the record came.</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_state_abbr</entry>
+              <entry>char (2)</entry>
+              <entry>State</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_type</entry>
+              <entry>integer</entry>
+              <entry>Water Feature Type: <p>0: Unknown Type</p><p>1: Oceans and Seas</p><p>2: Lake</p><p>7: Others</p><p>99: Intermittent Water Body</p></entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_adjacentname</entry>
+              <entry>char (40)</entry>
+              <entry>Name of water boundary into which the record flows.</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_adjacenttype</entry>
+              <entry>integer</entry>
+              <entry>Water feature type of the adjacent water boundary.</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_dataset</entry>
+              <entry>char (100)</entry>
+              <entry>Product Layer</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_vintage</entry>
+              <entry>char (15)</entry>
+              <entry>Current release date</entry>
+            </row>
+            <row>
+              <entry>dist_to_coast_source</entry>
+              <entry>char (100)</entry>
+              <entry>Source of the data</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

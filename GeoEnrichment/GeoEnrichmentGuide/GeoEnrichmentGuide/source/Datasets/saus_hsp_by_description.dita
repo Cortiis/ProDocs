@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hsp_by_description" xml:lang="en-US">
+  <title>SAUS HSP BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hsp_by_hsppopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsppmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsppaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsppamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hspf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhpmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Not Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhpaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhpamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Not Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Not Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Not Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Not Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Not Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_by_nhf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp01mexby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Mexican</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp02prby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Puerto Rican</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp03cubby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Cuban</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp04domby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Dominican</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp05caby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American (excluding Mexican)</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp06crby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Costa Rican</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp07guaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Guatemalan</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp08honby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Honduran</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp09nicby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Nicaraguan</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp10panby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Panamanian</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp11salby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Salvadoran</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp12ocaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Central American - Other Central American</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp13saby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp14argby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Argentinean</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp15bolby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Bolivian</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp16chiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Chilean</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp17colby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Colombian</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp18ecuby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Ecuadorian</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp19parby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Paraguayan</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp20perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Peruvian</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp21uruby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Uruguayan</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp22venby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Venezuelan</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp23osaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: South American - Other South American</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp24ohlby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Other Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp25espby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Other Hispanic - Spaniard</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp26spnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Other Hispanic - Spanish</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp27spaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Other Hispanic - Spanish American</entry>
+            </row>
+            <row>
+              <entry>hsp_by_hsp28othby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Other Hispanic - All other Hispanic</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

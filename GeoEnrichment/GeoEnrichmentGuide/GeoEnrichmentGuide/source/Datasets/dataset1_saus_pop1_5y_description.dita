@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_pop1_5y_description" xml:lang="en-US">
+  <title>Dataset1: SAUS POP1 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds1_5y_whtpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_blkpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_indpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_asnpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hpipop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_othpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_twopop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsppop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp1wht5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp2blk5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp3ind5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp4asn5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp5hpi5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp6oth5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_nhp7two5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Not Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp1wht5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp2blk5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp3ind5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp4asn5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp5hpi5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp6oth5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hsp7two5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_pop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_pmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Total population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_padult5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_pamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Total population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_p18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_male5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_mmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Male population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_madult5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_mamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Male population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_m18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Male population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_female5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_fmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Female population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_fadult5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_famed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Female population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_f18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Female population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Population in households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_avghhsz5y</entry>
+              <entry>float</entry>
+              <entry>2020 Average household size</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_gqpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Population in group quarters</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs1per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs2per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs3per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs4per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs5per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs6per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_5y_hhs7per5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households: 7-or-more-person household</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

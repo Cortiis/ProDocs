@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="copyright" xml:lang="en-US">
+	<title>Copyright</title>
+	<body>
+		<p>&#xA9; 2016 Pitney Bowes Software Inc. All rights reserved. MapInfo and Group 1 Software are
+			trademarks of Pitney Bowes Software Inc. All other marks and trademarks are property of
+			their respective holders.</p>
+		<section>
+			<title><keyword><tm tmtype="reg">USPS</tm></keyword> Notices</title>
+			<p>Pitney Bowes Inc. holds a non-exclusive license to publish and sell <keyword><tm
+						tmtype="reg">ZIP + 4</tm></keyword> databases on optical and magnetic media.
+				The following trademarks are owned by the United States Postal Service: CASS, CASS
+				Certified, DPV, eLOT, FASTforward, First-Class Mail, Intelligent Mail,
+					LACS<sup>Link</sup>, NCOA<sup>Link</sup>, PAVE, PLANET Code, Postal Service,
+				POSTNET, Post Office, RDI, Suite<sup>Link</sup> , United States Postal Service,
+				Standard Mail, United States Post Office, USPS, ZIP Code, and ZIP + 4. This list is
+				not exhaustive of the trademarks belonging to the Postal Service.</p>
+			<p>Pitney Bowes Inc. is a non-exclusive licensee of <keyword><tm tmtype="reg"
+					>USPS</tm></keyword> for NCOA<sup>Link</sup>&#174; processing.</p>
+			<p>Prices for Pitney Bowes Software's products, options, and services are not
+				established, controlled, or approved by USPS&#174; or United States Government. When
+				utilizing <keyword><tm tmtype="tm">RDI</tm></keyword> data to determine
+				parcel-shipping costs, the business decision on which parcel delivery company to use
+				is not made by the <keyword><tm tmtype="reg">USPS</tm></keyword> or United States
+				Government.</p>
+		</section>
+		<section>
+			<title>Data Provider and Related Notices</title>
+			<p>Data Products contained on this media and used within Pitney Bowes Software applications are protected by various trademarks and by one or more of the following copyrights:</p>
+			<p>&#xA9; Copyright United States Postal Service. All rights reserved.</p>
+			<p>&#xA9; 2014 TomTom. All rights reserved. TomTom and the TomTom logo are registered trademarks
+				of TomTom N.V.</p>
+			<p>&#xA9; 2016 HERE</p>
+			<p>Fuente: INEGI (Instituto Nacional de Estadística y Geografía)</p>
+			<p>Based upon electronic data © National Land Survey Sweden.</p>
+			<p>&#xA9; Copyright United States Census Bureau</p>
+			<p>&#xA9; Copyright Nova Marketing Group, Inc.</p>
+			<p>Portions of this program are &#xA9; Copyright 1993-2007 by Nova Marketing Group Inc.
+				All Rights Reserved</p>
+			<p>&#xA9; Copyright Second Decimal, LLC</p>
+			<p>&#xA9; Copyright Canada Post Corporation</p>
+			<p>This CD-ROM contains data from a compilation in which Canada Post Corporation is the
+				copyright owner.</p>
+			<p>&#xA9; 2007 Claritas, Inc.</p>
+			<p>The Geocode Address World data set contains data licensed from the GeoNames Project (<xref href="http://www.geonames.org" format="html" scope="external">www.geonames.org</xref>) provided under the Creative Commons Attribution License ("Attribution License") located at <xref href="http://creativecommons.org/licenses/by/3.0/legalcode" format="html" scope="external">http://creativecommons.org/licenses/by/3.0/legalcode</xref>. Your use of the GeoNames data (described in the <keyword keyref="productname"/> User Manual) is governed by the terms of the Attribution License, and any conflict between your agreement with Pitney Bowes Software, Inc. and the Attribution License will be resolved in favor of the Attribution License solely as it relates to your use of the GeoNames data. </p>
+		</section>
+		<section>
+			<title>ICU Notices</title>
+			<p> Copyright &#xA9; 1995-2011 International Business Machines Corporation and
+				others.</p>
+			<p>All rights reserved.</p>
+			<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this
+				software and associated documentation files (the "Software"), to deal in the
+				Software without restriction, including without limitation the rights to use, copy,
+				modify, merge, publish, distribute, and/or sell copies of the Software, and to
+				permit persons to whom the Software is furnished to do so, provided that the above
+				copyright notice(s) and this permission notice appear in all copies of the Software
+				and that both the above copyright notice(s) and this permission notice appear in
+				supporting documentation.</p>
+			<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+				INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+				PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE
+				COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY
+				SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM
+				LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+				TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+				SOFTWARE.</p>
+			<p>Except as contained in this notice, the name of a copyright holder shall not be used
+				in advertising or otherwise to promote the sale, use or other dealings in this
+				Software without prior written authorization of the copyright holder. </p>
+		</section>
+	</body>
+</topic>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Intro_GeoEnhancement" xml:lang="en-US">
+  <title><keyword keyref="modulename"/></title>
+  <conbody>
+    <section>
+      <p>The <keyword keyref="modulename"/> for the <keyword keyref="productname"/> functions as a
+        delivery mechanism for accessing a data source and returning data. Given a lookup key as
+        input, the <keyword keyref="modulename"/> accesses a registered database and returns
+        additional attribute data for the referenced record. The type of attribute data is
+        determined by the installed dataset(s).</p>
+      <p>The <keyword keyref="modulename"/> is delivered as a <keyword keyref="Spectrumname"/>
+        module and can be built into <keyword keyref="Spectrumname"/> stages. The <keyword
+          keyref="productname"/> must already be installed.</p>
+    </section>
+  </conbody>
+</concept>

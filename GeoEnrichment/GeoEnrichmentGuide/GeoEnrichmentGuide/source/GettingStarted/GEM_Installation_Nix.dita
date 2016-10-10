@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="GEM_Install_Nix" xml:lang="en-US">
+	<title outputclass="hard-pagebreak">Installing on Unix or Linux</title>
+	<taskbody>
+		<context>
+			<note>In this procedure, <varname>SpectrumDirectory</varname> refers to the directory
+				where you have installed the <keyword keyref="productname"/> server.</note>
+		</context>
+		<steps>
+			<step>
+				<cmd>Source the
+						<filepath><varname>SpectrumDirectory</varname>/server/bin/setup</filepath>
+					script.</cmd>
+			</step>
+			<step>
+				<cmd>Execute the
+						<filepath><varname>SpectrumDirectory</varname>/server/bin/server.stop</filepath>
+					script to shut down the <keyword keyref="productname"/> server.</cmd>
+			</step>
+			<step>
+				<cmd>Copy the <cite>.car</cite> file to:
+						<filepath><varname>SpectrumDirectory</varname>/server/app/deploy</filepath></cmd>
+			</step>
+			<step>
+				<cmd>Copy the <cite>gem</cite> directory to:
+						<filepath><varname>SpectrumDirectory</varname>/server/modules</filepath></cmd>
+			</step>
+			<step>
+				<cmd>Be sure you have execute permission on the updated files by typing the
+					following command:</cmd>
+				<info>
+					<p><userinput>chmod -R a+x
+							<varname>SpectrumDirectory</varname>/server</userinput></p>
+				</info>
+			</step>
+			<step>
+				<cmd>Execute the
+					<filepath><varname>SpectrumDirectory</varname>/server/bin/server.start</filepath>
+					script to start the <keyword keyref="productname"/> server.</cmd>
+			</step>
+		</steps>
+		<postreq>Download and install your dataset(s). For instructions, refer to <xref
+				href="GEM_Installing_Datasets.dita#installing_datasets"/>.</postreq>
+	</taskbody>
+</task>

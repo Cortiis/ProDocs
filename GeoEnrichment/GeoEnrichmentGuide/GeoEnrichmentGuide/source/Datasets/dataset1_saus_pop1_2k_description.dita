@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_pop1_2k_description" xml:lang="en-US">
+  <title>Dataset1: SAUS POP1 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds1_2k_whtpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_blkpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_indpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_asnpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hpipop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_othpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_twopop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsppop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp1wht2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp2blk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp3ind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp4asn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp5hpi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp6oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_nhp7two2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp1wht2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp2blk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp3ind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp4asn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp5hpi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp6oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hsp7two2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Total population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_padult2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Total population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_p18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_mmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Male population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_madult2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_mamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Male population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_m18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_fmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Female population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_fadult2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_famed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Female population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_f18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: Under 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop012k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop022k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 2 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop032k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 3 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 4 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop052k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop062k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 6 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop072k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 7 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop082k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 8 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop102k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 10 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop112k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 11 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop122k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 12 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop132k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 13 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop152k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 15 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop162k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 16 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop172k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 17 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_pop192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population: 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: Under 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male012k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male022k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 2 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male032k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 3 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 4 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male052k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male062k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 6 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male072k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 7 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male082k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 8 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male102k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 10 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male112k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 11 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male122k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 12 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male132k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 13 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male152k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 15 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male162k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 16 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male172k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 17 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_male192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Male population: 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: Under 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female012k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female022k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 2 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female032k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 3 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 4 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female052k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female062k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 6 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female072k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 7 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female082k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 8 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female102k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 10 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female112k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 11 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female122k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 12 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female132k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 13 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female152k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 15 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female162k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 16 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female172k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 17 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female182k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_female192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Female population: 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Population in households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_avghhsz2k</entry>
+              <entry>float</entry>
+              <entry>2000 Average Household Size</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gqpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Population in group quarters</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq1ins2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Institutionalized population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq2cor2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Institutionalized - Correctional institutions</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq3nur2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Institutionalized - Nursing homes</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq4oif2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Institutionalized - Other institutions</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq5non2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Noninstitutionalized population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq6col2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Noninstitutionalized - College dormitories</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq7mil2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Noninstitutionalized - Military quarters</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_gq8onf2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Group quarters: Noninstitutionalized - Other noninstitutional</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs1per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs2per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs3per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs4per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs5per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs6per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_hhs7per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls01p05p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Population 5 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls02engl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Speak only English</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls03span2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Spanish or Spanish Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls04fren2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: French (incl. Patois, Cajun)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls05frcr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: French Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls06ital2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls07port2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Portuguese or Portuguese Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls08germ2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls09yidd2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Yiddish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls10owge2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other West Germanic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls11scan2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Scandinavian languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls12gree2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls13russ2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls14poli2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls15serb2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Serbo-Croatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls16osla2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other Slavic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls17arme2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Armenian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls18pers2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Persian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls19guja2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Gujarathi</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls20hind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Hindi</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls21urdu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Urdu</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls22oind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other Indic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls23oieu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other Indo-European languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls24chin2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Chinese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls25japa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Japanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls26kore2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Korean</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls27moca2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Mon-Khmer, Cambodian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls28hmon2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Miao, Hmong</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls29thai2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Thai</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls30loat2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Laotian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls31viet2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Vietnamese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls32oasn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other Asian languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls33taga2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Tagalog</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls34opis2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other Pacific Island languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls35nava2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Navajo</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls36onna2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other Native North American languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls37hung2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls38arab2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Arabic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls39hebr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Hebrew</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls40afri2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: African languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_ls41otun2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Language Spoken at Home: Other and unspecified languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an01amer2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: American</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an02arab2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Arab</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an03brit2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: British</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an04czec2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Czech</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an05dani2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Danish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an06dutc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Dutch</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an07engl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: English</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an08euro2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: European</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an09fren2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: French (except Basque)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an10frcn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: French Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an11germ2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an12gree2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an13hung2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an14iris2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an15ital2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an16lith2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Lithuanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an17norw2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Norwegian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an18poli2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an19port2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Portuguese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an20russ2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an21scir2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Scotch-Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an22scot2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Scottish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an23slov2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Slovak</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an24safr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Subsaharan African</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an25swed2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Swedish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an26swis2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Swiss</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an27ukra2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Ukrainian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an28wels2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Welsh</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an29wind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: West Indian (except Hispanic groups)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an30othg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Other groups</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_2k_an31ucnr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Ancestry: Unclassified or not reported</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

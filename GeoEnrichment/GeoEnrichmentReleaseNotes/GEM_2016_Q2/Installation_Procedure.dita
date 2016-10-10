@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="GEM_Install_Win" xml:lang="en-US">
+	<title>Installing on Windows and Unix/Linux</title>
+	<taskbody>
+		<steps id="InstallationSteps">
+			<step conref="../../../GeoEnrichmentGuide/source/GettingStarted/GEM_Installing_Datasets_Win.dita#installing_datasets_Win/download" 
+				conrefend="../../../GeoEnrichmentGuide/source/GettingStarted/GEM_Installing_Datasets_Win.dita#installing_datasets_Win/copy">
+				<cmd></cmd>
+			</step>
+			<step id="db_resource">
+				<cmd>After you install the database files, you must register the database in order to define the
+					database as a resource. For more information, see  "Adding a Database Resource"
+					in the <cite>GeoEnrichment Module Guide</cite>.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

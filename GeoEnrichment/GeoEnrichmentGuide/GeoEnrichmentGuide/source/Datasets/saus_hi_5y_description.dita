@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hi_5y_description" xml:lang="en-US">
+  <title>SAUS HI 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hi_5y_pop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Total population</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hhpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Population in households</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha15245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha25345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha35445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha45545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha65745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha75845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hha85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hi200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_himed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hiagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Household income: Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_hiavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Household income: Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_incpc5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Per capita inomce</entry>
+            </row>
+            <row>
+              <entry>hi_5y_incphm5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Per household member income</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h155y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h255y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h355y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h455y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h555y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h655y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h755y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i000k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i010k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i015k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i020k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i025k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i030k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i035k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i040k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i045k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i050k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i060k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i075k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i100k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i125k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i150k5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75i200p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75imed5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder under 25 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder 25 to 34 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder 35 to 44 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder 45 to 54 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder 55 to 64 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder 65 to 74 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75iagg5y</entry>
+              <entry>float</entry>
+              <entry>2020 Householder 75 years and over: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h15iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder under 25 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h25iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 25 to 34 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h35iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 35 to 44 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h45iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 45 to 54 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h55iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 55 to 64 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h65iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 65 to 74 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_5y_h75iavg5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Householder 75 years and over: Household income - Average</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

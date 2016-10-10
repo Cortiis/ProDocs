@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset3_saus_cep3_5y_description" xml:lang="en-US">
+  <title>Dataset 3: SAUS CEP3 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>cep_ds3_5y_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_totalexp5y</entry>
+              <entry>float</entry>
+              <entry>2020 Total household expenditures</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_trans5y</entry>
+              <entry>float</entry>
+              <entry>2020 Transportation</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vehpurch5y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle purchases (net outlay)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_newcars5y</entry>
+              <entry>float</entry>
+              <entry>2020 Cars and trucks, new</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_nc4501105y</entry>
+              <entry>float</entry>
+              <entry>2020 New cars</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_nc4502105y</entry>
+              <entry>float</entry>
+              <entry>2020 New trucks</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_usedcars5y</entry>
+              <entry>float</entry>
+              <entry>2020 Cars and trucks, used</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_uc4601105y</entry>
+              <entry>float</entry>
+              <entry>2020 Used cars</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_uc4609015y</entry>
+              <entry>float</entry>
+              <entry>2020 Used trucks</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_othvehcl5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ov4502205y</entry>
+              <entry>float</entry>
+              <entry>2020 New motorcycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ov4609025y</entry>
+              <entry>float</entry>
+              <entry>2020 Used motorcycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_gasoil5y</entry>
+              <entry>float</entry>
+              <entry>2020 Gasoline and motor oil</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ga4701115y</entry>
+              <entry>float</entry>
+              <entry>2020 Gasoline</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ga4701125y</entry>
+              <entry>float</entry>
+              <entry>2020 Diesel fuel</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ga4701135y</entry>
+              <entry>float</entry>
+              <entry>2020 Gasoline on out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ga4702115y</entry>
+              <entry>float</entry>
+              <entry>2020 Motor oil</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ga4702125y</entry>
+              <entry>float</entry>
+              <entry>2020 Motor oil on out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vehothxp5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other vehicle expenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vehfinch5y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vf5101105y</entry>
+              <entry>float</entry>
+              <entry>2020 Automobile finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vf5109015y</entry>
+              <entry>float</entry>
+              <entry>2020 Truck finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vf5109025y</entry>
+              <entry>float</entry>
+              <entry>2020 Motorcycle and plane finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vf8503005y</entry>
+              <entry>float</entry>
+              <entry>2020 Other vehicle finance charges</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vehrent5y</entry>
+              <entry>float</entry>
+              <entry> 2020 Vehicle Rental Expenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vr5205165y</entry>
+              <entry>float</entry>
+              <entry>2020 Auto/truck rental </entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vr5205175y</entry>
+              <entry>float</entry>
+              <entry>2020 Auto/truck rental, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_carepair5y</entry>
+              <entry>float</entry>
+              <entry>2020 Maintenance and repairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4702205y</entry>
+              <entry>float</entry>
+              <entry>2020 Coolant, brake fluid, transmission fluid, and other</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4801105y</entry>
+              <entry>float</entry>
+              <entry>2020 Tires - purchased, replaced, installed</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4802135y</entry>
+              <entry>float</entry>
+              <entry>2020 Parts, equipment, and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4802145y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle audio equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4802125y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle products and cleaning services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4802155y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle video equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4900005y</entry>
+              <entry>float</entry>
+              <entry>2020 Misc. auto repair, servicing</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4901105y</entry>
+              <entry>float</entry>
+              <entry>2020 Body work and painting</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4902115y</entry>
+              <entry>float</entry>
+              <entry>2020 Clutch, transmission repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4902125y</entry>
+              <entry>float</entry>
+              <entry>2020 Drive shaft and rear-end repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4902215y</entry>
+              <entry>float</entry>
+              <entry>2020 Brake work, including adjustments</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4902315y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair to steering or front-end</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4902325y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair to engine cooling system</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903005y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle or engine repairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903115y</entry>
+              <entry>float</entry>
+              <entry>2020 Motor tune-up</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903125y</entry>
+              <entry>float</entry>
+              <entry>2020 Lube, oil change, and oil filters</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903135y</entry>
+              <entry>float</entry>
+              <entry>2020 Front-end alignment, wheel balance and rotation</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903145y</entry>
+              <entry>float</entry>
+              <entry>2020 Shock absorber replacement</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903185y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair tires and other repair work</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4903195y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle air conditioning repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4904115y</entry>
+              <entry>float</entry>
+              <entry>2020 Exhaust system repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4904125y</entry>
+              <entry>float</entry>
+              <entry>2020 Electrical system repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4904135y</entry>
+              <entry>float</entry>
+              <entry>2020 Motor repair, replacement</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cr4909005y</entry>
+              <entry>float</entry>
+              <entry>2020 Auto repair service policy</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_vehicins5y</entry>
+              <entry>float</entry>
+              <entry>2020 Vehicle insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_autoclub5y</entry>
+              <entry>float</entry>
+              <entry>2020 Automobile service clubs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_autogps5y</entry>
+              <entry>float</entry>
+              <entry>2020 Automobile service clubs and GPS services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pubtrans5y</entry>
+              <entry>float</entry>
+              <entry>2020 Public transportation</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_airfares5y</entry>
+              <entry>float</entry>
+              <entry>2020 Airline fares</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_health5y</entry>
+              <entry>float</entry>
+              <entry>2020 Healthcare</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_hlthinsr5y</entry>
+              <entry>float</entry>
+              <entry>2020 Health insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_comhltin5y</entry>
+              <entry>float</entry>
+              <entry>2020 Commercial health insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ch5801115y</entry>
+              <entry>float</entry>
+              <entry>2020 Traditional fee for service health plan (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ch5801135y</entry>
+              <entry>float</entry>
+              <entry>2020 Preferred provider health plan (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_bcbs5y</entry>
+              <entry>float</entry>
+              <entry>2020 Blue Cross, Blue Shield</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_bc5801125y</entry>
+              <entry>float</entry>
+              <entry>2020 Traditional fee for service health plan (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_bc5801145y</entry>
+              <entry>float</entry>
+              <entry>2020 Preferred provider health plan (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_bc5803125y</entry>
+              <entry>float</entry>
+              <entry>2020 Health maintenance organization (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_bc5809045y</entry>
+              <entry>float</entry>
+              <entry>2020 Commercial medicare supplement (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_bc5809065y</entry>
+              <entry>float</entry>
+              <entry>2020 Other health insurance (BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_hlmainto5y</entry>
+              <entry>float</entry>
+              <entry>2020 Health maintenance organization (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_medipayt5y</entry>
+              <entry>float</entry>
+              <entry>2020 Medicare payments</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_medipres5y</entry>
+              <entry>float</entry>
+              <entry>2020 Medicare prescription drug premium</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_comedoth5y</entry>
+              <entry>float</entry>
+              <entry>2020 Commercial medicare supplements and other health</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cm5809035y</entry>
+              <entry>float</entry>
+              <entry>2020 Commercial medicare supplement (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_cm5809055y</entry>
+              <entry>float</entry>
+              <entry>2020 Other health insurance (not BCBS)</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_lngtrmcr5y</entry>
+              <entry>float</entry>
+              <entry>2020 Long term care insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_medservs5y</entry>
+              <entry>float</entry>
+              <entry>2020 Medical services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5601105y</entry>
+              <entry>float</entry>
+              <entry>2020 Physician's services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5602105y</entry>
+              <entry>float</entry>
+              <entry>2020 Dental services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5603105y</entry>
+              <entry>float</entry>
+              <entry>2020 Eyecare services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5604005y</entry>
+              <entry>float</entry>
+              <entry>2020 Service by professionals other than physician</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5603305y</entry>
+              <entry>float</entry>
+              <entry>2020 Lab tests, x-rays</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5701115y</entry>
+              <entry>float</entry>
+              <entry>2020 Hospital room and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5702205y</entry>
+              <entry>float</entry>
+              <entry>2020 Care in convalescent or nursing home</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5709025y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair of medical equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mr5702305y</entry>
+              <entry>float</entry>
+              <entry>2020 Other medical care services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_drugs5y</entry>
+              <entry>float</entry>
+              <entry>2020 Drugs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_dr5502105y</entry>
+              <entry>float</entry>
+              <entry>2020 Nonprescription drugs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_dr5504105y</entry>
+              <entry>float</entry>
+              <entry>2020 Nonprescription vitamins</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_dr5400005y</entry>
+              <entry>float</entry>
+              <entry>2020 Prescription drugs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_medsuppl5y</entry>
+              <entry>float</entry>
+              <entry>2020 Medical supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mp5501105y</entry>
+              <entry>float</entry>
+              <entry>2020 Eyeglasses and contact lenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mp5503405y</entry>
+              <entry>float</entry>
+              <entry>2020 Hearing aids</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mp5503105y</entry>
+              <entry>float</entry>
+              <entry>2020 Topicals and dressings</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mp5503205y</entry>
+              <entry>float</entry>
+              <entry>2020 Medical equipment for general use</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_mp5503305y</entry>
+              <entry>float</entry>
+              <entry>2020 Supportive and convalescent medical equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_entrtain5y</entry>
+              <entry>float</entry>
+              <entry>2020 Entertainment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_feesadm5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fees and admissions</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6109005y</entry>
+              <entry>float</entry>
+              <entry>2020 Recreation expenses, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6201115y</entry>
+              <entry>float</entry>
+              <entry>2020 Social, recreation, health club membership</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6201215y</entry>
+              <entry>float</entry>
+              <entry>2020 Fees for participant sports</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6201225y</entry>
+              <entry>float</entry>
+              <entry>2020 Participant sports, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6202125y</entry>
+              <entry>float</entry>
+              <entry>2020 Movie, other admissions, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6202135y</entry>
+              <entry>float</entry>
+              <entry>2020 Play, theater, opera, concert</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6202145y</entry>
+              <entry>float</entry>
+              <entry>2020 Moves, parks, museums</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6202215y</entry>
+              <entry>float</entry>
+              <entry>2020 Admission to sporting events</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6202225y</entry>
+              <entry>float</entry>
+              <entry>2020 Admission to sports events, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6203105y</entry>
+              <entry>float</entry>
+              <entry>2020 Fees for recreational lessons</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_fe6209035y</entry>
+              <entry>float</entry>
+              <entry>2020 Other entertainment services, out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tvaudio5y</entry>
+              <entry>float</entry>
+              <entry>2020 Audio and visual equipment and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3101405y</entry>
+              <entry>float</entry>
+              <entry>2020 Televisions</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv2703105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cable and satellite television services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103355y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous video equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv2703115y</entry>
+              <entry>float</entry>
+              <entry>2020 Satellite radio service</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103325y</entry>
+              <entry>float</entry>
+              <entry>2020 Sound equipment accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv6209305y</entry>
+              <entry>float</entry>
+              <entry>2020 Online gaming services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3102105y</entry>
+              <entry>float</entry>
+              <entry>2020 VCR's and video disc players</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3102205y</entry>
+              <entry>float</entry>
+              <entry>2020 Video cassettes, tapes, and discs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3102315y</entry>
+              <entry>float</entry>
+              <entry>2020 Video game software</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3102325y</entry>
+              <entry>float</entry>
+              <entry>2020 Video game hardware and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3102405y</entry>
+              <entry>float</entry>
+              <entry>2020 Streaming, downloading video</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3406105y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair of tv, radio, and sound equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103145y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal digital audio players</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103165y</entry>
+              <entry>float</entry>
+              <entry>2020 Stereos, radios, speakers, and sound components including those in vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103345y</entry>
+              <entry>float</entry>
+              <entry>2020 Satellite dishes</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103405y</entry>
+              <entry>float</entry>
+              <entry>2020 CDs, records, audio tapes</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3103505y</entry>
+              <entry>float</entry>
+              <entry>2020 Streaming, downloading audio</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv3104005y</entry>
+              <entry>float</entry>
+              <entry>2020 Applications, games, ringtones for handheld devices</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv6101305y</entry>
+              <entry>float</entry>
+              <entry>2020 Musical instruments and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv6209175y</entry>
+              <entry>float</entry>
+              <entry>2020 Rental of video hardware/accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv6209185y</entry>
+              <entry>float</entry>
+              <entry>2020 Rental of video software</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tv6903205y</entry>
+              <entry>float</entry>
+              <entry>2020 Installation of televisions</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_petsplay5y</entry>
+              <entry>float</entry>
+              <entry>2020 Pets, toys, hobbies, and playground equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pets5y</entry>
+              <entry>float</entry>
+              <entry>2020 Pets</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pe6103105y</entry>
+              <entry>float</entry>
+              <entry>2020 Pet food</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pe6103205y</entry>
+              <entry>float</entry>
+              <entry>2020 Pet purchase, supplies, medicine</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pe6204105y</entry>
+              <entry>float</entry>
+              <entry>2020 Pet services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pe6204205y</entry>
+              <entry>float</entry>
+              <entry>2020 Vet services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_toygames5y</entry>
+              <entry>float</entry>
+              <entry>2020 Toys, games, arts and crafts, and tricycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_stmpcoin5y</entry>
+              <entry>float</entry>
+              <entry>2020 Stamp and coin collecting</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_playgrnd5y</entry>
+              <entry>float</entry>
+              <entry>2020 Playground equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_enteroth5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other entertainment supplies, equipment, and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_unmtrbot5y</entry>
+              <entry>float</entry>
+              <entry>2020 Unmotored recreational vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_um6001215y</entry>
+              <entry>float</entry>
+              <entry>2020 Boat without motor and boat trailers</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_um6001225y</entry>
+              <entry>float</entry>
+              <entry>2020 Trailer and other attachable campers</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pwrspveh5y</entry>
+              <entry>float</entry>
+              <entry>2020 Motorized recreational vehicles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pw6001425y</entry>
+              <entry>float</entry>
+              <entry>2020 Purchase of other vehicle</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pw6001325y</entry>
+              <entry>float</entry>
+              <entry>2020 Purchase of boat with motor</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_recequip5y</entry>
+              <entry>float</entry>
+              <entry>2020 Sports, recreation and exercise equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6002105y</entry>
+              <entry>float</entry>
+              <entry>2020 Athletic gear, game tables, and exercise equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6003105y</entry>
+              <entry>float</entry>
+              <entry>2020 Bicycles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6004105y</entry>
+              <entry>float</entry>
+              <entry>2020 Camping equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6004205y</entry>
+              <entry>float</entry>
+              <entry>2020 Hunting and fishing equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6004305y</entry>
+              <entry>float</entry>
+              <entry>2020 Winter sports equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6009015y</entry>
+              <entry>float</entry>
+              <entry>2020 Water sports equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6009025y</entry>
+              <entry>float</entry>
+              <entry>2020 Other sports equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re6009035y</entry>
+              <entry>float</entry>
+              <entry>2020 Global positioning system devices</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_photoeq5y</entry>
+              <entry>float</entry>
+              <entry>2020 Photographic equipment, supplies and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ph6102105y</entry>
+              <entry>float</entry>
+              <entry>2020 Film</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ph6203305y</entry>
+              <entry>float</entry>
+              <entry>2020 Photo processing</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ph6102305y</entry>
+              <entry>float</entry>
+              <entry>2020 Photographic equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ph6203205y</entry>
+              <entry>float</entry>
+              <entry>2020 Photographer fees</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_firewrks5y</entry>
+              <entry>float</entry>
+              <entry>2020 Fireworks</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_souvenir5y</entry>
+              <entry>float</entry>
+              <entry>2020 Souvenirs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_visgoods5y</entry>
+              <entry>float</entry>
+              <entry>2020 Visual goods</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pinevdgm5y</entry>
+              <entry>float</entry>
+              <entry>2020 Pinball, electronic video games</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_liventer5y</entry>
+              <entry>float</entry>
+              <entry>2020 Live entertainment for catered affairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_perscare5y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal care products and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_persprod5y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal care products, total</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6401105y</entry>
+              <entry>float</entry>
+              <entry>2020 Hair care products</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6401205y</entry>
+              <entry>float</entry>
+              <entry>2020 Nonelectric articles for the hair</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6401305y</entry>
+              <entry>float</entry>
+              <entry>2020 Wigs and hairpieces</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6402105y</entry>
+              <entry>float</entry>
+              <entry>2020 Oral hygiene products, articles</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6402205y</entry>
+              <entry>float</entry>
+              <entry>2020 Shaving needs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6403105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cosmetics, perfume, bath preparations</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6404105y</entry>
+              <entry>float</entry>
+              <entry>2020 Deodorants, feminine hygiene, miscellaneous personal</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pp6404205y</entry>
+              <entry>float</entry>
+              <entry>2020 Electric personal care appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_persserv5y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal care services, total</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_pc6503105y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal care services</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_reading5y</entry>
+              <entry>float</entry>
+              <entry>2020 Reading</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re5903105y</entry>
+              <entry>float</entry>
+              <entry>2020 Newspaper, magazine by subscription</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re5904105y</entry>
+              <entry>float</entry>
+              <entry>2020 Newspaper, magazine non-subscription</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re5902205y</entry>
+              <entry>float</entry>
+              <entry>2020 Books thru book clubs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_re5902305y</entry>
+              <entry>float</entry>
+              <entry>2020 Books not thru book clubs</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_educatn5y</entry>
+              <entry>float</entry>
+              <entry>2020 Education</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6701105y</entry>
+              <entry>float</entry>
+              <entry>2020 College tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6702105y</entry>
+              <entry>float</entry>
+              <entry>2020 Elementary and high school tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6704105y</entry>
+              <entry>float</entry>
+              <entry>2020 Vocational and technical school tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6709015y</entry>
+              <entry>float</entry>
+              <entry>2020 Other schools tuition</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6601105y</entry>
+              <entry>float</entry>
+              <entry>2020 School books, supplies, equipment for college</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6602105y</entry>
+              <entry>float</entry>
+              <entry>2020 School books, supplies, equipment for elementary, high school</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6604105y</entry>
+              <entry>float</entry>
+              <entry>2020 School books, supplies, equipment for vocational and technical</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6609015y</entry>
+              <entry>float</entry>
+              <entry>2020 School books, supplies, equipment for day care, nursery school</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_ed6609025y</entry>
+              <entry>float</entry>
+              <entry>2020 School books, supplies, equipment for other schools</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_tobacco5y</entry>
+              <entry>float</entry>
+              <entry>2020 Tobacco products and smoking supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_to6301105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cigarettes</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_to6302105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other tobacco products</entry>
+            </row>
+            <row>
+              <entry>cep_ds3_5y_to6302205y</entry>
+              <entry>float</entry>
+              <entry>2020 Smoking accessories</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

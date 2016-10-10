@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race3_by_description" xml:lang="en-US">
+  <title>SAUS Race3 BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds3_by_othpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othpmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Some Other Race alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othpaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othpamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Some Other Race alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othp1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othmpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othmmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Some Other Race alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othmaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othmamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Some Other Race alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othm1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othfpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othfmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Some Other Race alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othfaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othfamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Some Other Race alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_othf1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twopopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twopmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Two or More Races: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twopaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twopamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Two or More Races: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twop1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twompopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twommedby</entry>
+              <entry>float</entry>
+              <entry>2010 Two or More Races male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twomaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twomamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Two or More Races male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twom1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twofpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twofmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Two or More Races female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twofaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twofamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Two or More Races female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_by_twof1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

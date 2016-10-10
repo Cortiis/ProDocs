@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race3_5y_description" xml:lang="en-US">
+  <title>SAUS Race3 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds3_5y_othpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othpmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Some Other Race alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othpa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othpamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Some Other Race alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othp18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othmpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othmmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Some Other Race alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othmamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Some Other Race alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othm18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othfpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othfmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Some Other Race alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othfa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othfamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Some Other Race alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_othf18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Some Other Race alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twopop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twopmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Two or More Races: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twopa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twopamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Two or More Races: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twop18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twompop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twommed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Two or More Races male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twoma5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twomamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Two or More Races male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twom18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twofpop5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof00045y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof05095y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof10145y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof15195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof20245y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof25295y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof30345y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof35395y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof40445y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof45495y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof50545y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof55595y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof60645y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof65695y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof70745y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof75795y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof80845y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof85p5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twofmed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Two or More Races female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twofa5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twofamed5y</entry>
+              <entry>float</entry>
+              <entry>2020 Two or More Races female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_5y_twof18195y</entry>
+              <entry>integer</entry>
+              <entry>2020 Two or More Races female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

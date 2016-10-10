@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race3_2k_description" xml:lang="en-US">
+  <title>SAUS Race3 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds3_2k_othpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othpmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Some Other Race alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othpa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othpamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Some Other Race alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Some Other Race alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Some Other Race alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Some Other Race alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Some Other Race alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_othf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Some Other Race alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twopop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twopmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Two or More Races: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twopa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twopamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Two or More Races: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twop18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twompop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twommed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Two or More Races male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twoma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twomamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Two or More Races male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twom18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twofpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twofmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Two or More Races female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twofa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twofamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Two or More Races female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_2k_twof18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Two or More Races female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

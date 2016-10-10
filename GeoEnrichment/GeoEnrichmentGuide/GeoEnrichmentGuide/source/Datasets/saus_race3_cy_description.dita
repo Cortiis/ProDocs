@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_race3_cy_description" xml:lang="en-US">
+  <title>SAUS Race3 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>race_ds3_cy_othpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othpmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Some Other Race alone: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othpacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othpamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Some Other Race alone: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Some Other Race alone male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Some Other Race alone male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Some Other Race alone female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Some Other Race alone female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_othf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twopopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twopmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Two or More Races: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twopacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twopamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Two or More Races: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twop1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twompopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twommedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Two or More Races male: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twomacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twomamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Two or More Races male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twom1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twofpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twofmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Two or More Races female: Median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twofacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: Adult</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twofamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Two or More Races female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>race_ds3_cy_twof1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races female: 18 to 19 years</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

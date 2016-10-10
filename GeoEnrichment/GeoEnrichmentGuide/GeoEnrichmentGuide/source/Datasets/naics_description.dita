@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="naics_description" xml:lang="en-US">
+  <title>NAICS Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>bs_niacs_buscyemp</entry>
+              <entry>float</entry>
+              <entry>Total: Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_buscyest</entry>
+              <entry>float</entry>
+              <entry>Total: Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_buscypay</entry>
+              <entry>float</entry>
+              <entry>Total: Payroll (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_buscyrtl</entry>
+              <entry>float</entry>
+              <entry>Total: Retail Sales (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occmangmt</entry>
+              <entry>float</entry>
+              <entry>Occupation: Management occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occbusfn</entry>
+              <entry>float</entry>
+              <entry>Occupation: Business, financial operations occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occcomp</entry>
+              <entry>float</entry>
+              <entry>Occupation: Computer, mathematical occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occengin</entry>
+              <entry>float</entry>
+              <entry>Occupation: Architecture, engineering occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occsscie</entry>
+              <entry>float</entry>
+              <entry>Occupation: Life, physical, social science occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occcomm</entry>
+              <entry>float</entry>
+              <entry>Occupation: Community, social services occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occlegal</entry>
+              <entry>float</entry>
+              <entry>Occupation: Legal occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occeduc</entry>
+              <entry>float</entry>
+              <entry>Occupation: Education, training, library occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occarts</entry>
+              <entry>float</entry>
+              <entry>Occupation: Arts, design, entertainment, sports, media occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occhlprac</entry>
+              <entry>float</entry>
+              <entry>Occupation: Healthcare practitioners, technical occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occhlsupp</entry>
+              <entry>float</entry>
+              <entry>Occupation: Healthcare support occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occprot</entry>
+              <entry>float</entry>
+              <entry>Occupation: Protective service occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occfood</entry>
+              <entry>float</entry>
+              <entry>Occupation: Food preparation, serving related occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occbuild</entry>
+              <entry>float</entry>
+              <entry>Occupation: Building, grounds cleaning, maintenance occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occpers</entry>
+              <entry>float</entry>
+              <entry>Occupation: Personal care, service occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occsale</entry>
+              <entry>float</entry>
+              <entry>Occupation: Sales, related occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occadmin</entry>
+              <entry>float</entry>
+              <entry>Occupation: Office, administrative support occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occagri</entry>
+              <entry>float</entry>
+              <entry>Occupation: Farming, fishing, forestry occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occconst</entry>
+              <entry>float</entry>
+              <entry>Occupation: Construction, extraction occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occinstl</entry>
+              <entry>float</entry>
+              <entry>Occupation: Installation, maintenance, repair occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occprod</entry>
+              <entry>float</entry>
+              <entry>Occupation: Production occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_occtrans</entry>
+              <entry>float</entry>
+              <entry>Occupation: Transportation, material moving occupations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcyagric</entry>
+              <entry>float</entry>
+              <entry>Emp: Agricultural, Forestry, Fishing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcyconst</entry>
+              <entry>float</entry>
+              <entry>Emp: Construction (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcyfire</entry>
+              <entry>float</entry>
+              <entry>Emp: Finance, Insurance, Real Estate (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcymanuf</entry>
+              <entry>float</entry>
+              <entry>Emp: Manufacturing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcymine</entry>
+              <entry>float</entry>
+              <entry>Emp: Mining (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcypubad</entry>
+              <entry>float</entry>
+              <entry>Emp: Public Admin. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcyrtrad</entry>
+              <entry>float</entry>
+              <entry>Emp: Retail Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcysrv</entry>
+              <entry>float</entry>
+              <entry>Emp: Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcytrans</entry>
+              <entry>float</entry>
+              <entry>Emp: Transportation, Communications (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcywtrad</entry>
+              <entry>float</entry>
+              <entry>Emp: Wholesale Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empcyuncla</entry>
+              <entry>float</entry>
+              <entry>Emp: Non-Classified Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcyagric</entry>
+              <entry>float</entry>
+              <entry>Est: Agricultural, Forestry, Fishing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcyconst</entry>
+              <entry>float</entry>
+              <entry>Est: Construction (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcyfire</entry>
+              <entry>float</entry>
+              <entry>Est: Finance, Insurance, Real Estate (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcymanuf</entry>
+              <entry>float</entry>
+              <entry>Est: Manufacturing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcymine</entry>
+              <entry>float</entry>
+              <entry>Est: Mining (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcypubad</entry>
+              <entry>float</entry>
+              <entry>Est: Public Admin. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcyrtrad</entry>
+              <entry>float</entry>
+              <entry>Est: Retail Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcysrv</entry>
+              <entry>float</entry>
+              <entry>Est: Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcytrans</entry>
+              <entry>float</entry>
+              <entry>Est: Transportation, Communications (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcywtrad</entry>
+              <entry>float</entry>
+              <entry>Est: Wholesale Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estcyuncla</entry>
+              <entry>float</entry>
+              <entry>Est: Non-Classified Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empaccmcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Accommodation, Food Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empadmicy</entry>
+              <entry>float</entry>
+              <entry>Emp: Admin., Supp., Waste Manage., Remed. Serv. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empagricy</entry>
+              <entry>float</entry>
+              <entry>Emp: Agriculture, Forestry, Fishing, Hunting (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empartscy</entry>
+              <entry>float</entry>
+              <entry>Emp: Arts, Entertainment, Recreation (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empconscy</entry>
+              <entry>float</entry>
+              <entry>Emp: Construction (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empeduccy</entry>
+              <entry>float</entry>
+              <entry>Emp: Educational Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empfinacy</entry>
+              <entry>float</entry>
+              <entry>Emp: Finance, Insurance (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_emphlthcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Health Care, Social Assistance (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empinfocy</entry>
+              <entry>float</entry>
+              <entry>Emp: Information (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empmangcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Management of Companies, Enterprises (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empmanucy</entry>
+              <entry>float</entry>
+              <entry>Emp: Manufacturing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empminecy</entry>
+              <entry>float</entry>
+              <entry>Emp: Mining (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empothrcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Other Services (except Public Admin.) (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empprofcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Professional, Scientific, Technical Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_emppublcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Public Admin. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_emprealcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Real Estate, Rental, Leasing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empretlcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Retail Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_emptrancy</entry>
+              <entry>float</entry>
+              <entry>Emp: Transportation, Warehousing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_emputilcy</entry>
+              <entry>float</entry>
+              <entry>Emp: Utilities (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empwhlscy</entry>
+              <entry>float</entry>
+              <entry>Emp: Wholesale Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_empncecy</entry>
+              <entry>float</entry>
+              <entry>Emp: Non-Classified NAICS2 Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estaccmcy</entry>
+              <entry>float</entry>
+              <entry>Est: Accommodation, Food Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estadmicy</entry>
+              <entry>float</entry>
+              <entry>Est: Admin., Supp., Waste Manage., Remed. Serv. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estagricy</entry>
+              <entry>float</entry>
+              <entry>Est: Agriculture, Forestry, Fishing, Hunting (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estartscy</entry>
+              <entry>float</entry>
+              <entry>Est: Arts, Entertainment, Recreation (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estconscy</entry>
+              <entry>float</entry>
+              <entry>Est: Construction (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_esteduccy</entry>
+              <entry>float</entry>
+              <entry>Est: Educational Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estfinacy</entry>
+              <entry>float</entry>
+              <entry>Est: Finance, Insurance (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_esthlthcy</entry>
+              <entry>float</entry>
+              <entry>Est: Health Care, Social Assistance (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estinfocy</entry>
+              <entry>float</entry>
+              <entry>Est: Information (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estmangcy</entry>
+              <entry>float</entry>
+              <entry>Est: Management of Companies, Enterprises (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estmanucy</entry>
+              <entry>float</entry>
+              <entry>Est: Manufacturing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estminecy</entry>
+              <entry>float</entry>
+              <entry>Est: Mining (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estothrcy</entry>
+              <entry>float</entry>
+              <entry>Est: Other Services (except Public Admin.) (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estprofcy</entry>
+              <entry>float</entry>
+              <entry>Est: Professional, Scientific, Technical Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estpublcy</entry>
+              <entry>float</entry>
+              <entry>Est: Public Admin. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estrealcy</entry>
+              <entry>float</entry>
+              <entry>Est: Real Estate, Rental, Leasing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estretlcy</entry>
+              <entry>float</entry>
+              <entry>Est: Retail Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_esttrancy</entry>
+              <entry>float</entry>
+              <entry>Est: Transportation, Warehousing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estutilcy</entry>
+              <entry>float</entry>
+              <entry>Est: Utilities (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estwhlscy</entry>
+              <entry>float</entry>
+              <entry>Est: Wholesale Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_estncecy</entry>
+              <entry>float</entry>
+              <entry>Est: Non-Classified NAICS2 Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycyagric</entry>
+              <entry>float</entry>
+              <entry>Payroll: Agricultural, Forestry, Fishing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycyconst</entry>
+              <entry>float</entry>
+              <entry>Payroll: Construction (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycyfire</entry>
+              <entry>float</entry>
+              <entry>Payroll: Finance, Insurance, Real Estate (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycymanuf</entry>
+              <entry>float</entry>
+              <entry>Payroll: Manufacturing (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycymine</entry>
+              <entry>float</entry>
+              <entry>Payroll: Mining (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycypubad</entry>
+              <entry>float</entry>
+              <entry>Payroll: Public Admin. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycyrtrad</entry>
+              <entry>float</entry>
+              <entry>Payroll: Retail Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycysrv</entry>
+              <entry>float</entry>
+              <entry>Payroll: Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycytrans</entry>
+              <entry>float</entry>
+              <entry>Payroll: Transportation, Communications (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycywtrad</entry>
+              <entry>float</entry>
+              <entry>Payroll: Wholesale Trade (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_paycyuncla</entry>
+              <entry>float</entry>
+              <entry>Payroll: Non-Classified Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcya</entry>
+              <entry>float</entry>
+              <entry>Est: 1 - 4 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyb</entry>
+              <entry>float</entry>
+              <entry>Est: 5 - 9 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyc</entry>
+              <entry>float</entry>
+              <entry>Est: 10 - 19 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyd</entry>
+              <entry>float</entry>
+              <entry>Est: 20 - 49 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcye</entry>
+              <entry>float</entry>
+              <entry>Est: 50 - 99 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyf</entry>
+              <entry>float</entry>
+              <entry>Est: 100 - 249 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyg</entry>
+              <entry>float</entry>
+              <entry>Est: 250 - 499 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyh</entry>
+              <entry>float</entry>
+              <entry>Est: 500 - 999 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyi</entry>
+              <entry>float</entry>
+              <entry>Est: 1000 - 2499 Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_eszcyo</entry>
+              <entry>float</entry>
+              <entry>Est: 2500 or more Employees (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4411</entry>
+              <entry>float</entry>
+              <entry>Emp: Automobile Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4412</entry>
+              <entry>float</entry>
+              <entry>Emp: Other Motor Vehicle Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4413</entry>
+              <entry>float</entry>
+              <entry>Emp: Automotive Parts, Accessories, Tire Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4421</entry>
+              <entry>float</entry>
+              <entry>Emp: Furniture Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4422</entry>
+              <entry>float</entry>
+              <entry>Emp: Home Furnishings Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4431</entry>
+              <entry>float</entry>
+              <entry>Emp: Electronics, Appliance Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4441</entry>
+              <entry>float</entry>
+              <entry>Emp: Building Material, Supplies Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4442</entry>
+              <entry>float</entry>
+              <entry>Emp: Lawn, Garden Equipment, Supplies Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4451</entry>
+              <entry>float</entry>
+              <entry>Emp: Grocery Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4452</entry>
+              <entry>float</entry>
+              <entry>Emp: Specialty Food Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4453</entry>
+              <entry>float</entry>
+              <entry>Emp: Beer, Wine, Liquor Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4461</entry>
+              <entry>float</entry>
+              <entry>Emp: Health, Personal Care Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4471</entry>
+              <entry>float</entry>
+              <entry>Emp: Gasoline Stations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4481</entry>
+              <entry>float</entry>
+              <entry>Emp: Clothing Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4482</entry>
+              <entry>float</entry>
+              <entry>Emp: Shoe Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4483</entry>
+              <entry>float</entry>
+              <entry>Emp: Jewelry, Luggage, Leather Goods Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4511</entry>
+              <entry>float</entry>
+              <entry>Emp: Sporting Goods, Hobby, Musical Instr. Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4512</entry>
+              <entry>float</entry>
+              <entry>Emp: Book, Periodical, Music Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4521</entry>
+              <entry>float</entry>
+              <entry>Emp: Department Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4529</entry>
+              <entry>float</entry>
+              <entry>Emp: Other General Merchandise Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4531</entry>
+              <entry>float</entry>
+              <entry>Emp: Florists (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4532</entry>
+              <entry>float</entry>
+              <entry>Emp: Office Supplies, Stationery, Gift Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4533</entry>
+              <entry>float</entry>
+              <entry>Emp: Used Merchandise Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4539</entry>
+              <entry>float</entry>
+              <entry>Emp: Other Miscellaneous Store Retailers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4541</entry>
+              <entry>float</entry>
+              <entry>Emp: Electronic Shopping, Mail-Order Houses (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4542</entry>
+              <entry>float</entry>
+              <entry>Emp: Vending Machine Operators (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy4543</entry>
+              <entry>float</entry>
+              <entry>Emp: Direct Selling Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy7223r</entry>
+              <entry>float</entry>
+              <entry>Emp: Eating Places (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtmcy7224</entry>
+              <entry>float</entry>
+              <entry>Emp: Drinking Places (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4411</entry>
+              <entry>float</entry>
+              <entry>Est: Automobile Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4412</entry>
+              <entry>float</entry>
+              <entry>Est: Other Motor Vehicle Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4413</entry>
+              <entry>float</entry>
+              <entry>Est: Automotive Parts, Accessories, Tire Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4421</entry>
+              <entry>float</entry>
+              <entry>Est: Furniture Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4422</entry>
+              <entry>float</entry>
+              <entry>Est: Home Furnishings Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4431</entry>
+              <entry>float</entry>
+              <entry>Est: Electronics, Appliance Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4441</entry>
+              <entry>float</entry>
+              <entry>Est: Building Material, Supplies Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4442</entry>
+              <entry>float</entry>
+              <entry>Est: Lawn, Garden Equipment, Supplies Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4451</entry>
+              <entry>float</entry>
+              <entry>Est: Grocery Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4452</entry>
+              <entry>float</entry>
+              <entry>Est: Specialty Food Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4453</entry>
+              <entry>float</entry>
+              <entry>Est: Beer, Wine, Liquor Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4461</entry>
+              <entry>float</entry>
+              <entry>Est: Health, Personal Care Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4471</entry>
+              <entry>float</entry>
+              <entry>Est: Gasoline Stations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4481</entry>
+              <entry>float</entry>
+              <entry>Est: Clothing Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4482</entry>
+              <entry>float</entry>
+              <entry>Est: Shoe Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4483</entry>
+              <entry>float</entry>
+              <entry>Est: Jewelry, Luggage, Leather Goods Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4511</entry>
+              <entry>float</entry>
+              <entry>Est: Sporting Goods, Hobby, Musical Instr. Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4512</entry>
+              <entry>float</entry>
+              <entry>Est: Book, Periodical, Music Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4521</entry>
+              <entry>float</entry>
+              <entry>Est: Department Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4529</entry>
+              <entry>float</entry>
+              <entry>Est: Other General Merchandise Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4531</entry>
+              <entry>float</entry>
+              <entry>Est: Florists (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4532</entry>
+              <entry>float</entry>
+              <entry>Est: Office Supplies, Stationery, Gift Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4533</entry>
+              <entry>float</entry>
+              <entry>Est: Used Merchandise Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4539</entry>
+              <entry>float</entry>
+              <entry>Est: Other Miscellaneous Store Retailers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4541</entry>
+              <entry>float</entry>
+              <entry>Est: Electronic Shopping, Mail-Order Houses (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4542</entry>
+              <entry>float</entry>
+              <entry>Est: Vending Machine Operators (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy4543</entry>
+              <entry>float</entry>
+              <entry>Est: Direct Selling Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy7223r</entry>
+              <entry>float</entry>
+              <entry>Est: Eating Places (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtecy7224</entry>
+              <entry>float</entry>
+              <entry>Est: Drinking Places (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4411</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Automobile Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4412</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Other Motor Vehicle Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4413</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Automotive Parts, Accessories, Tire Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4421</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Furniture Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4422</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Home Furnishings Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4431</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Electronics, Appliance Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4441</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Building Material, Supplies Dealers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4442</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Lawn, Garden Equipment, Supplies Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4451</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Grocery Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4452</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Specialty Food Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4453</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Beer, Wine, Liquor Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4461</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Health, Personal Care Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4471</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Gasoline Stations (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4481</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Clothing Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4482</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Shoe Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4483</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Jewelry, Luggage, Leather Goods Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4511</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Sporting Goods, Hobby, Musical Instrument Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4512</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Book, Periodical, Music Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4521</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Department Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4529</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Other General Merchandise Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4531</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Florists (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4532</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Office Supplies, Stationery, Gift Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4533</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Used Merchandise Stores (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4539</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Other Miscellaneous Store Retailers (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4541</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Electronic Shopping, Mail-Order Houses (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4542</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Vending Machine Operators (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy4543</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Direct Selling Establishments (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy7223r</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Eating Places (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_rtscy7224</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Drinking Places (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy51</entry>
+              <entry>float</entry>
+              <entry>Emp: Information (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy54</entry>
+              <entry>float</entry>
+              <entry>Emp: Professional, Scientific, Technical Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy55</entry>
+              <entry>float</entry>
+              <entry>Emp: Management of Companies, Enterprises (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy56</entry>
+              <entry>float</entry>
+              <entry>Emp: Admin., Supp., Waste Manage., Remed. Serv. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy61</entry>
+              <entry>float</entry>
+              <entry>Emp: Educational Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy62</entry>
+              <entry>float</entry>
+              <entry>Emp: Health Care, Social Assistance (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy71</entry>
+              <entry>float</entry>
+              <entry>Emp: Arts, Entertainment, Recreation (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy72</entry>
+              <entry>float</entry>
+              <entry>Emp: Accommodation, Food Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srmcy81</entry>
+              <entry>float</entry>
+              <entry>Emp: Other Services (except Public Admin.) (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy51</entry>
+              <entry>float</entry>
+              <entry>Est: Information (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy54</entry>
+              <entry>float</entry>
+              <entry>Est: Professional, Scientific, Technical Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy55</entry>
+              <entry>float</entry>
+              <entry>Est: Management of Companies, Enterprises (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy56</entry>
+              <entry>float</entry>
+              <entry>Est: Admin., Supp., Waste Manage., Remed. Serv. (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy61</entry>
+              <entry>float</entry>
+              <entry>Est: Educational Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy62</entry>
+              <entry>float</entry>
+              <entry>Est: Health Care, Social Assistance (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy71</entry>
+              <entry>float</entry>
+              <entry>Est: Arts, Entertainment, Recreation (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy72</entry>
+              <entry>float</entry>
+              <entry>Est: Accommodation, Food Services (N)</entry>
+            </row>
+            <row>
+              <entry>bs_niacs_srecy81</entry>
+              <entry>float</entry>
+              <entry>Est: Other Services (except Public Admin.) (N)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

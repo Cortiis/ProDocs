@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_se_by_description" xml:lang="en-US">
+  <title>SAUS SE BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>se_by_ms01p15pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Population 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_ms02pnmby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Population 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_by_ms03pmarby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Population 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_by_ms04psepby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Population 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_by_ms05pwidby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Population 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_by_ms06pdivby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Population 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_by_ms07m15pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Male 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_ms08mnmby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Male 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_by_ms09mmarby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Male 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_by_ms10msepby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Male 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_by_ms11mwidby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Male 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_by_ms12mdivby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Male 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_by_ms13f15pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Female 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_ms14fnmby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Female 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_by_ms15fmarby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Female 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_by_ms16fsepby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Female 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_by_ms17fwidby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Female 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_by_ms18fdivby</entry>
+              <entry>integer</entry>
+              <entry>2010 Marital Status: Female 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_by_wrkby</entry>
+              <entry>integer</entry>
+              <entry>2010 Workers 16 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_wrknahby</entry>
+              <entry>integer</entry>
+              <entry>2010 Workers 16 years and over who did not work at home</entry>
+            </row>
+            <row>
+              <entry>se_by_wrkahby</entry>
+              <entry>integer</entry>
+              <entry>2010 Workers 16 years and over who work at home</entry>
+            </row>
+            <row>
+              <entry>se_by_mt01daby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Car, truck, or van - Drove alone</entry>
+            </row>
+            <row>
+              <entry>se_by_mt02cpby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Car, truck, or van - Carpooled</entry>
+            </row>
+            <row>
+              <entry>se_by_mt03busby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Public transportation - Bus</entry>
+            </row>
+            <row>
+              <entry>se_by_mt04stcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Public transportation - Streetcar</entry>
+            </row>
+            <row>
+              <entry>se_by_mt05subby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Public transportation - Subway</entry>
+            </row>
+            <row>
+              <entry>se_by_mt06railby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Public transportation - Railroad</entry>
+            </row>
+            <row>
+              <entry>se_by_mt07boatby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Public transportation - Ferryboat</entry>
+            </row>
+            <row>
+              <entry>se_by_mt08taxiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Taxicab</entry>
+            </row>
+            <row>
+              <entry>se_by_mt09mcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Motorcycle</entry>
+            </row>
+            <row>
+              <entry>se_by_mt10bikeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Bicycle</entry>
+            </row>
+            <row>
+              <entry>se_by_mt11walkby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Walked</entry>
+            </row>
+            <row>
+              <entry>se_by_mt12othby</entry>
+              <entry>integer</entry>
+              <entry>2010 Means of transportation: Other means</entry>
+            </row>
+            <row>
+              <entry>se_by_tt0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: Less than 5 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 5 to 9 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 10 to 14 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 15 to 19 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 20 to 24 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 25 to 29 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 30 to 34 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 35 to 39 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 40 to 44 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt4559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 45 to 59 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt6089by</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 60 to 89 minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_tt90pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Travel time: 90 or more minutes</entry>
+            </row>
+            <row>
+              <entry>se_by_ttaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Travel time: Aggregate (in minutes)</entry>
+            </row>
+            <row>
+              <entry>se_by_ttavgby</entry>
+              <entry>float</entry>
+              <entry>2010 Travel time: Average (in minutes)</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0000by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 12:00 a.m. to 4:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0500by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 5:00 a.m. to 5:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0530by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 5:30 a.m. to 5:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0600by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 6:00 a.m. to 6:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0630by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 6:30 a.m. to 6:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0700by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 7:00 a.m. to 7:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0730by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 7:30 a.m. to 7:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0800by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 8:00 a.m. to 8:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0830by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 8:30 a.m. to 8:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl0900by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 9:00 a.m. to 9:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl1000by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 10:00 a.m. to 10:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl1100by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 11:00 a.m. to 11:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl1200by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 12:00 p.m. to 3:59 p.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_tl1600by</entry>
+              <entry>integer</entry>
+              <entry>2010 Time leaving: 4:00 p.m. to 11:59 p.m.</entry>
+            </row>
+            <row>
+              <entry>se_by_se1p3pby</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Population 3 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_se2nspsby</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Enrolled in nursery school, preschool</entry>
+            </row>
+            <row>
+              <entry>se_by_se3kindby</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Enrolled in kindergarten</entry>
+            </row>
+            <row>
+              <entry>se_by_se4gr14by</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Enrolled in grade 1 to grade 4</entry>
+            </row>
+            <row>
+              <entry>se_by_se5gr58by</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Enrolled in grade 5 to grade 8</entry>
+            </row>
+            <row>
+              <entry>se_by_se6gr912by</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Enrolled in grade 9 to grade 12</entry>
+            </row>
+            <row>
+              <entry>se_by_se7ugradby</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Enrolled in college, undergraduate years</entry>
+            </row>
+            <row>
+              <entry>se_by_se8gradby</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Graduate or professional school</entry>
+            </row>
+            <row>
+              <entry>se_by_se9notenby</entry>
+              <entry>integer</entry>
+              <entry>2010 School enrollment: Not enrolled in school</entry>
+            </row>
+            <row>
+              <entry>se_by_ed01p25pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Population 25 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_ed02nscby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: No schooling completed</entry>
+            </row>
+            <row>
+              <entry>se_by_ed03grn4by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Nursery to 4th grade</entry>
+            </row>
+            <row>
+              <entry>se_by_ed04gr56by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: 5th and 6th grade</entry>
+            </row>
+            <row>
+              <entry>se_by_ed05gr78by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: 7th and 8th grade</entry>
+            </row>
+            <row>
+              <entry>se_by_ed06gr9by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: 9th grade</entry>
+            </row>
+            <row>
+              <entry>se_by_ed07gr10by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: 10th grade</entry>
+            </row>
+            <row>
+              <entry>se_by_ed08gr11by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: 11th grade</entry>
+            </row>
+            <row>
+              <entry>se_by_ed09gr12by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: 12th grade, no diploma</entry>
+            </row>
+            <row>
+              <entry>se_by_ed10hschby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: High school graduate, GED, or alternative</entry>
+            </row>
+            <row>
+              <entry>se_by_ed11sc1by</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Some college, less than 1 year</entry>
+            </row>
+            <row>
+              <entry>se_by_ed12sc1pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Some college, 1 or more years, no degree</entry>
+            </row>
+            <row>
+              <entry>se_by_ed13assoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Associate's degree</entry>
+            </row>
+            <row>
+              <entry>se_by_ed14bachby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Bachelor's degree</entry>
+            </row>
+            <row>
+              <entry>se_by_ed15mastby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Master's degree</entry>
+            </row>
+            <row>
+              <entry>se_by_ed16profby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Professional school degree</entry>
+            </row>
+            <row>
+              <entry>se_by_ed17doctby</entry>
+              <entry>integer</entry>
+              <entry>2010 Educational Attainment: Doctorate degree</entry>
+            </row>
+            <row>
+              <entry>se_by_ecpop16pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Civilian employed population 16 years and over</entry>
+            </row>
+            <row>
+              <entry>se_by_in01agrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Agriculture, forestry, fishing and hunting, and mining</entry>
+            </row>
+            <row>
+              <entry>se_by_in02cnstby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Construction</entry>
+            </row>
+            <row>
+              <entry>se_by_in03mfgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Manufacturing</entry>
+            </row>
+            <row>
+              <entry>se_by_in04wtrdby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Wholesale trade</entry>
+            </row>
+            <row>
+              <entry>se_by_in05rtrdby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Retail trade</entry>
+            </row>
+            <row>
+              <entry>se_by_in06tranby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Transportation and warehousing, and utilities</entry>
+            </row>
+            <row>
+              <entry>se_by_in07infoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Information</entry>
+            </row>
+            <row>
+              <entry>se_by_in08fireby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Finance, insurance, real estate, and rental and leasing</entry>
+            </row>
+            <row>
+              <entry>se_by_in09profby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Professional, scientific, and management</entry>
+            </row>
+            <row>
+              <entry>se_by_in10educby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Educational services, health care and social assistance</entry>
+            </row>
+            <row>
+              <entry>se_by_in11artsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Arts, entertainment, accommodation and food services</entry>
+            </row>
+            <row>
+              <entry>se_by_in12othsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Other services, except public administration</entry>
+            </row>
+            <row>
+              <entry>se_by_in13publby</entry>
+              <entry>integer</entry>
+              <entry>2010 Industry: Public administration</entry>
+            </row>
+            <row>
+              <entry>se_by_oc01mgntby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Management</entry>
+            </row>
+            <row>
+              <entry>se_by_oc02bfopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Business and financial operations</entry>
+            </row>
+            <row>
+              <entry>se_by_oc03compby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Computer and mathematical</entry>
+            </row>
+            <row>
+              <entry>se_by_oc04archby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Architecture and engineering</entry>
+            </row>
+            <row>
+              <entry>se_by_oc05lifeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Life, physical, and social science</entry>
+            </row>
+            <row>
+              <entry>se_by_oc06cssby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Community and social service</entry>
+            </row>
+            <row>
+              <entry>se_by_oc07leglby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Legal</entry>
+            </row>
+            <row>
+              <entry>se_by_oc08etlby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Education, training, and library</entry>
+            </row>
+            <row>
+              <entry>se_by_oc09artsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Arts, design, entertainment, sports, and media</entry>
+            </row>
+            <row>
+              <entry>se_by_oc10hltdby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Health diagnosing and treating practitioners</entry>
+            </row>
+            <row>
+              <entry>se_by_oc11hlttby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Health technologists and technicians</entry>
+            </row>
+            <row>
+              <entry>se_by_oc12hltsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Healthcare support</entry>
+            </row>
+            <row>
+              <entry>se_by_oc13fireby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Fire fighting and prevention</entry>
+            </row>
+            <row>
+              <entry>se_by_oc14lawby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Law enforcement workers</entry>
+            </row>
+            <row>
+              <entry>se_by_oc15foodby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Food preparation and serving related</entry>
+            </row>
+            <row>
+              <entry>se_by_oc16bldgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Building and grounds cleaning and maintenance</entry>
+            </row>
+            <row>
+              <entry>se_by_oc17persby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Personal care and service</entry>
+            </row>
+            <row>
+              <entry>se_by_oc18saleby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Sales and related</entry>
+            </row>
+            <row>
+              <entry>se_by_oc19admnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Office and administrative support</entry>
+            </row>
+            <row>
+              <entry>se_by_oc20farmby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Farming, fishing, and forestry</entry>
+            </row>
+            <row>
+              <entry>se_by_oc21cnstby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Construction and extraction</entry>
+            </row>
+            <row>
+              <entry>se_by_oc22instby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Installation, maintenance, and repair</entry>
+            </row>
+            <row>
+              <entry>se_by_oc23prodby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Production</entry>
+            </row>
+            <row>
+              <entry>se_by_oc24tranby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Transportation</entry>
+            </row>
+            <row>
+              <entry>se_by_oc25matlby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Material moving</entry>
+            </row>
+            <row>
+              <entry>se_by_oc26wcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: White collar</entry>
+            </row>
+            <row>
+              <entry>se_by_oc27bcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Occupation: Blue collar</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

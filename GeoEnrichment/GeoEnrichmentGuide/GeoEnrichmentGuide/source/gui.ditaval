@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<val>
+
+	<prop att="otherprops" action="exclude"/>
+	<prop att="otherprops" val="gui" action="include"/>
+	<prop att="otherprops" val="api" action="exclude"/>
+	<prop att="otherprops" val="ws-rest" action="exclude"/>
+	<prop att="otherprops" val="undocumented" action="exclude"/>
+	
+	<prop att="product" action="exclude"/>
+	<prop att="product" val="onpremise" action="include"/>
+</val>

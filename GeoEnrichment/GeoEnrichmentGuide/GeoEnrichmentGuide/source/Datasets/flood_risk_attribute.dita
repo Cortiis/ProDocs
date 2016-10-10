@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="flood_risk_attribute" xml:lang="en-US">
+  <title>Flood Risk Attribute</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>flood_mapname</entry>
+              <entry>char (11)</entry>
+              <entry>Map Panel Indentifier</entry>
+            </row>
+            <row>
+              <entry>flood_type</entry>
+              <entry>char (3)</entry>
+              <entry>Type</entry>
+            </row>
+            <row>
+              <entry>flood_statecode</entry>
+              <entry>char (2)</entry>
+              <entry>STATE FIPS Code</entry>
+            </row>
+            <row>
+              <entry>flood_fipscode</entry>
+              <entry>char (5)</entry>
+              <entry>FIPSCODE</entry>
+            </row>
+            <row>
+              <entry>flood_floodzone</entry>
+              <entry>char (12)</entry>
+              <entry>FLOOD ZONE with BFE EVEL or Additional Information</entry>
+            </row>
+            <row>
+              <entry>flood_prim_zone</entry>
+              <entry>char (4)</entry>
+              <entry>FlOOD ZONE</entry>
+            </row>
+            <row>
+              <entry>flood_addl_info</entry>
+              <entry>char (5)</entry>
+              <entry>ADDL_INFO</entry>
+            </row>
+            <row>
+              <entry>flood_bfe_elev</entry>
+              <entry>char (4)</entry>
+              <entry>Base Flood Elevation (BFE) in feet</entry>
+            </row>
+            <row>
+              <entry>flood_commnum</entry>
+              <entry>char (6)</entry>
+              <entry>Community Number</entry>
+            </row>
+            <row>
+              <entry>flood_commstatus</entry>
+              <entry>char (3)</entry>
+              <entry>Community Status in the Nationall Flood Insurance Program as follows: E = Emergency NIP = Not in Program R = Regular SUS = Suspended</entry>
+            </row>
+            <row>
+              <entry>flood_map_eff_date</entry>
+              <entry>date</entry>
+              <entry>Map Effective Date</entry>
+            </row>
+            <row>
+              <entry>flood_rms_err</entry>
+              <entry>decimal (11,0)</entry>
+              <entry>Method to adjust the PAPER MAPS to the DIGITAL STREET LAYER fro digitization- with new DFIRM ony area, this method is not used.</entry>
+            </row>
+            <row>
+              <entry>flood_lomr_date</entry>
+              <entry>date</entry>
+              <entry>Letter of Map Revision Date</entry>
+            </row>
+            <row>
+              <entry>flood_casenumber</entry>
+              <entry>char (20)</entry>
+              <entry>Letter of Map Revision Case Number</entry>
+            </row>
+            <row>
+              <entry>flood_shape_area</entry>
+              <entry>float</entry>
+              <entry>Shapre Area</entry>
+            </row>
+            <row>
+              <entry>flood_shape_len</entry>
+              <entry>float</entry>
+              <entry>Shape Length</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

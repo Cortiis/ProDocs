@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="sic2_description" xml:lang="en-US">
+  <title>SIC #2 Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>bs_ds2_rtmcy5211</entry>
+              <entry>float</entry>
+              <entry>Emp: Lumber and other building materials (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5231</entry>
+              <entry>float</entry>
+              <entry>Emp: Paint, Glass, and wallpaper stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5251</entry>
+              <entry>float</entry>
+              <entry>Emp: Hardware stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5261</entry>
+              <entry>float</entry>
+              <entry>Emp: Retail nurseries and garden stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5271</entry>
+              <entry>float</entry>
+              <entry>Emp: Mobile home dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5311</entry>
+              <entry>float</entry>
+              <entry>Emp: Department Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5331</entry>
+              <entry>float</entry>
+              <entry>Emp: Variety Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5399</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous general merchandise stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5411</entry>
+              <entry>float</entry>
+              <entry>Emp: Grocery Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5421</entry>
+              <entry>float</entry>
+              <entry>Emp: Meat and Fish Markets (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5431</entry>
+              <entry>float</entry>
+              <entry>Emp: Fruit and vegetable markets (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5441</entry>
+              <entry>float</entry>
+              <entry>Emp: Candy, nut and confectionery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5451</entry>
+              <entry>float</entry>
+              <entry>Emp: Dairy products stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5461</entry>
+              <entry>float</entry>
+              <entry>Emp: Retail Bakeries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5499</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous food stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5511</entry>
+              <entry>float</entry>
+              <entry>Emp: New and used car dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5521</entry>
+              <entry>float</entry>
+              <entry>Emp: Used car dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5531</entry>
+              <entry>float</entry>
+              <entry>Emp: Auto and home supply stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5541</entry>
+              <entry>float</entry>
+              <entry>Emp: Gasoline service stations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5551</entry>
+              <entry>float</entry>
+              <entry>Emp: Boat dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5561</entry>
+              <entry>float</entry>
+              <entry>Emp: Recreational vehicle dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5571</entry>
+              <entry>float</entry>
+              <entry>Emp: Motorcycle dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5599</entry>
+              <entry>float</entry>
+              <entry>Emp: Automotive dealers, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5611</entry>
+              <entry>float</entry>
+              <entry>Emp: Men's and boys' clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5621</entry>
+              <entry>float</entry>
+              <entry>Emp: Women's clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5632</entry>
+              <entry>float</entry>
+              <entry>Emp: Women's accessory and specialty stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5641</entry>
+              <entry>float</entry>
+              <entry>Emp: Children's and infants' wear stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5651</entry>
+              <entry>float</entry>
+              <entry>Emp: Family clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5661</entry>
+              <entry>float</entry>
+              <entry>Emp: Shoe stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5699</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous apparel and accessory stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5712</entry>
+              <entry>float</entry>
+              <entry>Emp: Furniture stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5713</entry>
+              <entry>float</entry>
+              <entry>Emp: Floor covering stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5714</entry>
+              <entry>float</entry>
+              <entry>Emp: Drapery and upholstery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5719</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous homefurnishings (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5722</entry>
+              <entry>float</entry>
+              <entry>Emp: Household appliance stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5731</entry>
+              <entry>float</entry>
+              <entry>Emp: Radio, television and electronics stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5734</entry>
+              <entry>float</entry>
+              <entry>Emp: Computer and software stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5735</entry>
+              <entry>float</entry>
+              <entry>Emp: Record and prerecorded tape stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5736</entry>
+              <entry>float</entry>
+              <entry>Emp: Musical instrument stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5812</entry>
+              <entry>float</entry>
+              <entry>Emp: Eating places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5813</entry>
+              <entry>float</entry>
+              <entry>Emp: Drinking places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5912</entry>
+              <entry>float</entry>
+              <entry>Emp: Drug stores and proprietary stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5921</entry>
+              <entry>float</entry>
+              <entry>Emp: Liquor stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5932</entry>
+              <entry>float</entry>
+              <entry>Emp: Use merchandise stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5941</entry>
+              <entry>float</entry>
+              <entry>Emp: Sporting goods and bicycle shops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5942</entry>
+              <entry>float</entry>
+              <entry>Emp: Book stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5943</entry>
+              <entry>float</entry>
+              <entry>Emp: Stationery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5944</entry>
+              <entry>float</entry>
+              <entry>Emp: Jewelry stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5945</entry>
+              <entry>float</entry>
+              <entry>Emp: Hobby, toy and game shops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5946</entry>
+              <entry>float</entry>
+              <entry>Emp: Camera and photographic supply stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5947</entry>
+              <entry>float</entry>
+              <entry>Emp: Gift, novelty and souvenir shop (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5948</entry>
+              <entry>float</entry>
+              <entry>Emp: Luggage and leather goods stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5949</entry>
+              <entry>float</entry>
+              <entry>Emp: Sewing, needlework, and piece goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5961</entry>
+              <entry>float</entry>
+              <entry>Emp: Catalog and mail-order houses (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5962</entry>
+              <entry>float</entry>
+              <entry>Emp: Merchandising machine operators (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5963</entry>
+              <entry>float</entry>
+              <entry>Emp: Direct selling establishments (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5983</entry>
+              <entry>float</entry>
+              <entry>Emp: Fuel oil dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5984</entry>
+              <entry>float</entry>
+              <entry>Emp: Liquefied petroleum gas dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5989</entry>
+              <entry>float</entry>
+              <entry>Emp: Fuel dealers, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5992</entry>
+              <entry>float</entry>
+              <entry>Emp: Florists (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5993</entry>
+              <entry>float</entry>
+              <entry>Emp: Tobacco stores and stands (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5994</entry>
+              <entry>float</entry>
+              <entry>Emp: News dealers and newsstands (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5995</entry>
+              <entry>float</entry>
+              <entry>Emp: Optical goods stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtmcy5999</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous retail stores, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5211</entry>
+              <entry>float</entry>
+              <entry>Est: Lumber and other building materials (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5231</entry>
+              <entry>float</entry>
+              <entry>Est: Paint, Glass, and wallpaper stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5251</entry>
+              <entry>float</entry>
+              <entry>Est: Hardware stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5261</entry>
+              <entry>float</entry>
+              <entry>Est: Retail nurseries and garden stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5271</entry>
+              <entry>float</entry>
+              <entry>Est: Mobile home dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5311</entry>
+              <entry>float</entry>
+              <entry>Est: Department Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5331</entry>
+              <entry>float</entry>
+              <entry>Est: Variety Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5399</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous general merchandise stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5411</entry>
+              <entry>float</entry>
+              <entry>Est: Grocery Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5421</entry>
+              <entry>float</entry>
+              <entry>Est: Meat and Fish Markets (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5431</entry>
+              <entry>float</entry>
+              <entry>Est: Fruit and vegetable markets (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5441</entry>
+              <entry>float</entry>
+              <entry>Est: Candy, nut and confectionery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5451</entry>
+              <entry>float</entry>
+              <entry>Est: Dairy products stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5461</entry>
+              <entry>float</entry>
+              <entry>Est: Retail Bakeries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5499</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous food stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5511</entry>
+              <entry>float</entry>
+              <entry>Est: New and used car dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5521</entry>
+              <entry>float</entry>
+              <entry>Est: Used car dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5531</entry>
+              <entry>float</entry>
+              <entry>Est: Auto and home supply stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5541</entry>
+              <entry>float</entry>
+              <entry>Est: Gasoline service stations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5551</entry>
+              <entry>float</entry>
+              <entry>Est: Boat dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5561</entry>
+              <entry>float</entry>
+              <entry>Est: Recreational vehicle dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5571</entry>
+              <entry>float</entry>
+              <entry>Est: Motorcycle dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5599</entry>
+              <entry>float</entry>
+              <entry>Est: Automotive dealers, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5611</entry>
+              <entry>float</entry>
+              <entry>Est: Men's and boys' clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5621</entry>
+              <entry>float</entry>
+              <entry>Est: Women's clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5632</entry>
+              <entry>float</entry>
+              <entry>Est: Women's accessory and specialty stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5641</entry>
+              <entry>float</entry>
+              <entry>Est: Children's and infants' wear stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5651</entry>
+              <entry>float</entry>
+              <entry>Est: Family clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5661</entry>
+              <entry>float</entry>
+              <entry>Est: Shoe stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5699</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous apparel and accessory stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5712</entry>
+              <entry>float</entry>
+              <entry>Est: Furniture stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5713</entry>
+              <entry>float</entry>
+              <entry>Est: Floor covering stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5714</entry>
+              <entry>float</entry>
+              <entry>Est: Drapery and upholstery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5719</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous homefurnishings (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5722</entry>
+              <entry>float</entry>
+              <entry>Est: Household appliance stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5731</entry>
+              <entry>float</entry>
+              <entry>Est: Radio, television and electronics stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5734</entry>
+              <entry>float</entry>
+              <entry>Est: Computer and software stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5735</entry>
+              <entry>float</entry>
+              <entry>Est: Record and prerecorded tape stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5736</entry>
+              <entry>float</entry>
+              <entry>Est: Musical instrument stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5812</entry>
+              <entry>float</entry>
+              <entry>Est: Eating places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5813</entry>
+              <entry>float</entry>
+              <entry>Est: Drinking places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5912</entry>
+              <entry>float</entry>
+              <entry>Est: Drug stores and proprietary stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5921</entry>
+              <entry>float</entry>
+              <entry>Est: Liquor stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5932</entry>
+              <entry>float</entry>
+              <entry>Est: Use merchandise stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5941</entry>
+              <entry>float</entry>
+              <entry>Est: Sporting goods and bicycle shops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5942</entry>
+              <entry>float</entry>
+              <entry>Est: Book stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5943</entry>
+              <entry>float</entry>
+              <entry>Est: Stationery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5944</entry>
+              <entry>float</entry>
+              <entry>Est: Jewelry stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5945</entry>
+              <entry>float</entry>
+              <entry>Est: Hobby, toy and game shops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5946</entry>
+              <entry>float</entry>
+              <entry>Est: Camera and photographic supply stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5947</entry>
+              <entry>float</entry>
+              <entry>Est: Gift, novelty and souvenir shop (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5948</entry>
+              <entry>float</entry>
+              <entry>Est: Luggage and leather goods stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5949</entry>
+              <entry>float</entry>
+              <entry>Est: Sewing, needlework, and piece goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5961</entry>
+              <entry>float</entry>
+              <entry>Est: Catalog and mail-order houses (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5962</entry>
+              <entry>float</entry>
+              <entry>Est: Merchandising machine operators (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5963</entry>
+              <entry>float</entry>
+              <entry>Est: Direct selling establishments (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5983</entry>
+              <entry>float</entry>
+              <entry>Est: Fuel oil dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5984</entry>
+              <entry>float</entry>
+              <entry>Est: Liquefied petroleum gas dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5989</entry>
+              <entry>float</entry>
+              <entry>Est: Fuel dealers, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5992</entry>
+              <entry>float</entry>
+              <entry>Est: Florists (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5993</entry>
+              <entry>float</entry>
+              <entry>Est: Tobacco stores and stands (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5994</entry>
+              <entry>float</entry>
+              <entry>Est: News dealers and newsstands (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5995</entry>
+              <entry>float</entry>
+              <entry>Est: Optical goods stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtecy5999</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous retail stores, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5211</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Lumber and other building materials (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5231</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Paint, Glass, and wallpaper stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5251</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Hardware stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5261</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Retail nurseries and garden stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5271</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Mobile home dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5311</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Department Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5331</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Variety Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5399</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Miscellaneous general merchandise stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5411</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Grocery Stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5421</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Meat and Fish Markets (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5431</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Fruit and vegetable markets (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5441</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Candy, nut and confectionery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5451</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Dairy products stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5461</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Retail Bakeries (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5499</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Miscellaneous food stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5511</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: New and used car dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5521</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Used car dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5531</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Auto and home supply stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5541</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Gasoline service stations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5551</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Boat dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5561</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Recreational vehicle dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5571</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Motorcycle dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5599</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Automotive dealers, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5611</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Men's and boys' clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5621</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Women's clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5632</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Women's accessory and specialty stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5641</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Children's and infants' wear stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5651</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Family clothing stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5661</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Shoe stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5699</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Miscellaneous apparel and accessory stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5712</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Furniture stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5713</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Floor covering stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5714</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Drapery and upholstery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5719</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Miscellaneous homefurnishings (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5722</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Household appliance stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5731</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Radio, television and electronics stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5734</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Computer and software stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5735</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Record and prerecorded tape stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5736</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Musical instrument stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5812</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Eating places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5813</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Drinking places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5912</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Drug stores and proprietary stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5921</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Liquor stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5932</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Use merchandise stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5941</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Sporting goods and bicycle shops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5942</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Book stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5943</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Stationery stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5944</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Jewelry stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5945</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Hobby, toy and game shops (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5946</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Camera and photographic supply stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5947</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Gift, novelty and souvenir shop (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5948</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Luggage and leather goods stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5949</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Sewing, needlework, and piece goods (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5961</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Catalog and mail-order houses (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5962</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Merchandising machine operators (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5963</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Direct selling establishments (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5983</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Fuel oil dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5984</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Liquefied petroleum gas dealers (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5989</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Fuel dealers, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5992</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Florists (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5993</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Tobacco stores and stands (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5994</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: News dealers and newsstands (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5995</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Optical goods stores (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_rtscy5999</entry>
+              <entry>float</entry>
+              <entry>Retail Sales: Miscellaneous retail stores, nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy70</entry>
+              <entry>float</entry>
+              <entry>Est: Hotels and Other Lodging Places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy72</entry>
+              <entry>float</entry>
+              <entry>Est: Personal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy73</entry>
+              <entry>float</entry>
+              <entry>Est: Business Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy75</entry>
+              <entry>float</entry>
+              <entry>Est: Auto Repair, Services and Parking (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy76</entry>
+              <entry>float</entry>
+              <entry>Est: Miscellaneous Repair Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy78</entry>
+              <entry>float</entry>
+              <entry>Est: Motion Pictures (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy79</entry>
+              <entry>float</entry>
+              <entry>Est: Amusement and Recreation Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy80</entry>
+              <entry>float</entry>
+              <entry>Est: Health Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy81</entry>
+              <entry>float</entry>
+              <entry>Est: Legal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy82</entry>
+              <entry>float</entry>
+              <entry>Est: Educational Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy83</entry>
+              <entry>float</entry>
+              <entry>Est: Social Service (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy84</entry>
+              <entry>float</entry>
+              <entry>Est: Museums, Botanical, Zoological Gardens (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy86</entry>
+              <entry>float</entry>
+              <entry>Est: Membership Organizations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy87</entry>
+              <entry>float</entry>
+              <entry>Est: Engineering and Management Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy88</entry>
+              <entry>float</entry>
+              <entry>Est: Private Households (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srecy89</entry>
+              <entry>float</entry>
+              <entry>Est: Services, Nec (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy70</entry>
+              <entry>float</entry>
+              <entry>Emp: Hotels and Other Lodging Places (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy72</entry>
+              <entry>float</entry>
+              <entry>Emp: Personal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy73</entry>
+              <entry>float</entry>
+              <entry>Emp: Business Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy75</entry>
+              <entry>float</entry>
+              <entry>Emp: Auto Repair, Services and Parking (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy76</entry>
+              <entry>float</entry>
+              <entry>Emp: Miscellaneous Repair Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy78</entry>
+              <entry>float</entry>
+              <entry>Emp: Motion Pictures (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy79</entry>
+              <entry>float</entry>
+              <entry>Emp: Amusement and Recreation Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy80</entry>
+              <entry>float</entry>
+              <entry>Emp: Health Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy81</entry>
+              <entry>float</entry>
+              <entry>Emp: Legal Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy82</entry>
+              <entry>float</entry>
+              <entry>Emp: Educational Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy83</entry>
+              <entry>float</entry>
+              <entry>Emp: Social Service (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy84</entry>
+              <entry>float</entry>
+              <entry>Emp: Museums, Botanical, Zoological Gardens (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy86</entry>
+              <entry>float</entry>
+              <entry>Emp: Membership Organizations (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy87</entry>
+              <entry>float</entry>
+              <entry>Emp: Engineering and Management Services (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy88</entry>
+              <entry>float</entry>
+              <entry>Emp: Private Households (S)</entry>
+            </row>
+            <row>
+              <entry>bs_ds2_srmcy89</entry>
+              <entry>float</entry>
+              <entry>Emp: Services, Nec (S)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

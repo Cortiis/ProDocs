@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset2_saus_pop2_by_description" xml:lang="en-US">
+  <title>Dataset 2: SAUS POP2 BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds2_by_popby</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an001afgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Afghan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an002albby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Albanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an003alsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Alsatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an004ameby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: American</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an005egyby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Egyptian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an006irqby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Iraqi</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an007jorby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Jordanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an008lbnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Lebanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an009morby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Moroccan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an010palby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Palestinian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an011syrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Syrian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an012arbby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Arab/Arabic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an013oarby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab, Other Arab</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an014armby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Armenian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an015acsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Assyrian/Chaldean/Syriac</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an016ausby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Australian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an017autby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Austrian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an018basby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Basque</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an019belby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Belgian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an020braby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Brazilian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an021briby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: British</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an022bgrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Bulgarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an023cajby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Cajun</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an024canby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an025cruby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Carpatho Rusyn</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an026celby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Celtic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an027croby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Croatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an028cypby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Cypriot</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an029czeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Czech</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an030czsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Czechoslovakian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an031danby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Danish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an032dutby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Dutch</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an033eeuby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Eastern European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an034engby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: English</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an035estby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Estonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an036eurby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an037finby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Finnish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an038freby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: French (except Basque)</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an039frcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: French Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an040gerby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an041gruby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: German Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an042greby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an043guyby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Guyanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an044hunby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an045iceby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Icelander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an046irnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Iranian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an047iriby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an048isrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Israeli</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an049itaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an050latby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Latvian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an051litby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Lithuanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an052luxby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Luxemburger</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an053macby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Macedonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an054malby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Maltese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an055nzlby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: New Zealander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an056neuby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Northern European</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an057norby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Norwegian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an058pgeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Pennsylvania German</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an059polby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an060porby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Portuguese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an061romby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Romanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an062rusby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an063scaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Scandinavian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an064sirby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Scotch-Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an065scoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Scottish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an066serby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Serbian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an067slaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Slavic</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an068svkby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Slovak</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an069svnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Slovene</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an070sunby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Soviet Union</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an071cveby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Cape Verdean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an072ethby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Ethiopian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an073ghaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Ghanaian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an074kenby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Kenyan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an075lbrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Liberian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an076ngaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Nigerian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an077senby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Senegalese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an078sleby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Sierra Leonean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an079somby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Somalian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an080safby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, South African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an081sdnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Sudanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an082ugaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Ugandan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an083zweby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Zimbabwean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an084afrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an085osaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African, Other Subsaharan African</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an086sweby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Swedish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an087swiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Swiss</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an088turby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Turkish</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an089ukrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Ukrainian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an090welby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Welsh</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an091bhsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Bahamian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an092brbby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Barbadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an093blzby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Belizean</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an094bmuby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Bermudan</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an095bwiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), British West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an096dwiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Dutch West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an097haiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Haitian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an098jamby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Jamaican</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an099ttoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Trinidadian and Tobagonian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an100virby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), U.S. Virgin Islander</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an101winby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an102owiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups), Other West Indian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an103yugby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Yugoslavian</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an104ogrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Other groups</entry>
+            </row>
+            <row>
+              <entry>pop_ds2_by_an105unrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Unclassified or not reported</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hi_by_description" xml:lang="en-US">
+  <title>SAUS HI BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hi_by_popby</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population</entry>
+            </row>
+            <row>
+              <entry>hi_by_hhby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households</entry>
+            </row>
+            <row>
+              <entry>hi_by_hhpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Population in households</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha1524by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha2534by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha3544by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha4554by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha6574by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha7584by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_hha85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_hi200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_himedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_hiaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Household income: Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_hiavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Household income: Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_incpcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Per capita income</entry>
+            </row>
+            <row>
+              <entry>hi_by_incphmby</entry>
+              <entry>integer</entry>
+              <entry>2010 Per household member income</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75by</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i000kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i010kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i015kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i020kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i025kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i030kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i035kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i040kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $40,000 to $44,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i045kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $45,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i050kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i060kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $60,000 to $74,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i075kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $75,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i100kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i125kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i150kby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $150,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75i200pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: $200,000 or more</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75imedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: Household income - Median</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder under 25 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder 25 to 34 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder 35 to 44 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder 45 to 54 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder 55 to 64 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder 65 to 74 years: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75iaggby</entry>
+              <entry>float</entry>
+              <entry>2010 Householder 75 years and over: Household income - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hi_by_h15iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder under 25 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_h25iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 25 to 34 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_h35iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 35 to 44 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_h45iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 45 to 54 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_h55iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 55 to 64 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_h65iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 65 to 74 years: Household income - Average</entry>
+            </row>
+            <row>
+              <entry>hi_by_h75iavgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Householder 75 years and over: Household income - Average</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

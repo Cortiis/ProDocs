@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Intro_GeoEnrichment" xml:lang="en-US">
+  <title>GeoEnrichment Module</title>
+  <conbody>
+    <section>
+      <p>The GeoEnrichment Module functions as a
+        delivery mechanism for accessing a data source and returning data. Given a lookup key as
+        input, the GeoEnrichment Module accesses a registered database and returns
+        additional attribute data for the referenced record. The type of attribute data is
+        determined by the installed dataset(s).</p>
+      <p>The GeoEnrichment Module is delivered as a Spectrum
+        module and can be built into Spectrum stages. The <keyword
+          keyref="productname"/> must already be installed.</p>
+    </section>
+  </conbody>
+</concept>

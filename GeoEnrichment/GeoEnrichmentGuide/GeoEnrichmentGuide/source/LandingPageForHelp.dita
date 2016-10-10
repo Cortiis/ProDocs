@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-US" id="splash">
+ <title outputclass="welcome">Welcome</title>
+ <conbody>
+  <section outputclass="welcomeSubtitle"><ph outputclass="welcomeProductInfo">GeoEnrichment Guide
+   0-SNAPSHOT</ph></section>
+  <section>
+   <title outputclass="welcome">Modules covered:</title>
+   <ul>
+    <li><keyword keyref="modulename"></keyword></li>
+   </ul>
+  </section>
+  <section>
+   <title outputclass="welcome">Topics covered in this guide include:</title>
+   <ul>
+    <li>Adding the <keyword keyref="modulename"/> dataset(s) as a database resource</li>
+    <li>Configuring the <keyword keyref="modulename"/></li>
+   </ul>
+  </section>
+  <section>
+   <title outputclass="moreinformation">For more information</title>
+   <p>Complete documentation for <keyword keyref="productname"/> can be found at <xref
+    href="http://support.pb.com/spectrum" scope="external" format="html"
+    >support.pb.com/spectrum</xref>. Rather have a PDF? This guide is available in PDF format:</p>
+   <p><image href="../../Images/DownloadIcon.png" id="image_ebd_zlh_3r"/> <xref
+    href="http://support.pb.com/help/spectrum/0-SNAPSHOT/pdf/en/Spectrum_0-SNAPSHOT_GeoEnrichmentGuide.pdf"
+    format="pdf" scope="external">Download the PDF</xref></p>
+  </section>
+  <section outputclass="welcomeFooter">
+   <simpletable frame="none" id="FooterTable" outputclass="welcomeFooterTable">
+    <strow>
+     <stentry><image href="../../Images/PBLogo.png" id="image_evr_1mh_3r" width="100px"/> <ph outputclass="welcomeLegal">&#169;2015 Pitney Bowes Inc. All rights reserved.</ph></stentry>
+     <stentry outputclass="welcomeFooterSupportLinkCell"><xref href="http://support.pb.com"
+      format="html" scope="external" outputclass="welcomeFooterSupportLink"
+      >support.pb.com</xref></stentry>
+    </strow>
+   </simpletable>
+  </section>
+ </conbody>
+</concept>

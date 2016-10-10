@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_cep1_cy_description" xml:lang="en-US">
+  <title>Dataset 1: SAUS CEP1 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>cep_ds1_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_totalexpcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total household expenditures</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_foodtotlcy</entry>
+              <entry>float</entry>
+              <entry>2015 Food</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_foodhomecy</entry>
+              <entry>float</entry>
+              <entry>2015 Food at home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cerbakrycy</entry>
+              <entry>float</entry>
+              <entry>2015 Cereals and bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cerealcy</entry>
+              <entry>float</entry>
+              <entry>2015 Cereals and cereal products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ce010110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Flour</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ce010120cy</entry>
+              <entry>float</entry>
+              <entry>2015 Prepared flour mixes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ce010210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Ready-to-eat and cooked cereals</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ce010310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Rice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ce010320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pasta, cornmeal and other cereal products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_bakerycy</entry>
+              <entry>float</entry>
+              <entry>2015 Bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_breadcy</entry>
+              <entry>float</entry>
+              <entry>2015 Bread</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_br020110cy</entry>
+              <entry>float</entry>
+              <entry>2015 White bread</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_br020210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bread, other than white</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_crakcookcy</entry>
+              <entry>float</entry>
+              <entry>2015 Cookies and crackers</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cc020510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cookies</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cc020610cy</entry>
+              <entry>float</entry>
+              <entry>2015 Crackers</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_frzbakrycy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen and refrigerated bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othbakrycy</entry>
+              <entry>float</entry>
+              <entry>2015 Other bakery products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ob020310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Biscuits and rolls</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ob020410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cakes and cupcakes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ob020620cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bread and cracker products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ob020710cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sweetrolls, coffee cakes, doughnuts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ob020820cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pies, tarts, turnovers</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_animalcy</entry>
+              <entry>float</entry>
+              <entry>2015 Meats, poultry, fish, and eggs</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_beefcy</entry>
+              <entry>float</entry>
+              <entry>2015 Beef</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_grndbeefcy</entry>
+              <entry>float</entry>
+              <entry>2015 Ground beef</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_roastcy</entry>
+              <entry>float</entry>
+              <entry>2015 Roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ro030210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Chuck roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ro030310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Round roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ro030410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other roast</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_steakcy</entry>
+              <entry>float</entry>
+              <entry>2015 Steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_st030510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Round steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_st030610cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sirloin steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_st030710cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other steak</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othbeefcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other beef</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_porkcy</entry>
+              <entry>float</entry>
+              <entry>2015 Pork</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_po040110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bacon</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_po040210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Pork chops</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_porkhamcy</entry>
+              <entry>float</entry>
+              <entry>2015 Ham</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ha040310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Ham, not canned</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ha040610cy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned ham</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_po040510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sausage</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_po040410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other pork</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othrmeatcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other meats</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_frankfrtcy</entry>
+              <entry>float</entry>
+              <entry>2015 Frankfurters</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lnchmeatcy</entry>
+              <entry>float</entry>
+              <entry>2015 Lunch meats (cold cuts)</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ln050210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bologna, liverwurst, salami</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ln050310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other lunchmeats</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lambothrcy</entry>
+              <entry>float</entry>
+              <entry>2015 Lamb, organ meats and others</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_la050410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lamb and organ meats</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_la050900cy</entry>
+              <entry>float</entry>
+              <entry>2015 Mutton, goat and game</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_poultrycy</entry>
+              <entry>float</entry>
+              <entry>2015 Poultry</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_chickency</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh and frozen chickens</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ch060110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh and frozen whole chicken</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ch060210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh and frozen chicken parts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othpltrycy</entry>
+              <entry>float</entry>
+              <entry>2015 Other poultry</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fishseacy</entry>
+              <entry>float</entry>
+              <entry>2015 Fish and seafood</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fi070110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned fish and seafood</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fi070230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh fish and shellfish</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fi070240cy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen fish and shellfish</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_eggscy</entry>
+              <entry>float</entry>
+              <entry>2015 Eggs</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_dairycy</entry>
+              <entry>float</entry>
+              <entry>2015 Dairy products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_milkcrmcy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh milk and cream</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_mi090110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh milk, all types</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_mi090210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cream</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othdairycy</entry>
+              <entry>float</entry>
+              <entry>2015 Other dairy products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_od100110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Butter</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_od100210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cheese</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_od100410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Ice cream and related products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_od100510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous dairy products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fruitvegcy</entry>
+              <entry>float</entry>
+              <entry>2015 Fruits and vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_frshfrutcy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ff110110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Apples</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ff110210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bananas</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ff110310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Oranges</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ff110510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Citrus fruits, excluding oranges</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_ff110410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other fresh fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_freshvegcy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fv120110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Potatoes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fv120210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lettuce</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fv120310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Tomatoes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fv120410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other fresh vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_procfrutcy</entry>
+              <entry>float</entry>
+              <entry>2015 Processed fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_frznfrutcy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen fruits and fruit juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_zf130110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen orange juice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_zf130121cy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_zf130122cy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen fruit juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_canfruitcy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned fruits</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_dryfruitcy</entry>
+              <entry>float</entry>
+              <entry>2015 Dried fruit</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_freshfrjcy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh fruit juice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cnbotfrjcy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned and bottled fruit juice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_procvegcy</entry>
+              <entry>float</entry>
+              <entry>2015 Processed vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fzvegetcy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_candvegcy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned and dried vegetables and juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned beans</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned corn</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140230cy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned miscellaneous vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dried peas</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140330cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dried beans</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140340cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dried miscellaneous vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dried processed vegetables</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen vegetable juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cn140420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fresh and canned vegetable juices</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othrfoodcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other food at home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sweetscy</entry>
+              <entry>float</entry>
+              <entry>2015 Sugar and other sweets</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sw150110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Candy and chewing gum</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sw150211cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sugar</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sw150212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Artificial sweeteners</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sw150310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Jams, preserves, other sweets</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fatsoilscy</entry>
+              <entry>float</entry>
+              <entry>2015 Fats and oils</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fa160110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Margarine</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fa160211cy</entry>
+              <entry>float</entry>
+              <entry>2015 Fats and oils</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fa160212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Salad dressings</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fa160310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nondairy cream and imitation milk</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fa160320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Peanut butter</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_miscfoodcy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_frznprepcy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_zp180210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Frozen meals</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_zp180220cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other frozen prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cnpksoupcy</entry>
+              <entry>float</entry>
+              <entry>2015 Canned and packaged soups</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_snackscy</entry>
+              <entry>float</entry>
+              <entry>2015 Potato chips, nuts, and other snacks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sn180310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Potato chips and other snacks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sn180320cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nuts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_condmntscy</entry>
+              <entry>float</entry>
+              <entry>2015 Condiments and seasonings</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_co180410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Salt, spices, other seasonings</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_co180420cy</entry>
+              <entry>float</entry>
+              <entry>2015 Olives, pickles, relishes</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_co180510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sauces and gravies</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_co180520cy</entry>
+              <entry>float</entry>
+              <entry>2015 Baking needs and miscellaneous products</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othrprepcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other canned and packaged prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_op180611cy</entry>
+              <entry>float</entry>
+              <entry>2015 Prepared salads</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_op180612cy</entry>
+              <entry>float</entry>
+              <entry>2015 Prepared desserts</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_op180620cy</entry>
+              <entry>float</entry>
+              <entry>2015 Baby food</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_op180710cy</entry>
+              <entry>float</entry>
+              <entry>2015 Miscellaneous prepared foods</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_op180720cy</entry>
+              <entry>float</entry>
+              <entry>2015 Vitamin supplements</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_nalcbevgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Nonalcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170110cy</entry>
+              <entry>float</entry>
+              <entry>2015 Cola</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other carbonated drinks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170520cy</entry>
+              <entry>float</entry>
+              <entry>2015 Tea</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_nacoffeecy</entry>
+              <entry>float</entry>
+              <entry>2015 Coffee</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cf170310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Roasted coffee</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_cf170410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Instant and freeze dried coffee</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170510cy</entry>
+              <entry>float</entry>
+              <entry>2015 Noncarbonated fruit flavored drinks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170531cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other noncarbonated beverages and ice</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170532cy</entry>
+              <entry>float</entry>
+              <entry>2015 Bottled water</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na170533cy</entry>
+              <entry>float</entry>
+              <entry>2015 Sports drinks</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_na200112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Nonalcoholic beer</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_foodawaycy</entry>
+              <entry>float</entry>
+              <entry>2015 Food away from home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_restcoaocy</entry>
+              <entry>float</entry>
+              <entry>2015 Meals at restaurants, carry outs and other</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lunchcy</entry>
+              <entry>float</entry>
+              <entry>2015 Lunch</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lu190111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lunch at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lu190112cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lunch at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lu190113cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lunch at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_lu190114cy</entry>
+              <entry>float</entry>
+              <entry>2015 Lunch at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_dinnercy</entry>
+              <entry>float</entry>
+              <entry>2015 Dinner</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_di190211cy</entry>
+              <entry>float</entry>
+              <entry> 2015 Dinner at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_di190212cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dinner at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_di190213cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dinner at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_di190214cy</entry>
+              <entry>float</entry>
+              <entry>2015 Dinner at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_snknabevcy</entry>
+              <entry>float</entry>
+              <entry>2015 Snacks and nonalcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sa190311cy</entry>
+              <entry>float</entry>
+              <entry>2015 Snacks and nonalcoholic beverages at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sa190312cy</entry>
+              <entry>float</entry>
+              <entry>2015 Snacks and nonalcoholic beverages at full service</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sa190313cy</entry>
+              <entry>float</entry>
+              <entry>2015 Snacks and nonalcoholic beverages at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_sa190314cy</entry>
+              <entry>float</entry>
+              <entry>2015 Snacks and nonalcoholic beverages at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_brkfbruncy</entry>
+              <entry>float</entry>
+              <entry>2015 Breakfast and brunch</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_bb190321cy</entry>
+              <entry>float</entry>
+              <entry>2015 Breakfast and brunch at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_bb190322cy</entry>
+              <entry>float</entry>
+              <entry>2015 Breakfast and brunch at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_bb190323cy</entry>
+              <entry>float</entry>
+              <entry>2015 Breakfast and brunch at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_bb190324cy</entry>
+              <entry>float</entry>
+              <entry>2015 Breakfast and brunch at employer and school cafeterias</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fdschoolcy</entry>
+              <entry>float</entry>
+              <entry>2015 Food or board at school</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fdcaterdcy</entry>
+              <entry>float</entry>
+              <entry>2015 Catered affairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fdontripcy</entry>
+              <entry>float</entry>
+              <entry>2015 Food on out-of-town trips</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_fdschluncy</entry>
+              <entry>float</entry>
+              <entry>2015 School lunches</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_alcbevgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Alcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_alchomecy</entry>
+              <entry>float</entry>
+              <entry>2015 At home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_al200111cy</entry>
+              <entry>float</entry>
+              <entry>2015 Beer and ale</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_al200210cy</entry>
+              <entry>float</entry>
+              <entry>2015 Whiskey</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_al200310cy</entry>
+              <entry>float</entry>
+              <entry>2015 Wine</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_al200410cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other alcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_alcawaycy</entry>
+              <entry>float</entry>
+              <entry>2015 Away from home</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_beernalecy</entry>
+              <entry>float</entry>
+              <entry>2015 Beer and ale</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_be200511cy</entry>
+              <entry>float</entry>
+              <entry>2015 Beer and ale at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_be200512cy</entry>
+              <entry>float</entry>
+              <entry>2015 Beer and ale at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_be200513cy</entry>
+              <entry>float</entry>
+              <entry>2015 Beer and ale at vending machines and mobile vendors</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_winecy</entry>
+              <entry>float</entry>
+              <entry>2015 Wine</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_wi200521cy</entry>
+              <entry>float</entry>
+              <entry>2015 Wine at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_wi200522cy</entry>
+              <entry>float</entry>
+              <entry>2015 Wine at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_othalcbvcy</entry>
+              <entry>float</entry>
+              <entry>2015 Other alcoholic beverages</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_oa200531cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other alcoholic beverages at fast food, take-out, delivery, concession stands, buffet and cafeteria</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_oa200532cy</entry>
+              <entry>float</entry>
+              <entry>2015 Other alcoholic beverages at full service restaurants</entry>
+            </row>
+            <row>
+              <entry>cep_ds1_cy_alchtripcy</entry>
+              <entry>float</entry>
+              <entry>2015 Alcoholic beverages purchased on trips</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

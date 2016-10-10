@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_pop1_by_description" xml:lang="en-US">
+  <title>Dataset1: SAUS POP1 BY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds1_by_whtpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_blkpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_indpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_asnpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hpipopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_othpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_twopopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsppopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp1whtby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp2blkby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp3indby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp4asnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp5hpiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp6othby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_nhp7twoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Not Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp1whtby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp2blkby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp3indby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp4asnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp5hpiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp6othby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hsp7twoby</entry>
+              <entry>integer</entry>
+              <entry>2010 Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_popby</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Total population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_padultby</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Total population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_p1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_maleby</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_mmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Male population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_madultby</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_mamedby</entry>
+              <entry>float</entry>
+              <entry>2010 Male population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_m1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_femaleby</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f0004by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f0509by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f1014by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f1519by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f2024by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f2529by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f3034by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f3539by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f4044by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f4549by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f5054by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f5559by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f6064by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f6569by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f7074by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f7579by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f8084by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f85pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_fmedby</entry>
+              <entry>float</entry>
+              <entry>2010 Female population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_fadultby</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_famedby</entry>
+              <entry>float</entry>
+              <entry>2010 Female population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_f1819by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop00by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: Under 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop01by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop02by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 2 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop03by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 3 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop04by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 4 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop05by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop06by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 6 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop07by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 7 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop08by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 8 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop09by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop10by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 10 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop11by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 11 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop12by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 12 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop13by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 13 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop14by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop15by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 15 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop16by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 16 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop17by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 17 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop18by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_pop19by</entry>
+              <entry>integer</entry>
+              <entry>2010 Total population: 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male00by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: Under 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male01by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male02by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 2 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male03by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 3 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male04by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 4 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male05by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male06by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 6 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male07by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 7 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male08by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 8 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male09by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male10by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 10 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male11by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 11 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male12by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 12 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male13by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 13 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male14by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male15by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 15 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male16by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 16 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male17by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 17 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male18by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_male19by</entry>
+              <entry>integer</entry>
+              <entry>2010 Male population: 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female00by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: Under 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female01by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 1 year</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female02by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 2 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female03by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 3 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female04by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 4 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female05by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female06by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 6 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female07by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 7 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female08by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 8 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female09by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female10by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 10 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female11by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 11 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female12by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 12 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female13by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 13 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female14by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female15by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 15 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female16by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 16 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female17by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 17 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female18by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 18 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_female19by</entry>
+              <entry>integer</entry>
+              <entry>2010 Female population: 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Population in households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_avghhszby</entry>
+              <entry>float</entry>
+              <entry>2010 Average household size</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gqpopby</entry>
+              <entry>integer</entry>
+              <entry>2010 Population in group quarters</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq1insby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Institutionalized population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq2corby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Institutionalized - Correctional facilities</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq3juvby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Institutionalized - Juvenile facilities</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq4nurby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Institutionalized - Nursing facilities</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq5oifby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Institutionalized - Other institutional</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq6nonby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Noninstitutionalized population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq7colby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Noninstitutionalized - College/University housing</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq8milby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Noninstitutionalized - Military quarters</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_gq9onfby</entry>
+              <entry>integer</entry>
+              <entry>2010 Group quarters: Noninstitutionalized - Other noninstitutional</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs1perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs2perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs3perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs4perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs5perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs6perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_hhs7perby</entry>
+              <entry>integer</entry>
+              <entry>2010 Households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls01p05pby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Population 5 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls02englby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Speak only English</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls03spanby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Spanish or Spanish Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls04frenby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: French (incl. Patois, Cajun)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls05frcrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: French Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls06italby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls07portby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Portuguese or Portuguese Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls08germby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls09yiddby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Yiddish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls10owgeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other West Germanic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls11scanby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Scandinavian languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls12greeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls13russby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls14poliby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls15serbby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Serbo-Croatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls16oslaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other Slavic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls17armeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Armenian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls18persby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Persian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls19gujaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Gujarathi</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls20hindby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Hindi</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls21urduby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Urdu</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls22oindby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other Indic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls23oieuby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other Indo-European languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls24chinby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Chinese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls25japaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Japanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls26koreby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Korean</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls27mocaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Mon-Khmer, Cambodian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls28hmonby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Hmong</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls29thaiby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Thai</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls30loatby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Laotian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls31vietby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Vietnamese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls32oasnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other Asian languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls33tagaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Tagalog</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls34opisby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other Pacific Island languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls35navaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Navajo</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls36onnaby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other Native North American languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls37hungby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls38arabby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Arabic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls39hebrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Hebrew</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls40afriby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: African languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_ls41otunby</entry>
+              <entry>integer</entry>
+              <entry>2010 Language Spoken at Home: Other and unspecified languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an01amerby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: American</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an02arabby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Arab</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an03britby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: British</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an04czecby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Czech</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an05daniby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Danish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an06dutcby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Dutch</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an07englby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: English</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an08euroby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: European</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an09frenby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: French (except Basque)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an10frcnby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: French Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an11germby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an12greeby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an13hungby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an14irisby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an15italby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an16lithby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Lithuanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an17norwby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Norwegian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an18poliby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an19portby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Portuguese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an20russby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an21scirby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Scotch-Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an22scotby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Scottish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an23slovby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Slovak</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an24safrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Subsaharan African</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an25swedby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Swedish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an26swisby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Swiss</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an27ukraby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Ukrainian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an28welsby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Welsh</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an29windby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: West Indian (except Hispanic groups)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an30othgby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Other groups</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_by_an31ucnrby</entry>
+              <entry>integer</entry>
+              <entry>2010 Ancestry: Unclassified or not reported</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

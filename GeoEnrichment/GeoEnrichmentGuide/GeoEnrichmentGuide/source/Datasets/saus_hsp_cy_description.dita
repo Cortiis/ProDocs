@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hsp_cy_description" xml:lang="en-US">
+  <title>SAUS HSP CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hsp_cy_hsppopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsppmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsppacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsppamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hspf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhpmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Not Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhpacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhpamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Not Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhp1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhmpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhmmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Not Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhmacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhmamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Not Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhm1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhfpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhfmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Not Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhfacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhfamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Not Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_nhf1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp01mexcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Mexican</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp02prcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Puerto Rican</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp03cubcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Cuban</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp04domcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Dominican</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp05cacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American (excluding Mexican)</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp06crcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Costa Rican</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp07guacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Guatemalan</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp08honcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Honduran</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp09niccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Nicaraguan</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp10pancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Panamanian</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp11salcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Salvadoran</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp12ocacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Central American - Other Central American</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp13sacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp14argcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Argentinean</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp15bolcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Bolivian</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp16chicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Chilean</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp17colcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Colombian</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp18ecucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Ecuadorian</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp19parcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Paraguayan</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp20percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Peruvian</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp21urucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Uruguayan</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp22vency</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Venezuelan</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp23osacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: South American - Other South American</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp24ohlcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Other Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp25espcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Other Hispanic - Spaniard</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp26spncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Other Hispanic - Spanish</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp27spacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Other Hispanic - Spanish American</entry>
+            </row>
+            <row>
+              <entry>hsp_cy_hsp28othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Other Hispanic - All other Hispanic</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

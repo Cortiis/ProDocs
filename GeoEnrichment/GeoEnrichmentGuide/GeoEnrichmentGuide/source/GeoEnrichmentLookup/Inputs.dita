@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GEM_Inputs" xml:lang="en-US">
+  <title>Input</title>
+  <refbody>
+
+    <section>
+      <p/>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.89*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*" align="center"/>
+          <colspec colname="c3" colnum="3" colwidth="7.29*"/>
+          <thead>
+            <row>
+              <entry><ph otherprops="gui">Field Name</ph><ph otherprops="ws-rest "
+                >Parameter</ph></entry>
+              <entry>Type</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry translate="no">lookupKey</entry>
+              <entry>String</entry>
+              <entry>A unique identifier related to the chosen dataset used to access a specific
+                record. <p>If using Master Location Data (MLD) in a geocoding stage, the
+                    <parmname>lookupKey</parmname> field must be created using a Custom script,
+                  where the <parmname>lookupKey</parmname> value is the concatenization of the
+                    <parmname>US FIPS State Code</parmname> and <parmname>Point ID</parmname> output
+                  field values of the geocode data.</p><p>For example: When using the USA Enterprise
+                  Geocoding Module, the <parmname>lookupKey</parmname> Custom definition is as
+                  follows:<codeblock>data['lookupKey']=data['USFIPSStateCode']+data['PointCode']; </codeblock></p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+
+
+  </refbody>
+</reference>

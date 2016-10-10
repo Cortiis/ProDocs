@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GEM_Options" xml:lang="en-US">
+  <title>Options</title>
+  <refbody>
+
+    <section>
+      <p otherprops="gui">The <uicontrol>Options</uicontrol> dialog can be accessed using either
+          <uicontrol>Management Console</uicontrol> or <uicontrol>Enterprise
+        Designer</uicontrol>.</p>
+      <p>
+        <ul otherprops="gui">
+          <li>In <uicontrol>Management Console</uicontrol>: From <menucascade>
+              <uicontrol>Modules</uicontrol>
+              <uicontrol>Other Services</uicontrol>
+            </menucascade>, select <uicontrol>GeoEnrichmentLookup</uicontrol>.</li>
+          <li>In <uicontrol>Enterprise Designer</uicontrol>: Double-click the
+              <uicontrol>GeoEnrichmentLookup</uicontrol> stage in the dataflow. </li>
+        </ul>
+      </p>
+      <p otherprops="gui">To modify the default option, on the <uicontrol>GeoEnrichmentLookup
+          Options</uicontrol> dialog, check the <uicontrol>Override system default
+          options</uicontrol> checkbox and enter the following option.</p>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.5*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*" align="center"/>
+          <colspec colname="c3" colnum="3" colwidth="3.5*"/>
+          <thead>
+            <row>
+              <entry><ph otherprops="gui">Field Name</ph><ph otherprops="ws-rest "
+                >Parameter</ph></entry>
+              <entry>Type</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry translate="no">Database</entry>
+              <entry>String</entry>
+              <entry>The file name used for registering the database(s) in the <cite>db.ini</cite>
+                file.</entry>
+            </row>
+            <!--<row>
+              <entry>Dataset Name</entry>
+              <entry>String</entry>
+              <entry>The name of the dataset. One of the following:<dl>
+                  <dlentry>
+                    <dt>dld.data</dt>
+                    <dd>Extended Attributes (default)</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>tbd</dt>
+                    <dd>APN and Elevation</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>tbd</dt>
+                    <dd>Property Ownership Attributes</dd>
+                  </dlentry>
+                  <dlentry>
+                    <dt>tbd</dt>
+                    <dd>Property Financial Services Attributes</dd>
+                  </dlentry>
+                <dlentry>
+                  <dt>tbd</dt>
+                  <dd>Basic Property Insurance Attributes</dd>
+                </dlentry>
+                <dlentry>
+                  <dt>tbd</dt>
+                  <dd>Extended Property Insurance Attributes</dd>
+                </dlentry>
+                <dlentry>
+                  <dt>tbd</dt>
+                  <dd>All Property Attributes</dd>
+                </dlentry>
+                </dl></entry>
+            </row>-->
+            
+
+
+
+
+
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+
+
+  </refbody>
+</reference>

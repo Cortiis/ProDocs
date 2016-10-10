@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_se_2k_description" xml:lang="en-US">
+  <title>SAUS SE 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>se_2k_ms01p15p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Population 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms02pnm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Population 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms03pmar2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Population 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms04psep2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Population 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms05pwid2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Population 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms06pdiv2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Population 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms07m15p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Male 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms08mnm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Male 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms09mmar2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Male 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms10msep2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Male 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms11mwid2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Male 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms12mdiv2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Male 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms13f15p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Female 15 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms14fnm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Female 15 years and over - Never married</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms15fmar2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Female 15 years and over - Now married</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms16fsep2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Female 15 years and over - Separated</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms17fwid2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Female 15 years and over - Widowed</entry>
+            </row>
+            <row>
+              <entry>se_2k_ms18fdiv2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Marital Status: Female 15 years and over - Divorced</entry>
+            </row>
+            <row>
+              <entry>se_2k_wrk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Workers 16 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_wrknah2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Workers 16 years and over who did not work at home</entry>
+            </row>
+            <row>
+              <entry>se_2k_wrkah2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Workers 16 years and over who work at home</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt01da2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Car, truck, or van - Drove alone</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt02cp2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Car, truck, or van - Carpooled</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt03bus2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Public transportation - Bus</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt04stc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Public transportation - Streetcar</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt05sub2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Public transportation - Subway</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt06rail2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Public transportation - Railroad</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt07boat2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Public transportation - Ferryboat</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt08taxi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Taxicab</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt09mc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Motorcycle</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt10bike2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Bicycle</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt11walk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Walked</entry>
+            </row>
+            <row>
+              <entry>se_2k_mt12oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Means of transportation: Other means</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: Less than 5 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 5 to 9 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 10 to 14 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 15 to 19 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 20 to 24 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 25 to 29 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 30 to 34 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 35 to 39 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 40 to 44 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt45592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 45 to 59 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt60892k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 60 to 89 minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_tt90p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Travel time: 90 or more minutes</entry>
+            </row>
+            <row>
+              <entry>se_2k_ttagg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Travel time: Aggregate (in minutes)</entry>
+            </row>
+            <row>
+              <entry>se_2k_ttavg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Travel time: Average (in minutes)</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl00002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 12:00 a.m. to 4:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl05002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 5:00 a.m. to 5:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl05302k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 5:30 a.m. to 5:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl06002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 6:00 a.m. to 6:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl06302k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 6:30 a.m. to 6:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl07002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 7:00 a.m. to 7:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl07302k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 7:30 a.m. to 7:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl08002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 8:00 a.m. to 8:29 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl08302k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 8:30 a.m. to 8:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl09002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 9:00 a.m. to 9:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl10002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 10:00 a.m. to 10:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl11002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 11:00 a.m. to 11:59 a.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl12002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 12:00 p.m. to 3:59 p.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_tl16002k</entry>
+              <entry>integer</entry>
+              <entry>2000 Time leaving: 4:00 p.m. to 11:59 p.m.</entry>
+            </row>
+            <row>
+              <entry>se_2k_se1p3p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Population 3 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_se2nsps2k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Enrolled in nursery school, preschool</entry>
+            </row>
+            <row>
+              <entry>se_2k_se3kind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Enrolled in kindergarten</entry>
+            </row>
+            <row>
+              <entry>se_2k_se4gr142k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Enrolled in grade 1 to grade 4</entry>
+            </row>
+            <row>
+              <entry>se_2k_se5gr582k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Enrolled in grade 5 to grade 8</entry>
+            </row>
+            <row>
+              <entry>se_2k_se6gr9122k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Enrolled in grade 9 to grade 12</entry>
+            </row>
+            <row>
+              <entry>se_2k_se7ugrad2k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Enrolled in college, undergraduate years</entry>
+            </row>
+            <row>
+              <entry>se_2k_se8grad2k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Graduate or professional school</entry>
+            </row>
+            <row>
+              <entry>se_2k_se9noten2k</entry>
+              <entry>integer</entry>
+              <entry>2000 School enrollment: Not enrolled in school</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed01p25p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Population 25 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed02nsc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: No schooling completed</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed03grn42k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Nursery to 4th grade</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed04gr562k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: 5th and 6th grade</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed05gr782k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: 7th and 8th grade</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed06gr92k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: 9th grade</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed07gr102k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: 10th grade</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed08gr112k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: 11th grade</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed09gr122k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: 12th grade, no diploma</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed10hsch2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: High school graduate, GED, or alternative</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed11sc12k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Some college, less than 1 year</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed12sc1p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Some college, 1 or more years, no degree</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed13asso2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Associate's degree</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed14bach2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Bachelor's degree</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed15mast2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Master's degree</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed16prof2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Professional school degree</entry>
+            </row>
+            <row>
+              <entry>se_2k_ed17doct2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Educational Attainment: Doctorate degree</entry>
+            </row>
+            <row>
+              <entry>se_2k_ecpop16p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Civilian employed population 16 years and over</entry>
+            </row>
+            <row>
+              <entry>se_2k_in01agr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Agriculture, forestry, fishing and hunting, and mining</entry>
+            </row>
+            <row>
+              <entry>se_2k_in02cnst2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Construction</entry>
+            </row>
+            <row>
+              <entry>se_2k_in03mfg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Manufacturing</entry>
+            </row>
+            <row>
+              <entry>se_2k_in04wtrd2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Wholesale trade</entry>
+            </row>
+            <row>
+              <entry>se_2k_in05rtrd2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Retail trade</entry>
+            </row>
+            <row>
+              <entry>se_2k_in06tran2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Transportation and warehousing, and utilities</entry>
+            </row>
+            <row>
+              <entry>se_2k_in07info2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Information</entry>
+            </row>
+            <row>
+              <entry>se_2k_in08fire2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Finance, insurance, real estate, and rental and leasing</entry>
+            </row>
+            <row>
+              <entry>se_2k_in09prof2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Professional, scientific, and management</entry>
+            </row>
+            <row>
+              <entry>se_2k_in10educ2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Educational services, health care and social assistance</entry>
+            </row>
+            <row>
+              <entry>se_2k_in11arts2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Arts, entertainment, accommodation and food services</entry>
+            </row>
+            <row>
+              <entry>se_2k_in12oths2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Other services, except public administration</entry>
+            </row>
+            <row>
+              <entry>se_2k_in13publ2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Industry: Public administration</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc01mgnt2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Management</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc02bfop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Business and financial operations</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc03comp2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Computer and mathematical</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc04arch2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Architecture and engineering</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc05life2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Life, physical, and social science</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc06css2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Community and social service</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc07legl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Legal</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc08etl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Education, training, and library</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc09arts2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Arts, design, entertainment, sports, and media</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc10hltd2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Health diagnosing and treating practitioners</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc11hltt2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Health technologists and technicians</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc12hlts2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Healthcare support</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc13ffle2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Fire fighting and law enforcement</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc14opsw2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Other protective service workers</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc15food2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Food preparation and serving related</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc16bldg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Building and grounds cleaning and maintenance</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc17pers2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Personal care and service</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc18sale2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Sales and related</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc19admn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Office and administrative support</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc20farm2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Farming, fishing, and forestry</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc21cnst2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Construction and extraction</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc22inst2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Installation, maintenance, and repair</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc23prod2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Production</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc24tran2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Transportation</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc25matl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Material moving</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc26wc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: White collar</entry>
+            </row>
+            <row>
+              <entry>se_2k_oc27bc2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupation: Blue collar</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

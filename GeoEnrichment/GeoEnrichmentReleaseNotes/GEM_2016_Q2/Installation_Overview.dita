@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+<concept id="installation" xml:lang="en-US">
+	<title outputclass="hard-pagebreak">Dataset Installation</title>
+	<conbody>
+		<p otherprops="undocumented">This product update is compatible with <keyword
+				keyref="productname"/> 11.0. </p>
+		<p>You can download the dataset from the technical support web site <xref
+				href="http://www.g1.com/support" scope="external" format="html"
+					><ph>www.g1.com/support</ph></xref> or the eStore web site, if that is available
+			to you. eStore is the fastest way to download data and software. Your Data Release
+			Announcement provides the links for eStore.</p>
+		<note>IMPORTANT: You will need to create an eStore New Customer account to complete your
+			first download, even if you are an existing Pitney Bowes customer. There is no charge
+			for creating an account on the eStore or electronically downloading a product for
+			maintenance. On subsequent transactions you will only need your email and store password
+			as an Existing Customer to complete the free download transaction. No payment
+			information is required, unless you elect to optionally order backup physical media, in
+			which case a fee of $19.99 will apply per order.<p>For each product update you wish to
+				receive, click on the corresponding link. Clicking on each desired link will open a
+				new browser and add that product to your eStore Shopping Cart. To view what is in
+				the Shopping Cart click on the yellow Shopping Cart in the top right of the screen.
+				The cost of each product should be set to $0 USD. When your Shopping Cart contains
+				all of the products you wish to download, you may begin Checkout. If you want to
+				purchase backup media for your monthly order for $19.99 USD you may add that to your
+				Shopping Cart before clicking the Checkout button.</p></note>
+	</conbody>
+</concept>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset2_saus_hu2_cy_description" xml:lang="en-US">
+  <title>Dataset2: SAUS HU2 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hu_ds2_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_owncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb2010cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 2010 or later</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb2000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 2000 to 2009</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1990cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1990 to 1999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1980cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1980 to 1989</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1970cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1970 to 1979</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1960cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1960 to 1969</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1950cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1950 to 1959</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1940cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1940 to 1949</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhb1939cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Built 1939 or earlier</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb2010cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 2010 or later</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb2000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 2000 to 2009</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1990cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1990 to 1999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1980cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1980 to 1989</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1970cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1970 to 1979</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1960cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1960 to 1969</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1950cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1950 to 1959</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1940cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1940 to 1949</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownb1939cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Built 1939 or earlier</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb2010cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 2010 or later</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb2000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 2000 to 2009</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1990cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1990 to 1999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1980cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1980 to 1989</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1970cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1970 to 1979</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1960cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1960 to 1969</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1950cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1950 to 1959</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1940cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1940 to 1949</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntb1939cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Built 1939 or earlier</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhbmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Median year structure built</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownbmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Median year structure built</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntbmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Median year structure built</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhm2010cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Moved in 2010 or later</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhm2000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Moved in 2000 to 2009</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhm1990cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Moved in 1990 to 1999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhm1980cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Moved in 1980 to 1989</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhm1970cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Moved in 1970 to 1979</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhm1969cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Moved in 1969 or earlier</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownm2010cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Moved in 2010 or later</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownm2000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Moved in 2000 to 2009</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownm1990cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Moved in 1990 to 1999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownm1980cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Moved in 1980 to 1989</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownm1970cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Moved in 1970 to 1979</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownm1969cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Moved in 1969 or earlier</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntm2010cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Moved in 2010 or later</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntm2000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Moved in 2000 to 2009</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntm1990cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Moved in 1990 to 1999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntm1980cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Moved in 1980 to 1989</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntm1970cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Moved in 1970 to 1979</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntm1969cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Moved in 1969 or earlier</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhmmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: Median year householder moved into unit</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownmmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: Median year householder moved into unit</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntmmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: Median year householder moved into unit</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf1gascy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Utility gas</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf2lpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Bottled, tank, or LP gas</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf3eleccy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Electricity</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf4oilcy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Fuel oil, kerosene, etc.</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf5coalcy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Coal or coke</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf6woodcy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Wood</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf7suncy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Solar energy</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf8othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: Other fuel</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhf9nfucy</entry>
+              <entry>integer</entry>
+              <entry>2015 House heating fuel: No fuel used</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhveh0cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: No vehicle available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhveh1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 1 vehicle available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhveh2cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 2 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhveh3cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 3 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhveh4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 4 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhveh5pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 5 or more vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownveh0cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: No vehicle available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownveh1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 1 vehicle available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownveh2cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 2 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownveh3cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 3 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownveh4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 4 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownveh5pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Owner occupied: 5 or more vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntveh0cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: No vehicle available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntveh1cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 1 vehicle available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntveh2cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 2 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntveh3cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 3 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntveh4cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 4 vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntveh5pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Renter occupied: 5 or more vehicles available</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhvaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Households: Number of vehicles available - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownvaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Owner occupied: Number of vehicles available - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntvaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Renter occupied: Number of vehicles available - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hhvavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Households: Number of vehicles available - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_ownvavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Owner occupied: Number of vehicles available - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_rntvavgcy</entry>
+              <entry>float</entry>
+              <entry>2015 Renter occupied: Number of vehicles available - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_crcashcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: With cash rent</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: Less than $100</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0100cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $100 to $149</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0150cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $150 to $199</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0200cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $200 to $249</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0250cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $250 to $299</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0300cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $300 to $349</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0350cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $350 to $399</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0400cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $400 to $449</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0450cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $450 to $499</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0500cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $500 to $549</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0550cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $550 to $599</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0600cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $600 to $649</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0650cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $650 to $699</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0700cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $700 to $749</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0750cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $750 to $799</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0800cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $800 to $899</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr0900cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $900 to $999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr1000cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $1,000 to $1,249</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr1250cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $1,250 to $1,499</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr1500cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $1,500 to $1,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cr2000pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: $2,000 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_crnocashcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: No cash rent</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_crmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_craggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Contract rent: Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_cravgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Contract rent: Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0000kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: Less than $10,000</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0010kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $10,000 to $14,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0015kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $15,000 to $19,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0020kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $20,000 to $24,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0025kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $25,000 to $29,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0030kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $30,000 to $34,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0035kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $35,000 to $39,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0040kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $40,000 to $49,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0050kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $50,000 to $59,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0060kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $60,000 to $69,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0070kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $70,000 to $79,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0080kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $80,000 to $89,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0090kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $90,000 to $99,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0100kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $100,000 to $124,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0125kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $125,000 to $149,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0150kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $150,000 to $174,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0175kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $175,000 to $199,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0200kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $200,000 to $249,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0250kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $250,000 to $299,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0300kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $300,000 to $399,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0400kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $400,000 to $499,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0500kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $500,000 to $749,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv0750kcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $750,000 to $999,999</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hv1000kpcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: $1,000,000 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hvmedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hvaggcy</entry>
+              <entry>float</entry>
+              <entry>2015 Home value: Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds2_cy_hvavgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Home value: Average</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

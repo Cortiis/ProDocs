@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="saus_hsp_2k_description" xml:lang="en-US">
+  <title>SAUS HSP 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hsp_2k_hsppop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsppmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsppa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsppamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hspf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhpmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Not Hispanic: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhpa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhpamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Not Hispanic: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhp18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhmpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Not Hispanic male: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhma2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhmamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Not Hispanic male: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhm18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic male: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhfpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf00042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf10142k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf15192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf20242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf25292k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf30342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf35392k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf40442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf45492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf50542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf55592k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf60642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf65692k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf70742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf75792k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf80842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhfmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Not Hispanic female: Median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhfa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: Adult</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhfamed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Not Hispanic female: Adult median age</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_nhf18192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic female: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp01mex2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Mexican</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp02pr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Puerto Rican</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp03cub2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Cuban</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp04dom2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Dominican</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp05ca2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American (excluding Mexican)</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp06cr2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Costa Rican</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp07gua2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Guatemalan</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp08hon2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Honduran</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp09nic2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Nicaraguan</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp10pan2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Panamanian</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp11sal2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Salvadoran</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp12oca2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Central American - Other Central American</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp13sa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp14arg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Argentinean</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp15bol2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Bolivian</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp16chi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Chilean</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp17col2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Colombian</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp18ecu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Ecuadorian</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp19par2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Paraguayan</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp20per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Peruvian</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp21uru2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Uruguayan</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp22ven2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Venezuelan</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp23osa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: South American - Other South American</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp24ohl2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Other Hispanic</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp25esp2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Other Hispanic - Spaniard</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp26spn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Other Hispanic - Spanish</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp27spa2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Other Hispanic - Spanish American</entry>
+            </row>
+            <row>
+              <entry>hsp_2k_hsp28oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic: Other Hispanic - All other Hispanic</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

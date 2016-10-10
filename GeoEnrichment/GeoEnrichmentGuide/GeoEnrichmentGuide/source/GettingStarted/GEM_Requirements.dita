@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="GEM_requirements" xml:lang="en-US">
+ <title>Requirements</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <section>
+    <p>In order to implement the <keyword keyref="modulename"></keyword>, the following requirement(s)
+    must be met:</p>
+    <ul>
+      <li>If a geocoder is part of the dataflow, the Master Location Data (MLD) dataset must be used with the installed geocoder.</li>
+    </ul>
+    <p></p>
+  </section>
+ </conbody>
+</concept>

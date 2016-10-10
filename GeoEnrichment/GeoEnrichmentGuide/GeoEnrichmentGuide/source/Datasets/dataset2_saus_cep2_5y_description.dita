@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset2_saus_cep2_5y_description" xml:lang="en-US">
+  <title>Dataset 2: SAUS CEP2 5Y Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>cep_ds2_5y_hh5y</entry>
+              <entry>integer</entry>
+              <entry>2020 Households</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_totalexp5y</entry>
+              <entry>float</entry>
+              <entry>2020 Total household expenditures</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hhoper5y</entry>
+              <entry>float</entry>
+              <entry>2020 Household Operations</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ownrepsv5y</entry>
+              <entry>float</entry>
+              <entry>2020 Maintenance and repair services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301125y</entry>
+              <entry>float</entry>
+              <entry>2020 Painting and papering</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301135y</entry>
+              <entry>float</entry>
+              <entry>2020 Plumbing and water heating</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301145y</entry>
+              <entry>float</entry>
+              <entry>2020 Heat, a/c, electrical work</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301155y</entry>
+              <entry>float</entry>
+              <entry>2020 Roofing and gutters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301515y</entry>
+              <entry>float</entry>
+              <entry>2020 Other repair and maintenance services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301225y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair and replacement of hard surface flooring</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sv2301425y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair of built-in appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ownrepsp5y</entry>
+              <entry>float</entry>
+              <entry>2020 Maintenance and repair commodities</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2401125y</entry>
+              <entry>float</entry>
+              <entry>2020 Paints, wallpaper and supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2401225y</entry>
+              <entry>float</entry>
+              <entry>2020 Tools and equipment for painting and wallpapering</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2403125y</entry>
+              <entry>float</entry>
+              <entry>2020 Plumbing supplies and equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2403225y</entry>
+              <entry>float</entry>
+              <entry>2020 Electrical supplies, heating and cooling</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2402135y</entry>
+              <entry>float</entry>
+              <entry>2020 Materials and equipment for roof and gutters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2402125y</entry>
+              <entry>float</entry>
+              <entry>2020 Materials for plaster., panel., siding, windows, doors, screens, awnings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp2402225y</entry>
+              <entry>float</entry>
+              <entry>2020 Materials for patio, walk, fence, driveway, masonry, brick and stucco work</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sp3206125y</entry>
+              <entry>float</entry>
+              <entry>2020 Material for insulation, other maintenance and repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_owninsur5y</entry>
+              <entry>float</entry>
+              <entry> 2020 Homeowners and related insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_si2201215y</entry>
+              <entry>float</entry>
+              <entry>2020 Homeowners insurance</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_si2109015y</entry>
+              <entry>float</entry>
+              <entry>2020 Ground rent</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_si3206255y</entry>
+              <entry>float</entry>
+              <entry>2020 Flooring installation, repair, replacement</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ownmnage5y</entry>
+              <entry>float</entry>
+              <entry>2020 Property management and security</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_mn2309015y</entry>
+              <entry>float</entry>
+              <entry>2020 Property management</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_mn3409115y</entry>
+              <entry>float</entry>
+              <entry>2020 Management and upkeep services for security</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hhpersrv5y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal home services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sr3402105y</entry>
+              <entry>float</entry>
+              <entry>2020 Babysitting and child care</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sr3409065y</entry>
+              <entry>float</entry>
+              <entry>2020 Care for elderly, invalids, handicapped, etc.</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sr3409105y</entry>
+              <entry>float</entry>
+              <entry>2020 Adult day care centers</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sr6703105y</entry>
+              <entry>float</entry>
+              <entry>2020 Day care centers, nursery, and preschools</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hhothxpn5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other household expenses</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3403105y</entry>
+              <entry>float</entry>
+              <entry>2020 Housekeeping services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3404105y</entry>
+              <entry>float</entry>
+              <entry>2020 Gardening, lawn care service</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3404205y</entry>
+              <entry>float</entry>
+              <entry>2020 Water softening service</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3405205y</entry>
+              <entry>float</entry>
+              <entry>2020 Household laundry and dry cleaning, sent out</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3405305y</entry>
+              <entry>float</entry>
+              <entry>2020 Coin-operated household laundry and dry cleaning</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3409145y</entry>
+              <entry>float</entry>
+              <entry>2020 Services for termite/pest control</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3409155y</entry>
+              <entry>float</entry>
+              <entry>2020 Home security system service fee</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3409035y</entry>
+              <entry>float</entry>
+              <entry>2020 Other home services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3305115y</entry>
+              <entry>float</entry>
+              <entry>2020 Termite/pest control products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3405105y</entry>
+              <entry>float</entry>
+              <entry>2020 Moving, storage, freight</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3406205y</entry>
+              <entry>float</entry>
+              <entry>2020 Appliance repair, including service center</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3406305y</entry>
+              <entry>float</entry>
+              <entry>2020 Reupholstering, furniture repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh3409135y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair of miscellaneous household equipment and furnishings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh6901135y</entry>
+              <entry>float</entry>
+              <entry>2020 Repair of computer systems for nonbusiness use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh6901145y</entry>
+              <entry>float</entry>
+              <entry>2020 Computer information services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_oh6903105y</entry>
+              <entry>float</entry>
+              <entry>2020 Installation of computer</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hkpgsupp5y</entry>
+              <entry>float</entry>
+              <entry>2020 Housekeeping supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_laundry5y</entry>
+              <entry>float</entry>
+              <entry>2020 Laundry and cleaning supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ld3301105y</entry>
+              <entry>float</entry>
+              <entry>2020 Soaps and detergents</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ld3302105y</entry>
+              <entry>float</entry>
+              <entry>2020 Other laundry cleaning products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hkpgothr5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other household products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_op3303105y</entry>
+              <entry>float</entry>
+              <entry>2020 Cleansing and toilet tissue, paper towels and napkins</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_op3305105y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous household products</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_op3306105y</entry>
+              <entry>float</entry>
+              <entry>2020 Lawn and garden supplies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_postage5y</entry>
+              <entry>float</entry>
+              <entry>2020 Postage and stationery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ps3304105y</entry>
+              <entry>float</entry>
+              <entry>2020 Stationery, stationery supplies, giftwrap</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ps3401105y</entry>
+              <entry>float</entry>
+              <entry>2020 Postage</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ps3401205y</entry>
+              <entry>float</entry>
+              <entry>2020 Delivery services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hhfurnsh5y</entry>
+              <entry>float</entry>
+              <entry>2020 Household furnishings and equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hhtxtile5y</entry>
+              <entry>float</entry>
+              <entry>2020 Household textiles</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_tx2801105y</entry>
+              <entry>float</entry>
+              <entry>2020 Bathroom linens</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_tx2801205y</entry>
+              <entry>float</entry>
+              <entry>2020 Bedroom linens</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_tx2801405y</entry>
+              <entry>float</entry>
+              <entry>2020 Kitchen, dining room , other linens</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_tx2802105y</entry>
+              <entry>float</entry>
+              <entry>2020 Curtains and draperies</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_tx2802205y</entry>
+              <entry>float</entry>
+              <entry>2020 Slipcovers, decorative pillows</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_tx2802305y</entry>
+              <entry>float</entry>
+              <entry>2020 Sewing materials for slipcovers, curtains, other</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_furnitur5y</entry>
+              <entry>float</entry>
+              <entry>2020 Furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2901105y</entry>
+              <entry>float</entry>
+              <entry>2020 Mattress and springs</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2901205y</entry>
+              <entry>float</entry>
+              <entry>2020 Other bedroom furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2902105y</entry>
+              <entry>float</entry>
+              <entry>2020 Sofas</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2903105y</entry>
+              <entry>float</entry>
+              <entry>2020 Living room chairs</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2903205y</entry>
+              <entry>float</entry>
+              <entry>2020 Living room tables</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2904105y</entry>
+              <entry>float</entry>
+              <entry>2020 Kitchen, dining room furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2904205y</entry>
+              <entry>float</entry>
+              <entry>2020 Infants' furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2904305y</entry>
+              <entry>float</entry>
+              <entry>2020 Outdoor furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fu2904405y</entry>
+              <entry>float</entry>
+              <entry>2020 Wall units, cabinets and other occasional furniture</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_floorcov5y</entry>
+              <entry>float</entry>
+              <entry>2020 Floor coverings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fl3201115y</entry>
+              <entry>float</entry>
+              <entry>2020 Floor coverings, nonpermanent</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_majappl5y</entry>
+              <entry>float</entry>
+              <entry>2020 Major appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma2301185y</entry>
+              <entry>float</entry>
+              <entry>2020 Dishwashers (built-in), garbage disposals, range hoods (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3001125y</entry>
+              <entry>float</entry>
+              <entry>2020 Refrigerators, freezers (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3002175y</entry>
+              <entry>float</entry>
+              <entry>2020 Clothes washer or dryer (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3003125y</entry>
+              <entry>float</entry>
+              <entry>2020 Cooking stoves, ovens (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3003225y</entry>
+              <entry>float</entry>
+              <entry>2020 Microwave ovens (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3003325y</entry>
+              <entry>float</entry>
+              <entry>2020 Portable dishwasher (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3004125y</entry>
+              <entry>float</entry>
+              <entry>2020 Window air conditioners (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3205115y</entry>
+              <entry>float</entry>
+              <entry>2020 Electric floor cleaning equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3205125y</entry>
+              <entry>float</entry>
+              <entry>2020 Sewing machines</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ma3009005y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous household appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_smapphwr5y</entry>
+              <entry>float</entry>
+              <entry>2020 Small appliances, miscellaneous housewares</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_housware5y</entry>
+              <entry>float</entry>
+              <entry>2020 Housewares</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hw3203305y</entry>
+              <entry>float</entry>
+              <entry>2020 Flatware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hw3203455y</entry>
+              <entry>float</entry>
+              <entry>2020 Dinnerware, glassware, serving pieces</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hw3203705y</entry>
+              <entry>float</entry>
+              <entry>2020 Nonelectric cookware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_hw3203805y</entry>
+              <entry>float</entry>
+              <entry>2020 Tableware, nonelectric kitchenware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_smllappl5y</entry>
+              <entry>float</entry>
+              <entry>2020 Small appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sa3205215y</entry>
+              <entry>float</entry>
+              <entry>2020 Small electric kitchen appliances</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_sa3205225y</entry>
+              <entry>float</entry>
+              <entry>2020 Portable heating and cooling equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_mischheq5y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous household equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3201205y</entry>
+              <entry>float</entry>
+              <entry>2020 Window coverings</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3201305y</entry>
+              <entry>float</entry>
+              <entry>2020 Infants' equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3201405y</entry>
+              <entry>float</entry>
+              <entry>2020 Laundry and cleaning equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3201505y</entry>
+              <entry>float</entry>
+              <entry>2020 Outdoor equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3202215y</entry>
+              <entry>float</entry>
+              <entry>2020 Lamps, lighting fixtures, ceiling fans</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3202335y</entry>
+              <entry>float</entry>
+              <entry>2020 Clocks and other household decorative items</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3202325y</entry>
+              <entry>float</entry>
+              <entry>2020 Telephones and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms2701065y</entry>
+              <entry>float</entry>
+              <entry>2020 Residential telephone including VOIP</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3204105y</entry>
+              <entry>float</entry>
+              <entry>2020 Lawn and garden equipment</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3204205y</entry>
+              <entry>float</entry>
+              <entry>2020 Power tools</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3209015y</entry>
+              <entry>float</entry>
+              <entry>2020 Office furniture for home use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3209025y</entry>
+              <entry>float</entry>
+              <entry>2020 Hand tools</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3209035y</entry>
+              <entry>float</entry>
+              <entry>2020 Indoor plants, fresh flowers</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3209045y</entry>
+              <entry>float</entry>
+              <entry>2020 Closet and storage items</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms4301305y</entry>
+              <entry>float</entry>
+              <entry>2020 Luggage</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6901115y</entry>
+              <entry>float</entry>
+              <entry>2020 Computers and computer hardware for nonbusiness use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6901155y</entry>
+              <entry>float</entry>
+              <entry>2020 Personal digital assistants</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6901165y</entry>
+              <entry>float</entry>
+              <entry>2020 Internet services away from home</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6901185y</entry>
+              <entry>float</entry>
+              <entry>2020 Digital book readers</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6901195y</entry>
+              <entry>float</entry>
+              <entry>2020 Computer software</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6901205y</entry>
+              <entry>float</entry>
+              <entry>2020 Computer accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6902105y</entry>
+              <entry>float</entry>
+              <entry>2020 Telephone answering devices</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6902305y</entry>
+              <entry>float</entry>
+              <entry>2020 Business equipment for home use</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3204305y</entry>
+              <entry>float</entry>
+              <entry>2020 Other hardware</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6902425y</entry>
+              <entry>float</entry>
+              <entry>2020 Smoke alarms (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms6902455y</entry>
+              <entry>float</entry>
+              <entry>2020 Other household appliances (owned home)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_ms3209055y</entry>
+              <entry>float</entry>
+              <entry>2020 Miscellaneous household equipment and parts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_apparel5y</entry>
+              <entry>float</entry>
+              <entry>2020 Apparel and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_menboys5y</entry>
+              <entry>float</entry>
+              <entry>2020 Men and boys</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_mens5y</entry>
+              <entry>float</entry>
+              <entry>2020 Men, 16 and over</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3601105y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's suits</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3601205y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's sportcoats, tailored jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3602105y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3603115y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's underwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3603125y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3603205y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's nightwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3603305y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3603505y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3604205y</entry>
+              <entry>float</entry>
+              <entry> 2020 Men's shirts, sweaters, and vests</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3605135y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's pants and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3609015y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_me3609025y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_boys5y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys, 2 to 15</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3701105y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3701255y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' shirts and sweaters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3702115y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' underwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3702125y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' nightwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3702135y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3702205y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3703115y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' suits, sportcoats, vests</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3703145y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' pants and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3709035y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3709045y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_bo3709025y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wmnsgrls5y</entry>
+              <entry>float</entry>
+              <entry>2020 Women and girls</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_womens5y</entry>
+              <entry>float</entry>
+              <entry>2020 Women, 16 and over</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3801105y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3802105y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's dresses</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3803115y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's sportcoats, tailored jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3803155y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's sweaters, shirts, tops, vests</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3803205y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's skirts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3803335y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's pants and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3803405y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3804105y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's sleepwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3804205y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's undergarments</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3804305y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3805105y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's suits</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3809015y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3809025y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_wo3809035y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_girls5y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls, 2 to 15</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3901105y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' coats and jackets</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3901205y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' dresses and suits</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3902105y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' shirts, blouses, sweaters</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3902235y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' skirts, pants, and shorts</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3902305y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' active sportswear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3903105y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' underwear and sleepwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3903215y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' hosiery</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3903225y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3909015y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' uniforms</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_gi3909025y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' costumes</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_infant5y</entry>
+              <entry>float</entry>
+              <entry>2020 Children under 2</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_in4101105y</entry>
+              <entry>float</entry>
+              <entry>2020 Infant coat, jacket, snowsuit</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_in4101205y</entry>
+              <entry>float</entry>
+              <entry>2020 Infant dresses, outerwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_in4101305y</entry>
+              <entry>float</entry>
+              <entry>2020 Infant underwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_in4101405y</entry>
+              <entry>float</entry>
+              <entry>2020 Infant nightwear, loungewear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_in4109015y</entry>
+              <entry>float</entry>
+              <entry>2020 Infant accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_footwear5y</entry>
+              <entry>float</entry>
+              <entry>2020 Footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fo4001105y</entry>
+              <entry>float</entry>
+              <entry>2020 Men's footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fo4002105y</entry>
+              <entry>float</entry>
+              <entry>2020 Boys' footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fo4003105y</entry>
+              <entry>float</entry>
+              <entry>2020 Women's footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_fo4002205y</entry>
+              <entry>float</entry>
+              <entry>2020 Girls' footwear</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_othapprl5y</entry>
+              <entry>float</entry>
+              <entry>2020 Other apparel products and services</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4201155y</entry>
+              <entry>float</entry>
+              <entry> 2020 Material and supplies for sewing, needlework, quilting (includes household items)</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4301105y</entry>
+              <entry>float</entry>
+              <entry>2020 Watches</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4301205y</entry>
+              <entry>float</entry>
+              <entry>2020 Jewelry</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4401105y</entry>
+              <entry>float</entry>
+              <entry>2020 Shoe repair and other shoe service</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4401205y</entry>
+              <entry>float</entry>
+              <entry>2020 Coin-operated apparel laundry and dry cleaning</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4401305y</entry>
+              <entry>float</entry>
+              <entry>2020 Alteration, repair and tailoring of apparel and accessories</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4401505y</entry>
+              <entry>float</entry>
+              <entry>2020 Watch and jewelry repair</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4402105y</entry>
+              <entry>float</entry>
+              <entry>2020 Apparel laundry and dry cleaning not coin-operated</entry>
+            </row>
+            <row>
+              <entry>cep_ds2_5y_or4409005y</entry>
+              <entry>float</entry>
+              <entry>2020 Clothing storage</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

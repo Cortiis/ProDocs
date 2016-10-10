@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ReleaseNotes" xml:lang="en-US">
+    <title>Data Update Release Notes</title>
+    <topicmeta>
+        <prodinfo>
+            <!-- this doesn't work (probably due to a DITA-OT bug)...
+				<prodname><term><tm tmtype="tm">Spectrum</tm></term> Technology Platform</prodname>
+			-->
+            <!-- but this does... -->
+            <prodname>GeoEnrichment Module Data</prodname>
+            <vrmlist>
+                <vrm version="Q2 2016"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <keydef keys="companyname">
+        <topicmeta>
+            <keywords>
+                <keyword>Pitney Bowes</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="productname">
+        <topicmeta>
+            <keywords>
+                <keyword>Spectrum<tm tmtype="reg"></tm> Technology Platform</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="modulename">
+        <topicmeta>
+            <keywords>
+                <keyword>GeoEnrichment Module</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <topicref href="ReleaseNotes-Data/source/GEM_2016_Q2/introduction.dita">
+        <topicref href="ReleaseNotes-Data/source/GEM_2016_Q2/versions.dita"/>
+        <topicref href="ReleaseNotes-Data/source/GEM_2016_Q2/Installation_Overview.dita">
+            <topicref href="ReleaseNotes-Data/source/GEM_2016_Q2/Installation_Procedure.dita"/>
+        </topicref>
+    </topicref>
+</map>

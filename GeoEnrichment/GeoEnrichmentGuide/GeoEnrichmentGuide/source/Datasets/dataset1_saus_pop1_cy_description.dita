@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_pop1_cy_description" xml:lang="en-US">
+  <title>Dataset1: SAUS POP1 CY Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>pop_ds1_cy_whtpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_blkpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_indpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_asnpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hpipopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_othpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_twopopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsppopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp1whtcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp2blkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp3indcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp4asncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp5hpicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp6othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_nhp7twocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Not Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp1whtcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: White alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp2blkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp3indcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp4asncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Asian alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp5hpicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp6othcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hsp7twocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Hispanic: Two or More Races</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_popcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_pmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_padultcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_pamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Total population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_p1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_malecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_mmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Male population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_madultcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_mamedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Male population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_m1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Male population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_femalecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f0004cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: Under 5 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f0509cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 5 to 9 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f1014cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 10 to 14 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f1519cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 15 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f2024cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 20 to 24 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f2529cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 25 to 29 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f3034cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 30 to 34 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f3539cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 35 to 39 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f4044cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 40 to 44 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f4549cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 45 to 49 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f5054cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 50 to 54 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f5559cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 55 to 59 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f6064cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 60 to 64 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f6569cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 65 to 69 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f7074cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 70 to 74 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f7579cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 75 to 79 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f8084cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 80 to 84 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f85pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 85 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_fmedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Female population: Median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_fadultcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: Adult</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_famedcy</entry>
+              <entry>float</entry>
+              <entry>2015 Female population: Adult median age</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_f1819cy</entry>
+              <entry>integer</entry>
+              <entry>2015 Female population: 18 to 19 years</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Population in households</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_avghhszcy</entry>
+              <entry>float</entry>
+              <entry>2015 Average household size</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_gqpopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Population in group quarters</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs1percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 1-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs2percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 2-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs3percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 3-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs4percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 4-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs5percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 5-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs6percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 6-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_hhs7percy</entry>
+              <entry>integer</entry>
+              <entry>2015 Households: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls01p05pcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Population 5 years and over</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls02englcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Speak only English</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls03spancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Spanish or Spanish Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls04frency</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: French (incl. Patois, Cajun)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls05frcrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: French Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls06italcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls07portcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Portuguese or Portuguese Creole</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls08germcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls09yiddcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Yiddish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls10owgecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other West Germanic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls11scancy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Scandinavian languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls12greecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls13russcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls14policy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls15serbcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Serbo-Croatian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls16oslacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other Slavic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls17armecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Armenian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls18perscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Persian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls19gujacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Gujarathi</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls20hindcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Hindi</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls21urducy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Urdu</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls22oindcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other Indic languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls23oieucy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other Indo-European languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls24chincy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Chinese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls25japacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Japanese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls26korecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Korean</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls27mocacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Mon-Khmer, Cambodian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls28hmoncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Miao, Hmong</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls29thaicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Thai</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls30loatcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Laotian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls31vietcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Vietnamese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls32oasncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other Asian languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls33tagacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Tagalog</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls34opiscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other Pacific Island languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls35navacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Navajo</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls36onnacy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other Native North American languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls37hungcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls38arabcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Arabic</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls39hebrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Hebrew</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls40africy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: African languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_ls41otuncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Language Spoken at Home: Other and unspecified languages</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an01amercy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: American</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an02arabcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Arab</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an03britcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: British</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an04czeccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Czech</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an05danicy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Danish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an06dutccy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Dutch</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an07englcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: English</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an08eurocy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: European</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an09frency</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: French (except Basque)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an10frcncy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: French Canadian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an11germcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: German</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an12greecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Greek</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an13hungcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Hungarian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an14iriscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an15italcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Italian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an16lithcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Lithuanian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an17norwcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Norwegian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an18policy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Polish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an19portcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Portuguese</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an20russcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Russian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an21scircy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Scotch-Irish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an22scotcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Scottish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an23slovcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Slovak</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an24safrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Subsaharan African</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an25swedcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Swedish</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an26swiscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Swiss</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an27ukracy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Ukrainian</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an28welscy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Welsh</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an29windcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: West Indian (except Hispanic groups)</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an30othgcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Other groups</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_an31ucnrcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Ancestry: Unclassified or not reported</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_daypopcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total Daytime Population</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_dayworkcy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total Employees</entry>
+            </row>
+            <row>
+              <entry>pop_ds1_cy_dayhomecy</entry>
+              <entry>integer</entry>
+              <entry>2015 Total Daytime at Home Population</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

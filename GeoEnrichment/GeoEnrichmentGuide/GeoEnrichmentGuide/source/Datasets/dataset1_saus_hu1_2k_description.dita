@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference  id="dataset1_saus_hu1_2k_description" xml:lang="en-US">
+  <title>Dataset1: SAUS HU1 2K Description</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <table rowsep="0" colsep="0" frame="none">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="FieldName" colwidth="25*"/>
+          <colspec colnum="2" colname="FieldType"  colwidth="15*" align="center"/>
+          <colspec colnum="3" colname="Description" colwidth="60*"/>
+          <thead>
+            <row>
+              <entry colname="FieldName">Field Name</entry>
+              <entry colname="FieldType">Field Type</entry>
+              <entry colname="Description">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>hu_ds1_2k_hu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vacanthu2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vac1rent2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units: For rent</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vac2sale2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units: For sale only</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vac3rsno2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units: Rented or sold, not occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vac4srou2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units: For seasonal, recreational, occasional use</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vac5fmw2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units: For migrant workers</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_vac6oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Vacant housing units: Other vacant</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh1wht2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is White alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh2blk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh3ind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh4asn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh5hpi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh6oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hh7two2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Householder who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_nhhh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hsphh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population in occupied housing units: Owner occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntpop2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Total population in occupied housing units: Renter occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_avgownsz2k</entry>
+              <entry>float</entry>
+              <entry>2000 Average household size: Owner occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_avgrntsz2k</entry>
+              <entry>float</entry>
+              <entry>2000 Average household size: Renter occupied</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own1wht2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is White alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own2blk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own3ind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own4asn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own5hpi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own6oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_own7two2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt1wht2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is White alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt2blk2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is Black or African American alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt3ind2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is American Indian and Alaska Native alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt4asn2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is Asian alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt5hpi2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is Native Hawaiian and OPI alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt6oth2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is Some Other Race alone</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnt7two2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Who is Two or More Races</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownnh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownhsp2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntnh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Not Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnthsp2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Hispanic householder</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns1per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 1-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns2per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 2-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns3per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 3-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns4per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 4-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns5per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 5-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns6per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 6-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owns7per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts1per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 1-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts2per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 2-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts3per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 3-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts4per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 4-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts5per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 5-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts6per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 6-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnts7per2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 7-or-more-person household</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna15242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna25342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna35442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna45542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna55642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna65742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna75842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_owna85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta15242k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 15 to 24 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta25342k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 25 to 34 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta35442k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 35 to 44 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta45542k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 45 to 54 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta55642k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 55 to 64 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta65742k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 65 to 74 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta75842k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 75 to 84 years</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnta85p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Householder 85 years and over</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm12k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 1 room</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm22k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 2 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm32k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 3 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm42k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 4 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm52k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 5 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 6 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm72k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 7 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm82k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 8 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrm92k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: 9 or more rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm12k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 1 room</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm22k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 2 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm32k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 3 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm42k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 4 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm52k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 5 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 6 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm72k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 7 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm82k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 8 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrm92k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: 9 or more rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm12k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 1 room</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm22k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 2 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm32k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 3 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm42k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 4 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm52k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 5 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm62k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 6 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm72k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 7 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm82k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 8 rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrm92k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: 9 or more rooms</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Households: Number of rooms - Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Owner occupied: Number of rooms - Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrmmed2k</entry>
+              <entry>float</entry>
+              <entry>2000 Renter occupied: Number of rooms - Median</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrmagg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Households: Number of rooms - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrmagg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied: Number of rooms - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrmagg2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied: Number of rooms - Aggregate</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhrmavg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Households: Number of rooms - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownrmavg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Owner occupied: Number of rooms - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntrmavg2k</entry>
+              <entry>float</entry>
+              <entry>2000 Renter occupied: Number of rooms - Average</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu012k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 1, detached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu01a2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 1, attached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu022k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 2</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu03042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 3 or 4</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 5 to 9</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu10192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 10 to 19</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu20492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 20 to 49</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhu50p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: 50 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhumh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: Mobile home</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_hhurv2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Occupied units in structure: Boat, RV, van, etc.</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu012k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 1, detached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu01a2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 1, attached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu022k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 2</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu03042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 3 or 4</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 5 to 9</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu10192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 10 to 19</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu20492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 20 to 49</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownu50p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: 50 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownumh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: Mobile home</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_ownurv2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Owner occupied units in structure: Boat, RV, van, etc.</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu012k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 1, detached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu01a2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 1, attached</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu022k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 2</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu03042k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 3 or 4</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu05092k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 5 to 9</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu10192k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 10 to 19</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu20492k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 20 to 49</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntu50p2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: 50 or more</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rntumh2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: Mobile home</entry>
+            </row>
+            <row>
+              <entry>hu_ds1_2k_rnturv2k</entry>
+              <entry>integer</entry>
+              <entry>2000 Renter occupied units in structure: Boat, RV, van, etc.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>
