@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="MAPINFO_MAPCATALOG Table Structure"/>
+<meta name="DC.subject" content="MAPINFO_MAPCATALOG, table structure"/>
+<meta name="keywords" content="MAPINFO_MAPCATALOG, table structure"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/uploading/usingmapcatalog.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="mapcatalogtablestructure"/>
+<meta name="DC.Language" content="en"/>
+<title>MAPINFO_MAPCATALOG Table Structure</title>
+</head>
+<body id="mapcatalogtablestructure">
+
+
+
+	<h1 class="title topictitle1">MAPINFO_MAPCATALOG Table Structure</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">MAPINFO_MAPCATALOG has the following table structure:</p>
+
+		<div class="p"><pre class="pre">
+	SPATIALTYPE FLOAT
+	TABLENAME CHAR(32)
+	OWNERNAME CHAR(32)
+	SPATIALCOLUMN CHAR(32)
+	DB_X_LL FLOAT
+	DB_Y_LL FLOAT
+	DB_X_UR FLOAT
+	DB_Y_UR FLOAT
+	VIEW_X_LL FLOAT
+	VIEW_Y_LL FLOAT
+	VIEW_X_UR FLOAT
+	VIEW_Y_UR FLOAT
+	COORDINATESYSTEM CHAR(254)
+	SYMBOL CHAR(254)
+	XCOLUMNNAME CHAR(32)
+	YCOLUMNNAME CHAR(32)
+	RENDITIONTYPE INTEGER
+	RENDITIONCOLUMN CHAR(32)
+	RENDITIONTABLE CHAR(32)
+	NUMBER_ROWS INTEGER</pre>
+</div>
+
+
+		<p class="p">The following script may be used to modify an existing MAPINFO.MAPINFO_MAPCATALOG to add the rendition columns if they do not exist. Run this script as user MAPINFO.</p>
+
+  
+		<div class="p"><pre class="pre">
+	ALTER TABLE MAPINFO.MAPINFO_MAPCATALOG ADD RENDITIONTYPE INTEGER;
+	ALTER TABLE MAPINFO.MAPINFO_MAPCATALOG ADD RENDITIONCOLUMN CHAR(32);
+	ALTER TABLE MAPINFO.MAPINFO_MAPCATALOG ADD RENDITIONTABLE CHAR(32);</pre>
+</div>
+
+		
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/uploading/../../guide/uploading/usingmapcatalog.html">Using the Map Catalog</a></div>
+</div>
+</div>
+
+</body>
+</html>

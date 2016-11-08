@@ -1,0 +1,214 @@
+/*
+ * 
+ * Custom Styling:
+ * Use the below key to affect the regions you desire.
+ * 
+ * #web-help-c1 {this will affect the navigation panel / table of contents}
+ * #web-help-c2 {this will affect the entire content pane, excluding the heading}
+ * #web-help-c2 h1 {this will affect the title of the content pane}
+ * #web-help-c2 .body {this will affect the body text of the content pane}
+ * #web-help-c2 .related-links {this will affect the related links footer in the content pane}
+ * #heading {this will affect the heading (content from heading.html)}
+ * 
+ * 
+ * If you want to add custom fonts, use the user-fonts.css file.
+ * 
+ * 
+ */
+
+ /*
+  * 
+  * Below are the screen sizes that are set in frameless.css
+  * if you wish to adjust the styling for different devices.
+  * 
+  */
+  
+ /*
+  * Mobile layout 
+  * 240-600 px
+  */
+@media screen and (min-width: 15em) {
+	
+	#heading {
+		height: 4em;
+	}
+	
+	#heading h1 {
+		margin-top: calc(4.75em / 20);
+		
+	}
+	
+	#heading img {
+	display:none;
+	}
+	
+	#search-bar {
+	top:8px;
+    width: 300px;
+	}
+	
+	#web-help-c2 {
+    
+    top: 4em;
+
+	}
+	
+	.typeahead, .twitter-typeahead, .tt-input {
+
+	border-radius: 0 5px 5px 0;
+	height:30px;
+	font-family: Precision Sans;
+	font-size: 14px;
+
+    width: 230px;
+}	
+		
+	.tt-dropdown-menu {
+    font-family: precision sans;
+    top: auto !important;
+    width: 200px;
+	border-radius:0 0 5px 5px;
+	box-shadow: none;
+	border-color:rgb(0, 130, 213);
+}
+
+.tt-suggestions p {
+    font-family: precision sans;
+	font-weight: 200;
+	font-size: 12px;
+	
+}	
+
+.result-tree {
+	font-size:12px;
+}
+		
+		
+		
+	
+}
+ /*
+  * Wide mobile layout 
+  * 480-767 px
+  */
+@media screen and (min-width: 30em) {
+
+}
+ /*
+  * Tablet layout
+  * 600-911 px
+  * Zoomed in above 600 px
+  */
+@media screen and (min-width: 37.5em) {
+	#heading {
+		height: 6em;
+	}
+	#heading h1 {
+		margin-top: calc(22em / 20);
+	}
+	#web-help-c1 {
+		top: calc(6em);
+	}
+	#web-help-c2 {
+		top: calc(6em);
+		left: 26em;
+	}
+	
+#heading img {
+    float: left;
+    height: 6em;
+    margin: auto;
+    position: relative;
+    width: auto;
+}
+
+
+#search-bar {
+    top: 2em;
+    width: 50%;
+}
+
+
+.typeahead, .twitter-typeahead, .tt-input {
+    width: 80%;
+}
+}
+ /*
+  * desktop layout 
+  * 912-infinity px
+  */
+@media screen and (min-width: 57em) {
+#heading {
+		height: 4em;
+	}
+	#heading h1 {
+		margin-top: calc(6em / 20);
+		font-size:22px;
+		font-weight:300;
+	}
+	#web-help-c1 {
+		top: 120px;
+	}
+	#web-help-c2 {
+		top: 120px;
+		left: 26em;
+	}
+	#breads {
+	left: 0;
+    top: calc(4em);
+	position:fixed;
+	background-color: #eee;
+	border-bottom: 1px solid lightgray;
+	padding: 10px 0 10px 15px;
+	width: 100%;
+	}
+	
+#heading img {
+    float: left;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    width: auto;
+	display:block;
+}
+
+
+#search-bar {
+    top: 14px;
+    width: 500px;
+}
+
+
+.typeahead, .twitter-typeahead, .tt-input {
+    width: 420px;
+	border-radius: 0 5px 5px 0;
+	height:30px;
+	font-family: Precision Sans;
+	font-size: 14px;
+}
+
+.tt-dropdown-menu {
+    font-family: precision sans;
+    top: auto !important;
+    width: 400px;
+	border-radius:0 0 5px 5px;
+	box-shadow: none;
+	border-color:rgb(0, 130, 213);
+}
+
+.tt-suggestions p {
+    font-family: precision sans;
+	font-weight: 200;
+	font-size: 12px;
+	
+}
+.result-tree {
+	font-size:12px;
+}
+}
+ /*
+  * full page zoom above 1024 px. still desktop layout.
+  */
+@media screen and (min-width: 64em) {
+
+}

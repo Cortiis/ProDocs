@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Using Command-Line Flags to Run MapInfo EasyLoader"/>
+<meta name="DC.subject" content="command-line flags, flags, command-line"/>
+<meta name="keywords" content="command-line flags, flags, command-line"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/productivity/chapterproductivityaids.html"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/productivity/mixingcommandlineflags.html"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/productivity/locatingrspfile.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="usingcommandlineflags"/>
+<meta name="DC.Language" content="en"/>
+<title>Using Command-Line Flags to Run MapInfo EasyLoader</title>
+</head>
+<body id="usingcommandlineflags">
+
+
+
+	<h1 class="title topictitle1">Using Command-Line Flags to Run MapInfo EasyLoader</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">You can run MapInfo EasyLoader from the Windows command-line to apply specific upload parameters or invoke MapInfo EasyLoader with upload parameters from a custom script or application.</p>
+
+		
+		<p class="p">To open MapInfo EasyLoader from the <span class="keyword wintitle">Command-Line</span> window, on the Windows <span class="ph uicontrol">Start</span> menu type <kbd class="ph userinput">cmd</kbd>. Change directories (<samp class="ph codeph">cd</samp>) into the folder that has the <samp class="ph codeph">MapInfoEasyLoader.exe</samp> file in it, and then type <samp class="ph codeph">MapInfoEasyLoader.exe</samp>. MapInfo EasyLoader opens on your screen and is ready to use.</p>
+
+		
+		<p class="p">To upload a table when you open MapInfo EasyLoader from the <span class="keyword wintitle">Command-Line</span> window, modify the following example. It uploads a table (<samp class="ph codeph">/T</samp>) called <span class="ph filepath">states.tab</span> and gives it the server table name <samp class="ph codeph">mystates</samp>, grants all rights (<samp class="ph codeph">/G</samp>) to make <samp class="ph codeph">mystates</samp> public, and specifies that per-row styles are being loaded with the data (<samp class="ph codeph">/Y</samp>).</p>
+
+		
+		<pre class="pre codeblock">MapInfoEasyLoader.exe /T C:\data\states usa.tab;mystates /G /Y</pre>
+
+	
+		<p class="p">If a path contains spaces, use quotation marks around it, for example:</p>
+
+		<pre class="pre codeblock">MapInfoEasyLoader.exe /T "C:\data\states usa.tab;mystates" /G /Y</pre>
+
+		<pre class="pre codeblock">MapInfoEasyLoader.exe /g /P R /s "DRIVER={PostGreSQL UNICODE(x64)};DATABASE=QADB;Server=MiProPostGIS;UID=pro;PWD=pro;Port=5432"</pre>
+
+		
+		<p class="p">For a list of available command-line flags, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/productivity/commandlineflags.html">Command-Line Flags Descriptions</a>.</p>
+
+		
+		<p class="p">For instructions on how to locate the MapInfo EasyLoader state file, which stores command-line flag settings for the session, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/productivity/locatingrspfile.html">Locating the MapInfo EasyLoader Command-Line Flags RSP File</a>.</p>
+
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/productivity/../../guide/productivity/mixingcommandlineflags.html">Mixing Command-Line Flags and MapInfo EasyLoader Window Options</a></strong><br/>
+</li>
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/productivity/../../guide/productivity/locatingrspfile.html">Locating the MapInfo EasyLoader Command-Line Flags RSP File</a></strong><br/>
+</li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/productivity/../../guide/productivity/chapterproductivityaids.html">Productivity Aids</a></div>
+</div>
+</div>
+
+</body>
+</html>

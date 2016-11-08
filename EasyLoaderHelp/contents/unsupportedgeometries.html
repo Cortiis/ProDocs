@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Unsupported Geometries in Oracle, SQL Server, and PostGIS"/>
+<meta name="DC.Relation" scheme="URI" content="../contents/chapterintro.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="15.2"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="unsupportedgeometries"/>
+<meta name="DC.Language" content="en"/>
+<title>Unsupported Geometries in Oracle, SQL Server, and PostGIS</title>
+</head>
+<body id="unsupportedgeometries">
+
+
+
+	<h1 class="title topictitle1">Unsupported Geometries in Oracle, SQL Server, and PostGIS</h1>
+
+
+	<div class="body conbody">
+		<p class="p">Some times when you are creating a Map in MapInfo Pro and you are storing the results in Oracle, SQL Server Spatialware, SQL Server Spatial, or PostGIS, you create maps which use geometries that are not supported by these DBMS engines.</p>
+
+		<ul class="ul">
+			<li class="li"><strong class="ph b">Oracle</strong> does not support arcs, ellipses, rectangles, and rounded rectangles.</li>
+
+			<li class="li"><strong class="ph b">SQL Server Spatial</strong> does not support arcs, and lines that do not have distinct points</li>
+
+			<li class="li"><strong class="ph b">SQL Server SpatialWare</strong> does not support arcs, ellipses, and rounded rectangles.</li>
+
+			<li class="li"><strong class="ph b">PostGIS</strong> does not support arcs, ellipses, rectangles, and rounded rectangles</li>
+
+		</ul>
+
+		<p class="p">EasyLoader will skip the unsupported object type and insert the attribute data, it will not dislay a message.</p>
+
+		
+		<blockquote class="lq">SQL Server Restriction on Geography Objects</blockquote>
+
+		
+		<p class="p">SQL Server uploads invalid Geometry objects and converts them to valid using a SQL server command, but SQL Server does not upload invalid Geography objects. Attempting to upload invalid Geography objects causes EasyLoader to fail. This is a limitation of SQL Server and not of EasyLoader.</p>
+
+
+		<p class="p">Due to this SQL Server limitation, our recommendation is to upload only as Geometry.</p>
+
+		
+	</div>
+
+	
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="contents/../contents/chapterintro.html">Uploading Data with MapInfo EasyLoader</a></div>
+</div>
+</div>
+
+</body>
+</html>

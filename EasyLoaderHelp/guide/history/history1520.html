@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="New in MapInfo EasyLoader 15.2"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/history/chapterhistory.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="history1520"/>
+<meta name="DC.Language" content="en"/>
+<title>New in MapInfo EasyLoader 15.2</title>
+</head>
+<body id="history1520">
+
+
+
+	<h1 class="title topictitle1">New in MapInfo EasyLoader 15.2</h1>
+
+	
+	<div class="body conbody">
+		<p class="p">MapInfo EasyLoader 15.2 is a 32-bit release that works with the MapInfo Pro 15.2 64-bit release. MapInfo Pro 15.2 supports Unicode and requires the PostgreSQL Unicode ODBC drive. MapInfo EasyLoader does not yet support Unicode and requires the PostgreSQL ANSI ODBC drive. You must have both drivers installed when both products are on the same machine.</p>
+
+		
+		<p class="p">This release fixes the following issue:</p>
+
+		
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all">
+				
+									
+				<thead class="thead" align="left">
+					<tr class="row">
+						<th class="entry" valign="top" width="21.052631578947366%" id="d684e44">Issue Number</th>
+
+						<th class="entry" valign="top" width="78.94736842105263%" id="d684e47">Description and Resolution</th>
+
+					</tr>
+
+				</thead>
+					
+				<tbody class="tbody">		
+					<tr class="row">
+						<td class="entry" valign="top" width="21.052631578947366%" headers="d684e44 ">MIPRO-49213</td>
+
+						<td class="entry" valign="top" width="78.94736842105263%" headers="d684e47 ">Oracle: Problems with MapInfo EasyLoader and EPSG-Code 25832.
+							<p class="p">When MapInfo EasyLoader uploads a table, it does not put a SRID entry in the Oracle meta data table (SDO_GEOM_METADATA) and the resulting geometry column has NULL in the SDO:SRID column. As a result, the spatial index is not generated and MapInfo Pro cannot generate geographic queries.</p>
+</td>
+
+					</tr>
+	
+				</tbody>
+
+			</table>
+</div>
+
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/history/../../guide/history/chapterhistory.html">History of Changes</a></div>
+</div>
+</div>
+
+</body>
+</html>

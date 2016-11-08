@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Using the Command Line Flags to Run EasyLoader"/>
+<meta name="DC.subject" content="commandline flags, flags, commandline"/>
+<meta name="keywords" content="commandline flags, flags, commandline"/>
+<meta name="DC.Relation" scheme="URI" content="../contents/chapterintro.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="15.2"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="usingthecommandlineflagstoruneasyloader"/>
+<meta name="DC.Language" content="en"/>
+<title>Using the Command Line Flags to Run EasyLoader</title>
+</head>
+<body id="usingthecommandlineflagstoruneasyloader">
+
+
+
+	<h1 class="title topictitle1">Using the Command Line Flags to Run EasyLoader</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">You can run the EasyLoader executable from the command line. For example:</p>
+
+		<blockquote class="lq"><span class="keyword cmdname">easyloader.exe /T c:\data\states.tab;mystates /G /Y</span></blockquote>
+
+	
+		<div class="note note"><span class="notetitle">Note:</span> Do not enclose file names in quotation marks. Command line arguments are interpreted correctly without quote marks, even if the filename includes spaces. If you use quotation marks, EasyLoader cannot parse the filenames correctly and errors occur.</div>
+
+	
+		<p class="p">EasyLoader supports the following flags to allow you to specify additional upload parameters from the command line:</p>
+
+		
+		<ul class="ul">
+			<li class="li">
+			<strong class="ph b">/A Append All Tables to One</strong> – Use this flag to upload multiple tables to a single table (as long as the table structures are the same).
+			<p class="p">Syntax: /A</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/B Schema Name</strong> – Use this flag to specify a schema name when you upload tables to a SQL Server 2005 server. If you do not supply a schema name, then this flag uses the user’s default schema on the server (on SQL Server the default is usually set to <strong class="ph b">dbo</strong> for example).
+			<p class="p">Syntax: /B SchemaName</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/C Create Indices for All Locally-Indexed Columns</strong> – Use this flag to mandate that only the columns that were indexed on the local table be automatically indexed on the server table, when you upload a new table or replace an existing table.
+			<p class="p">This command line option does not allow you to make or reset column selections. That additional capability is supported by the EasyLoader user interface (see Create Indices on Other Columns under <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/servertableprocessingoptions.html">Server Table Processing Options</a> and <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/mixingcommandlineflags.html">Mixing Command Line Flags with the EasyLoader User Interface</a>).</p>
+
+			<p class="p">Syntax: /C</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/D .tab File Directory for Server Table(s)</strong> – Use this flag to generate TAB files and provide the TAB file directory to access a remote DBMS. The default is an empty directory, in which case EasyLoader does not generate .tab files. The naming convention of your newly generated .tab file is yourServerTableName_srv.tab. The directory must be valid (empty is treated as valid) to upload a table.
+			<p class="p">Command line option is /D PathName.</p>
+
+			<p class="p">Syntax: /D C:\temp</p>
+
+			<p class="p">Do not enclose file names in quotation marks.</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/E Exclusive Use of Table</strong> – Use this flag to improve load time on large tables significantly if you know that you are the only one attempting to update the table. Specifying this flag does not guarantee that EasyLoader can obtain exclusive use; you must guarantee that to the loader. EasyLoader checks on the current maximum value of the primary key column (MI_PRINX) after each commit to ensure that it detects any other entries that may have been made by other processes. This flag prevents that check from occurring, which can significantly improve the upload time for large tables.
+			<p class="p">This flag may be placed within a shortcut, allowing the interactive use of the EasyLoader interface for other functions.</p>
+
+			<p class="p">Syntax: /E</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/F Log File name</strong> – Use this flag to specify the name and location of the log file. Whenever you upload a table, EasyLoader produces a log file. By default, a log file named <span class="ph filepath">EasyLoader.log</span> is created in the Windows TEMP directory. If you specify a file name but do not provide a path, EasyLoader creates the log in the same directory as the <span class="ph filepath">EasyLoader.EXE</span> file.
+			<p class="p">Syntax: The first example shows just the name of the log file, which is written to the directory in which <span class="ph filepath">EasyLoader.exe</span> is located; the second example specifies the full path for the log file.</p>
+
+			<p class="p">/F myLogFile.txt</p>
+
+			<p class="p">/F c:\temp\myLogFile.txt</p>
+
+			<p class="p">Do not enclose file names in quotation marks.</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/G Grant all</strong> – Use this flag to grant all rights to PUBLIC. This flag is turned OFF by default.
+			<p class="p">Syntax: /G</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/I Do Not Create a Spatial Index</strong> – Use this flag to prevent EasyLoader from creating a spatial index on the uploaded table. By default EasyLoader creates a spatial index. This flag is turned OFF by default, meaning a spatial index is created. For IDS/UDO tables, EasyLoader creates a spatial index, and then issues the 'update statistics medium' statement. See the /U flag description, which controls the unique index. For Oracle Spatial tables, the spatial index is created on the geometry column and is called table_name_SX; for SpatialWare tables, the index is created on the column geometry column and is called hg table_name ind.
+			<p class="p">Syntax: /I</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/K Create Automated Key Column for SQL Server</strong> – Use this flag to generate the unique key column values automatically in SQL Server. You do not need to fill the key manually when you insert a new row. The key column (SW_MEMBER) can be created with the IDENTITY property as an option.
+			<p class="p">For SQL Server 2005, the key column is SW_MEMBER, because it needs SpatialWare. It also can be MI_SQL_REC_NUM depending on the spatial object type that is selected. If no SpatialWare is used (as with SQL Server versions 2008 or later), then the key column is MI_PRINX or MI_SQL_REC_NUM: MI_PRINX or SW_MEMBER is used for spatial types and MI_SQL_REC_NUM is used for XY types.</p>
+
+			<p class="p">The key column (SW_MEMBER) is created with the IDENTITY property by default. Therefore, omitting the K option in the command line has the same action as specifying /K, (that is, it creates the key column with IDENTITY property). If you want to turn off the property, you must provide a keyword NO_IDENTITY following /K. See <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/mixingcommandlineflags.html">Mixing Command Line Flags with the EasyLoader User Interface</a>.</p>
+
+			<p class="p">Syntax: /K</p>
+
+			<p class="p">Example: /K NO_IDENTITY</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/L List of MapInfo tables</strong> – Use this flag to specify a text file that contains a list of tables you want to upload. The format of each line is the same as the /T flag.
+			<p class="p">Syntax: /L ListOfTables.txt</p>
+
+			<p class="p">Do not enclose file names in quotation marks.</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/M MICODE/XY</strong> – Use this flag to specify the object type to be used if it is SpatialWare. If the /M flag is used, provide MICODE (for XY with MapInfo key) or XY (for XY only) after /M. Any words other than MICODE or XY after /M are treated as errors, and EasyLoader does not run (the main EasyLoader dialog box does not appear). If you do not use the /M flag, EasyLoader uses SpatialWare as the default if the selected database has SpatialWare installed.
+			<p class="p">Syntax: /M MICODE</p>
+
+			<p class="p">Example: /M X</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/O Connection String</strong> – Use this flag to set a connection string for Oracle Spatial to be passed to the program. See the /S flag for ODBC connections.
+			<p class="p">Syntax: /O user_name/password@server_name</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/P A | C | R</strong> – Use this flag to specify what to do with the table(s) being loaded to the server.
+			<p class="p">Use A to append to an existing server table.</p>
+
+			<p class="p">Use C to create a new server table. If you specify the C option and the table you are uploading has the same name as a table on the server, upload operation fails.</p>
+
+			<p class="p">Use R to replace an existing table.</p>
+
+			<p class="p">Syntax: /P A</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/Q Quit</strong> – Use this flag to exit EasyLoader when the upload is complete.
+			<p class="p">Syntax: /Q</p>
+
+			</li>
+
+			
+			<li class="li"><strong class="ph b">/R Replace the server table</strong> – Use this flag to drop the server table and create and upload the new table. EasyLoader creates a table on the server even if the table did not exist previously.
+			<p class="p">Syntax: /R</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/S Connection String</strong> – Use this flag to pass an ODBC connection string to the program. If enough information to connect is supplied, the ODBC connection dialog box does not appear. See the /O flag for Oracle Spatial connections. The following examples illustrate the syntax of this flag. The first example uses a data source (<span class="keyword cmdname">DSN</span>), the second supplies the full connection string.
+			<p class="p"><samp class="ph codeph">/S DSN=MyDataSource</samp></p>
+
+			<p class="p"><samp class="ph codeph">/S UID=MyId;DATABASE=MyDB;HOST=MyServer;SERVER=MyServer_tli;SERVICE=sqlexec;PROTOCOL=onsoctcp</samp></p>
+
+			<p class="p">The following example shows the syntax using a data source (<span class="keyword cmdname">FileDSN</span>) with a user ID (<span class="keyword cmdname">UID</span>) and password (<span class="keyword cmdname">PWD</span>).</p>
+
+			<p class="p"><samp class="ph codeph">/S FILEDSN=C:\Tenop\MyDataSource.dsn;UID=MyUserID;PWD=MyPassword</samp></p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/T MapInfo Table Name;Server Table Name;Range</strong> – Use this flag to pass a single table name to the program. Use a semicolon symbol as the separator between the MapInfo table name, the server name, and the range. The range is in the format starting number (COMMA) ending number. The server table name and the range are optional.
+			<p class="p">Syntax: /T c:\data\states.tab;mystates;1,500</p>
+
+			<div class="note note"><span class="notetitle">Note:</span> Do not enclose file names in quotation marks.</div>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/U Do Not Create a Primary Index</strong> – Use this flag to add a primary key constraint by default. This flag prevents a primary key from being created on the table. This flag is turned OFF by default, which means that a primary key is created by default. See /I which controls the spatial index. For Oracle Spatial tables, the primary key is created on the column MI_PRINX and is called table_name_PK. For SpatialWare tables, the primary key is created on the column SW_MEMBER and is called table_name_PK.
+			<p class="p">Syntax: /U</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/V Oracle Version</strong> – Use this flag to load tables on an Oracle 8.1.6 server with the 8.1.5 format. This not generally recommended, but it is available if you have a special need to do this. If you want to accomplish this using the graphical interface, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/mixingcommandlineflags.html">Mixing Command Line Flags with the EasyLoader User Interface</a>.
+			<p class="p">Syntax: /V</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/X Commit interval</strong> – Use this flag to specify a commit interval. EasyLoader commits the inserted records when it reaches the commit interval you specify. The default commit interval is 1000. This same interval applies to the creation of the spatial index for Oracle Spatial. If the commit interval is set to 0 (zero), the whole range of records is inserted as a single transaction, before a commit is issued.
+			<p class="p">Syntax: /X 500</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/Y Style Column Name</strong> – Use this flag to specify whether per-row styles are being loaded with the data. You can also specify the name of the column to be used. If you do not provide a name, the default MI_STYLE column name is created. If you specify the NO_STYLE keyword after the /Y flag, EasyLoader does not create a style column on the server table.
+			<p class="p">Syntax: /Y [StyleColumnName | NO_STYLE]</p>
+
+			</li>
+
+			
+			<li class="li">
+			<strong class="ph b">/Z Always Geometry</strong> – Use this flag to specify that the table is to be uploaded as a Geometry data type in Microsoft SQL Server Spatial, regardless of the coordinate system specified in the native table. For more information, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/loadingsqlserverspatialdata.html">Loading Microsoft SQL Server Spatial Data</a>.
+			<p class="p">Syntax: /Z</p>
+
+			</li>
+
+		
+		</ul>
+
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="contents/../contents/chapterintro.html">Uploading Data with MapInfo EasyLoader</a></div>
+</div>
+</div>
+
+</body>
+</html>

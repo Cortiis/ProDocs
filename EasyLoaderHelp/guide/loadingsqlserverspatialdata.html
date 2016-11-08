@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Loading Microsoft SQL Server Spatial Data"/>
+<meta name="DC.subject" content="SQL Server Spatial data, data, SQL Server Spatial"/>
+<meta name="keywords" content="SQL Server Spatial data, data, SQL Server Spatial"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/understandingyourdata.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="16"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="loadingmicrosoftsqlserverspatialdata"/>
+<meta name="DC.Language" content="en"/>
+<title>Loading Microsoft SQL Server Spatial Data</title>
+</head>
+<body id="loadingmicrosoftsqlserverspatialdata">
+
+
+
+	<h1 class="title topictitle1">Loading Microsoft SQL Server Spatial Data</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">Microsoft SQL Server Spatial includes Geography and Geometry data types. Geography fields hold geometries specified in the Lat/Long coordinate system. Geometry fields hold geometries specified in all other coordinate systems. If you choose to upload to a Geometry field type, then EasyLoader runs the SQL Server Spatial MakeValid( ) function to fix any geometry that SQL Server Spatial deems invalid. This may shift point locations for certain geometries.</p>
+
+		
+		<p class="p">In the <span class="keyword wintitle">Options</span> dialog box, EasyLoader enables you to control how the geometry data in a native table is uploaded to SQL Server Spatial.</p>
+
+		
+		<p class="p">Keep the default selection of <span class="ph uicontrol">Always Geometry</span>if you want EasyLoader to always upload geometry objects to Geometry fields regardless of the coordinate system they use.</p>
+
+		
+		<p class="p">Select <span class="ph uicontrol">Auto Select</span>if you want EasyLoader to automatically decide whether the geometry object is uploaded to a Geography field (in cases where the geometry object uses the Lat/Long coordinate system) or a Geometry field (in cases where the geometry object does not use the Lat/Long coordinate system).</p>
+
+		
+		<div class="note note"><span class="notetitle">Note:</span> When the Auto Select option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.</div>
+
+		
+		<p class="p">To view the Unsupported Geometries in SQL, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/unsupportedgeometry.html">Unsupported Geometry</a>.</p>
+
+		
+		<p class="p">EasyLoader supports uploading MapInfo native tables into SQL Server Spatial. SQL Server Spatial allows spatial data to be stored into two data types; Geometry and Geography. SQL Server's rules that define what a valid geometry or geography are different than MapInfo Pro's rules. The SQL Server Spatial's Geography data type does not support:</p>
+
+		<ul class="ul">
+		  <li class="li">polygons that contain self intersecting boundaries</li>
+
+		  <li class="li">geography instances that span more than one hemisphere</li>
+
+		  <li class="li">lines/polygon boundaries that have two successive, identical nodes</li>
+
+		</ul>
+
+		
+		<p class="p">The SQL Server Spatial's Geometry type does not support:</p>
+
+		<ul class="ul">
+		  <li class="li">polygons that contain self intersecting boundaries</li>
+
+		  <li class="li">lines/polygon boundaries that have two successive, identical nodes</li>
+
+		</ul>
+
+    
+		<p class="p">Refer to SQL Server books online for complete information on the rules that define these two types at:</p>
+ 
+		<ul class="sl simple">
+			<li class="sli"><a xmlns:functx="http://www.functx.com" class="xref" href="http://www.microsoft.com/en-us/sqlserver/default.aspx" target="_blank">http://www.microsoft.com/en-us/sqlserver/default.aspx</a></li>
+
+		</ul>
+
+    
+		<p class="p">This means that you may have geometry data that are valid in a MapInfo TAB format that cannot be loaded into SQL Server Spatial without correction/edits. EasyLoader aborts the upload if it comes across the geometry that SQL Server rejects. It will display the primary key of the record that contains the rejected object. A "MapInfo Upload Utility Error" message displays.</p>
+
+    
+		<p class="p">You may want to try the following steps to make the geometry acceptable to SQL Server.</p>
+
+		<ul class="ul">
+			<li class="li">Use MapInfo Pro's <span class="ph uicontrol">Clean</span> operation on the <span class="ph uicontrol">Object</span> menu to correct the geometry.</li>
+
+			<li class="li">If your upload was to Geography type and it fails, try loading it to Geometry, correct the instance using the MakeValid( ) method on the Geometry type, and uploading the instance again. You will need a working knowledge of SQL and access to a SQL Server Spatial client to use this approach.</li>
+
+		</ul>
+
+		
+		<p class="p">Consider the following example. Let's suppose the Geometry update failed for the row (state = 'Florida').</p>
+
+		<ul class="ul">
+			<li class="li">selectively update the offending geometry, using the MakeValid( ) method
+			<pre class="pre codeblock">update states_geom set geom = geom.MakeValid( ) where state = 'Florida'</pre>
+</li>
+
+			<li class="li">force an operation that does not alter the geometry, but forces a topology construction. here, we perform a union of the Geometry with its own start point
+			<pre class="pre codeblock">update states_geom set geom = geom.STUnion(geom.STStartPoint()) where state = 'Florida'</pre>
+</li>
+
+			<li class="li">now this query will attempt to create a Geography instance from the reformed Geometry
+			<pre class="pre codeblock">select state_name, sw_member, Geography::STGeomFromWKB(geom.STAsBinary(), 4269) from states_geom, where state = 'Florida'</pre>
+</li>
+
+		</ul>
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/../guide/understandingyourdata.html">Understanding Your Data</a></div>
+</div>
+</div>
+
+</body>
+</html>

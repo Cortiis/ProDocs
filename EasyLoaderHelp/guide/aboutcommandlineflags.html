@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="reference"/>
+<meta name="DC.Title" content="About Command-Line Flags"/>
+<meta name="DC.subject" content="command-line flags, flags, command-line"/>
+<meta name="keywords" content="command-line flags, flags, command-line"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/usingcommandlineflags.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="16"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="aboutcommandlineflags"/>
+<meta name="DC.Language" content="en"/>
+<title>About Command-Line Flags</title>
+</head>
+<body id="aboutcommandlineflags">
+
+
+
+	<h1 class="title topictitle1">About Command-Line Flags</h1>
+
+	
+	
+
+	<div class="body refbody">
+		<div class="section">
+			<p class="p">The following flags specify upload parameters when launching EasyLoader from a command-line. Many of the arguments have a long form and a legacy short form, such as the command to set a schema name when you upload a table: <samp class="ph codeph">/SchemaName</samp> and <samp class="ph codeph">/B</samp>.</p>
+
+		
+			<p class="p">Use a space or an equal sign (=) to separate a command argument and its value. This example sets a target schema name, <samp class="ph codeph">/SchemaName=<kbd class="ph userinput">schema_name</kbd></samp> or <samp class="ph codeph">/B <kbd class="ph userinput">schema_name</kbd></samp>.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__help"><h2 class="title sectiontitle">Help: /?, /Help</h2>
+			
+			
+			
+			
+			<p class="p">This flag shows the list of available command line options.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/?</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/Help</samp></p>
+
+		</div>
+
+
+		<div class="section" id="aboutcommandlineflags__appendall"><h2 class="title sectiontitle">Append All Tables to One: /A, /AppendAll</h2> 
+			 
+			 
+			 
+			
+			<p class="p">This flag uploads multiple tables to a single table, when the table structures are the same.</p>
+ 
+			
+			<p class="p">Syntax: <samp class="ph codeph">/A</samp></p>
+ 
+			<p class="p">Syntax: <samp class="ph codeph">/AppendAll</samp></p>
+ 
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__applocale"><h2 class="title sectiontitle">Set the Application Locale : /AppLocale</h2> 
+			 
+			 
+			
+			<p class="p">This flag sets the locale at runtime. It requires an ISO language code in the four character form as outlined by Microsoft's Language Culture Names list <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx" target="_blank">https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx</a>.</p>
+ 
+			
+			<p class="p">Syntax: <samp class="ph codeph">/AppLocale=<kbd class="ph userinput">languagecode</kbd></samp></p>
+ 
+			
+			<pre class="pre codeblock">/AppLocale=fr-FR</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__schemaname"><h2 class="title sectiontitle">Schema Name: /B, /SchemaName</h2> 
+			 
+			 
+			 
+			
+			<p class="p">This flag specifies a schema name when uploading tables to SQL Server. If you do not supply a schema name, then this flag uses the user's default schema on the server. On SQL Server, the default is usually set to dbo.</p>
+ 
+			
+			<p class="p">Syntax: <samp class="ph codeph">/B <kbd class="ph userinput">string_value</kbd></samp></p>
+ 
+			<p class="p">Syntax: <samp class="ph codeph">/SchemaName=<kbd class="ph userinput">string_value</kbd></samp></p>
+ 
+			
+			<pre class="pre codeblock">/SchemaName=MIPROUSER</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__createindiciesonothercolumns"><h2 class="title sectiontitle">Create Indices for all Locally-Indexed Columns: /C, /CreateIndiciesOnOtherColumns</h2>
+			
+			
+			 
+			
+			<p class="p">This flag uploads a new table or replaces an existing table and specify that only columns indexed on the local table are automatically indexed on the server table.</p>
+
+			
+			<p class="p">This flag does not make or reset column selections. Instead, use the EasyLoader window, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/servertableprocessingoptions.html">Create Indices on Other Columns under Server Table Processing Options</a> and <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/mixingcommandlineflags.html">Mixing Command-Line Flags and EasyLoader Window Options</a>.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/C</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/CreateIndiciesOnOtherColumns</samp></p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__commandfile"><h2 class="title sectiontitle">Input Command File: /CF, /CommandFile</h2>
+			
+			
+			 
+			
+			<p class="p">This flag loads command line arguments from an input file. Each line in the file must contain only one command. EasyLoader skips blank lines and comments that begin with a hash tag (#). You must specify the path to the input file with this flag.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/CF <kbd class="ph userinput">CommandFilePath</kbd></samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/CommandFile=<kbd class="ph userinput">CommandFilePath</kbd></samp></p>
+
+
+			<pre class="pre codeblock">/CommandFile=C:\MyFiles\EasyLoader\Commands\myCommandFile.txt</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__outputfolder"><h2 class="title sectiontitle">File Directory for Server Table(s): /D, /OutputFolder</h2>
+			
+			
+			
+			
+			<p class="p">This flag generates a TAB file in a specific directory location to access a remote database with. The new .tab file name appends _srv.tab to your server table name, <span class="ph filepath">yourServerTableName_srv.tab</span>. The directory must be valid to upload a table to it. An empty directory is considered valid.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/D <kbd class="ph userinput">string_value</kbd></samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/OutputFolder=<kbd class="ph userinput">string_value</kbd></samp></p>
+
+			
+			<p class="p">If the path contains spaces, use quotation marks around it.</p>
+
+			
+			<pre class="pre codeblock">/OutputFolder="C:\my work folder\Tables\My Upload Tables"</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__exclusiveuse"><h2 class="title sectiontitle">Exclusive Use of Table: /E, /ExclusiveUse</h2>
+			
+			
+			
+			
+			<p class="p">This flag improves load time on large tables when you are the only person updating the table. This flag does not guarantee that EasyLoader can obtain exclusive use of a table. After each commit, EasyLoader checks the maximum value of the primary key column (called MI_PRINX) to detect if entries were been made by other processes. This flag prevents this check, which improve the upload time for large tables.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/E</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/ExclusiveUse</samp></p>
+
+			
+			<p class="p">You can use this flag in an EasyLoader shortcut, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/mixingcommandlineflags.html">Mixing Command-Line Flags and EasyLoader Window Options</a>.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__logfilename"><h2 class="title sectiontitle">Log File name: /F, /LogFileName</h2>
+			
+			
+			
+			
+			<p class="p">This flag specifies the name and location of the log file created when EasyLoader uploads a table. By default, a log file named <span class="ph filepath">EasyLoader.log</span> is created in the <span class="ph filepath">TEMP</span> directory. If you specify a file name but do not provide a path, then EasyLoader saves the log file to the same directory as the <span class="ph filepath">EasyLoader.exe</span> file.</p>
+			
+
+			<p class="p">Syntax: <samp class="ph codeph">/F <kbd class="ph userinput">string_value</kbd></samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/LogFileName=<kbd class="ph userinput">string_value</kbd></samp></p>
+
+			
+			<p class="p">This example shows only the name of the log file, which saves to the same directory as <span class="ph filepath">EasyLoader.exe</span>.</p>
+
+			
+			<pre class="pre codeblock">/F myLogFile.txt</pre>
+
+			<pre class="pre codeblock">/LogFileName=myLogFile.txt</pre>
+
+			
+			<p class="p">This example specifies the full path for the log file. If the path contains spaces, use quotation marks around it.</p>
+
+			
+			<pre class="pre codeblock">/F "C:\my work folder\myLogFile.txt"</pre>
+
+			<pre class="pre codeblock">/LogFileName="C:\my work folder\myLogFile.txt"</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__folder"><h2 class="title sectiontitle">Table Folder: /Folder</h2>
+			
+			
+			
+			<p class="p">This flag loads all tables from a folder. Use a semicolon (;) to separate each element.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/Folder=FolderName;ServerOperation;AddToMapCatalog;IncludeSubFolders</samp></p>
+
+
+			<p class="p">Where:</p>
+
+			<ul class="ul">
+				<li class="li"><kbd class="ph userinput">FolderName</kbd> is the name of the root folder.</li>
+
+				<li class="li"><kbd class="ph userinput">ServerOperation</kbd> is the default server operation for the folder, use <samp class="ph codeph">Append</samp>, <samp class="ph codeph">CreateNew</samp>, or <samp class="ph codeph">Replace</samp>. The default is <samp class="ph codeph">Append</samp>.</li>
+
+				<li class="li"><kbd class="ph userinput">AddToMapCatalog</kbd> creates an entry for the folder tables in the Map Catalog. This is set to true by default, so set to <samp class="ph codeph">false</samp> to not add an entry in the Map Catalog.</li>
+
+				<li class="li"><kbd class="ph userinput">IncludeSubFolders</kbd> includes subfolders when querying for the folder's tables. This is set to true by default, so set to <samp class="ph codeph">false</samp> to not include subfolders in the query.</li>
+
+			</ul>
+	
+			
+			<p class="p">The following example does not include the optional <kbd class="ph userinput">AddToMapCatalog</kbd> and <kbd class="ph userinput">IncludeSubFolders</kbd> elements, both of which are set to <samp class="ph codeph">true</samp> by default.</p>
+
+			<pre class="pre codeblock">/Folder=C:/MyData;CreateNew</pre>
+
+			
+			<p class="p">The following example does not include tables in subfolders under <span class="ph filepath">MyData</span>. The third <kbd class="ph userinput">AddToMapCatalog</kbd> element is blank, because it is set to true by default.</p>
+
+			
+			<pre class="pre codeblock">/Folder=C:/MyData;CreateNew;;false</pre>
+		
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__grantall"><h2 class="title sectiontitle">Grant All: /G, /GrantAll</h2>
+			
+			
+			
+			
+			<p class="p">This flag grants all rights as Public. By default, this is not set and tables are private.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/G</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/GrantAll</samp></p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__nocreatespatialindex"><h2 class="title sectiontitle">Do Not Create a Spatial Index: /I, /NoCreateSpatialIndex</h2>
+			
+			
+			
+			
+			<p class="p">This flag prevents EasyLoader from creating a spatial index on the uploaded table. By default, this flag is turned off and EasyLoader creates a spatial index.</p>
+
+			
+			<p class="p">For Informix Dynamic Server (IDS) and User Defined Object (UDO) tables, EasyLoader creates a spatial index and then issues the "update statistics medium" statement.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/I</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/NoCreateSpatialIndex</samp></p>
+
+			
+			<p class="p">For more information, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__nocreateprimarykey">/NoCreatePrimaryKey</a>, which controls the unique index.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__automatedkey"><h2 class="title sectiontitle">Create Automated Key Column for SQL Server: /K, /AutomatedKey</h2>
+			
+			
+			
+			
+			<p class="p">This flag automatically generates unique key column values in SQL Server, so that you do not need to fill the key manually when you insert a new row. The key column is called MI_PRINX or MI_SQL_REC_NUM depending on the spatial object type that is selected: MI_PRINX is for spatial types and MI_SQL_REC_NUM is for XY types.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/K [ IDENTITY | NO_IDENTITY ]</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/AutomatedKey [ IDENTITY | NO_IDENTITY ]</samp></p>
+
+			
+			<p class="p">The key column is created with the IDENTITY property by default, so you do not need to include the IDENTITY property. If you want to turn this off, use the NO_IDENTITY property.</p>
+
+			
+			<pre class="pre codeblock">/AutomatedKey</pre>
+
+			<pre class="pre codeblock">/AutomatedKey=NO_IDENTITY</pre>
+
+			
+			<p class="p">You can use this flag in an EasyLoader shortcut, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/mixingcommandlineflags.html">Mixing Command-Line Flags and EasyLoader Window Options</a>.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__tablelist"><h2 class="title sectiontitle">List of MapInfo Tables: /L, /TableList</h2>
+			
+			
+			
+			
+			<p class="p">This flag specifies a text file that lists the tables to upload. The format of each line in the text file is the same as for <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__table">Table Specification: /T[able]</a>.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/L [ <kbd class="ph userinput">TextFile</kbd> | <kbd class="ph userinput">Path</kbd> ]</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/TableList=[ <kbd class="ph userinput">TextFile</kbd> | <kbd class="ph userinput">Path</kbd> ]</samp></p>
+
+			
+			<div class="p">Where:
+			<ul class="ul">
+				<li class="li"><kbd class="ph userinput">TextFile</kbd> is the name of the text file that lists the tables to upload.</li>
+
+				<li class="li"><kbd class="ph userinput">Path</kbd> is the full path location to the text file.</li>
+
+			</ul>
+</div>
+
+			
+			<p class="p">This example shows only the name of the file, which is located the same directory as <span class="ph filepath">EasyLoader.exe</span>.</p>
+
+			
+			<pre class="pre codeblock">/L ListOfTables.txt</pre>
+
+			
+			<p class="p">This example shows the path to the file. If the path contains spaces, use quotation marks around it.</p>
+
+			
+			<pre class="pre codeblock">/TableList="C:\my work folder\Tables\ListOfTables.txt"</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__spatialobjecttype"><h2 class="title sectiontitle">Spatial Object Type: /M, /SpatialObjectType</h2>
+			
+			
+			
+			
+			<p class="p">This flag specifies the object type to use: either <samp class="ph codeph">MICODE</samp> for XY with MapInfo key or <samp class="ph codeph">XY</samp> for XY only. EasyLoader does not display for any value other than <samp class="ph codeph">MICODE</samp> and <samp class="ph codeph">XY</samp>.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/M [ XY | MICODE ]</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/SpatialeObjectType=[ XY | MICODE ]</samp></p>
+
+			
+			<p class="p">Examples:</p>
+
+			<pre class="pre codeblock">/M XY</pre>
+
+			<pre class="pre codeblock">/SpatialObjectType=MICODE</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__minimized"><h2 class="title sectiontitle">Start Application Minimized: /Min, /Minimized</h2>
+			
+			
+			
+			
+			<p class="p">This flag starts Easyloader in a minimized state. This does not alter the behavior of the <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__nostart">/NoStart</a> flag. By default, this is set to false.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/Min</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/Minimized</samp></p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__nostart"><h2 class="title sectiontitle">Do Not Autostart the Table Load: /NoStart</h2>
+			
+			
+			
+			<p class="p">This flag disables the autostart behavior, so that EasyLoader does not automatically connect and begin to upload tables, even if the connection and tables are specified. By default, this is set to false.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/NoStart</samp></p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__noui"><h2 class="title sectiontitle">Run Without User Interface: /NoUi</h2>
+			
+			
+			
+			<p class="p">This flag runs EasyLoader without a user interface. This is useful when running EasyLoader from a batch file for autoloading tables.</p>
+ 
+			
+			<p class="p">This flag requires a connection and a list of tables to upload. At minimum, you would include a server connection string flag <samp class="ph codeph">/ConnectionString</samp> or the Oracle connection string flag <samp class="ph codeph">/OracleConnectionString</samp>, and a list of MapInfo tables <samp class="ph codeph">/TableList</samp> or a folder of tables <samp class="ph codeph">/Folder</samp>. You do not need to include the <samp class="ph codeph">/QuitWhenDone</samp> flag with <samp class="ph codeph">/NoUi</samp>.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/NoUi <kbd class="ph userinput">connection</kbd> <kbd class="ph userinput">tables</kbd></samp></p>
+
+			
+			<p class="p">Where:</p>
+
+			<ul class="ul">
+				<li class="li"><kbd class="ph userinput">connection</kbd> is either <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__connectionstring">/ConnectionString</a> or <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__oracleconnectionstring">/OracleConnectionString</a>.</li>
+
+				<li class="li"><kbd class="ph userinput">tables</kbd> is either <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__tablelist">/TableList</a> or <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__folder">/Folder</a>.</li>
+
+			</ul>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__oracleconnectionstring"><h2 class="title sectiontitle">Connection String: /O, /OracleConnectionString</h2>
+			
+			
+			
+			
+			<p class="p">This flag sets a connection string for Oracle Spatial.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/O [<kbd class="ph userinput">friendly_name</kbd>]<kbd class="ph userinput">user_name</kbd>/<kbd class="ph userinput">password</kbd>@<kbd class="ph userinput">server_name</kbd></samp></p>
+
+			
+			<div class="p">Where:
+			<ul class="ul">
+				<li class="li"><kbd class="ph userinput">friendly_name</kbd> is optional for setting a specific name for the connection identifier.</li>
+
+				<li class="li"><kbd class="ph userinput">user_name</kbd> is the Oracle user name to connect with.</li>
+
+				<li class="li"><kbd class="ph userinput">password</kbd> is the password for the Oracle user name.</li>
+
+				<li class="li"><kbd class="ph userinput">server_name</kbd> is the name of the server you are connecting to.</li>
+
+			</ul>
+</div>
+
+			
+			<p class="p">This example sets a connection string without defining a name for the connection identifier.</p>
+
+			
+			<pre class="pre codeblock">/OracleConnectionString=myUid/myPwd@oraserver11gr2</pre>
+
+			
+			<p class="p">This example sets the same connection and names the connection Oracle1. If the connection name has spaces, use quotation marks around it.</p>
+
+			
+			<pre class="pre codeblock">/OracleConnectionString=[Oracle1]myUid/myPwd@oraserver11gr2</pre>
+
+			
+			<p class="p">For ODBC connections, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__connectionstring">Server Connection String: /S, /ConnectionString</a>.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__serveroperation"><h2 class="title sectiontitle">Default Server Operation: /P, /ServerOperation</h2>
+			
+			
+			
+			
+			<p class="p">Use this flag to specify what to do with the upload tables in the server.</p>
+
+			<ul class="ul">
+				<li class="li">A appends to an existing server table.</li>
+
+				<li class="li">C creates a new server table. If the table you are uploading has the same name as a table on the server, the upload fails.</li>
+
+				<li class="li">R replaces an existing server table.</li>
+
+			</ul>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/P [ A | C | R ]</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/ServerOperation=[ A | C | R ]</samp></p>
+
+			
+			<pre class="pre codeblock">/P A</pre>
+
+			<pre class="pre codeblock">/SpatialObjectType=C</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__quitwhendone"><h2 class="title sectiontitle">Exit After Upload: /Q</h2>
+			
+			
+			
+			
+			<p class="p">This flag closes EasyLoader after completing the upload.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/Q</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/QuitWhenDone</samp></p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__connectionstring"><h2 class="title sectiontitle">Server Connection String: /S, /ConnectionString</h2>
+			
+			
+			
+			
+			<p class="p">This flag passes an ODBC connection string to the program. The <span class="keyword wintitle">ODBC Connection</span> dialog box does not display when you supply enough information to connect.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/ConnectionString=[ (friendly_name)connection_string | user_name/connection_string ]</samp></p>
+
+			
+			<div class="p">Where:
+			<ul class="ul">
+				<li class="li"><kbd class="ph userinput">friendly_name</kbd> is optional for setting a specific name for the connection identifier.</li>
+
+				<li class="li"><kbd class="ph userinput">user_name</kbd> is the Oracle user name to connect with.</li>
+
+				<li class="li"><kbd class="ph userinput">connection_string</kbd> is the ODBC connection string.</li>
+
+			</ul>
+</div>
+
+
+			<p class="p">This example uses a data source (DSN).</p>
+
+			
+			<pre class="pre codeblock">/ConnectionString=DSN=MyDataSource</pre>
+
+
+			<p class="p">This example sets a connection name to <kbd class="ph userinput">MyDBConnection</kbd>. It then uses the full connection string to the database, where items in all capitols are connection string parameters.</p>
+
+			 
+			<pre class="pre codeblock">/ConnectionString=[MyDBConnection]UID=MyId;DATABASE=MyDB;
+			HOST=MyServer;SERVER=MyServer_tli;SERVICE=sqlexec;PROTOCOL=onsoctcp</pre>
+
+			 
+			<p class="p">This example sets a connection name to <kbd class="ph userinput">My Data Source</kbd>. It uses a data source (<samp class="ph codeph">FileDSN</samp>=<kbd class="ph userinput">C:\Tenop\MyDataSource.dsn</kbd>) with a user ID (<samp class="ph codeph">UID</samp>=<kbd class="ph userinput">MyUserID</kbd>) and password (<samp class="ph codeph">PWD</samp>=<kbd class="ph userinput">MyPassword</kbd>). If the connection name has spaces, use quotation marks around the entire connection string.</p>
+
+			 
+			<pre class="pre codeblock">/ConnectionString="[My Data Source]FILEDSN=C:\Tenop\MyDataSource.dsn;UID=MyUserID;PWD=MyPassword"</pre>
+			
+			
+			<p class="p">For ODBC connections, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__oracleconnectionstring">Connection String: /O, /OracleConnectionString</a>.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__savecommandargs"><h2 class="title sectiontitle">Save Command Response File: /Save, /SaveCommandArgs</h2>
+			
+			
+			
+			
+			<p class="p">This flag writes the command line arguments to a response file, which can be used by <samp class="ph codeph">/CommandFile</samp>.</p>
+
+
+			<p class="p">Syntax: <samp class="ph codeph">/SaveCommandArgs=<kbd class="ph userinput">ResponseFilePath</kbd></samp></p>
+
+			
+			<p class="p">Example:</p>
+
+			<pre class="pre codeblock">/SaveCommandArgs=C:\MyFiles\EasyLoader\Commands\myCommandFile.txt</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__table"><h2 class="title sectiontitle">Table Specification: /T /Table</h2> 
+			 
+			 
+			 
+			
+			<p class="p">This flag passes a single table name to EasyLoader.</p>
+ 
+			
+			<p class="p">Syntax: <samp class="ph codeph">/Table=<kbd class="ph userinput">TableName</kbd>(;<kbd class="ph userinput">ServerTableName</kbd>;<kbd class="ph userinput">UploadRange</kbd>;<kbd class="ph userinput">ServerOperation</kbd>;<kbd class="ph userinput">AddToMapCatalog</kbd>)</samp></p>
+ 
+			
+			<div class="p">Where: 
+			<ul class="ul">
+				<li class="li"><kbd class="ph userinput">TableName</kbd> is the .tab file name to upload.</li>
+
+				<li class="li"><kbd class="ph userinput">ServerTableName</kbd> (optional) is the server table name. If left empty, EasyLoader users <kbd class="ph userinput">TableName</kbd>.</li>
+
+				<li class="li"><kbd class="ph userinput">UploadRange</kbd> (optional) is the range of table rows to upload. The range is a starting number and ending number with a comma (,) separator. A range of three to six would be 3,6.</li>
+
+				<li class="li"><kbd class="ph userinput">ServerOperation</kbd> (optional) is the server operation for the table. Use <samp class="ph codeph">Append</samp>, <samp class="ph codeph">CreateNew</samp>, or <samp class="ph codeph">Replace</samp>.</li>
+
+				<li class="li"><kbd class="ph userinput">AddToMapCatalog</kbd> creates an entry for the table in the Map Catalog. Set this to <samp class="ph codeph">true</samp> to create an entry. By default, this is set to false, so you do not need to specify it in the command-line.</li>
+
+			</ul>
+</div>
+
+
+			<p class="p">This example includes all parameters.</p>
+ 
+			
+			<pre class="pre codeblock">/T C:\data\states.tab;mystates;1,500;CreateNew;true</pre>
+ 
+			
+			<p class="p">This example leaves the upload range value empty, so that it uploads all of the rows in the table. It excludes the Map Catalog entry, so an entry is not created for this table in the Map Catalog.</p>
+ 
+			
+			<pre class="pre codeblock">/Table=C:\data\states.tab;MyOtherStates;;Replace</pre>
+ 
+			
+			<p class="p">This example includes only the path to the table to upload.</p>
+ 
+			
+			<pre class="pre codeblock">/Table=C:\data\aTable.tab</pre>
+ 
+			
+			<p class="p">If the path the upload file contains spaces, use quotation marks around it.</p>
+ 
+			
+			<pre class="pre codeblock">/Table="C:\My Documents\tables\aTable.tab";MyTable;;Replace;true</pre>
+ 
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__nocreateprimarykey"><h2 class="title sectiontitle">Do Not Create a Primary Index: /U, /NoCreatePrimaryKey</h2>
+			
+			
+			
+			
+			<p class="p">This flag prevents EasyLoaser from creating a primary key when uploading a table. It is turned off by default. When uploading to Oracle Spatial, EasyLoader creates a primary key on the <samp class="ph codeph">MI_PRINX</samp> column and names the key <samp class="ph codeph">table_name_PK</samp>.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/U</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/NoCreatePrimaryKey</samp></p>
+
+			
+			<p class="p">Also see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="#aboutcommandlineflags__nocreatespatialindex">Do Not Create a Spatial Index: /I, /NoCreateSpatialIndex</a>, which controls the spatial index.</p>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__commitinterval"><h2 class="title sectiontitle">Commit Interval: /X, /CommitInterval</h2>
+			
+			
+			
+			
+			<p class="p"/>
+This flag sets a commit interval. EasyLoader inserts records to the database and then commits them when it reaches the commit interval. The same interval value applies when creating the spatial index for Oracle Spatial. If the commit interval is set to zero (0), EasyLoader inserts the entire range of records as a single transaction before issuing a commit. 
+			
+			<p class="p">Syntax: <samp class="ph codeph">/X <kbd class="ph userinput">integer_value</kbd></samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/CommitInterval=<kbd class="ph userinput">integer_value</kbd></samp></p>
+
+			
+			<p class="p">Where, <kbd class="ph userinput">integer_value</kbd> is an integer value. The default value is 1000.</p>
+
+			
+			<p class="p">This example sets the commit interval to 500, so that EasyLoader commits all of the records to the database every 500th record.</p>
+
+			<pre class="pre codeblock">/CommitInterval=500</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__stylecolumnname"><h2 class="title sectiontitle">Style Column Name: /Y, /StyleColumnName</h2>
+			
+			
+			
+			
+			<p class="p">This flag loads per-row styles with the upload data. If you do not provide a name for the column to use, EasyLoader uses the default <samp class="ph codeph">MI_STYLE</samp> column name. If you do not want to create a style column on the server table, include the NO_STYLE parameter.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/Y ( string_value ) ( NO_STYLE )</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/keyword=( string_value ) ( NO_STYLE )</samp></p>
+
+			
+			<p class="p">This example uses the column called TableStyleCol to load per-row styles.</p>
+
+			
+			<pre class="pre codeblock">/Y TableStyleCol</pre>
+
+			<pre class="pre codeblock">/StyleColumnName=TableStyleCol</pre>
+
+			
+			<p class="p">This example uses the default column called <samp class="ph codeph">MI_STYLE</samp> to load per-row styles.</p>
+
+			
+			<pre class="pre codeblock">/Y</pre>
+
+			<pre class="pre codeblock">/StyleColumnName</pre>
+
+			
+			<p class="p">This example does not create a style column on the server table.</p>
+
+			
+			<pre class="pre codeblock">/Y NO_STYLE</pre>
+
+			<pre class="pre codeblock">/StyleColumnName=NO_STYLE</pre>
+
+		</div>
+
+		
+		<div class="section" id="aboutcommandlineflags__autoselectsqlserverspatial"><h2 class="title sectiontitle">SQL Server AuotSelect Geometry: /Z, /AutoSelectSqlServerSpatial</h2>
+			
+			
+			
+			
+			<p class="p">Use this flag to upload the table as a Geometry data type in Microsoft SQL Server Spatial regardless of the coordinate system in the native table.</p>
+
+			
+			<p class="p">Syntax: <samp class="ph codeph">/Z</samp></p>
+
+			<p class="p">Syntax: <samp class="ph codeph">/AutoSelectSqlServerSpatial</samp></p>
+
+			
+			<p class="p">For more information, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/loadingsqlserverspatialdata.html">Loading Microsoft SQL Server Spatial Data</a>.</p>
+
+		</div>
+
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/../guide/usingcommandlineflags.html">Using Command-Line Flags to Run EasyLoader</a></div>
+</div>
+</div>
+
+</body>
+</html>

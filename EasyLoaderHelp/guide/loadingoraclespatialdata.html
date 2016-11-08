@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Loading Oracle Spatial Data"/>
+<meta name="DC.subject" content="Oracle Spatial data, data, Oracle Spatial"/>
+<meta name="keywords" content="Oracle Spatial data, data, Oracle Spatial"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/understandingyourdata.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="16"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="loadingoraclespatialdata"/>
+<meta name="DC.Language" content="en"/>
+<title>Loading Oracle Spatial Data</title>
+</head>
+<body id="loadingoraclespatialdata">
+
+
+
+	<h1 class="title topictitle1">Loading Oracle Spatial Data</h1>
+
+
+	
+
+	<div class="body conbody">
+		<div class="p">There are things to be aware of when uploading data tables to an Oracle database, such as:
+		<ul class="ul">
+			<li class="li">You cannot replace version-enabled tables in Oracle. This would make child versions of these tables obsolete.</li>
+
+			<li class="li">Oracle has a limit on identifier names, which cannot be more than 30 bytes. For details, see <a xmlns:functx="http://www.functx.com" class="xref" href="http://docs.oracle.com/database/121/SQLRF/sql_elements008.htm#SQLRF51129" target="_blank">http://docs.oracle.com/database/121/SQLRF/sql_elements008.htm#SQLRF51129</a>. The total number of bytes for table names, columns names, primary key constraint names (table name + "_PK") and index names (column name + "_IX") must not exceed 30 bytes. The number of bytes that each character uses is dependent upon the character set that Oracle is using. If you see the message "Identifier is too long", then make server table names or column names shorter.</li>
+
+		</ul>
+</div>
+
+
+		<div class="section" id="loadingoraclespatialdata__validatingoracledata"><h2 class="title sectiontitle">Validating Oracle Data</h2>
+			
+			
+			<p class="p">There are two functions that allow you to validate data in Oracle:</p>
+
+			<ol class="ol">
+				<li class="li">SDO_GEOM.VALIDATE_GEOMETRY( )</li>
+
+				<li class="li">SDO_GEOM.VALIDATE_LAYER( )</li>
+
+			</ol>
+
+			
+			<p class="p">These functions may result in validation errors due to the tolerance level set by EasyLoader. You may get error messages such as:</p>
+
+			<blockquote class="lq">"ORA-13356 adjacent points in a geometry are redundant", or "ORA-13022 polygon crosses itself"</blockquote>
+
+			
+			<p class="p">To resolve these errors, reset the tolerance within the USER_SDO-GEOM_METADATA by adjusting them downwards (by a factor of 10) and rerun the validation.</p>
+
+			
+			<div class="note note"><span class="notetitle">Note:</span>  If you adjust the tolerance, you must re-create the spatial indexes because they use the tolerance when they are created.</div>
+
+			
+			<p class="p">To view the Unsupported Geometries in Oracle See <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/unsupportedgeometry.html">Unsupported Geometry</a>.</p>
+
+		</div>
+
+		
+		<div class="section" id="loadingoraclespatialdata__loadingfororaclelocator"><h2 class="title sectiontitle">Loading for Oracle Locator</h2>
+			
+			<p class="p">EasyLoader loads data for the Oracle Locator, which is the same as loading data for Oracle Spatial.</p>
+
+		</div>
+
+		
+		<div class="section" id="loadingoraclespatialdata__loadinglatlongintooracle9i"><h2 class="title sectiontitle">Loading Long/Lat Tables to Oracle 9i</h2>
+			
+			
+			<p class="p">When uploading tables that use the Longitude/Latitude coordinate system (Geodetic Data) to Oracle 9i, it is important to verify that all geometry coordinates are between (-180,180) longitude and (-90, 90) latitude. Geodetic data coordinates beyond that range are not supported in Oracle Spatial and may cause problems. You may check your data using MapInfo Pro before loading, or by using the Oracle Spatial SDO_GEOM.VALIDATE_LAYER( ) function on the table after loading it to Oracle Spatial.</p>
+
+			
+			<div class="note note"><span class="notetitle">Note:</span> EasyLoader assigns the default datum World Geodetic System 1984 (WGS84) to any “datumless” Long/Lat coordinate system when loading Oracle 9i.</div>
+
+		</div>
+
+		
+		
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/../guide/understandingyourdata.html">Understanding Your Data</a></div>
+</div>
+</div>
+
+</body>
+</html>

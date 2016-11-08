@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Loading PostGIS Spatial Data"/>
+<meta name="DC.subject" content="PostGIS Spatial data, data, PostGIS Spatial, Validating PostGIS Data"/>
+<meta name="keywords" content="PostGIS Spatial data, data, PostGIS Spatial, Validating PostGIS Data"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/uploading/understandingyourdata.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="loadingpostgisspatialdata"/>
+<meta name="DC.Language" content="en"/>
+<title>Loading PostGIS Spatial Data</title>
+</head>
+<body id="loadingpostgisspatialdata">
+
+
+
+	<h1 class="title topictitle1">Loading PostGIS Spatial Data</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">MapInfo EasyLoader uploads MapInfo tables into PostGIS, which stores spatial data in a geometry column called sp_geometry. Unsupported data types are ignored resulting in an empty record in the sp_geometry geometry column. For a list of unsupported data types, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/uploading/unsupportedgeometry.html">Unsupported Geometry</a>.</p>
+
+		
+		<p class="p">MapInfo EasyLoader uploads a table with a Serial datatype for the primary key column. This allows the database to automatically increment the key column.</p>
+
+		
+		<p class="p">To check if a geometry object is valid in PostGIS, use the function called <strong class="ph b">isvalid</strong>. The following is an example SQL statement:</p>
+
+		<pre class="pre codeblock">select isvalid(sp_geometry) from test</pre>
+
+		
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/uploading/../../guide/uploading/understandingyourdata.html">Understanding Your Data</a></div>
+</div>
+</div>
+
+</body>
+</html>

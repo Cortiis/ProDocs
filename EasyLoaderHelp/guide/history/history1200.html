@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="New in MapInfo EasyLoader 12.0"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/history/chapterhistory.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="history1200"/>
+<meta name="DC.Language" content="en"/>
+<title>New in MapInfo EasyLoader 12.0</title>
+</head>
+<body id="history1200">
+
+
+
+	<h1 class="title topictitle1">New in MapInfo EasyLoader 12.0</h1>
+
+
+	<div class="body conbody">
+		<p class="p">MapInfo EasyLoader 12.0 supports the following database versions:</p>
+
+		<ul class="ul">
+			<li class="li"><strong class="ph b">PostGIS 2.0</strong> – Note that when uploading files to a PostGIS 2.0 database, spatial objects upload as a geometry spatial data type.</li>
+
+			<li class="li"><strong class="ph b">SQL Server 2012</strong> – MapInfo EasyLoader processes any invalid geography using the SQL Server 2012 MakeValid( ) function, so that the geography is valid.</li>
+
+		</ul>
+
+		
+		<p class="p">The server table processing option <span class="ph uicontrol">Grant Public Access to Table</span> has been changed to <span class="ph uicontrol">Grant Public Full Access to Table</span>.</p>
+
+		
+		<p class="p">This release fixes the following issues:</p>
+
+		
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all">
+				
+									
+				<thead class="thead" align="left">
+					<tr class="row">
+						<th class="entry" valign="top" width="21.052631578947366%" id="d276e66">Issue Number</th>
+
+						<th class="entry" valign="top" width="78.94736842105263%" id="d276e69">Description and Resolution</th>
+
+					</tr>
+
+				</thead>
+					
+				<tbody class="tbody">		
+					<tr class="row">
+						<td class="entry" valign="top" width="21.052631578947366%" headers="d276e66 ">MIPRO-12309</td>
+
+						<td class="entry" valign="top" width="78.94736842105263%" headers="d276e69 ">A message displays when appending a native table with a MI_PRINX column in an Oracle Spatial database with an OCI connection, "Table cannot be Appended—It has a different table structure."</td>
+
+					</tr>
+	
+					<tr class="row">
+						<td class="entry" valign="top" width="21.052631578947366%" headers="d276e66 ">MIPRO-12320</td>
+
+						<td class="entry" valign="top" width="78.94736842105263%" headers="d276e69 ">When uploading a table with no geometry into MapInfo EasyLoader 11.5, an error message appears: "Table cannot be Appended—It has a different table structure."</td>
+
+					</tr>
+
+					<tr class="row">
+						<td class="entry" valign="top" width="21.052631578947366%" headers="d276e66 ">MIPRO-32642</td>
+
+						<td class="entry" valign="top" width="78.94736842105263%" headers="d276e69 ">MapInfo EasyLoader is unable to import to "geography" data type in SQL Server 2008 SP2.
+						<p class="p">You will need to upgrade to SQL Server 2012. SQL Server 2012 uses the function STIsValid( ) to check if a geography data type is well formed and recognized as a valid object based on its OGC type. The MakeValid( ) function is also used that converts an invalid geography data type into a valid one. In MapInfo Pro 12.0, you can use the extended spatial methods in SQL Server 2012 to manage valid geography data types. Refer to the <a xmlns:functx="http://www.functx.com" class="xref" href="http://msdn.microsoft.com/en-us/library/ff929337.aspx" target="_blank">SQL Server 2012 MSDN library</a> for more information.</p>
+
+						</td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+</div>
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/history/../../guide/history/chapterhistory.html">History of Changes</a></div>
+</div>
+</div>
+
+</body>
+</html>

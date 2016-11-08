@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Using EasyLoader to Upload Tables"/>
+<meta name="DC.subject" content="data, updating"/>
+<meta name="keywords" content="data, updating"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/chapterintro.html"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/creatinganoracleconnection.html"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/creatinganodbcconnection.html"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/tableprocessingoptions.html"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/uploadingtableswithtimeanddatetimecolumns.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="16"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="usingeasyloader"/>
+<meta name="DC.Language" content="en"/>
+<title>Using EasyLoader to Upload Tables</title>
+</head>
+<body id="usingeasyloader">
+
+
+
+	<h1 class="title topictitle1">Using EasyLoader to Upload Tables</h1>
+
+	
+	
+
+	<div class="body taskbody">
+
+		<div class="section context">	
+			<p class="p">For instructions to start EasyLoader, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/gettingstarted.html">Getting Started with EasyLoader</a>. To start EasyLoader from within MapInfo Pro, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/startinginpro.html">Starting EasyLoader from within MapInfo Pro</a>.</p>
+
+		</div>
+
+
+		<p class="li stepsection">To upload MapInfo TAB files using EasyLoader:</p><ol class="ol steps"><li class="li step stepexpand">
+				<span class="ph cmd">From the <span class="ph uicontrol">Database Connection</span> list select your existing connection.</span>
+				<div class="itemgroup info">
+					<p class="p">You can use existing database connections created from the Microsoft <span class="ph uicontrol">Start</span> menu or from in MapInfo Pro.</p>
+
+					
+					<p class="p">To create a new connection from EasyLoader, select <span class="ph uicontrol">New Connection</span> and click the <span class="ph uicontrol">Manage Connection List and Choose Connection</span> <img class="image" src="images/icon_openDbms_sm.png"/> button. Follow the instructions under <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/creatinganoracleconnection.html">Creating an Oracle Connection</a> or <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/creatinganodbcconnection.html">Creating an ODBC Connection</a>.</p>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">From the <span class="ph uicontrol">Output Directory</span> list select a directory to save live access files to or select <span class="ph uicontrol">Do Not Create .tab Files</span>.</span>
+				<div class="itemgroup info">
+					<p class="p">Unless you select not to create them, EasyLoader saves .tab files to your machine that contain database access information. MapInfo Pro uses these files when accessing the tables that EasyLoader uploads. If you select not to create these files, you can create them later from within MapInfo Pro. A live access file has the same name as the upload file with a <span class="ph filepath">_srv</span> extension, such as <span class="ph filepath">YourServerTableName_srv.tab</span>.</p>
+
+					
+					<p class="p">To select a different directory from what is in the list, click the <span class="ph uicontrol">Browse for an Output Directory (Folder)</span> <img class="image" src="images/openFolder_sm.png"/> button.</p>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Click the <span class="ph uicontrol">Browse for one or more tables to upload</span> <img class="image" src="images/icon_addLayer_sm.png"/> button located beside the <span class="ph uicontrol">Source Table</span> column heading in EasyLoader. Add individual tables for upload by selecting <span class="ph uicontrol">Add Tables</span> or a folder of tables by selecting <span class="ph uicontrol">Add Tables from Folder</span>.</span>
+				<div class="itemgroup info">
+					<p class="p">In the dialog that opens, navigate to the table or folder and select it. The tables that you select display in EasyLoader and are the tables that you will upload.</p>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">The <span class="ph uicontrol">Server Table</span> column shows the table name as it will appear on the database server. Click on the name if you want to change it.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">In the <span class="ph uicontrol">Operation</span> column, select how to upload each table.</span>
+				<div class="itemgroup info">
+					<ul class="ul">
+						<li class="li"><span class="ph uicontrol">Create a New Table</span> ­ creates a new table in the database using the source table name.</li>
+
+						<li class="li"><span class="ph uicontrol">Replace Existing Table</span> ­ replaces an existing table in the database that has the same name as the source table.</li>
+
+						<li class="li"><span class="ph uicontrol">Append to Existing Table</span> ­ appends the contents of the source table to an existing table in the database that has the same name as the source table.</li>
+
+						<li class="li"><span class="ph uicontrol">Append All</span> ­ appends all tables to one server table. Select this to create one table for all map layers instead of creating a table for each map layer.</li>
+
+					</ul>
+
+					<p class="p">For more details, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/tableprocessingoptions.html">Table Processing Options</a>.</p>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">By default, upload tables are added to the map catalog on the database unless you clear the check box in the <span class="ph uicontrol">Catalog</span> column.</span>
+				<div class="itemgroup info">
+					<p class="p">MapInfo Pro uses the Map Catalog on the database for spatial indexing. Select this check box to add a new Map Catalog or clear it to unregister a table from the Map Catalog. For information about the Map Catalog and what options you can set, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/usingmapcatalog.html">Using the Map Catalog</a>. If you do not add the upload table data to the Map Catalog now, then you can do so later in MapInfo Pro.</p>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Click <span class="ph uicontrol">Start or Resume Uploading Tables</span> <img class="image" src="images/icon_resumeJob_sm.png"/> to start the upload process.</span>
+				<div class="itemgroup info">
+					<p class="p">To pause the upload, click this <img class="image" src="images/icon_pauseJob_sm.png"/> button again.</p>
+
+					<p class="p">To cancel the upload, click <span class="ph uicontrol">Cancel the rest of the uplaod</span> <img class="image" src="images/icon_cancelJob_sm.png"/>.</p>
+
+				</div>
+			</li>
+</ol>
+
+
+		<div class="section result">
+			<p class="p">EasyLoader provides status information for the upload and displays the message "Upload Completed" when finished.</p>
+
+			
+			<p class="p">For information about how to set the spatial object types and the server processing options for an upload, see <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/aboutuploadoptions.html">About Upload Options</a>.</p>
+
+			
+			<div class="note note"><span class="notetitle">Note:</span> On some operating systems, such as Windows 7, when you select <span class="ph uicontrol">Add Tables</span> in EasyLoader the resulting <span class="keyword wintitle">Open</span> dialog has a drop-down list on the <span class="ph uicontrol">Open</span> button. From this list, you can select <span class="ph uicontrol">Show previous versions</span>. This is a Microsoft system feature that lets you recover deleted files, view or restore a file you saved over, and lets you compare versions of a file side by side.</div>
+
+		</div>
+
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/../guide/creatinganoracleconnection.html">Creating an Oracle Connection</a></strong><br/>
+</li>
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/../guide/creatinganodbcconnection.html">Creating an ODBC Connection</a></strong><br/>
+</li>
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/../guide/tableprocessingoptions.html">Table Processing Options</a></strong><br/>
+</li>
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/../guide/uploadingtableswithtimeanddatetimecolumns.html">Uploading Tables with Time and DateTime Columns</a></strong><br/>
+</li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/../guide/chapterintro.html">Uploading Data with EasyLoader</a></div>
+</div>
+</div>
+
+</body>
+</html>

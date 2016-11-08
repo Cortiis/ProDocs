@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Using the Map Catalog"/>
+<meta name="DC.subject" content="MAPINFO_MAPCATALOG, using"/>
+<meta name="keywords" content="MAPINFO_MAPCATALOG, using"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/uploading/chapteruploading.html"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/uploading/creatingmapcatalog.html"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/uploading/mapcatalogtablestructure.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="usingmapcatalog"/>
+<meta name="DC.Language" content="en"/>
+<title>Using the Map Catalog</title>
+</head>
+<body id="usingmapcatalog">
+
+
+
+	<h1 class="title topictitle1">Using the Map Catalog</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">The <span class="ph filepath">MAPINFO_MAPCATALOG</span> is a registry table for databases that stores metadata about geometry tables in the database. Using both the table name and owner name as the key, the <span class="ph filepath">MAPINFO_MAPCATALOG</span> identifies the geometry column, geometry type, projection, projection bounds, and table and feature level rendition information. The <span class="ph filepath">MAPINFO_MAPCATALOG</span> is used by a number of MapInfo products, including MapInfo Pro, that access map data from databases.</p>
+
+		
+		<p class="p">If a Map Catalog does not exist, it can be created during the upload process by selecting the check box in the <span class="ph uicontrol">Catalog</span> column for the table being uploaded. The user account for the server connection must have permission to the MapInfo schema on the server to create the map catalog. If it does not have adequate permissions, then creation will not succeed and the table will not upload. If this happens, ask the database administrator to grant you permission to the MapInfo schema.</p>
+
+
+		<p class="p">After the table is uploaded, an entry is made in the <span class="ph filepath">MAPINFO.MAPINFO_MAPCATALOG</span> to represent that table. A separate entry is made for every table you upload.</p>
+
+
+		<p class="p">If the table is made up of a single type of object, then the server object type is restricted to that type, otherwise the type is ALL. Also, the symbol clause generated is based on the server type. For example: After uploading the table <span class="ph filepath">states.tab</span> the server type will be x.2 (polygons), where x is a number that represents either IDS, SQL Server, or Oracle Spatial, and the symbol clause will have only the information for a polygon.</p>
+
+		
+		<div class="note note"><span class="notetitle">Note:</span> See also, <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="guide/uploading/loadingsqlserverspatialdata.html">Loading Microsoft SQL Server Spatial Data</a>.</div>
+
+
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/uploading/../../guide/uploading/creatingmapcatalog.html">Unregister Tables from the Map Catalog</a></strong><br/>
+</li>
+<li class="link ulchildlink"><strong><a class="- topic/link  ajaxLink" href="guide/uploading/../../guide/uploading/mapcatalogtablestructure.html">MAPINFO_MAPCATALOG Table Structure</a></strong><br/>
+</li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/uploading/../../guide/uploading/chapteruploading.html">Uploading Data</a></div>
+</div>
+</div>
+
+</body>
+</html>

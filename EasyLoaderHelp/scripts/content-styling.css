@@ -1,0 +1,225 @@
+
+/* 
+ * Definition Lists
+ */
+#web-help-c2 dt {
+	clear: left;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    width: 200px;
+}
+
+#web-help-c2 dd {
+	font-size: 14px;
+    margin: 0 0 0 210px;
+    padding: 0 0 0.5em;
+}
+
+#web-help-c2 dl {
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+	padding: 5px;
+}
+
+/*
+ * Tables
+ */
+.table {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid none none;
+    border-top: 1px solid #c5cbe3;
+    border-top-right-radius: 0;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+	width:100%;
+}
+th.entry {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #c5cbe3;
+    border-style: none none solid;
+    color: #4e4e4e;
+    font-family: "Precision Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 8pt 4pt;
+    text-align: -moz-left;
+    text-decoration: none;
+    text-shadow: none;
+}
+td.entry {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #c5cbe3;
+    border-style: solid none;
+    border-top: 0 solid rgb(0, 0, 0);
+    padding: 4pt;
+}
+.choicetable {
+    margin-top: 18px;
+}
+table.properties {
+    border-bottom: 1px solid #a03f9b;
+    border-style: none none solid;
+}
+th.stentry {
+    border-color: -moz-use-text-color -moz-use-text-color #a03f9b;
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+    border-width: medium medium 1px;
+    color: #a03f9b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
+td.stentry {
+    border-color: #ddd -moz-use-text-color -moz-use-text-color;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    padding: 8px;
+}
+
+.tablenoborder {
+	padding-bottom:14px;
+}
+
+/*
+ * Related Links
+ */
+.related-links-title:after {
+	/* content: "Related Topics:"; */
+}
+
+
+/* 
+ * Notes
+ */
+div.note {
+	/*background: #f5f6fa url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjM0U1M0E0Ij48cGF0aCBkPSJNMTAgMTcuNWMtNC4xMjUgMC03LjUtMy4zNzUtNy41LTcuNXMzLjM3NS03LjUgNy41LTcuNSA3LjUgMy4zNzUgNy41IDcuNS0zLjM3NSA3LjUtNy41IDcuNW0wLTE3LjVjLTUuNSAwLTEwIDQuNS0xMCAxMHM0LjUgMTAgMTAgMTAgMTAtNC41IDEwLTEwLTQuNS0xMC0xMC0xMCIvPjxwYXRoIGQ9Ik04Ljc1IDguNzVoMi41djYuMjVoLTIuNXoiLz48cGF0aCBkPSJNMTAgNWMuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXMtLjU2IDEuMjUtMS4yNSAxLjI1LTEuMjUtLjU2LTEuMjUtMS4yNS41Ni0xLjI1IDEuMjUtMS4yNSIvPjwvZz48L3N2Zz4=") no-repeat scroll 7px 10px;*/
+    background: #f5f6fa;
+	border-left: 3px solid #3e53a4;
+    color: #2e2e2e;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.codeph {
+	/*background: #f5f6fa url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjM0U1M0E0Ij48cGF0aCBkPSJNMTAgMTcuNWMtNC4xMjUgMC03LjUtMy4zNzUtNy41LTcuNXMzLjM3NS03LjUgNy41LTcuNSA3LjUgMy4zNzUgNy41IDcuNS0zLjM3NSA3LjUtNy41IDcuNW0wLTE3LjVjLTUuNSAwLTEwIDQuNS0xMCAxMHM0LjUgMTAgMTAgMTAgMTAtNC41IDEwLTEwLTQuNS0xMC0xMC0xMCIvPjxwYXRoIGQ9Ik04Ljc1IDguNzVoMi41djYuMjVoLTIuNXoiLz48cGF0aCBkPSJNMTAgNWMuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXMtLjU2IDEuMjUtMS4yNSAxLjI1LTEuMjUtLjU2LTEuMjUtMS4yNS41Ni0xLjI1IDEuMjUtMS4yNSIvPjwvZz48L3N2Zz4=") no-repeat scroll 7px 10px;*/
+    background: #f5f6fa;
+	
+    color: #2e2e2e;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 0;
+    padding: 1px 4px;
+	font-family: monospace;
+}
+
+.filepath {
+	/*background: #f5f6fa url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjM0U1M0E0Ij48cGF0aCBkPSJNMTAgMTcuNWMtNC4xMjUgMC03LjUtMy4zNzUtNy41LTcuNXMzLjM3NS03LjUgNy41LTcuNSA3LjUgMy4zNzUgNy41IDcuNS0zLjM3NSA3LjUtNy41IDcuNW0wLTE3LjVjLTUuNSAwLTEwIDQuNS0xMCAxMHM0LjUgMTAgMTAgMTAgMTAtNC41IDEwLTEwLTQuNS0xMC0xMC0xMCIvPjxwYXRoIGQ9Ik04Ljc1IDguNzVoMi41djYuMjVoLTIuNXoiLz48cGF0aCBkPSJNMTAgNWMuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXMtLjU2IDEuMjUtMS4yNSAxLjI1LTEuMjUtLjU2LTEuMjUtMS4yNS41Ni0xLjI1IDEuMjUtMS4yNSIvPjwvZz48L3N2Zz4=") no-repeat scroll 7px 10px;*/
+    background: #f5f6fa;
+	
+    color: #2e2e2e;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 0;
+    padding: 1px 4px;
+	font-family: monospace;
+}
+
+.codeblock {
+	background: #f5f6fa none repeat scroll 0 0;
+	color: #2e2e2e;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 0;
+    padding: 10px;
+	font-family: monospace;
+	display:block;
+}
+
+.pre {
+	background: #f5f6fa none repeat scroll 0 0;
+	color: #2e2e2e;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 0;
+    padding: 10px;
+	font-family: monospace;
+	display:block;
+}
+
+.notetitle {
+    background-image: none !important;
+    color: #2e2e2e;
+    padding-left: 0 !important;
+	font-weight:bold;
+}
+
+#web-help-c2 ul.ullinks:before{
+    content: "In this Section";
+	font-weight: bold;
+}
+
+#web-help-c2 ul.ullinks{
+    margin-left: 0;
+	background-color: #ebedf5;
+    border-color: #c5cbe3;
+    border-left: 4px solid #c5cbe3;
+    color: #3e53a4;
+    margin: 20px 0;
+    padding: 20px;
+	font-size: 14px;
+	line-height:18px;
+	list-style:none;
+}
+
+#web-help-c2 ul li.ulchildlink{
+    margin-left: 0;
+}
+
+#web-help-c2 div.familylinks{
+    margin-left: 0;
+	background-color: #ebedf5;
+    border-color: #c5cbe3;
+    border-left: 4px solid #c5cbe3;
+    color: #3e53a4;
+    margin: 20px 0;
+    padding: 20px;
+	font-size: 14px;
+	line-height:18px;
+	list-style:none;
+	display:none;
+}
+
+#web-help-c2 div.relinfo{
+    margin-left: 0;
+	background-color: #ebedf5;
+    border-color: #c5cbe3;
+    border-left: 4px solid #c5cbe3;
+    color: #3e53a4;
+    margin: 20px 0;
+    padding: 20px;
+	font-size: 14px;
+	line-height:18px;
+	list-style:none;
+}
+
+#web-help-c2 div.relinfo div{
+    margin-left: 0;
+
+}
+
+#web-help-c2 div.body ol{
+    padding-bottom: 14px;
+}
+
+#web-help-c2 div.body ul{
+    padding-bottom: 14px;
+}

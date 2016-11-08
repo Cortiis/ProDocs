@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Spatial Object Type Options"/>
+<meta name="DC.subject" content="options, spatial object types, MICODE type option, XY type option"/>
+<meta name="keywords" content="options, spatial object types, MICODE type option, XY type option"/>
+<meta name="DC.Relation" scheme="URI" content="../../guide/uploading/aboutuploadoptions.html"/>
+<meta name="prodname" content="MapInfo EasyLoader"/>
+<meta name="version" content="16.0"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="spatialobjectypeoptions"/>
+<meta name="DC.Language" content="en"/>
+<title>Spatial Object Type Options</title>
+</head>
+<body id="spatialobjectypeoptions">
+
+
+
+	<h1 class="title topictitle1">Spatial Object Type Options</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">Choose from <span class="ph uicontrol">Oracle Spatial</span> (depending on the type of connection), <span class="ph uicontrol">MICODE</span> (XY with MapInfo Key), <span class="ph uicontrol">XY</span>, <span class="ph uicontrol">PostGIS Spatial</span>, or <span class="ph uicontrol">SQL Server Spatial</span>. The default for loading spatial data is <span class="ph uicontrol">SQL Server Spatial (Auto Select)</span> if this option is available. Otherwise, MapInfo EasyLoader defaults to the <span class="ph uicontrol">MICODE</span> option.</p>
+
+		
+		<dl class="dl">
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">Oracle Spatial</span></dt>
+
+				<dd class="dd">Use this option if the server is Oracle Spatial.</dd>
+
+			
+			
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">MICODE (XY with MapInfo Key)</span></dt>
+
+				<dd class="dd">This option stores the data as XY coordinates on the server and creates the server table as a point table. If the MapInfo table to be uploaded is not a point table and this option is chosen, the centroid is abstracted and stored on the server table, if you instruct it to do so. The difference between <span class="ph uicontrol">XY</span> and <span class="ph uicontrol">MICODE</span> is that the <span class="ph uicontrol">MICODE</span> provides a MapInfo key as the spatial index, making its performance superior to <span class="ph uicontrol">XY</span>.</dd>
+
+			
+			
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">XY</span></dt>
+
+				<dd class="dd">This option is the same as the <span class="ph uicontrol">MICODE</span> option, except that this option does not create a spatial index.</dd>
+
+			
+
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">PostGIS Spatial</span></dt>
+
+				<dd class="dd">Use this option with a spatialized <span class="ph uicontrol">PostgreSQL</span> database.</dd>
+
+			
+
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">SQL Server Spatial</span></dt>
+
+				<dd class="dd">Use these options if the server is Microsoft SQL Server Spatial:</dd>
+
+				<dd class="dd"><span class="ph uicontrol">Auto Select</span> – MapInfo EasyLoader automatically decides whether to upload the geometry object to a Geography field (if the geometry object is using a Lat/Long coordinate system) or to a Geometry field (if the geometry object is using another coordinate system).</dd>
+
+				<dd class="dd"><span class="ph uicontrol">Always Geometry</span> – MapInfo EasyLoader always uploads the geometry object to a Geometry field, regardless of the coordinate system specified for the geometry object.</dd>
+
+			
+		</dl>
+
+	
+		<div class="note note"><span class="notetitle">Note:</span> When the <span class="ph uicontrol">Auto Select</span> option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.</div>
+
+				
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/uploading/../../guide/uploading/aboutuploadoptions.html">About Upload Options</a></div>
+</div>
+</div>
+
+</body>
+</html>

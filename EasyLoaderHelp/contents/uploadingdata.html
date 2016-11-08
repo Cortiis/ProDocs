@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Uploading Data with EasyLoader"/>
+<meta name="DC.subject" content="data, updating"/>
+<meta name="keywords" content="data, updating"/>
+<meta name="DC.Relation" scheme="URI" content="../contents/chapterintro.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="15.2"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="uploadingdata"/>
+<meta name="DC.Language" content="en"/>
+<title>Uploading Data with EasyLoader</title>
+</head>
+<body id="uploadingdata">
+
+
+
+	<h1 class="title topictitle1">Uploading Data with EasyLoader</h1>
+
+
+	
+	
+	<div class="body taskbody">
+		<div class="section prereq p">
+			<p class="p">You must set up your ODBC connections prior to uploading TAB files to remote databases.</p>
+
+			
+			<div class="note note"><span class="notetitle">Note:</span> You cannot replace version-enabled tables in the Oracle database. It makes any child versions of these tables obsolete.</div>
+
+		</div>
+
+
+		<p class="li stepsection">To upload MapInfo TAB files using EasyLoader:</p><ol class="ol steps"><li class="li step stepexpand">
+				<span class="ph cmd">In MapInfo Pro, on the <span class="ph uicontrol">HOME</span> tab, in the <span class="ph uicontrol">Tools</span> group, click <span class="ph uicontrol">Tools</span> to open the <span class="keyword wintitle">Tools Manager</span> window.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">On the <span class="ph uicontrol">Running</span> tab, double click <span class="ph uicontrol">EasyLoader</span> to open the <span class="keyword wintitle">EasyLoader</span> dialog box.</span>
+				<div class="itemgroup info">
+					<p class="p">If you do not see it listed on the <span class="ph uicontrol">Running</span> tab, then locate it on the <span class="ph uicontrol">Registered</span> tab.</p>
+
+					
+					<p class="p">To load EasyLoader into the current session of MapInfo Pro, click the <span class="ph uicontrol">Load Tool (Run)</span> icon beside it.</p>
+
+					
+					<p class="p">To reload EasyLoader for all subsequent sessions, select the <span class="ph uicontrol">AutoLoad</span> check box.</p>
+
+					
+					<p class="p">To load EasyLoader for the current session and all subsequent sessions, select both.</p>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Under <span class="ph uicontrol">Connection Information</span>, click the appropriate button (<span class="ph uicontrol">ODBC</span> or <span class="ph uicontrol">Oracle Spatial</span>) to connect to your database. Provide the necessary connection information (for example, data source name or User ID, password, and server name). Click <span class="ph uicontrol">OK</span> to return to the EasyLoader dialog box.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Click <span class="ph uicontrol">Source Tables</span> to display a list of MapInfo tables from a single directory. When you have selected the tables for uploading, the names display in the <span class="ph uicontrol">MapInfo Table</span> list box.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Choose the tables you want to upload and select the appropriate Server Table processing task (Create new table, Append to existing table, Replace existing Table). </span>
+				<div class="itemgroup info">
+					<p class="p">These and additional options are explained in <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/dialogbox.html">Understanding the EasyLoader Dialog Box</a>.</p>
+
+					<div class="note note"><span class="notetitle">Note:</span> The <span class="ph uicontrol">Upload</span> button is not available until one or more tables are chosen.</div>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">To create local TAB files, provide a directory or browse to its location. By default, EasyLoader does not generate these files. The file naming convention for these tables is <span class="ph filepath">yourServerTableName_srv.tab</span>.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">To set options for the upload process, click <span class="ph uicontrol">Options</span>.</span>
+				<div class="itemgroup info">
+				  <p class="p"><br/><div class="imagecenter"><img class="image imagecenter" src="images/dialog_Options_micode_xy.png" width="280"/></div><br/></p>
+
+				  <div class="note note"><span class="notetitle">Note:</span> See <a xmlns:functx="http://www.functx.com" class="- topic/xref  ajaxLink" href="contents/understandingoptionsdialog.html">Understanding the Options Dialog Box</a> for an explanation of available options.</div>
+
+				</div>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">In the <span class="keyword wintitle">Options</span> dialog box, select the appropriate options and click <span class="ph uicontrol">OK</span>.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Click <span class="ph uicontrol">Upload</span> to start the upload process.</span>
+			</li>
+<li class="li step stepexpand">
+				<span class="ph cmd">Close EasyLoader after the upload process is finished.</span>
+			</li>
+</ol>
+
+		
+		<div class="section postreq">
+			<p class="p">If you haven’t already created the spatial index during the upload process, do so now by either executing a create index statement or re-uploading the table, making sure this time to select the <span class="ph uicontrol">Create Spatial Index</span> check box and replace the table (see steps 1-3).</p>
+
+		</div>
+
+		
+  </div>
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="contents/../contents/chapterintro.html">Uploading Data with MapInfo EasyLoader</a></div>
+</div>
+</div>
+
+</body>
+</html>

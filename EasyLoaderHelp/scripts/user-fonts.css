@@ -1,0 +1,323 @@
+/*
+ * 
+ * Custom Fonts:
+ * Use the below key to affect the regions you desire.
+ * 
+ * #web-help-c1 {this will affect the navigation panel / table of contents}
+ * #web-help-c2 {this will affect the entire content pane, excluding the heading}
+ * #web-help-c2 h1 {this will affect the title of the content pane}
+ * #web-help-c2 .body {this will affect the body text of the content pane}
+ * #web-help-c2 .related-links {this will affect the related links footer in the content pane}
+ * 
+ * You can also add in any other customizations you want here.
+ * 
+ * 
+ */
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	/* background: url(http://localhost/outpro/heading/logo2.jpg) center no-repeat #fff; */
+ 	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_10.gif) center no-repeat #fff;
+} 
+ 
+ 	 
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Lt.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Lt.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_Lt.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_Lt.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_Lt.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_LtIt.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_LtIt.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_LtIt.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_LtIt.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_LtIt.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Rg.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Rg.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_Rg.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_Rg.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_Rg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_RgIt.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_RgIt.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_RgIt.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_RgIt.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_RgIt.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Md.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Md.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_Md.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_Md.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_MdIt.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_MdIt.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_MdIt.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_MdIt.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_MdIt.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Bd.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_Bd.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_Bd.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_Bd.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_Bd.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Precision Sans';
+  src: url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_BdIt.eot");
+  src: local("Precision Sans"), local("Precision Sans"),
+       url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/EOT/PrecisionSans_W_BdIt.eot") format("embedded-opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/OTF/PrecisionSans_W_BdIt.otf") format("opentype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/TTF/PrecisionSans_W_BdIt.ttf") format("truetype"),
+	   url("http://www.pitneybowes.com/etc/designs/pb-redesign/resources/fonts/PrecisionSans_V1.030/Webfonts/WOFF/PrecisionSans_W_BdIt.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+ 
+ 
+ #web-help-c1 {
+	font-family: arial,helvetica,"Lucida Grande",Verdana,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",Meiryo,sans-serif;
+	box-shadow: none;
+	width: 22em;
+	color: rgb(78, 78, 78);
+}
+
+#web-help-c1 .file:hover, #web-help-c1 .folder:hover {
+	background:none;
+	color: rgb(0, 130, 213) !important;
+    text-decoration: none;
+}
+
+ #web-help-c2 {
+/*	font-size:20px;*/
+	color:#333; 
+	font-family: arial,helvetica,"Lucida Grande",Verdana,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",Meiryo,sans-serif;
+ }
+	
+ #web-help-c2 h1 {
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 0 rgb(153, 153, 153);
+    color: #cf0989;
+    font-family: "Precision Sans",Arial,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 1em;
+    margin-bottom: 0;
+    margin-left: -2px;
+    margin-top: 0;
+    padding: 25px 10px 20px 0;
+    text-align: initial;
+    text-decoration: none;
+    text-shadow: 0 0 0 transparent;
+	border-bottom:none;
+ }
+ 
+ #web-help-c2 h2 {
+	background-color: transparent;
+    box-shadow: 0 0 0 0 transparent;
+    color: #cf0989;
+    font-family: "Precision Sans",Arial,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    padding-bottom: 14px;
+    text-align: left;
+ }
+ 
+ #web-help-c2 li {
+	background-color: transparent;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 24px;
+ }
+ 
+#web-help-c2 a:link {
+    color: #0072b8;
+    font-weight: 300;
+    text-decoration: none;
+	font-family: Precision Sans,arial,helvetica,sans-serif;
+}
+
+#web-help-c2 a:hover {
+    color: #3e53a4;
+    text-decoration: underline;
+}
+
+#breads p {
+    color: #0072b8;
+    font-weight: 300;
+    text-decoration: none;
+	font-size: 13px;
+	font-family: Precision Sans,arial,helvetica,sans-serif;;
+}
+
+#breads a {
+    color: #0072b8;
+    font-weight: 300;
+    text-decoration: none;
+	font-size: 13px;
+	font-family: Precision Sans,arial,helvetica,sans-serif;;
+}
+
+#breads a:hover {
+    color: #3e53a4;
+    text-decoration: underline;
+}
+ 
+ /**
+  * 
+  * Custom Colors:
+  * It is recommended to select one main color (for the header and for title text) and one accent color (for buttons and borders)
+  * Below are the default values:
+  * 
+  * #f27a3e is the orange accent color
+  * #00579b is the main blue color
+  * 
+  */
+
+#heading {
+	border-top: none;
+	background: transparent linear-gradient(to right, #3e53a4 0%, #0c76ba 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+#heading h1{
+	font-family:"Precision Sans",Arial,sans-serif;
+	font-weight:400;
+	font-size:1.35em;
+	}
+
+#search-bar #search-button {
+	color: transparent;
+	background-color: white;
+	float: left;
+	border-radius: 5px 0 0 5px;
+	height: 36px;
+	background-image: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDQ4NS4yMTMgNDg1LjIxMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg1LjIxMyA0ODUuMjEzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ3MS44ODIsNDA3LjU2N0wzNjAuNTY3LDI5Ni4yNDNjLTE2LjU4NiwyNS43OTUtMzguNTM2LDQ3LjczNC02NC4zMzEsNjQuMzIxbDExMS4zMjQsMTExLjMyNCAgICBjMTcuNzcyLDE3Ljc2OCw0Ni41ODcsMTcuNzY4LDY0LjMyMSwwQzQ4OS42NTQsNDU0LjE0OSw0ODkuNjU0LDQyNS4zMzQsNDcxLjg4Miw0MDcuNTY3eiIgZmlsbD0iIzAwNkRGMCIvPgoJCTxwYXRoIGQ9Ik0zNjMuOTA5LDE4MS45NTVDMzYzLjkwOSw4MS40NzMsMjgyLjQ0LDAsMTgxLjk1NiwwQzgxLjQ3NCwwLDAuMDAxLDgxLjQ3MywwLjAwMSwxODEuOTU1czgxLjQ3MywxODEuOTUxLDE4MS45NTUsMTgxLjk1MSAgICBDMjgyLjQ0LDM2My45MDYsMzYzLjkwOSwyODIuNDM3LDM2My45MDksMTgxLjk1NXogTTE4MS45NTYsMzE4LjQxNmMtNzUuMjUyLDAtMTM2LjQ2NS02MS4yMDgtMTM2LjQ2NS0xMzYuNDYgICAgYzAtNzUuMjUyLDYxLjIxMy0xMzYuNDY1LDEzNi40NjUtMTM2LjQ2NWM3NS4yNSwwLDEzNi40NjgsNjEuMjEzLDEzNi40NjgsMTM2LjQ2NSAgICBDMzE4LjQyNCwyNTcuMjA4LDI1Ny4yMDYsMzE4LjQxNiwxODEuOTU2LDMxOC40MTZ6IiBmaWxsPSIjMDA2REYwIi8+CgkJPHBhdGggZD0iTTc1LjgxNywxODEuOTU1aDMwLjMyMmMwLTQxLjgwMywzNC4wMTQtNzUuODE0LDc1LjgxNi03NS44MTRWNzUuODE2QzEyMy40MzgsNzUuODE2LDc1LjgxNywxMjMuNDM3LDc1LjgxNywxODEuOTU1eiIgZmlsbD0iIzAwNkRGMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=");
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+#search-bar #search-button:hover {
+	color: transparent;
+	background-color: white;
+}
+
+.related-links-title {
+	color: #f27a3e;
+}
+
+.collapsed {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAIAAADUCbv3AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH3wMJEyEmVea8NwAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAAAj0lEQVQYlWN89+4dA27ABKFuH99x9v4HnNKvH1xrrau48vQrdmkGBobPL+6WF+XdfPkduzQDA8Ovd49qKstvvPiKXZqBgeHD4+u11dUPP/zFLg0F/3HoFpDVbG5plRdkhnBZkOXYhGSb2zo1JDix2M0rodTZNwlZjoGBgRESareOb/8sYWmsKIBmFyP+QAUAII80MUVQxXgAAAAASUVORK5CYII=");
+    background-position: left center;
+    color: #4e4e4e;
+	
+}
+
+.folderButton.expanded {
+	 background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAIAAADUCbv3AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH3wMJEyISX38bQQAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAAAi0lEQVQYlWN89+4dA27AhEeOsDTL/fMHdp26iVVO3cydRUZB6f7s2Wdvv0KTE1M19gyTZmIVlGtqadWS5UOW45PVam1plhNkZWJgYGATUujt7dWSE4DICchp9/X2KQixMjAwMMI99vX59YrquhcMks2t7RqS3BBBRmR//3l37zGDvKIQM1yEkZbBAgBlHSp28yz/UgAAAABJRU5ErkJggg==");
+    background-position: left center;
+}
+
+.folderButton {
+	border:none;
+	float:left;
+	width:0.725em;
+	margin:0.65em 0.3125em 0.4375em 0.625em;
+}
+
+.navtitle {
+	
+    float: right;
+    font-size: 13.33px;
+    
+}
+
+.breadLinks {
+	font-family: Precision Sans,arial,helvetica,sans-serif;
+    font-size: 13px;
+	
+}
+
+.selected {
+	color: rgb(0, 130, 213);
+}
+
+.uicontrol, .wintitle {
+    font-weight: bold;
+	font-family: Arial,helvetica,sans-serif;
+}
+
+b,strong {
+	font-family: Precision Sans,arial,helvetica,sans-serif;
+}
+
+.p {
+	background-color: transparent;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 18px;
+    padding-bottom:14px;
+}
+
+p {
+	background-color: transparent;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 18px;
+    padding-bottom:14px;
+}

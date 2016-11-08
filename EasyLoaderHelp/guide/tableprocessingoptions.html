@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Table Processing Options"/>
+<meta name="DC.subject" content="processing, tables"/>
+<meta name="keywords" content="processing, tables"/>
+<meta name="DC.Relation" scheme="URI" content="../guide/usingeasyloader.html"/>
+<meta name="prodname" content="EasyLoader"/>
+<meta name="version" content="16"/>
+<meta name="DC.Creator" content="Pitney Bowes Inc."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="tableprocessingoptions"/>
+<meta name="DC.Language" content="en"/>
+<title>Table Processing Options</title>
+</head>
+<body id="tableprocessingoptions">
+
+
+
+	<h1 class="title topictitle1">Table Processing Options</h1>
+
+
+	
+	
+	<div class="body conbody">
+
+		<p class="p">This section describes the table options available in EasyLoader.</p>
+
+		
+		<dl class="dl">
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">Create New Table</span></dt>
+
+				<dd class="dd">A server table is created with the name that you specify. If this option is chosen and a table with the same name already exists on the server, an error message displays, making you aware of this problem. Use a different name or choose the option <span class="ph uicontrol">Replace Existing Table to upload</span> the table.</dd>
+
+			
+
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">Replace Existing Table</span></dt>
+
+				<dd class="dd">When this option is selected, if a server table of the same name already exists, it is dropped and a new table is created to match the MapInfo table being uploaded.</dd>
+
+			
+
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">Append to Existing Table</span></dt>
+
+				<dd class="dd">The MapInfo table is appended to the server table if the server table exists and the structure of the two tables match. Otherwise, you get an error and the table is not uploaded. The tables must have the same table structure and be in the same projection for Oracle Spatial.</dd>
+
+			
+
+			
+				<dt class="dt dlterm"><span class="ph uicontrol">Append All Tables to One Server Table</span></dt>
+
+				<dd class="dd">All MapInfo tables listed are uploaded to a single server table. The server table name is the one visible in the <span class="ph uicontrol">Server Table</span> box. This feature is meant to be used to upload tables with the same structure and projection to one table. For example, instead of creating a new table for each street layer, check the <span class="ph uicontrol">Append All Tables to One Server Table</span> check box, and only one table is created. All of the tables are then appended to this table.</dd>
+
+				<dd class="dd"><div class="note note"><span class="notetitle">Note:</span> It is possible that some tables will not be appended if their table structure differs.</div>
+</dd>
+
+				<dd class="dd">If you choose the <span class="ph uicontrol">Replace Existing Table</span> option and this check box is selected, the server table is dropped, a new table is created, and all tables listed are appended to that one. If you select the <span class="ph uicontrol">Create New Table</span> option and this check box is selected, the server table is created, and all tables listed are appended to that one.</dd>
+
+				<dd class="dd"><div class="note note"><span class="notetitle">Note:</span> If this option is chosen, all tables must have the same table structure and be in the same projection.</div>
+</dd>
+
+						
+		</dl>
+			
+			
+	</div>
+
+
+<div xmlns:functx="http://www.functx.com" class="related-links"><div class="related-links-title"/>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="- topic/link  ajaxLink" href="guide/../guide/usingeasyloader.html">Using EasyLoader to Upload Tables</a></div>
+</div>
+</div>
+
+</body>
+</html>
