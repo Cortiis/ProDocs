@@ -7,6 +7,7 @@ Loading Oracle Spatial Data {#loading-oracle-spatial-data .title .topictitle1}
 
 There are things to be aware of when uploading data tables to an Oracle
 database, such as:
+
 -   You cannot replace version-enabled tables in Oracle. This would make
     child versions of these tables obsolete.
 -   Oracle has a limit on identifier names, which cannot be more than
