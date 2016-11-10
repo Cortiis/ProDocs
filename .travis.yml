@@ -9,7 +9,7 @@ php:
 cache: apt
 install:
     - "sudo apt-get install pandoc"
-script: "execute.php"
+script: phpunit execute.php
 notifications:
     email:
         on_failure: always
