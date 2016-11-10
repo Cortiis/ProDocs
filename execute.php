@@ -11,7 +11,7 @@ class execute extends PHPUnit_Framework_TestCase
 
 //$objects = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path), RecursiveIteratorIterator::SELF_FIRST);
 //foreach($objects as $name => $object){
-    echo "vivek";
+    //echo "vivek";
  // $file = fopen("test.txt","w");
 //echo fwrite($file,$name);
 //fclose($file);
