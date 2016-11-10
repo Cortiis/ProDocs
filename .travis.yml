@@ -4,7 +4,7 @@ php:
 cache: apt
 install:
     - "sudo apt-get install pandoc"
-script: phpunit execute.php
+script: phpunit "/home/travis/build/Cortiis/ProDocs/execute.php"
 notifications:
     email:
         on_failure: always
