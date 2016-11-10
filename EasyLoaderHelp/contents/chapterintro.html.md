@@ -9,7 +9,7 @@ PostgresSQL/ PostGIS. The spatial information in the TAB files is
 maintained in the remote database and is available for viewing and
 analyzing in MapInfo Pro.
 
-</div>
+
 
 <div class="related-links" functx="http://www.functx.com">
 
