@@ -4,6 +4,8 @@ php:
 cache: apt
 install:
     - "sudo apt-get install pandoc"
+before_script:
+  - phpenv config-rm xdebug.ini
 script: phpunit "/home/travis/build/Cortiis/ProDocs/execute.php"
 notifications:
     email:
