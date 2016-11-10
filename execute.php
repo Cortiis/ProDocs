@@ -1,8 +1,8 @@
 <?php
-class execute extends PHPUnit_Framework_TestCase
+class execute
 {
 	public function testOnePlusOne() {
-		$this->assertEquals(1+1,2);
+		echo "vivek";
   	}
 }
 
