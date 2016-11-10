@@ -5,7 +5,7 @@ $objects = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path), 
 foreach($objects as $name => $object){
     //echo "$name\n";
   $file = fopen("test.txt","w");
-echo fwrite($file,$name\n");
+echo fwrite($file,$name);
 fclose($file);
 }
 ?>
