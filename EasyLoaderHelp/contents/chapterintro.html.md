@@ -15,7 +15,7 @@ analyzing in MapInfo Pro.
 
 <div class="related-links-title">
 
-</div>
+
 
 -   **[Introduction](contents/../contents/introduction.html){.-
     .topic/link .ajaxLink}**\
