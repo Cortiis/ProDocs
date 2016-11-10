@@ -1,7 +1,7 @@
 Uploading Data with MapInfo EasyLoader {#uploading-data-with-mapinfo-easyloader .title .topictitle1}
 ======================================
 
-<div class="body conbody">
+
 
 The EasyLoader utility lets you to upload MapInfo^®^ TAB files to a
 remote database, such as Oracle, SQL Server, Microsoft Access or
