@@ -1,6 +1,6 @@
 language: php
 php:
-  - '5.6'
+  - '5.4'
 cache: apt
 install:
     - "sudo apt-get install pandoc"
