@@ -1,5 +1,5 @@
 <?php
-$path = realpath('/EasyLoaderHelp');
+$path = '/home/travis/build/Cortiis/ProDocs/EasyLoaderHelp';
 
 $objects = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path), RecursiveIteratorIterator::SELF_FIRST);
 foreach($objects as $name => $object){
