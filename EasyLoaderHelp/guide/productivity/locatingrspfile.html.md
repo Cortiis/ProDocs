@@ -16,11 +16,15 @@ class="ph uicontrol">Start</span> menu in the <span
 class="ph uicontrol">Search programs and files</span> field type
 %AppData%.
 
+```javascript
 This file contains all of the flags used to start MapInfo EasyLoader
 regardless of whether you used the command-line. It includes the default
 flags and their settings, such as /CommitInterval,
 /TableUploadErrorThreshold, /InsertRowErrorThreshold, and
-/StyleColumnName. This flag also records the settings made during the
+/StyleColumnName.
+```
+
+This flag also records the settings made during the
 session that affect startup flags. You can use the information in this
 file to restart EasyLoader via the command-line using the same settings
 as the previous session.
