@@ -9,7 +9,7 @@ Keep the default selection of <span class="ph uicontrol">Always Geometry</span>i
 
 Select <span class="ph uicontrol">Auto Select</span>if you want EasyLoader to automatically decide whether the geometry object is uploaded to a Geography field (in cases where the geometry object uses the Lat/Long coordinate system) or a Geometry field (in cases where the geometry object does not use the Lat/Long coordinate system).
 
-<span class="notetitle">Note:</span> When the Auto Select option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.
+> When the Auto Select option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.
 
 To view the Unsupported Geometries in SQL, see [Unsupported Geometry](guide/unsupportedgeometry.html){.- .topic/xref .ajaxLink}.
 
@@ -23,6 +23,8 @@ The SQL Server Spatial's Geometry type does not support:
 
 -   polygons that contain self intersecting boundaries
 -   lines/polygon boundaries that have two successive, identical nodes
+
+[PRO.INCLUDE ]
 
 Refer to SQL Server books online for complete information on the rules that define these two types at:
 
