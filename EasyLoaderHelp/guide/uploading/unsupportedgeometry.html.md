@@ -1,8 +1,6 @@
 Unsupported Geometry {#unsupported-geometry .title .topictitle1}
 ====================
 
-<div class="body conbody">
-
 A MapInfo Pro map may contain geometries that are unsupported by the database that the results are stored in. MapInfo EasyLoader skips unsupported object type and inserts the attribute data. No message displays.
 
 -   **Oracle** does not support arcs, ellipses, rectangles, and rounded rectangles.
@@ -11,22 +9,3 @@ A MapInfo Pro map may contain geometries that are unsupported by the database th
 
     SQL Server uploads invalid geometry objects and converts them to valid using a SQL server command, but SQL Server does not upload invalid geography objects. Attempting to upload invalid geography objects causes MapInfo EasyLoader to fail. This is a limitation of SQL Server and not of MapInfo EasyLoader. Due to this SQL Server limitation, upload only as geometry.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Understanding Your Data](guide/uploading/../../guide/uploading/understandingyourdata.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

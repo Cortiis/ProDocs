@@ -1,11 +1,7 @@
 Shortcuts by Keystroke {#shortcuts-by-keystroke .title .topictitle1}
 ======================
 
-<div class="body conbody">
-
 This section lists the short-cuts available in MapInfo EasyLoader.
-
-<div class="tablenoborder">
 
   Command                                                                            Icon                                                         Shortcut
   ---------------------------------------------------------------------------------- ------------------------------------------------------------ ----------
@@ -23,11 +19,7 @@ This section lists the short-cuts available in MapInfo EasyLoader.
   <span class="ph uicontrol">Pause the Upload</span>                                 ![](images/icon_ezloaderPause.png){.image width="24"}        Ctrl+P
   <span class="ph uicontrol">Cancel the Rest of the Upload</span>                    ![](images/icon_ezloaderStop.png){.image width="24"}         Ctrl+S
 
-</div>
-
 The following are shortcuts for selecting and deleting tables in MapInfo EasyLoader's table list.
-
-<div class="tablenoborder">
 
   Command                                                       Shortcut
   ------------------------------------------------------------- -------------------------
@@ -42,26 +34,5 @@ The following are shortcuts for selecting and deleting tables in MapInfo EasyLoa
   <span class="ph uicontrol">Unselect all tables</span>         Ctrl+Shift+A
   <span class="ph uicontrol">Delete selected tables</span>      Delete
 
-</div>
-
 When there are multiple tables selected in MapInfo EasyLoader, then selecting or clearing the <span class="ph uicontrol">Catalog</span> check box and choosing from the <span class="ph uicontrol">Operation</span> list applies to all of the tables in the selection.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Productivity Aids](guide/productivity/../../guide/productivity/chapterproductivityaids.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

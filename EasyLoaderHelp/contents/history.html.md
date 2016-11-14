@@ -1,11 +1,7 @@
 History of EasyLoader Changes {#history-of-easyloader-changes .title .topictitle1}
 =============================
 
-<div class="body conbody">
-
 This section provides a history of features and enhancements that have been added to EasyLoader since version 11.0.
-
-<div id="history__history1520" class="section">
 
 New in EasyLoader 15.2 {#new-in-easyloader-15.2 .title .sectiontitle}
 ----------------------
@@ -14,36 +10,20 @@ EasyLoader 15.2 is a 32-bit release that works with the MapInfo Pro 15.2 64-bit 
 
 MapInfo Pro 15.2 supports unicode and requires the PostgreSQL Unicode ODBC drive. EasyLoader does not yet support unicode and requires the PostgreSQL ANSI ODBC drive. You must have both drivers installed when both products are on the same machine.
 
-</div>
-
-<div id="history__history1500" class="section">
-
 New in EasyLoader 15.0 {#new-in-easyloader-15.0 .title .sectiontitle}
 ----------------------
 
 EasyLoader 15.0 is a 32-bit release that works with the MapInfo Pro 15.0 32-bit release. There are no new features or fixes.
-
-</div>
-
-<div id="history__history1251" class="section">
 
 New in EasyLoader 12.5.1 {#new-in-easyloader-12.5.1 .title .sectiontitle}
 ------------------------
 
 EasyLoader 12.5.1 is a 32-bit release that works with the MapInfo Pro 12.5.1 64-bit release. There are no new features or fixes.
 
-</div>
-
-<div id="history__history1250" class="section">
-
 New in EasyLoader 12.5 {#new-in-easyloader-12.5 .title .sectiontitle}
 ----------------------
 
 There are no new features or fixes.
-
-</div>
-
-<div id="history__history1200" class="section">
 
 New in EasyLoader 12.0 {#new-in-easyloader-12.0 .title .sectiontitle}
 ----------------------
@@ -63,10 +43,6 @@ This release fixes the following issues:
 
     You will need to upgrade to SQL Server 2012. SQL Server 2012 uses the function STIsValid( ) to check if a geography data type is well formed and recognized as a valid object based on its OGC type. The MakeValid( ) function is also used that converts an invalid geography data type into a valid one. In MapInfo Pro 12.0, you can use the extended spatial methods in SQL Server 2012 to manage valid geography data types. Refer to the [SQL Server 2012 MSDN library](http://msdn.microsoft.com/en-us/library/ff929337.aspx){.xref} for more information.
 
-</div>
-
-<div id="history__history1151" class="section">
-
 New in EasyLoader 11.5.1 {#new-in-easyloader-11.5.1 .title .sectiontitle}
 ------------------------
 
@@ -84,24 +60,3 @@ This release fixes the following issues:
 
 -   **MIPRO-24515**: Uploading a table with a boolean field to PostGIS does not put the correct TYPE\_NAME on the server side. There is an inconsistency between EasyLoader and MapInfo Professional on how they save data on PostGIS. EasyLoader uploads a logical field as smallint, whereas, MapInfo Professional uploads a logical field as boolean. When you open a first table, uploaded by EasyLoader, in MapInfo Professional the field shows up as smallint. When you open a second table, uploaded by MapInfo Professional, in MapInfo Professional the field shows up as char\[5\].
 
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Uploading Data with MapInfo EasyLoader](contents/../contents/chapterintro.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

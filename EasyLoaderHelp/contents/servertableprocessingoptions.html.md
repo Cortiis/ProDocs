@@ -1,8 +1,6 @@
 Server Table Processing Options {#server-table-processing-options .title .topictitle1}
 ===============================
 
-<div class="body conbody">
-
 <span class="ph uicontrol">Exclusive User of Table</span> – You can significantly speed up load time on large tables if you know that you are the only one attempting to update or upload the table. If you do not select this option, EasyLoader verifies after each commit that no other updates are made to the table while it is being uploaded. Selecting this option prevents this test from occurring, which can improve runtime performance for large tables.
 
 <span class="ph uicontrol">Create Primary Key</span>
@@ -22,30 +20,30 @@ Server Table Processing Options {#server-table-processing-options .title .topict
 :   Select this check box if you want to index additional columns when uploading a new table or replacing an existing table. By default this box is not selected.
 :   When you select this check box and click <span class="ph uicontrol">OK</span>, the table upload begins and the following dialog box displays.
 :   \
-    <div class="imagecenter">
+    
 
     ![](images/dialog_Reset_Index_Columns.png){.image .imagecenter width="240"}
 
-    </div>
+    
 
     \
 :   The <span class="ph uicontrol">Table Name</span> text box shows which server table is selected for indexing. The <span class="ph uicontrol">Column List</span> shows each column followed by its data type. Select a check box to select that column for indexing on the server table. Clear a check box if you do not want to index that column.
-:   <div class="note note">
+:   
 
     <span class="notetitle">Note:</span> If the column name length is too long, the index creation fails. The limit to the size of the index name varies per database.
 
-    </div>
+    
 
 <span class="ph uicontrol">Convert Date and Time columns to Datetime on the server</span>
 :   This option is automatically handled by the software, with selects it when connected to a DBMS, such as Oracle and Access, that does not have date or time data types and unselects it for a DBMS, such as SQL Server Spatial or PostGIS, that has both date and time data types.
 
 <span class="ph uicontrol">Style Column</span>
 :   This option allows you to specify whether per-row styles are loaded with the data. You can also specify the name of the column in the text box next to the <span class="ph uicontrol">Style Column</span> check box. The default column name is MI\_STYLE.
-:   <div class="note note">
+:   
 
     <span class="notetitle">Note:</span> To load per-row styles, the MapInfo Map catalog for the database must contain the following columns: RENDITIONTYPE, RENDITIONCOLUMN, RENDITIONTABLE, and NUMBER\_ROWS. For more information, see [MAPINFO\_MAPCATALOG Table Structure](contents/mapcatalogtablestructure.html){.- .topic/xref .ajaxLink}.
 
-    </div>
+    
 
 <span class="ph uicontrol">Commit Interval</span>
 :   Use this option to specify a commit interval for uploading. EasyLoader commits the inserted records when the commit interval is reached. The default commit interval is 1000. If the commit interval is set to 0 (zero), the whole range of records is inserted as a single transaction, before a commit is issued.
@@ -53,22 +51,3 @@ Server Table Processing Options {#server-table-processing-options .title .topict
 <span class="ph uicontrol">Schema</span>
 :   Use this option to specify a schema to which you want to upload the table. This is valid for SQL Server 2005 servers and PostgresSQL/PostGIS.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Understanding the Options Dialog Box](contents/../contents/understandingoptionsdialog.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

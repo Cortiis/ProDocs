@@ -1,11 +1,7 @@
 MAPINFO\_MAPCATALOG Table Structure {#mapinfo_mapcatalog-table-structure .title .topictitle1}
 ===================================
 
-<div class="body conbody">
-
 MAPINFO\_MAPCATALOG has the following table structure:
-
-<div class="p">
 
 ``` {.pre}
     SPATIALTYPE FLOAT
@@ -30,11 +26,7 @@ MAPINFO\_MAPCATALOG has the following table structure:
     NUMBER_ROWS INTEGER
 ```
 
-</div>
-
 The following script, which is shipped with EasyLoader, may be used to modify an existing MAPINFO.MAPINFO\_MAPCATALOG to add the rendition columns if they do not exist. Run this script as user MAPINFO.
-
-<div class="p">
 
 ``` {.pre}
     ALTER TABLE MAPINFO.MAPINFO_MAPCATALOG ADD RENDITIONTYPE INTEGER;
@@ -42,24 +34,3 @@ The following script, which is shipped with EasyLoader, may be used to modify an
     ALTER TABLE MAPINFO.MAPINFO_MAPCATALOG ADD RENDITIONTABLE CHAR(32);
 ```
 
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Using the Map Catalog](guide/../guide/usingmapcatalog.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

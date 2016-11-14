@@ -1,8 +1,6 @@
 Spatial Object Type Options {#spatial-object-type-options .title .topictitle1}
 ===========================
 
-<div class="body conbody">
-
 Choose from <span class="ph uicontrol">Oracle Spatial</span> (depending on the type of connection), <span class="ph uicontrol">MICODE</span> (XY with MapInfo Key), <span class="ph uicontrol">XY</span>, <span class="ph uicontrol">PostGIS Spatial</span>, or <span class="ph uicontrol">SQL Server Spatial</span>. The default for loading spatial data is <span class="ph uicontrol">SQL Server Spatial (Auto Select)</span> if this option is available. Otherwise, MapInfo EasyLoader defaults to the <span class="ph uicontrol">MICODE</span> option.
 
 <span class="ph uicontrol">Oracle Spatial</span>
@@ -22,28 +20,5 @@ Choose from <span class="ph uicontrol">Oracle Spatial</span> (depending on the t
 :   <span class="ph uicontrol">Auto Select</span> – MapInfo EasyLoader automatically decides whether to upload the geometry object to a Geography field (if the geometry object is using a Lat/Long coordinate system) or to a Geometry field (if the geometry object is using another coordinate system).
 :   <span class="ph uicontrol">Always Geometry</span> – MapInfo EasyLoader always uploads the geometry object to a Geometry field, regardless of the coordinate system specified for the geometry object.
 
-<div class="note note">
-
 <span class="notetitle">Note:</span> When the <span class="ph uicontrol">Auto Select</span> option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.
 
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [About Upload Options](guide/uploading/../../guide/uploading/aboutuploadoptions.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

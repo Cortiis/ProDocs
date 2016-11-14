@@ -1,17 +1,9 @@
 Loading Oracle Spatial Data {#loading-oracle-spatial-data .title .topictitle1}
 ===========================
 
-<div class="body conbody">
-
-<div class="p">
-
 There are things to be aware of when uploading data tables to an Oracle database, such as:
 -   You cannot replace version-enabled tables in Oracle. This would make child versions of these tables obsolete.
 -   Oracle has a limit on identifier names, which cannot be more than 30 bytes. For details, see <http://docs.oracle.com/database/121/SQLRF/sql_elements008.htm#SQLRF51129>. The total number of bytes for table names, columns names, primary key constraint names (table name + "\_PK") and index names (column name + "\_IX") must not exceed 30 bytes. The number of bytes that each character uses is dependent upon the character set that Oracle is using. If you see the message "Identifier is too long", then make server table names or column names shorter.
-
-</div>
-
-<div id="loadingoraclespatialdata__validatingoracledata" class="section">
 
 Validating Oracle Data {#validating-oracle-data .title .sectiontitle}
 ----------------------
@@ -27,41 +19,12 @@ These functions may result in validation errors due to the tolerance level set b
 
 To resolve these errors, reset the tolerance within the USER\_SDO-GEOM\_METADATA by adjusting them downwards (by a factor of 10) and rerun the validation.
 
-<div class="note note">
-
 <span class="notetitle">Note:</span> If you adjust the tolerance, you must re-create the spatial indexes because they use the tolerance when they are created.
 
-</div>
-
 To view the unsupported geometries in Oracle, see [Unsupported Geometry](guide/uploading/unsupportedgeometry.html){.- .topic/xref .ajaxLink}.
-
-</div>
-
-<div id="loadingoraclespatialdata__loadingfororaclelocator" class="section">
 
 Loading for Oracle Locator {#loading-for-oracle-locator .title .sectiontitle}
 --------------------------
 
 MapInfo EasyLoader loads data for the Oracle Locator, which is the same as loading data for Oracle Spatial.
 
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Understanding Your Data](guide/uploading/../../guide/uploading/understandingyourdata.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

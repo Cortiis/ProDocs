@@ -1,32 +1,14 @@
 Getting Started with EasyLoader {#getting-started-with-easyloader .title .topictitle1}
 ===============================
 
-<div class="body taskbody">
-
-<div class="section prereq p">
-
 You can either start EasyLoader from within MapInfo Pro or separately if you downloaded your EasyLoader from the web. To launch EasyLoader from within MapInfo Pro, see [Starting EasyLoader from within MapInfo Pro](guide/startinginpro.html){.- .topic/xref .ajaxLink}.
-
-</div>
 
 To start EasyLoader:
 
-<div class="li step p">
-
 <span class="ph cmd">Double-click the <span class="ph filepath">EasyLoader.exe</span> file in the EasyLoader directory.</span>
-<div class="itemgroup info">
-
 When you download EasyLoader from the web, you download a zip file. When you extract the files from this zip, it creates an EasyLoader folder with all of the files necessary to run EasyLoader including <span class="ph filepath">EasyLoader.exe</span>.
 
-</div>
-
-</div>
-
-<div class="section postreq">
-
 EasyLoader is a single window within which you can set everything necessary to upload data tables to a database.
-
-<div class="tablenoborder">
 
 <table>
 <colgroup>
@@ -105,28 +87,3 @@ EasyLoader is a single window within which you can set everything necessary to u
 </tbody>
 </table>
 
-</div>
-
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
--   **[Starting EasyLoader from within MapInfo Pro](guide/../guide/startinginpro.html){.- .topic/link .ajaxLink}**\
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Uploading Data with EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

@@ -1,8 +1,6 @@
 Introduction {#introduction .title .topictitle1}
 ============
 
-<div class="body conbody">
-
 EasyLoader is a utility available from EasyLoader that allows you to upload MapInfo TAB files to a remote database. The spatial information in the TAB files is maintained in a SQL Server database and is available for viewing and analyzing in MapInfo Pro. EasyLoader can also upload a text object to SQL Server if text-supported SpatialWare (4.6 or later) is on the server.
 
 EasyLoader is installed into the <span class="ph filepath">\\Tools</span> directory during the MapInfo Pro installation process. EasyLoader supports the following databases:
@@ -18,24 +16,3 @@ EasyLoader works with both 32-bit and 64-bit versions of MapInfo Pro. However, E
 
 To obtain the latest copy of EasyLoader, go to [www.mapinfo.com](http://www.mapinfo.com){.xref} and search for the EasyLoader download page where you can download both EasyLoader and the EasyLoader User Guide.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
--   **[System Requirements](contents/../common/shared/requirements.html){.- .topic/link .ajaxLink}**\
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Uploading Data with MapInfo EasyLoader](contents/../contents/chapterintro.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

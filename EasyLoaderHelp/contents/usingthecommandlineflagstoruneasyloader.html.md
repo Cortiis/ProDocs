@@ -1,17 +1,11 @@
 Using the Command Line Flags to Run EasyLoader {#using-the-command-line-flags-to-run-easyloader .title .topictitle1}
 ==============================================
 
-<div class="body conbody">
-
 You can run the EasyLoader executable from the command line. For example:
 
 > <span class="keyword cmdname">easyloader.exe /T c:\\data\\states.tab;mystates /G /Y</span>
 
-<div class="note note">
-
 <span class="notetitle">Note:</span> Do not enclose file names in quotation marks. Command line arguments are interpreted correctly without quote marks, even if the filename includes spaces. If you use quotation marks, EasyLoader cannot parse the filenames correctly and errors occur.
-
-</div>
 
 EasyLoader supports the following flags to allow you to specify additional upload parameters from the command line:
 
@@ -119,11 +113,11 @@ EasyLoader supports the following flags to allow you to specify additional uploa
 
     Syntax: /T c:\\data\\states.tab;mystates;1,500
 
-    <div class="note note">
+    
 
     <span class="notetitle">Note:</span> Do not enclose file names in quotation marks.
 
-    </div>
+    
 
 -   **/U Do Not Create a Primary Index** – Use this flag to add a primary key constraint by default. This flag prevents a primary key from being created on the table. This flag is turned OFF by default, which means that a primary key is created by default. See /I which controls the spatial index. For Oracle Spatial tables, the primary key is created on the column MI\_PRINX and is called table\_name\_PK. For SpatialWare tables, the primary key is created on the column SW\_MEMBER and is called table\_name\_PK.
 
@@ -145,22 +139,3 @@ EasyLoader supports the following flags to allow you to specify additional uploa
 
     Syntax: /Z
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Uploading Data with MapInfo EasyLoader](contents/../contents/chapterintro.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

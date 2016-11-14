@@ -1,8 +1,6 @@
 Loading Microsoft SQL Server Spatial Data {#loading-microsoft-sql-server-spatial-data .title .topictitle1}
 =========================================
 
-<div class="body conbody">
-
 Microsoft SQL Server Spatial includes Geography and Geometry data types. Geography fields hold geometries specified in the Lat/Long coordinate system. Geometry fields hold geometries specified in all other coordinate systems. If you choose to upload to a Geometry field type, then EasyLoader runs the SQL Server Spatial MakeValid( ) function to fix any geometry that SQL Server Spatial deems invalid. This may shift point locations for certain geometries.
 
 In the <span class="keyword wintitle">Options</span> dialog box, EasyLoader enables you to control how the geometry data in a native table is uploaded to SQL Server Spatial.
@@ -11,11 +9,7 @@ Keep the default selection of <span class="ph uicontrol">Always Geometry</span>i
 
 Select <span class="ph uicontrol">Auto Select</span>if you want EasyLoader to automatically decide whether the geometry object is uploaded to a Geography field (in cases where the geometry object uses the Lat/Long coordinate system) or a Geometry field (in cases where the geometry object does not use the Lat/Long coordinate system).
 
-<div class="note note">
-
 <span class="notetitle">Note:</span> When the Auto Select option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.
-
-</div>
 
 To view the Unsupported Geometries in SQL, see [Unsupported Geometry](guide/unsupportedgeometry.html){.- .topic/xref .ajaxLink}.
 
@@ -61,22 +55,3 @@ Consider the following example. Let's suppose the Geometry update failed for the
     select state_name, sw_member, Geography::STGeomFromWKB(geom.STAsBinary(), 4269) from states_geom, where state = 'Florida'
     ```
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Understanding Your Data](guide/../guide/understandingyourdata.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

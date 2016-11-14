@@ -1,8 +1,6 @@
 Database Options {#database-options .title .topictitle1}
 ================
 
-<div class="body conbody">
-
 This section describes the button options and input fields in the EasyLoader for connecting to a database.
 
 <span class="ph uicontrol">ODBC</span> button
@@ -33,22 +31,3 @@ This section describes the button options and input fields in the EasyLoader for
 <span class="ph uicontrol">Options</span> button
 :   Click this button to specify the spatial object types and the server processing options for the current upload. For instructions about using the <span class="ph uicontrol">Options</span> dialog box, see [Understanding the Options Dialog Box](contents/understandingoptionsdialog.html){.- .topic/xref .ajaxLink}.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Understanding the EasyLoader Dialog Box](contents/../contents/understandingeasyloaderdialog.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

@@ -1,8 +1,6 @@
 New in MapInfo EasyLoader 12.0 {#new-in-mapinfo-easyloader-12.0 .title .topictitle1}
 ==============================
 
-<div class="body conbody">
-
 MapInfo EasyLoader 12.0 supports the following database versions:
 
 -   **PostGIS 2.0** – Note that when uploading files to a PostGIS 2.0 database, spatial objects upload as a geometry spatial data type.
@@ -11,8 +9,6 @@ MapInfo EasyLoader 12.0 supports the following database versions:
 The server table processing option <span class="ph uicontrol">Grant Public Access to Table</span> has been changed to <span class="ph uicontrol">Grant Public Full Access to Table</span>.
 
 This release fixes the following issues:
-
-<div class="tablenoborder">
 
 <table>
 <colgroup>
@@ -42,24 +38,3 @@ This release fixes the following issues:
 </tbody>
 </table>
 
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [History of Changes](guide/history/../../guide/history/chapterhistory.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

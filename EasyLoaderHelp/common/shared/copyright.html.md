@@ -1,8 +1,6 @@
 Copyright {#copyright .title .topictitle1}
 =========
 
-<div class="body">
-
 © December 2016 Pitney Bowes Software Inc.
 
 Information in this document is subject to change without notice and does not represent a commitment on the part of the vendor or its representatives. No part of this document may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, without the written permission of Pitney Bowes Software Inc., One Global View, Troy, New York 12180-8399.
@@ -32,5 +30,3 @@ Contains FME^®^ Objects © 2005-2016 Safe Software Inc. All Rights Reserved.
 This product contains 7-Zip, which is licensed under GNU Lesser General Public License, Version 3, 29 June 2007 with the unRAR restriction. The license can be downloaded from <http://www.7-zip.org/license.txt>. The GNU License may be downloaded from <http://www.gnu.org/licenses/lgpl.html>. The source code is available from <http://www.7-zip.org>.
 
 Products named herein may be trademarks of their respective manufacturers and are hereby recognized. Trademarked names are used editorially, to the benefit of the trademark owner, with no intent to infringe on the trademark.
-
-</div>

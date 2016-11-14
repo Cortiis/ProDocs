@@ -1,8 +1,6 @@
 Table Processing Options {#table-processing-options .title .topictitle1}
 ========================
 
-<div class="body conbody">
-
 This section describes the table options available in MapInfo EasyLoader from the <span class="ph uicontrol">Operation</span> list. All operations use the name that you specify in the <span class="ph uicontrol">Server Table</span> column. By default the name in this column is the same as the source table.
 
 <span class="ph uicontrol">Create New Table</span>
@@ -31,22 +29,3 @@ If the dialog includes a <span class="ph uicontrol">Server Table Name</span> fie
 
 All tables must have the same table structure and be in the same projection. Tables will not append if their table structure differs.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Uploading Tables](guide/uploading/../../guide/uploading/uploadingtables.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

@@ -1,8 +1,6 @@
 Using Command-Line Flags to Run MapInfo EasyLoader {#using-command-line-flags-to-run-mapinfo-easyloader .title .topictitle1}
 ==================================================
 
-<div class="body conbody">
-
 You can run MapInfo EasyLoader from the Windows command-line to apply specific upload parameters or invoke MapInfo EasyLoader with upload parameters from a custom script or application.
 
 To open MapInfo EasyLoader from the <span class="keyword wintitle">Command-Line</span> window, on the Windows <span class="ph uicontrol">Start</span> menu type cmd. Change directories (cd) into the folder that has the MapInfoEasyLoader.exe file in it, and then type MapInfoEasyLoader.exe. MapInfo EasyLoader opens on your screen and is ready to use.
@@ -27,25 +25,3 @@ For a list of available command-line flags, see [Command-Line Flags Descriptions
 
 For instructions on how to locate the MapInfo EasyLoader state file, which stores command-line flag settings for the session, see [Locating the MapInfo EasyLoader Command-Line Flags RSP File](guide/productivity/locatingrspfile.html){.- .topic/xref .ajaxLink}.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
--   **[Mixing Command-Line Flags and MapInfo EasyLoader Window Options](guide/productivity/../../guide/productivity/mixingcommandlineflags.html){.- .topic/link .ajaxLink}**\
--   **[Locating the MapInfo EasyLoader Command-Line Flags RSP File](guide/productivity/../../guide/productivity/locatingrspfile.html){.- .topic/link .ajaxLink}**\
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Productivity Aids](guide/productivity/../../guide/productivity/chapterproductivityaids.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

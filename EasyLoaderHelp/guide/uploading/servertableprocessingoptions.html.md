@@ -1,8 +1,6 @@
 Server Table Processing Options {#server-table-processing-options .title .topictitle1}
 ===============================
 
-<div class="body conbody">
-
 <span class="ph uicontrol">Exclusive User</span>
 :   You can speed up load time on large tables when you are the only one attempting to update or upload the table. If you do not select this option, MapInfo EasyLoader verifies after each commit that no other updates are made to the table while it is being uploaded. Selecting this option prevents this test from occurring, which can improve runtime performance for large tables.
 
@@ -22,19 +20,19 @@ Server Table Processing Options {#server-table-processing-options .title .topict
 <span class="ph uicontrol">Create Indexes</span>
 :   When uploading a new table or replacing an existing table, this indexes all of the columns that are indexed in the original table. By default, this option is not selected.
 :   The table upload begins when you select this check box and click <span class="ph uicontrol">OK</span>.
-:   <div class="note note">
+:   
 
     <span class="notetitle">Note:</span> If the column name length is too long, the index creation fails. The name length limit varies per database.
 
-    </div>
+    
 
 <span class="ph uicontrol">Style Column</span>
 :   Specifies whether per-row styles are loaded with the data. You can set the name of the column in the text box beside the <span class="ph uicontrol">Style Column</span> check box. The default column name is MI\_STYLE.
-:   <div class="note note">
+:   
 
     <span class="notetitle">Note:</span> To load per-row styles, the MapInfo Map catalog for the database must contain the following columns: RENDITIONTYPE, RENDITIONCOLUMN, RENDITIONTABLE, and NUMBER\_ROWS. For more information, see [MAPINFO\_MAPCATALOG Table Structure](guide/uploading/mapcatalogtablestructure.html){.- .topic/xref .ajaxLink}.
 
-    </div>
+    
 
 <span class="ph uicontrol">Commit Interval</span>
 :   Specifies a commit interval for uploading. MapInfo EasyLoader commits the inserted records when the commit interval is reached. The default commit interval is 1000. If the commit interval is set to 0 (zero), the whole range of records is inserted as a single transaction, before a commit is issued.
@@ -52,22 +50,3 @@ Server Table Processing Options {#server-table-processing-options .title .topict
 <span class="ph uicontrol">Spatial Object Type</span>
 :   Specifies an object type, which depends on the server connection in use. For details, see [Spatial Object Type Options](guide/uploading/spatialobjectypeoptions.html){.- .topic/xref .ajaxLink}.
 
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [About Upload Options](guide/uploading/../../guide/uploading/aboutuploadoptions.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

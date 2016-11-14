@@ -1,11 +1,7 @@
 History of EasyLoader Changes {#history-of-easyloader-changes .title .topictitle1}
 =============================
 
-<div class="body conbody">
-
 This section provides a history of features and enhancements that have been added to EasyLoader.
-
-<div id="history__history1600" class="section">
 
 New in EasyLoader 16.0 {#new-in-easyloader-16.0 .title .sectiontitle}
 ----------------------
@@ -32,17 +28,9 @@ The following commandline flags have been retired and are no longer available.
 
 This release fixes the following issues:
 
-<div class="tablenoborder">
-
   Issue Number   Description and Resolution
   -------------- ----------------------------
   MIPRO-xxxxx    xxxxx
-
-</div>
-
-</div>
-
-<div id="history__history1520" class="section">
 
 New in EasyLoader 15.2 {#new-in-easyloader-15.2 .title .sectiontitle}
 ----------------------
@@ -50,8 +38,6 @@ New in EasyLoader 15.2 {#new-in-easyloader-15.2 .title .sectiontitle}
 EasyLoader 15.2 is a 32-bit release that works with the MapInfo Pro 15.2 64-bit release. MapInfo Pro 15.2 supports unicode and requires the PostgreSQL Unicode ODBC drive. EasyLoader does not yet support unicode and requires the PostgreSQL ANSI ODBC drive. You must have both drivers installed when both products are on the same machine.
 
 This release fixes the following issue:
-
-<div class="tablenoborder">
 
 <table>
 <colgroup>
@@ -73,46 +59,24 @@ This release fixes the following issue:
 </tbody>
 </table>
 
-</div>
-
-</div>
-
-<div id="history__history1500" class="section">
-
 New in EasyLoader 15.0 {#new-in-easyloader-15.0 .title .sectiontitle}
 ----------------------
 
 EasyLoader 15.0 is a 32-bit release that works with the MapInfo Pro 15.0 32-bit release. There are no new features or fixes.
-
-</div>
-
-<div id="history__history1251" class="section">
 
 New in EasyLoader 12.5.1 {#new-in-easyloader-12.5.1 .title .sectiontitle}
 ------------------------
 
 EasyLoader 12.5.1 is a 32-bit release that works with the MapInfo Pro 12.5.1 64-bit release. There are no new features or fixes.
 
-</div>
-
-<div id="history__history1250" class="section">
-
 New in EasyLoader 12.5 {#new-in-easyloader-12.5 .title .sectiontitle}
 ----------------------
 
 This release fixes the following issue:
 
-<div class="tablenoborder">
-
   Issue Number   Description and Resolution
   -------------- ---------------------------------------------------
   MIPRO-40742    Non-English versions of EasyLoader do not launch.
-
-</div>
-
-</div>
-
-<div id="history__history1200" class="section">
 
 New in EasyLoader 12.0 {#new-in-easyloader-12.0 .title .sectiontitle}
 ----------------------
@@ -125,8 +89,6 @@ EasyLoader 12.0 supports the following database versions:
 The server table processing option <span class="ph uicontrol">Grant Public Access to Table</span> has been changed to <span class="ph uicontrol">Grant Public Full Access to Table</span>.
 
 This release fixes the following issues:
-
-<div class="tablenoborder">
 
 <table>
 <colgroup>
@@ -156,26 +118,3 @@ This release fixes the following issues:
 </tbody>
 </table>
 
-</div>
-
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Uploading Data with EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>

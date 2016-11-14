@@ -1,17 +1,9 @@
 About Command-Line Flags {#about-command-line-flags .title .topictitle1}
 ========================
 
-<div class="body refbody">
-
-<div class="section">
-
 The following flags specify upload parameters when launching EasyLoader from a command-line. Many of the arguments have a long form and a legacy short form, such as the command to set a schema name when you upload a table: /SchemaName and /B.
 
 Use a space or an equal sign (=) to separate a command argument and its value. This example sets a target schema name, /SchemaName=schema\_name or /B schema\_name.
-
-</div>
-
-<div id="aboutcommandlineflags__help" class="section">
 
 Help: /?, /Help {#help-help .title .sectiontitle}
 ---------------
@@ -22,10 +14,6 @@ Syntax: /?
 
 Syntax: /Help
 
-</div>
-
-<div id="aboutcommandlineflags__appendall" class="section">
-
 Append All Tables to One: /A, /AppendAll {#append-all-tables-to-one-a-appendall .title .sectiontitle}
 ----------------------------------------
 
@@ -34,10 +22,6 @@ This flag uploads multiple tables to a single table, when the table structures a
 Syntax: /A
 
 Syntax: /AppendAll
-
-</div>
-
-<div id="aboutcommandlineflags__applocale" class="section">
 
 Set the Application Locale : /AppLocale {#set-the-application-locale-applocale .title .sectiontitle}
 ---------------------------------------
@@ -49,10 +33,6 @@ Syntax: /AppLocale=languagecode
 ``` {.pre .codeblock}
 /AppLocale=fr-FR
 ```
-
-</div>
-
-<div id="aboutcommandlineflags__schemaname" class="section">
 
 Schema Name: /B, /SchemaName {#schema-name-b-schemaname .title .sectiontitle}
 ----------------------------
@@ -67,10 +47,6 @@ Syntax: /SchemaName=string\_value
 /SchemaName=MIPROUSER
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__createindiciesonothercolumns" class="section">
-
 Create Indices for all Locally-Indexed Columns: /C, /CreateIndiciesOnOtherColumns {#create-indices-for-all-locally-indexed-columns-c-createindiciesonothercolumns .title .sectiontitle}
 ---------------------------------------------------------------------------------
 
@@ -81,10 +57,6 @@ This flag does not make or reset column selections. Instead, use the EasyLoader 
 Syntax: /C
 
 Syntax: /CreateIndiciesOnOtherColumns
-
-</div>
-
-<div id="aboutcommandlineflags__commandfile" class="section">
 
 Input Command File: /CF, /CommandFile {#input-command-file-cf-commandfile .title .sectiontitle}
 -------------------------------------
@@ -98,10 +70,6 @@ Syntax: /CommandFile=CommandFilePath
 ``` {.pre .codeblock}
 /CommandFile=C:\MyFiles\EasyLoader\Commands\myCommandFile.txt
 ```
-
-</div>
-
-<div id="aboutcommandlineflags__outputfolder" class="section">
 
 File Directory for Server Table(s): /D, /OutputFolder {#file-directory-for-server-tables-d-outputfolder .title .sectiontitle}
 -----------------------------------------------------
@@ -118,10 +86,6 @@ If the path contains spaces, use quotation marks around it.
 /OutputFolder="C:\my work folder\Tables\My Upload Tables"
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__exclusiveuse" class="section">
-
 Exclusive Use of Table: /E, /ExclusiveUse {#exclusive-use-of-table-e-exclusiveuse .title .sectiontitle}
 -----------------------------------------
 
@@ -132,10 +96,6 @@ Syntax: /E
 Syntax: /ExclusiveUse
 
 You can use this flag in an EasyLoader shortcut, see [Mixing Command-Line Flags and EasyLoader Window Options](guide/mixingcommandlineflags.html){.- .topic/xref .ajaxLink}.
-
-</div>
-
-<div id="aboutcommandlineflags__logfilename" class="section">
 
 Log File name: /F, /LogFileName {#log-file-name-f-logfilename .title .sectiontitle}
 -------------------------------
@@ -166,10 +126,6 @@ This example specifies the full path for the log file. If the path contains spac
 /LogFileName="C:\my work folder\myLogFile.txt"
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__folder" class="section">
-
 Table Folder: /Folder {#table-folder-folder .title .sectiontitle}
 ---------------------
 
@@ -196,10 +152,6 @@ The following example does not include tables in subfolders under <span class="p
 /Folder=C:/MyData;CreateNew;;false
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__grantall" class="section">
-
 Grant All: /G, /GrantAll {#grant-all-g-grantall .title .sectiontitle}
 ------------------------
 
@@ -208,10 +160,6 @@ This flag grants all rights as Public. By default, this is not set and tables ar
 Syntax: /G
 
 Syntax: /GrantAll
-
-</div>
-
-<div id="aboutcommandlineflags__nocreatespatialindex" class="section">
 
 Do Not Create a Spatial Index: /I, /NoCreateSpatialIndex {#do-not-create-a-spatial-index-i-nocreatespatialindex .title .sectiontitle}
 --------------------------------------------------------
@@ -225,10 +173,6 @@ Syntax: /I
 Syntax: /NoCreateSpatialIndex
 
 For more information, see [/NoCreatePrimaryKey](#aboutcommandlineflags__nocreateprimarykey){.- .topic/xref .ajaxLink}, which controls the unique index.
-
-</div>
-
-<div id="aboutcommandlineflags__automatedkey" class="section">
 
 Create Automated Key Column for SQL Server: /K, /AutomatedKey {#create-automated-key-column-for-sql-server-k-automatedkey .title .sectiontitle}
 -------------------------------------------------------------
@@ -251,10 +195,6 @@ The key column is created with the IDENTITY property by default, so you do not n
 
 You can use this flag in an EasyLoader shortcut, see [Mixing Command-Line Flags and EasyLoader Window Options](guide/mixingcommandlineflags.html){.- .topic/xref .ajaxLink}.
 
-</div>
-
-<div id="aboutcommandlineflags__tablelist" class="section">
-
 List of MapInfo Tables: /L, /TableList {#list-of-mapinfo-tables-l-tablelist .title .sectiontitle}
 --------------------------------------
 
@@ -264,13 +204,9 @@ Syntax: /L \[ TextFile | Path \]
 
 Syntax: /TableList=\[ TextFile | Path \]
 
-<div class="p">
-
 Where:
 -   TextFile is the name of the text file that lists the tables to upload.
 -   Path is the full path location to the text file.
-
-</div>
 
 This example shows only the name of the file, which is located the same directory as <span class="ph filepath">EasyLoader.exe</span>.
 
@@ -283,10 +219,6 @@ This example shows the path to the file. If the path contains spaces, use quotat
 ``` {.pre .codeblock}
 /TableList="C:\my work folder\Tables\ListOfTables.txt"
 ```
-
-</div>
-
-<div id="aboutcommandlineflags__spatialobjecttype" class="section">
 
 Spatial Object Type: /M, /SpatialObjectType {#spatial-object-type-m-spatialobjecttype .title .sectiontitle}
 -------------------------------------------
@@ -307,10 +239,6 @@ Examples:
 /SpatialObjectType=MICODE
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__minimized" class="section">
-
 Start Application Minimized: /Min, /Minimized {#start-application-minimized-min-minimized .title .sectiontitle}
 ---------------------------------------------
 
@@ -320,20 +248,12 @@ Syntax: /Min
 
 Syntax: /Minimized
 
-</div>
-
-<div id="aboutcommandlineflags__nostart" class="section">
-
 Do Not Autostart the Table Load: /NoStart {#do-not-autostart-the-table-load-nostart .title .sectiontitle}
 -----------------------------------------
 
 This flag disables the autostart behavior, so that EasyLoader does not automatically connect and begin to upload tables, even if the connection and tables are specified. By default, this is set to false.
 
 Syntax: /NoStart
-
-</div>
-
-<div id="aboutcommandlineflags__noui" class="section">
 
 Run Without User Interface: /NoUi {#run-without-user-interface-noui .title .sectiontitle}
 ---------------------------------
@@ -349,10 +269,6 @@ Where:
 -   connection is either [/ConnectionString](#aboutcommandlineflags__connectionstring){.- .topic/xref .ajaxLink} or [/OracleConnectionString](#aboutcommandlineflags__oracleconnectionstring){.- .topic/xref .ajaxLink}.
 -   tables is either [/TableList](#aboutcommandlineflags__tablelist){.- .topic/xref .ajaxLink} or [/Folder](#aboutcommandlineflags__folder){.- .topic/xref .ajaxLink}.
 
-</div>
-
-<div id="aboutcommandlineflags__oracleconnectionstring" class="section">
-
 Connection String: /O, /OracleConnectionString {#connection-string-o-oracleconnectionstring .title .sectiontitle}
 ----------------------------------------------
 
@@ -360,15 +276,11 @@ This flag sets a connection string for Oracle Spatial.
 
 Syntax: /O \[friendly\_name\]user\_name/password@server\_name
 
-<div class="p">
-
 Where:
 -   friendly\_name is optional for setting a specific name for the connection identifier.
 -   user\_name is the Oracle user name to connect with.
 -   password is the password for the Oracle user name.
 -   server\_name is the name of the server you are connecting to.
-
-</div>
 
 This example sets a connection string without defining a name for the connection identifier.
 
@@ -383,10 +295,6 @@ This example sets the same connection and names the connection Oracle1. If the c
 ```
 
 For ODBC connections, see [Server Connection String: /S, /ConnectionString](#aboutcommandlineflags__connectionstring){.- .topic/xref .ajaxLink}.
-
-</div>
-
-<div id="aboutcommandlineflags__serveroperation" class="section">
 
 Default Server Operation: /P, /ServerOperation {#default-server-operation-p-serveroperation .title .sectiontitle}
 ----------------------------------------------
@@ -409,10 +317,6 @@ Syntax: /ServerOperation=\[ A | C | R \]
 /SpatialObjectType=C
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__quitwhendone" class="section">
-
 Exit After Upload: /Q {#exit-after-upload-q .title .sectiontitle}
 ---------------------
 
@@ -422,10 +326,6 @@ Syntax: /Q
 
 Syntax: /QuitWhenDone
 
-</div>
-
-<div id="aboutcommandlineflags__connectionstring" class="section">
-
 Server Connection String: /S, /ConnectionString {#server-connection-string-s-connectionstring .title .sectiontitle}
 -----------------------------------------------
 
@@ -433,14 +333,10 @@ This flag passes an ODBC connection string to the program. The <span class="keyw
 
 Syntax: /ConnectionString=\[ (friendly\_name)connection\_string | user\_name/connection\_string \]
 
-<div class="p">
-
 Where:
 -   friendly\_name is optional for setting a specific name for the connection identifier.
 -   user\_name is the Oracle user name to connect with.
 -   connection\_string is the ODBC connection string.
-
-</div>
 
 This example uses a data source (DSN).
 
@@ -463,10 +359,6 @@ This example sets a connection name to My Data Source. It uses a data source (Fi
 
 For ODBC connections, see [Connection String: /O, /OracleConnectionString](#aboutcommandlineflags__oracleconnectionstring){.- .topic/xref .ajaxLink}.
 
-</div>
-
-<div id="aboutcommandlineflags__savecommandargs" class="section">
-
 Save Command Response File: /Save, /SaveCommandArgs {#save-command-response-file-save-savecommandargs .title .sectiontitle}
 ---------------------------------------------------
 
@@ -480,10 +372,6 @@ Example:
 /SaveCommandArgs=C:\MyFiles\EasyLoader\Commands\myCommandFile.txt
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__table" class="section">
-
 Table Specification: /T /Table {#table-specification-t-table .title .sectiontitle}
 ------------------------------
 
@@ -491,16 +379,12 @@ This flag passes a single table name to EasyLoader.
 
 Syntax: /Table=TableName(;ServerTableName;UploadRange;ServerOperation;AddToMapCatalog)
 
-<div class="p">
-
 Where:
 -   TableName is the .tab file name to upload.
 -   ServerTableName (optional) is the server table name. If left empty, EasyLoader users TableName.
 -   UploadRange (optional) is the range of table rows to upload. The range is a starting number and ending number with a comma (,) separator. A range of three to six would be 3,6.
 -   ServerOperation (optional) is the server operation for the table. Use Append, CreateNew, or Replace.
 -   AddToMapCatalog creates an entry for the table in the Map Catalog. Set this to true to create an entry. By default, this is set to false, so you do not need to specify it in the command-line.
-
-</div>
 
 This example includes all parameters.
 
@@ -526,10 +410,6 @@ If the path the upload file contains spaces, use quotation marks around it.
 /Table="C:\My Documents\tables\aTable.tab";MyTable;;Replace;true
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__nocreateprimarykey" class="section">
-
 Do Not Create a Primary Index: /U, /NoCreatePrimaryKey {#do-not-create-a-primary-index-u-nocreateprimarykey .title .sectiontitle}
 ------------------------------------------------------
 
@@ -540,10 +420,6 @@ Syntax: /U
 Syntax: /NoCreatePrimaryKey
 
 Also see [Do Not Create a Spatial Index: /I, /NoCreateSpatialIndex](#aboutcommandlineflags__nocreatespatialindex){.- .topic/xref .ajaxLink}, which controls the spatial index.
-
-</div>
-
-<div id="aboutcommandlineflags__commitinterval" class="section">
 
 Commit Interval: /X, /CommitInterval {#commit-interval-x-commitinterval .title .sectiontitle}
 ------------------------------------
@@ -560,10 +436,6 @@ This example sets the commit interval to 500, so that EasyLoader commits all of 
 ``` {.pre .codeblock}
 /CommitInterval=500
 ```
-
-</div>
-
-<div id="aboutcommandlineflags__stylecolumnname" class="section">
 
 Style Column Name: /Y, /StyleColumnName {#style-column-name-y-stylecolumnname .title .sectiontitle}
 ---------------------------------------
@@ -604,10 +476,6 @@ This example does not create a style column on the server table.
 /StyleColumnName=NO_STYLE
 ```
 
-</div>
-
-<div id="aboutcommandlineflags__autoselectsqlserverspatial" class="section">
-
 SQL Server AuotSelect Geometry: /Z, /AutoSelectSqlServerSpatial {#sql-server-auotselect-geometry-z-autoselectsqlserverspatial .title .sectiontitle}
 ---------------------------------------------------------------
 
@@ -619,24 +487,3 @@ Syntax: /AutoSelectSqlServerSpatial
 
 For more information, see [Loading Microsoft SQL Server Spatial Data](guide/loadingsqlserverspatialdata.html){.- .topic/xref .ajaxLink}.
 
-</div>
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Using Command-Line Flags to Run EasyLoader](guide/../guide/usingcommandlineflags.html){.- .topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>
