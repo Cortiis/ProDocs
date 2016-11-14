@@ -1,8 +1,6 @@
 Locating the MapInfo EasyLoader Command-Line Flags RSP File {#locating-the-mapinfo-easyloader-command-line-flags-rsp-file .title .topictitle1}
 ===========================================================
 
-<div class="body conbody">
-
 Closing MapInfo EasyLoader saves a state file with the command-line
 flags used on startup and set during the session. The file is called
 <span class="ph filepath">MapInfoEasyLoader.Settings.rsp</span> and is
