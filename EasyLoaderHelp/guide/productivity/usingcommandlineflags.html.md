@@ -1,8 +1,6 @@
 Using Command-Line Flags to Run MapInfo EasyLoader {#using-command-line-flags-to-run-mapinfo-easyloader .title .topictitle1}
 ==================================================
 
-<div class="body conbody">
-
 You can run MapInfo EasyLoader from the Windows command-line to apply
 specific upload parameters or invoke MapInfo EasyLoader with upload
 parameters from a custom script or application.
@@ -44,32 +42,3 @@ which stores command-line flag settings for the session, see [Locating
 the MapInfo EasyLoader Command-Line Flags RSP
 File](guide/productivity/locatingrspfile.html){.- .topic/xref
 .ajaxLink}.
-
-</div>
-
-<div class="related-links" functx="http://www.functx.com">
-
-<div class="related-links-title">
-
-</div>
-
--   **[Mixing Command-Line Flags and MapInfo EasyLoader Window
-    Options](guide/productivity/../../guide/productivity/mixingcommandlineflags.html){.-
-    .topic/link .ajaxLink}**\
--   **[Locating the MapInfo EasyLoader Command-Line Flags RSP
-    File](guide/productivity/../../guide/productivity/locatingrspfile.html){.-
-    .topic/link .ajaxLink}**\
-
-<div class="familylinks">
-
-<div class="parentlink">
-
-**Parent topic:** [Productivity
-Aids](guide/productivity/../../guide/productivity/chapterproductivityaids.html){.-
-.topic/link .ajaxLink}
-
-</div>
-
-</div>
-
-</div>
