@@ -3,8 +3,7 @@ New in MapInfo EasyLoader 15.0 {#new-in-mapinfo-easyloader-15.0 .title .topictit
 
 <div class="body conbody">
 
-MapInfo EasyLoader 15.0 is a 32-bit release that works with the MapInfo
-Pro 15.0 32-bit release. There are no new features or fixes.
+MapInfo EasyLoader 15.0 is a 32-bit release that works with the MapInfo Pro 15.0 32-bit release. There are no new features or fixes.
 
 </div>
 
@@ -18,9 +17,7 @@ Pro 15.0 32-bit release. There are no new features or fixes.
 
 <div class="parentlink">
 
-**Parent topic:** [History of
-Changes](guide/history/../../guide/history/chapterhistory.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [History of Changes](guide/history/../../guide/history/chapterhistory.html){.- .topic/link .ajaxLink}
 
 </div>
 

@@ -5,15 +5,10 @@ New in MapInfo EasyLoader 12.0 {#new-in-mapinfo-easyloader-12.0 .title .topictit
 
 MapInfo EasyLoader 12.0 supports the following database versions:
 
--   **PostGIS 2.0** – Note that when uploading files to a PostGIS 2.0
-    database, spatial objects upload as a geometry spatial data type.
--   **SQL Server 2012** – MapInfo EasyLoader processes any invalid
-    geography using the SQL Server 2012 MakeValid( ) function, so that
-    the geography is valid.
+-   **PostGIS 2.0** – Note that when uploading files to a PostGIS 2.0 database, spatial objects upload as a geometry spatial data type.
+-   **SQL Server 2012** – MapInfo EasyLoader processes any invalid geography using the SQL Server 2012 MakeValid( ) function, so that the geography is valid.
 
-The server table processing option <span class="ph uicontrol">Grant
-Public Access to Table</span> has been changed to <span
-class="ph uicontrol">Grant Public Full Access to Table</span>.
+The server table processing option <span class="ph uicontrol">Grant Public Access to Table</span> has been changed to <span class="ph uicontrol">Grant Public Full Access to Table</span>.
 
 This release fixes the following issues:
 
@@ -61,9 +56,7 @@ This release fixes the following issues:
 
 <div class="parentlink">
 
-**Parent topic:** [History of
-Changes](guide/history/../../guide/history/chapterhistory.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [History of Changes](guide/history/../../guide/history/chapterhistory.html){.- .topic/link .ajaxLink}
 
 </div>
 

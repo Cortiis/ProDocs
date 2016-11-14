@@ -13,20 +13,14 @@ This section explains the settings in the Options dialog box.
 
 </div>
 
--   **[Spatial Object Type
-    Options](contents/../contents/spatialobjectypeoptions.html){.-
-    .topic/link .ajaxLink}**\
--   **[Server Table Processing
-    Options](contents/../contents/servertableprocessingoptions.html){.-
-    .topic/link .ajaxLink}**\
+-   **[Spatial Object Type Options](contents/../contents/spatialobjectypeoptions.html){.- .topic/link .ajaxLink}**\
+-   **[Server Table Processing Options](contents/../contents/servertableprocessingoptions.html){.- .topic/link .ajaxLink}**\
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:** [Uploading Data with MapInfo
-EasyLoader](contents/../contents/chapterintro.html){.- .topic/link
-.ajaxLink}
+**Parent topic:** [Uploading Data with MapInfo EasyLoader](contents/../contents/chapterintro.html){.- .topic/link .ajaxLink}
 
 </div>
 

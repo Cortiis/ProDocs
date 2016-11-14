@@ -25,8 +25,7 @@ This section lists the short-cuts available in MapInfo EasyLoader.
 
 </div>
 
-The following are shortcuts for selecting and deleting tables in MapInfo
-EasyLoader's table list.
+The following are shortcuts for selecting and deleting tables in MapInfo EasyLoader's table list.
 
 <div class="tablenoborder">
 
@@ -45,11 +44,7 @@ EasyLoader's table list.
 
 </div>
 
-When there are multiple tables selected in MapInfo EasyLoader, then
-selecting or clearing the <span class="ph uicontrol">Catalog</span>
-check box and choosing from the <span
-class="ph uicontrol">Operation</span> list applies to all of the tables
-in the selection.
+When there are multiple tables selected in MapInfo EasyLoader, then selecting or clearing the <span class="ph uicontrol">Catalog</span> check box and choosing from the <span class="ph uicontrol">Operation</span> list applies to all of the tables in the selection.
 
 </div>
 
@@ -63,9 +58,7 @@ in the selection.
 
 <div class="parentlink">
 
-**Parent topic:** [Productivity
-Aids](guide/productivity/../../guide/productivity/chapterproductivityaids.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [Productivity Aids](guide/productivity/../../guide/productivity/chapterproductivityaids.html){.- .topic/link .ajaxLink}
 
 </div>
 

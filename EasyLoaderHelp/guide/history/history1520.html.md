@@ -3,11 +3,7 @@ New in MapInfo EasyLoader 15.2 {#new-in-mapinfo-easyloader-15.2 .title .topictit
 
 <div class="body conbody">
 
-MapInfo EasyLoader 15.2 is a 32-bit release that works with the MapInfo
-Pro 15.2 64-bit release. MapInfo Pro 15.2 supports Unicode and requires
-the PostgreSQL Unicode ODBC drive. MapInfo EasyLoader does not yet
-support Unicode and requires the PostgreSQL ANSI ODBC drive. You must
-have both drivers installed when both products are on the same machine.
+MapInfo EasyLoader 15.2 is a 32-bit release that works with the MapInfo Pro 15.2 64-bit release. MapInfo Pro 15.2 supports Unicode and requires the PostgreSQL Unicode ODBC drive. MapInfo EasyLoader does not yet support Unicode and requires the PostgreSQL ANSI ODBC drive. You must have both drivers installed when both products are on the same machine.
 
 This release fixes the following issue:
 
@@ -47,9 +43,7 @@ This release fixes the following issue:
 
 <div class="parentlink">
 
-**Parent topic:** [History of
-Changes](guide/history/../../guide/history/chapterhistory.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [History of Changes](guide/history/../../guide/history/chapterhistory.html){.- .topic/link .ajaxLink}
 
 </div>
 

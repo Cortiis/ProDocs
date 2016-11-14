@@ -25,9 +25,7 @@ This release fixes the following issue:
 
 <div class="parentlink">
 
-**Parent topic:** [History of
-Changes](guide/history/../../guide/history/chapterhistory.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [History of Changes](guide/history/../../guide/history/chapterhistory.html){.- .topic/link .ajaxLink}
 
 </div>
 

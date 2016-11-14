@@ -3,8 +3,7 @@ System Requirements {#system-requirements .title .topictitle1}
 
 <div class="body conbody">
 
-This product is tested on the following Microsoft Windows Desktop
-Operating Systems:
+This product is tested on the following Microsoft Windows Desktop Operating Systems:
 
 -   Windows 10 64-bit
 -   Windows 8.1 64-bit
@@ -26,9 +25,7 @@ Operating Systems:
 
 <div class="parentlink">
 
-**Parent topic:** [Database Support and
-Requirements](common/shared/../../guide/introduction/databasesupport.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [Database Support and Requirements](common/shared/../../guide/introduction/databasesupport.html){.- .topic/link .ajaxLink}
 
 </div>
 

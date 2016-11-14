@@ -5,11 +5,7 @@ Getting Started {#getting-started .title .topictitle1}
 
 <div class="section prereq p">
 
-You can either start MapInfo EasyLoader from within MapInfo Pro or
-separately if you downloaded your MapInfo EasyLoader from the web. To
-launch MapInfo EasyLoader from within MapInfo Pro, see [Starting MapInfo
-EasyLoader from within MapInfo
-Pro](guide/introduction/startinginpro.html){.- .topic/xref .ajaxLink}.
+You can either start MapInfo EasyLoader from within MapInfo Pro or separately if you downloaded your MapInfo EasyLoader from the web. To launch MapInfo EasyLoader from within MapInfo Pro, see [Starting MapInfo EasyLoader from within MapInfo Pro](guide/introduction/startinginpro.html){.- .topic/xref .ajaxLink}.
 
 </div>
 
@@ -17,16 +13,10 @@ To start MapInfo EasyLoader:
 
 <div class="li step p">
 
-<span class="ph cmd">Double-click the <span
-class="ph filepath">MapInfoEasyLoader.exe</span> file in the <span
-class="ph filepath">EasyLoader</span> directory.</span>
+<span class="ph cmd">Double-click the <span class="ph filepath">MapInfoEasyLoader.exe</span> file in the <span class="ph filepath">EasyLoader</span> directory.</span>
 <div class="itemgroup info">
 
-When you download MapInfo EasyLoader from the web, you download a zip
-file. When you extract the files from this zip, it creates an <span
-class="ph filepath">EasyLoader</span> folder with all of the files
-necessary to run MapInfo EasyLoader including <span
-class="ph filepath">MapInfoEasyLoader.exe</span>.
+When you download MapInfo EasyLoader from the web, you download a zip file. When you extract the files from this zip, it creates an <span class="ph filepath">EasyLoader</span> folder with all of the files necessary to run MapInfo EasyLoader including <span class="ph filepath">MapInfoEasyLoader.exe</span>.
 
 </div>
 
@@ -34,8 +24,7 @@ class="ph filepath">MapInfoEasyLoader.exe</span>.
 
 <div class="section postreq">
 
-MapInfo EasyLoader is a single window within which you can set
-everything necessary to upload data tables to a database.
+MapInfo EasyLoader is a single window within which you can set everything necessary to upload data tables to a database.
 
 <div class="tablenoborder">
 
@@ -159,17 +148,13 @@ everything necessary to upload data tables to a database.
 
 </div>
 
--   **[Starting MapInfo EasyLoader from within MapInfo
-    Pro](guide/introduction/../../guide/introduction/startinginpro.html){.-
-    .topic/link .ajaxLink}**\
+-   **[Starting MapInfo EasyLoader from within MapInfo Pro](guide/introduction/../../guide/introduction/startinginpro.html){.- .topic/link .ajaxLink}**\
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:**
-[Introduction](guide/introduction/../../guide/introduction/chapterintro.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [Introduction](guide/introduction/../../guide/introduction/chapterintro.html){.- .topic/link .ajaxLink}
 
 </div>
 

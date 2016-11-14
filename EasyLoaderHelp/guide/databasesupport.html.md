@@ -10,14 +10,9 @@ EasyLoader uploads data to these databases:
 -   Microsoft Access
 -   PostgreSQL / PostGIS
 
-The database must be able to handle spatial geometry. If the databases
-does not have spatial object type support, then EasyLoader only uploads
-XY data for a table: XY or XY with a MapInfo Key (<span
-class="keyword">MICode</span>). EasyLoader opens only one server
-connection at a time.
+The database must be able to handle spatial geometry. If the databases does not have spatial object type support, then EasyLoader only uploads XY data for a table: XY or XY with a MapInfo Key (<span class="keyword">MICode</span>). EasyLoader opens only one server connection at a time.
 
-EasyLoader is available as a download on the web or it installs with
-MapInfo Pro into the <span class="ph filepath">\\Tools</span> directory.
+EasyLoader is available as a download on the web or it installs with MapInfo Pro into the <span class="ph filepath">\\Tools</span> directory.
 
 </div>
 
@@ -27,18 +22,14 @@ MapInfo Pro into the <span class="ph filepath">\\Tools</span> directory.
 
 </div>
 
--   **[Software
-    Requirements](guide/../guide/softwarerequirements.html){.-
-    .topic/link .ajaxLink}**\
--   **[System Requirements](guide/../common/shared/requirements.html){.-
-    .topic/link .ajaxLink}**\
+-   **[Software Requirements](guide/../guide/softwarerequirements.html){.- .topic/link .ajaxLink}**\
+-   **[System Requirements](guide/../common/shared/requirements.html){.- .topic/link .ajaxLink}**\
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:** [Uploading Data with
-EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
+**Parent topic:** [Uploading Data with EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
 
 </div>
 

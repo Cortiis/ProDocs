@@ -9,14 +9,11 @@ To work correctly, MapInfo EasyLoader requires the following:
 
     <https://www.microsoft.com/en-us/download/details.aspx?id=49981>
 
--   Microsoft Visual C++ 2015 Redistributable (x64)
-    14.0.23918 (vc\_redist.x64.exe)
+-   Microsoft Visual C++ 2015 Redistributable (x64) 14.0.23918 (vc\_redist.x64.exe)
 
     <https://www.microsoft.com/en-us/download/details.aspx?id=51682>
 
-MapInfo Pro installs these requirements. You do not need to install
-these when running MapInfo EasyLoader on the same machine as MapInfo
-Pro.
+MapInfo Pro installs these requirements. You do not need to install these when running MapInfo EasyLoader on the same machine as MapInfo Pro.
 
 </div>
 
@@ -30,9 +27,7 @@ Pro.
 
 <div class="parentlink">
 
-**Parent topic:** [Database Support and
-Requirements](guide/introduction/../../guide/introduction/databasesupport.html){.-
-.topic/link .ajaxLink}
+**Parent topic:** [Database Support and Requirements](guide/introduction/../../guide/introduction/databasesupport.html){.- .topic/link .ajaxLink}
 
 </div>
 

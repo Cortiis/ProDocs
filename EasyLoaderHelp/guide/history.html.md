@@ -3,63 +3,32 @@ History of EasyLoader Changes {#history-of-easyloader-changes .title .topictitle
 
 <div class="body conbody">
 
-This section provides a history of features and enhancements that have
-been added to EasyLoader.
+This section provides a history of features and enhancements that have been added to EasyLoader.
 
 <div id="history__history1600" class="section">
 
 New in EasyLoader 16.0 {#new-in-easyloader-16.0 .title .sectiontitle}
 ----------------------
 
-EasyLoader is now a 64-bit release that works with MapInfo Pro 15.2 and
-16.0 64-bit releases. It has a new look and feel that makes it easier to
-use.
+EasyLoader is now a 64-bit release that works with MapInfo Pro 15.2 and 16.0 64-bit releases. It has a new look and feel that makes it easier to use.
 
-You can work with both native MapInfo TAB files and nativeX (extended)
-TAB files. This release supports Unicode, so that you can work with
-files in different character encodings.
+You can work with both native MapInfo TAB files and nativeX (extended) TAB files. This release supports Unicode, so that you can work with files in different character encodings.
 
-The commandline flags that you use when launching EasyLoader from a
-command-line have been updated. They now have longer names that are more
-user friendly. Instead of using /O to set the oracle connection string,
-you can use /OracleConnectionString. Shorter flags, like /O, still work,
-but using the longer flags is more intuative. Also, there are new
-commandline flags available:
+The commandline flags that you use when launching EasyLoader from a command-line have been updated. They now have longer names that are more user friendly. Instead of using /O to set the oracle connection string, you can use /OracleConnectionString. Shorter flags, like /O, still work, but using the longer flags is more intuative. Also, there are new commandline flags available:
 
--   [Help: /?,
-    /Help](guide/aboutcommandlineflags.html#aboutcommandlineflags__help){.-
-    .topic/xref .ajaxLink}
--   [Set the Application Locale :
-    /AppLocale](guide/aboutcommandlineflags.html#aboutcommandlineflags__applocale){.-
-    .topic/xref .ajaxLink}
--   [Input Command File: /CF,
-    /CommandFile](guide/aboutcommandlineflags.html#aboutcommandlineflags__commandfile){.-
-    .topic/xref .ajaxLink}
--   [Table Folder:
-    /Folder](guide/aboutcommandlineflags.html#aboutcommandlineflags__folder){.-
-    .topic/xref .ajaxLink}
--   [Start Application Minimized:
-    /Min](guide/aboutcommandlineflags.html#aboutcommandlineflags__minimized){.-
-    .topic/xref .ajaxLink}
--   [Do Not Autostart the Table Load:
-    /NoStart](guide/aboutcommandlineflags.html#aboutcommandlineflags__nostart){.-
-    .topic/xref .ajaxLink}
--   [Run Without User Interface:
-    /NoUi](guide/aboutcommandlineflags.html#aboutcommandlineflags__noui){.-
-    .topic/xref .ajaxLink}
--   [Save Command Response File:
-    /SaveCommandArgs](guide/aboutcommandlineflags.html#aboutcommandlineflags__savecommandargs){.-
-    .topic/xref .ajaxLink}
+-   [Help: /?, /Help](guide/aboutcommandlineflags.html#aboutcommandlineflags__help){.- .topic/xref .ajaxLink}
+-   [Set the Application Locale : /AppLocale](guide/aboutcommandlineflags.html#aboutcommandlineflags__applocale){.- .topic/xref .ajaxLink}
+-   [Input Command File: /CF, /CommandFile](guide/aboutcommandlineflags.html#aboutcommandlineflags__commandfile){.- .topic/xref .ajaxLink}
+-   [Table Folder: /Folder](guide/aboutcommandlineflags.html#aboutcommandlineflags__folder){.- .topic/xref .ajaxLink}
+-   [Start Application Minimized: /Min](guide/aboutcommandlineflags.html#aboutcommandlineflags__minimized){.- .topic/xref .ajaxLink}
+-   [Do Not Autostart the Table Load: /NoStart](guide/aboutcommandlineflags.html#aboutcommandlineflags__nostart){.- .topic/xref .ajaxLink}
+-   [Run Without User Interface: /NoUi](guide/aboutcommandlineflags.html#aboutcommandlineflags__noui){.- .topic/xref .ajaxLink}
+-   [Save Command Response File: /SaveCommandArgs](guide/aboutcommandlineflags.html#aboutcommandlineflags__savecommandargs){.- .topic/xref .ajaxLink}
 
-The following commandline flags have been retired and are no longer
-available.
+The following commandline flags have been retired and are no longer available.
 
--   /R Replace the server table. You can choose to replace the server
-    table when using the new
-    [/Folder](guide/aboutcommandlineflags.html#aboutcommandlineflags__folder){.-
-    .topic/xref .ajaxLink} flag, which uploads all tables from a folder.
--   /V Oracle version. Easyloader knows the Oracle version from the
-    Oracle connection string.
+-   /R Replace the server table. You can choose to replace the server table when using the new [/Folder](guide/aboutcommandlineflags.html#aboutcommandlineflags__folder){.- .topic/xref .ajaxLink} flag, which uploads all tables from a folder.
+-   /V Oracle version. Easyloader knows the Oracle version from the Oracle connection string.
 
 This release fixes the following issues:
 
@@ -78,11 +47,7 @@ This release fixes the following issues:
 New in EasyLoader 15.2 {#new-in-easyloader-15.2 .title .sectiontitle}
 ----------------------
 
-EasyLoader 15.2 is a 32-bit release that works with the MapInfo Pro 15.2
-64-bit release. MapInfo Pro 15.2 supports unicode and requires the
-PostgreSQL Unicode ODBC drive. EasyLoader does not yet support unicode
-and requires the PostgreSQL ANSI ODBC drive. You must have both drivers
-installed when both products are on the same machine.
+EasyLoader 15.2 is a 32-bit release that works with the MapInfo Pro 15.2 64-bit release. MapInfo Pro 15.2 supports unicode and requires the PostgreSQL Unicode ODBC drive. EasyLoader does not yet support unicode and requires the PostgreSQL ANSI ODBC drive. You must have both drivers installed when both products are on the same machine.
 
 This release fixes the following issue:
 
@@ -117,8 +82,7 @@ This release fixes the following issue:
 New in EasyLoader 15.0 {#new-in-easyloader-15.0 .title .sectiontitle}
 ----------------------
 
-EasyLoader 15.0 is a 32-bit release that works with the MapInfo Pro 15.0
-32-bit release. There are no new features or fixes.
+EasyLoader 15.0 is a 32-bit release that works with the MapInfo Pro 15.0 32-bit release. There are no new features or fixes.
 
 </div>
 
@@ -127,8 +91,7 @@ EasyLoader 15.0 is a 32-bit release that works with the MapInfo Pro 15.0
 New in EasyLoader 12.5.1 {#new-in-easyloader-12.5.1 .title .sectiontitle}
 ------------------------
 
-EasyLoader 12.5.1 is a 32-bit release that works with the MapInfo Pro
-12.5.1 64-bit release. There are no new features or fixes.
+EasyLoader 12.5.1 is a 32-bit release that works with the MapInfo Pro 12.5.1 64-bit release. There are no new features or fixes.
 
 </div>
 
@@ -156,15 +119,10 @@ New in EasyLoader 12.0 {#new-in-easyloader-12.0 .title .sectiontitle}
 
 EasyLoader 12.0 supports the following database versions:
 
--   **PostGIS 2.0** – Note that when uploading files to a PostGIS 2.0
-    database, spatial objects upload as a geometry spatial data type.
--   **SQL Server 2012** – EasyLoader processes any invalid geography
-    using the SQL Server 2012 MakeValid( ) function, so that the
-    geography is valid.
+-   **PostGIS 2.0** – Note that when uploading files to a PostGIS 2.0 database, spatial objects upload as a geometry spatial data type.
+-   **SQL Server 2012** – EasyLoader processes any invalid geography using the SQL Server 2012 MakeValid( ) function, so that the geography is valid.
 
-The server table processing option <span class="ph uicontrol">Grant
-Public Access to Table</span> has been changed to <span
-class="ph uicontrol">Grant Public Full Access to Table</span>.
+The server table processing option <span class="ph uicontrol">Grant Public Access to Table</span> has been changed to <span class="ph uicontrol">Grant Public Full Access to Table</span>.
 
 This release fixes the following issues:
 
@@ -214,8 +172,7 @@ This release fixes the following issues:
 
 <div class="parentlink">
 
-**Parent topic:** [Uploading Data with
-EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
+**Parent topic:** [Uploading Data with EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
 
 </div>
 

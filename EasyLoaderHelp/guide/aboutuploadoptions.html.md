@@ -13,19 +13,14 @@ This section explains the settings in the Options dialog box.
 
 </div>
 
--   **[Spatial Object Type
-    Options](guide/../guide/spatialobjectypeoptions.html){.- .topic/link
-    .ajaxLink}**\
--   **[Server Table Processing
-    Options](guide/../guide/servertableprocessingoptions.html){.-
-    .topic/link .ajaxLink}**\
+-   **[Spatial Object Type Options](guide/../guide/spatialobjectypeoptions.html){.- .topic/link .ajaxLink}**\
+-   **[Server Table Processing Options](guide/../guide/servertableprocessingoptions.html){.- .topic/link .ajaxLink}**\
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:** [Uploading Data with
-EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
+**Parent topic:** [Uploading Data with EasyLoader](guide/../guide/chapterintro.html){.- .topic/link .ajaxLink}
 
 </div>
 

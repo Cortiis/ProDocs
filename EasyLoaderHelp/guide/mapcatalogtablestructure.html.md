@@ -32,9 +32,7 @@ MAPINFO\_MAPCATALOG has the following table structure:
 
 </div>
 
-The following script, which is shipped with EasyLoader, may be used to
-modify an existing MAPINFO.MAPINFO\_MAPCATALOG to add the rendition
-columns if they do not exist. Run this script as user MAPINFO.
+The following script, which is shipped with EasyLoader, may be used to modify an existing MAPINFO.MAPINFO\_MAPCATALOG to add the rendition columns if they do not exist. Run this script as user MAPINFO.
 
 <div class="p">
 
@@ -58,8 +56,7 @@ columns if they do not exist. Run this script as user MAPINFO.
 
 <div class="parentlink">
 
-**Parent topic:** [Using the Map
-Catalog](guide/../guide/usingmapcatalog.html){.- .topic/link .ajaxLink}
+**Parent topic:** [Using the Map Catalog](guide/../guide/usingmapcatalog.html){.- .topic/link .ajaxLink}
 
 </div>
 

@@ -3,7 +3,6 @@ Understanding the EasyLoader Dialog Box {#understanding-the-easyloader-dialog-bo
 
 <div class="body conbody">
 
-This section explains the options in the <span
-class="keyword wintitle">EasyLoader</span> dialog box.
+This section explains the options in the <span class="keyword wintitle">EasyLoader</span> dialog box.
 
 </div>
