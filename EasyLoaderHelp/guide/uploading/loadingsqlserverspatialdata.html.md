@@ -1,6 +1,8 @@
 Loading Microsoft SQL Server Spatial Data {#loading-microsoft-sql-server-spatial-data .title .topictitle1}
 =========================================
 
+# Head 1
+
 Microsoft SQL Server Spatial includes Geography and Geometry data types. Geography fields hold geometries specified in the Lat/Long coordinate system. Geometry fields hold geometries specified in all other coordinate systems. If you choose to upload to a Geometry field type, then MapInfo EasyLoader runs the SQL Server Spatial **MakeValid( )** function to fix any geometry that SQL Server Spatial deems invalid. This may shift point locations for certain geometries.
 
 In the `Options`{.uicontrol} dialog box, MapInfo EasyLoader enables you to control how the geometry data in a native table is uploaded to SQL Server Spatial.
@@ -28,7 +30,7 @@ Refer to SQL Server books online for complete information on the rules that defi
 
 -   <http://www.microsoft.com/en-us/sqlserver/default.aspx>
 
-This means that you may have geometry data that are valid in a MapInfo TAB format that cannot be loaded into SQL Server Spatial without correction/edits. MapInfo EasyLoader aborts the upload if it comes across the geometry that SQL Server rejects. It will display the primary key of the record that contains the rejected object. A "MapInfo Upload Utility Error" message displays.
+This means that you may have geometry data that are valid in a MapInfo TAB format that cannot be loaded into SQL Server Spatial without correction/edits. MapInfo EasyLoader aborts the upload if it comes across the geometry that SQL Server rejects. It will display the primary key of the record that contains the rejected object. A "MapInfo Upload Utility Error" message displays. Add new stuff.
 
 You may want to try the following steps to make the geometry acceptable to SQL Server.
 
