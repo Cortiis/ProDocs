@@ -3,13 +3,13 @@ Loading Microsoft SQL Server Spatial Data {#loading-microsoft-sql-server-spatial
 
 Microsoft SQL Server Spatial includes Geography and Geometry data types. Geography fields hold geometries specified in the Lat/Long coordinate system. Geometry fields hold geometries specified in all other coordinate systems. If you choose to upload to a Geometry field type, then EasyLoader runs the SQL Server Spatial MakeValid( ) function to fix any geometry that SQL Server Spatial deems invalid. This may shift point locations for certain geometries.
 
-In the `Options`{.uicontrol} dialog box, EasyLoader enables you to control how the geometry data in a native table is uploaded to SQL Server Spatial.
+In the `Options` {.uicontrol} dialog box, EasyLoader enables you to control how the geometry data in a native table is uploaded to SQL Server Spatial.
 
-Keep the default selection of `Always Geometry`{.uicontrol}if you want EasyLoader to always upload geometry objects to Geometry fields regardless of the coordinate system they use.
+Keep the default selection of `Always Geometry` {.uicontrol}if you want EasyLoader to always upload geometry objects to Geometry fields regardless of the coordinate system they use.
 
-Select `Auto Select`{.uicontrol}if you want EasyLoader to automatically decide whether the geometry object is uploaded to a Geography field (in cases where the geometry object uses the Lat/Long coordinate system) or a Geometry field (in cases where the geometry object does not use the Lat/Long coordinate system).
+Select `Auto Select` {.uicontrol}if you want EasyLoader to automatically decide whether the geometry object is uploaded to a Geography field (in cases where the geometry object uses the Lat/Long coordinate system) or a Geometry field (in cases where the geometry object does not use the Lat/Long coordinate system).
 
-<span class="notetitle">Note:`{.uicontrol} When the Auto Select option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.
+<span class="notetitle">Note:` {.uicontrol} When the Auto Select option is selected, if for any reason a geometry object that uses the Lat/Long coordinate system cannot be uploaded to a Geography field, it will instead be uploaded to a Geometry field.
 
 To view the Unsupported Geometries in SQL, see [Unsupported Geometry](guide/unsupportedgeometry.html){.- .topic/xref .ajaxLink}.
 
