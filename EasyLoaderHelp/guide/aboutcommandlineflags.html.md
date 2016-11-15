@@ -74,7 +74,7 @@ Syntax: /CommandFile=CommandFilePath
 File Directory for Server Table(s): /D, /OutputFolder {#file-directory-for-server-tables-d-outputfolder .title .sectiontitle}
 -----------------------------------------------------
 
-This flag generates a TAB file in a specific directory location to access a remote database with. The new .tab file name appends \_srv.tab to your server table name, <span class="ph filepath">yourServerTableName\_srv.tab</span>. The directory must be valid to upload a table to it. An empty directory is considered valid.
+This flag generates a TAB file in a specific directory location to access a remote database with. The new .tab file name appends \_srv.tab to your server table name, <span class="ph filepath">yourServerTableName\_srv.tab`{.uicontrol}. The directory must be valid to upload a table to it. An empty directory is considered valid.
 
 Syntax: /D string\_value
 
@@ -100,13 +100,13 @@ You can use this flag in an EasyLoader shortcut, see [Mixing Command-Line Flags 
 Log File name: /F, /LogFileName {#log-file-name-f-logfilename .title .sectiontitle}
 -------------------------------
 
-This flag specifies the name and location of the log file created when EasyLoader uploads a table. By default, a log file named <span class="ph filepath">EasyLoader.log</span> is created in the <span class="ph filepath">TEMP</span> directory. If you specify a file name but do not provide a path, then EasyLoader saves the log file to the same directory as the <span class="ph filepath">EasyLoader.exe</span> file.
+This flag specifies the name and location of the log file created when EasyLoader uploads a table. By default, a log file named <span class="ph filepath">EasyLoader.log`{.uicontrol} is created in the <span class="ph filepath">TEMP`{.uicontrol} directory. If you specify a file name but do not provide a path, then EasyLoader saves the log file to the same directory as the <span class="ph filepath">EasyLoader.exe`{.uicontrol} file.
 
 Syntax: /F string\_value
 
 Syntax: /LogFileName=string\_value
 
-This example shows only the name of the log file, which saves to the same directory as <span class="ph filepath">EasyLoader.exe</span>.
+This example shows only the name of the log file, which saves to the same directory as <span class="ph filepath">EasyLoader.exe`{.uicontrol}.
 
 ``` {.pre .codeblock}
 /F myLogFile.txt
@@ -146,7 +146,7 @@ The following example does not include the optional AddToMapCatalog and IncludeS
 /Folder=C:/MyData;CreateNew
 ```
 
-The following example does not include tables in subfolders under <span class="ph filepath">MyData</span>. The third AddToMapCatalog element is blank, because it is set to true by default.
+The following example does not include tables in subfolders under <span class="ph filepath">MyData`{.uicontrol}. The third AddToMapCatalog element is blank, because it is set to true by default.
 
 ``` {.pre .codeblock}
 /Folder=C:/MyData;CreateNew;;false
@@ -208,7 +208,7 @@ Where:
 -   TextFile is the name of the text file that lists the tables to upload.
 -   Path is the full path location to the text file.
 
-This example shows only the name of the file, which is located the same directory as <span class="ph filepath">EasyLoader.exe</span>.
+This example shows only the name of the file, which is located the same directory as <span class="ph filepath">EasyLoader.exe`{.uicontrol}.
 
 ``` {.pre .codeblock}
 /L ListOfTables.txt
@@ -329,7 +329,7 @@ Syntax: /QuitWhenDone
 Server Connection String: /S, /ConnectionString {#server-connection-string-s-connectionstring .title .sectiontitle}
 -----------------------------------------------
 
-This flag passes an ODBC connection string to the program. The <span class="keyword wintitle">ODBC Connection</span> dialog box does not display when you supply enough information to connect.
+This flag passes an ODBC connection string to the program. The `ODBC Connection`{.uicontrol} dialog box does not display when you supply enough information to connect.
 
 Syntax: /ConnectionString=\[ (friendly\_name)connection\_string | user\_name/connection\_string \]
 

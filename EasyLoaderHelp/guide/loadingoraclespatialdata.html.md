@@ -19,7 +19,7 @@ These functions may result in validation errors due to the tolerance level set b
 
 To resolve these errors, reset the tolerance within the USER\_SDO-GEOM\_METADATA by adjusting them downwards (by a factor of 10) and rerun the validation.
 
-<span class="notetitle">Note:</span> If you adjust the tolerance, you must re-create the spatial indexes because they use the tolerance when they are created.
+<span class="notetitle">Note:`{.uicontrol} If you adjust the tolerance, you must re-create the spatial indexes because they use the tolerance when they are created.
 
 To view the Unsupported Geometries in Oracle See [Unsupported Geometry](guide/unsupportedgeometry.html){.- .topic/xref .ajaxLink}.
 
@@ -33,5 +33,5 @@ Loading Long/Lat Tables to Oracle 9i {#loading-longlat-tables-to-oracle-9i .titl
 
 When uploading tables that use the Longitude/Latitude coordinate system (Geodetic Data) to Oracle 9i, it is important to verify that all geometry coordinates are between (-180,180) longitude and (-90, 90) latitude. Geodetic data coordinates beyond that range are not supported in Oracle Spatial and may cause problems. You may check your data using MapInfo Pro before loading, or by using the Oracle Spatial SDO\_GEOM.VALIDATE\_LAYER( ) function on the table after loading it to Oracle Spatial.
 
-<span class="notetitle">Note:</span> EasyLoader assigns the default datum World Geodetic System 1984 (WGS84) to any “datumless” Long/Lat coordinate system when loading Oracle 9i.
+<span class="notetitle">Note:`{.uicontrol} EasyLoader assigns the default datum World Geodetic System 1984 (WGS84) to any “datumless” Long/Lat coordinate system when loading Oracle 9i.
 

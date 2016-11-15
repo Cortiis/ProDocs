@@ -3,9 +3,9 @@ Using the Command Line Flags to Run EasyLoader {#using-the-command-line-flags-to
 
 You can run the EasyLoader executable from the command line. For example:
 
-> <span class="keyword cmdname">easyloader.exe /T c:\\data\\states.tab;mystates /G /Y</span>
+> <span class="keyword cmdname">easyloader.exe /T c:\\data\\states.tab;mystates /G /Y`{.uicontrol}
 
-<span class="notetitle">Note:</span> Do not enclose file names in quotation marks. Command line arguments are interpreted correctly without quote marks, even if the filename includes spaces. If you use quotation marks, EasyLoader cannot parse the filenames correctly and errors occur.
+<span class="notetitle">Note:`{.uicontrol} Do not enclose file names in quotation marks. Command line arguments are interpreted correctly without quote marks, even if the filename includes spaces. If you use quotation marks, EasyLoader cannot parse the filenames correctly and errors occur.
 
 EasyLoader supports the following flags to allow you to specify additional upload parameters from the command line:
 
@@ -37,9 +37,9 @@ EasyLoader supports the following flags to allow you to specify additional uploa
 
     Syntax: /E
 
--   **/F Log File name** – Use this flag to specify the name and location of the log file. Whenever you upload a table, EasyLoader produces a log file. By default, a log file named <span class="ph filepath">EasyLoader.log</span> is created in the Windows TEMP directory. If you specify a file name but do not provide a path, EasyLoader creates the log in the same directory as the <span class="ph filepath">EasyLoader.EXE</span> file.
+-   **/F Log File name** – Use this flag to specify the name and location of the log file. Whenever you upload a table, EasyLoader produces a log file. By default, a log file named <span class="ph filepath">EasyLoader.log`{.uicontrol} is created in the Windows TEMP directory. If you specify a file name but do not provide a path, EasyLoader creates the log in the same directory as the <span class="ph filepath">EasyLoader.EXE`{.uicontrol} file.
 
-    Syntax: The first example shows just the name of the log file, which is written to the directory in which <span class="ph filepath">EasyLoader.exe</span> is located; the second example specifies the full path for the log file.
+    Syntax: The first example shows just the name of the log file, which is written to the directory in which <span class="ph filepath">EasyLoader.exe`{.uicontrol} is located; the second example specifies the full path for the log file.
 
     /F myLogFile.txt
 
@@ -99,13 +99,13 @@ EasyLoader supports the following flags to allow you to specify additional uploa
 
     Syntax: /R
 
--   **/S Connection String** – Use this flag to pass an ODBC connection string to the program. If enough information to connect is supplied, the ODBC connection dialog box does not appear. See the /O flag for Oracle Spatial connections. The following examples illustrate the syntax of this flag. The first example uses a data source (<span class="keyword cmdname">DSN</span>), the second supplies the full connection string.
+-   **/S Connection String** – Use this flag to pass an ODBC connection string to the program. If enough information to connect is supplied, the ODBC connection dialog box does not appear. See the /O flag for Oracle Spatial connections. The following examples illustrate the syntax of this flag. The first example uses a data source (<span class="keyword cmdname">DSN`{.uicontrol}), the second supplies the full connection string.
 
     /S DSN=MyDataSource
 
     /S UID=MyId;DATABASE=MyDB;HOST=MyServer;SERVER=MyServer\_tli;SERVICE=sqlexec;PROTOCOL=onsoctcp
 
-    The following example shows the syntax using a data source (<span class="keyword cmdname">FileDSN</span>) with a user ID (<span class="keyword cmdname">UID</span>) and password (<span class="keyword cmdname">PWD</span>).
+    The following example shows the syntax using a data source (<span class="keyword cmdname">FileDSN`{.uicontrol}) with a user ID (<span class="keyword cmdname">UID`{.uicontrol}) and password (<span class="keyword cmdname">PWD`{.uicontrol}).
 
     /S FILEDSN=C:\\Tenop\\MyDataSource.dsn;UID=MyUserID;PWD=MyPassword
 
@@ -115,7 +115,7 @@ EasyLoader supports the following flags to allow you to specify additional uploa
 
     
 
-    <span class="notetitle">Note:</span> Do not enclose file names in quotation marks.
+    <span class="notetitle">Note:`{.uicontrol} Do not enclose file names in quotation marks.
 
     
 

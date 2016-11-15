@@ -3,9 +3,9 @@ Using Command-Line Flags to Run MapInfo EasyLoader {#using-command-line-flags-to
 
 You can run MapInfo EasyLoader from the Windows command-line to apply specific upload parameters or invoke MapInfo EasyLoader with upload parameters from a custom script or application.
 
-To open MapInfo EasyLoader from the <span class="keyword wintitle">Command-Line</span> window, on the Windows <span class="ph uicontrol">Start</span> menu type cmd. Change directories (cd) into the folder that has the MapInfoEasyLoader.exe file in it, and then type MapInfoEasyLoader.exe. MapInfo EasyLoader opens on your screen and is ready to use.
+To open MapInfo EasyLoader from the `Command-Line`{.uicontrol} window, on the Windows `Start`{.uicontrol} menu type cmd. Change directories (cd) into the folder that has the MapInfoEasyLoader.exe file in it, and then type MapInfoEasyLoader.exe. MapInfo EasyLoader opens on your screen and is ready to use.
 
-To upload a table when you open MapInfo EasyLoader from the <span class="keyword wintitle">Command-Line</span> window, modify the following example. It uploads a table (/T) called <span class="ph filepath">states.tab</span> and gives it the server table name mystates, grants all rights (/G) to make mystates public, and specifies that per-row styles are being loaded with the data (/Y).
+To upload a table when you open MapInfo EasyLoader from the `Command-Line`{.uicontrol} window, modify the following example. It uploads a table (/T) called <span class="ph filepath">states.tab`{.uicontrol} and gives it the server table name mystates, grants all rights (/G) to make mystates public, and specifies that per-row styles are being loaded with the data (/Y).
 
 ``` {.pre .codeblock}
 MapInfoEasyLoader.exe /T C:\data\states usa.tab;mystates /G /Y

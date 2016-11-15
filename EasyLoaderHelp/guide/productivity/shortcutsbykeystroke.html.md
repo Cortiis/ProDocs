@@ -5,34 +5,34 @@ This section lists the short-cuts available in MapInfo EasyLoader.
 
   Command                                                                            Icon                                                         Shortcut
   ---------------------------------------------------------------------------------- ------------------------------------------------------------ ----------
-  <span class="ph uicontrol">Manage Connection List and Choose a Connection</span>   ![](images/icon_openDbms.png){.image width="24"}             Ctrl+D
-  <span class="ph uicontrol">Browse for an Output Directory (Folder) </span>         ![](images/icon_ezloaderBrowse.png){.image width="24"}       Ctrl+N
-  <span class="ph uicontrol">Source Table</span>                                     ![](images/icon_ezloaderAdd.png){.image width="24"}          Ctrl+T
-  <span class="ph uicontrol">Add Tables from Folder</span>                                                                                        Ctrl+F
-  <span class="ph uicontrol">Map Catalog</span>                                      ![](images/icon_ezloaderMapCatalog.png){.image width="24"}   Ctrl+M
-  <span class="ph uicontrol">Options</span>                                          ![](images/icon_ezloaderOptions.png){.image width="24"}      Ctrl+O
-  <span class="ph uicontrol">View Log</span>                                         ![](images/icon_viewJobLog.png){.image width="24"}           Ctrl+L
-  <span class="ph uicontrol">Online Help</span>                                      ![](images/icon_help.png){.image width="24"}                 F1
-  <span class="ph uicontrol">PDF Help</span>                                         ![](images/icon_help.png){.image width="24"}                 Alt+F1
-  <span class="ph uicontrol">About MapInfo EasyLoader</span>                                                                                      Shift+F1
-  <span class="ph uicontrol">Start or Resume Uploading Tables</span>                 ![](images/icon_resumeJob.png){.image width="24"}            Ctrl+U
-  <span class="ph uicontrol">Pause the Upload</span>                                 ![](images/icon_ezloaderPause.png){.image width="24"}        Ctrl+P
-  <span class="ph uicontrol">Cancel the Rest of the Upload</span>                    ![](images/icon_ezloaderStop.png){.image width="24"}         Ctrl+S
+  `Manage Connection List and Choose a Connection`{.uicontrol}   ![](images/icon_openDbms.png){.image width="24"}             Ctrl+D
+  `Browse for an Output Directory (Folder) `{.uicontrol}         ![](images/icon_ezloaderBrowse.png){.image width="24"}       Ctrl+N
+  `Source Table`{.uicontrol}                                     ![](images/icon_ezloaderAdd.png){.image width="24"}          Ctrl+T
+  `Add Tables from Folder`{.uicontrol}                                                                                        Ctrl+F
+  `Map Catalog`{.uicontrol}                                      ![](images/icon_ezloaderMapCatalog.png){.image width="24"}   Ctrl+M
+  `Options`{.uicontrol}                                          ![](images/icon_ezloaderOptions.png){.image width="24"}      Ctrl+O
+  `View Log`{.uicontrol}                                         ![](images/icon_viewJobLog.png){.image width="24"}           Ctrl+L
+  `Online Help`{.uicontrol}                                      ![](images/icon_help.png){.image width="24"}                 F1
+  `PDF Help`{.uicontrol}                                         ![](images/icon_help.png){.image width="24"}                 Alt+F1
+  `About MapInfo EasyLoader`{.uicontrol}                                                                                      Shift+F1
+  `Start or Resume Uploading Tables`{.uicontrol}                 ![](images/icon_resumeJob.png){.image width="24"}            Ctrl+U
+  `Pause the Upload`{.uicontrol}                                 ![](images/icon_ezloaderPause.png){.image width="24"}        Ctrl+P
+  `Cancel the Rest of the Upload`{.uicontrol}                    ![](images/icon_ezloaderStop.png){.image width="24"}         Ctrl+S
 
 The following are shortcuts for selecting and deleting tables in MapInfo EasyLoader's table list.
 
   Command                                                       Shortcut
   ------------------------------------------------------------- -------------------------
-  <span class="ph uicontrol">Scroll the list of tables</span>   Page up, Page down
-  <span class="ph uicontrol">Top of list</span>                 Home
-  <span class="ph uicontrol">Bottom of list</span>              Bottom
-  <span class="ph uicontrol">Move between columns</span>        Right Arrow, Left Arrow
-  <span class="ph uicontrol">Select a single table</span>       Click
-  <span class="ph uicontrol">Select tables in the list</span>   Ctrl+Click
-  <span class="ph uicontrol">Select a range of tables</span>    Shift+Click
-  <span class="ph uicontrol">Select all tables</span>           Ctrl+A
-  <span class="ph uicontrol">Unselect all tables</span>         Ctrl+Shift+A
-  <span class="ph uicontrol">Delete selected tables</span>      Delete
+  `Scroll the list of tables`{.uicontrol}   Page up, Page down
+  `Top of list`{.uicontrol}                 Home
+  `Bottom of list`{.uicontrol}              Bottom
+  `Move between columns`{.uicontrol}        Right Arrow, Left Arrow
+  `Select a single table`{.uicontrol}       Click
+  `Select tables in the list`{.uicontrol}   Ctrl+Click
+  `Select a range of tables`{.uicontrol}    Shift+Click
+  `Select all tables`{.uicontrol}           Ctrl+A
+  `Unselect all tables`{.uicontrol}         Ctrl+Shift+A
+  `Delete selected tables`{.uicontrol}      Delete
 
-When there are multiple tables selected in MapInfo EasyLoader, then selecting or clearing the <span class="ph uicontrol">Catalog</span> check box and choosing from the <span class="ph uicontrol">Operation</span> list applies to all of the tables in the selection.
+When there are multiple tables selected in MapInfo EasyLoader, then selecting or clearing the `Catalog`{.uicontrol} check box and choosing from the `Operation`{.uicontrol} list applies to all of the tables in the selection.
 

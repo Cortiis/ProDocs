@@ -5,7 +5,7 @@ Copyright {#copyright .title .topictitle1}
 
 Information in this document is subject to change without notice and does not represent a commitment on the part of the vendor or its representatives. No part of this document may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, without the written permission of Pitney Bowes Software Inc., One Global View, Troy, New York 12180-8399.
 
-© 2016 Pitney Bowes Software Inc. All rights reserved. Pitney Bowes Software Inc. is a wholly owned subsidiary of Pitney Bowes Inc. Pitney Bowes, the corporate logo, MapInfo, Group 1 Software, and <span class="keyword">MapInfo EasyLoader</span> are trademarks of Pitney Bowes Software Inc. All other marks and trademarks are property of their respective holders.
+© 2016 Pitney Bowes Software Inc. All rights reserved. Pitney Bowes Software Inc. is a wholly owned subsidiary of Pitney Bowes Inc. Pitney Bowes, the corporate logo, MapInfo, Group 1 Software, and <span class="keyword">MapInfo EasyLoader`{.uicontrol} are trademarks of Pitney Bowes Software Inc. All other marks and trademarks are property of their respective holders.
 
 Contact information for all Pitney Bowes Software Inc. offices is located at: <http://www.pitneybowes.com/us/contact-us.html>.
 

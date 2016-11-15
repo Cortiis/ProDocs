@@ -149,7 +149,7 @@ Input Command File: /CF, /CommandFile {#input-command-file-cf-commandfile .title
 
 This flag loads command-line arguments from an input file. Each line in the file must contain only one command. MapInfo EasyLoader skips blank lines and comments that begin with a hash tag (\#). You must specify the path to the input file with this flag.
 
-You can use the state file that MapInfo EasyLoader automatically creates under the <span class="ph filepath">AppData</span> folder with the name <span class="ph filepath">MapInfoEasyLoader.Settings.rsp</span> as input. For details, see [Locating the MapInfo EasyLoader Command-Line Flags RSP File](guide/productivity/locatingrspfile.html){.- .topic/xref .ajaxLink}. You can also generate a state file using the [/SaveCommandArgs](#commandlineflags__savecommandargs){.- .topic/xref .ajaxLink} flag.
+You can use the state file that MapInfo EasyLoader automatically creates under the <span class="ph filepath">AppData`{.uicontrol} folder with the name <span class="ph filepath">MapInfoEasyLoader.Settings.rsp`{.uicontrol} as input. For details, see [Locating the MapInfo EasyLoader Command-Line Flags RSP File](guide/productivity/locatingrspfile.html){.- .topic/xref .ajaxLink}. You can also generate a state file using the [/SaveCommandArgs](#commandlineflags__savecommandargs){.- .topic/xref .ajaxLink} flag.
 
 Syntax: /CF CommandFilePath
 
@@ -169,7 +169,7 @@ Syntax: /ConvertWKBOnOracle
 File Directory for Server Table(s): /D, /OutputFolder {#file-directory-for-server-tables-d-outputfolder .title .sectiontitle}
 -----------------------------------------------------
 
-This flag generates a TAB file in a specific directory location to access a remote database with. The new .tab file name appends <span class="ph filepath">\_srv.tab</span> to your server table name, <span class="ph filepath">yourServerTableName\_srv.tab</span>. The directory must be valid to upload a table to it. An empty directory is considered valid.
+This flag generates a TAB file in a specific directory location to access a remote database with. The new .tab file name appends <span class="ph filepath">\_srv.tab`{.uicontrol} to your server table name, <span class="ph filepath">yourServerTableName\_srv.tab`{.uicontrol}. The directory must be valid to upload a table to it. An empty directory is considered valid.
 
 Syntax: /D string\_value
 
@@ -195,13 +195,13 @@ You can use this flag in a MapInfo EasyLoader shortcut, see [Mixing Command-Line
 Log File name: /F, /LogFileName {#log-file-name-f-logfilename .title .sectiontitle}
 -------------------------------
 
-This flag specifies the name and location of the log file created when MapInfo EasyLoader uploads a table. By default, a log file named <span class="ph filepath">EasyLoader.log</span> is created in the <span class="ph filepath">TEMP</span> directory. If you specify a file name but do not provide a path, then MapInfo EasyLoader saves the log file to the same directory as the <span class="ph filepath">EasyLoader.exe</span> file.
+This flag specifies the name and location of the log file created when MapInfo EasyLoader uploads a table. By default, a log file named <span class="ph filepath">EasyLoader.log`{.uicontrol} is created in the <span class="ph filepath">TEMP`{.uicontrol} directory. If you specify a file name but do not provide a path, then MapInfo EasyLoader saves the log file to the same directory as the <span class="ph filepath">EasyLoader.exe`{.uicontrol} file.
 
 Syntax: /F string\_value
 
 Syntax: /LogFileName=string\_value
 
-This example shows only the name of the log file, which saves to the same directory as <span class="ph filepath">MapInfoEasyLoader.exe</span>.
+This example shows only the name of the log file, which saves to the same directory as <span class="ph filepath">MapInfoEasyLoader.exe`{.uicontrol}.
 
 ``` {.pre .codeblock}
 /F myLogFile.txt
@@ -241,7 +241,7 @@ The following example does not include the optional AddToMapCatalog and IncludeS
 /Folder=C:/MyData;CreateNew
 ```
 
-The following example does not include tables in subfolders under <span class="ph filepath">MyData</span>. The third AddToMapCatalog element is blank, because it is set to true by default.
+The following example does not include tables in subfolders under <span class="ph filepath">MyData`{.uicontrol}. The third AddToMapCatalog element is blank, because it is set to true by default.
 
 ``` {.pre .codeblock}
 /Folder=C:/MyData;CreateNew;;false
@@ -303,7 +303,7 @@ Where:
 -   TextFile is the name of the text file that lists the tables to upload.
 -   Path is the full path location to the text file.
 
-This example shows only the name of the file, which is located the same directory as <span class="ph filepath">MapInfoEasyLoader.exe</span>.
+This example shows only the name of the file, which is located the same directory as <span class="ph filepath">MapInfoEasyLoader.exe`{.uicontrol}.
 
 ``` {.pre .codeblock}
 /L ListOfTables.txt
@@ -424,7 +424,7 @@ Syntax: /QuitWhenDone
 Server Connection String: /S, /ConnectionString {#server-connection-string-s-connectionstring .title .sectiontitle}
 -----------------------------------------------
 
-This flag passes an ODBC connection string to the program. The <span class="keyword wintitle">ODBC Connection</span> dialog box does not display when you supply enough information to connect.
+This flag passes an ODBC connection string to the program. The `ODBC Connection`{.uicontrol} dialog box does not display when you supply enough information to connect.
 
 Syntax: /ConnectionString=\[ (friendly\_name)connection\_string | user\_name/connection\_string \]
 
@@ -459,9 +459,9 @@ Save Command Response File: /Save, /SaveCommandArgs {#save-command-response-file
 
 This flag creates a state file when MapInfo EasyLoader shuts down that contains the command-line arguments used to start MapInfo EasyLoader and that were set during the session. You can use this state file to restart EasyLoader on the command-line with the [/CommandFile](#commandlineflags__commandfile){.- .topic/xref .ajaxLink} flag to apply the same settings as the previous session.
 
-MapInfo EasyLoader automatically creates a state file that you can also use with the [/CommandFile](#commandlineflags__commandfile){.- .topic/xref .ajaxLink} flag. It is located under the <span class="ph filepath">AppData</span> folder with the name <span class="ph filepath">MapInfoEasyLoader.Settings.rsp</span> (for example, <span class="ph filepath">C:\\Users\\&lt;UserID&gt;\\AppData\\Roaming\\MapInfoEasyLoader.Settings.rsp</span>). MapInfo EasyLoader does not create the <span class="ph filepath">MapInfoEasyLoader.Settings.rsp</span> file when you use the /SaveCommandArgs flag.
+MapInfo EasyLoader automatically creates a state file that you can also use with the [/CommandFile](#commandlineflags__commandfile){.- .topic/xref .ajaxLink} flag. It is located under the <span class="ph filepath">AppData`{.uicontrol} folder with the name <span class="ph filepath">MapInfoEasyLoader.Settings.rsp`{.uicontrol} (for example, <span class="ph filepath">C:\\Users\\&lt;UserID&gt;\\AppData\\Roaming\\MapInfoEasyLoader.Settings.rsp`{.uicontrol}). MapInfo EasyLoader does not create the <span class="ph filepath">MapInfoEasyLoader.Settings.rsp`{.uicontrol} file when you use the /SaveCommandArgs flag.
 
-<span class="notetitle">Note:</span> The <span class="ph filepath">AppData</span> folder is in a path like <span class="ph filepath">C:\\Users\\&lt;UserID&gt;\\AppData</span>. If you cannot see the <span class="ph filepath">AppData</span> folder, it is because it is hidden. To locate it, on the Microsoft <span class="ph uicontrol">Start</span> menu in the <span class="ph uicontrol">Search programs and files</span> field type %AppData%.
+<span class="notetitle">Note:`{.uicontrol} The <span class="ph filepath">AppData`{.uicontrol} folder is in a path like <span class="ph filepath">C:\\Users\\&lt;UserID&gt;\\AppData`{.uicontrol}. If you cannot see the <span class="ph filepath">AppData`{.uicontrol} folder, it is because it is hidden. To locate it, on the Microsoft `Start`{.uicontrol} menu in the `Search programs and files`{.uicontrol} field type %AppData%.
 
 Syntax: /SaveCommandArgs=StateFilePath
 

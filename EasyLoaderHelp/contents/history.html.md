@@ -33,7 +33,7 @@ EasyLoader 12.0 supports the following database versions:
 -   **PostGIS 2.0** – Note that when uploading files to a PostGIS 2.0 database, spatial objects upload as a geometry spatial data type.
 -   **SQL Server 2012** – EasyLoader processes any invalid geography using the SQL Server 2012 MakeValid( ) function, so that the geography is valid.
 
-The server table processing option <span class="ph uicontrol">Grant Public Access to Table</span> has been changed to <span class="ph uicontrol">Grant Public Full Access to Table</span>.
+The server table processing option `Grant Public Access to Table`{.uicontrol} has been changed to `Grant Public Full Access to Table`{.uicontrol}.
 
 This release fixes the following issues:
 
@@ -46,11 +46,11 @@ This release fixes the following issues:
 New in EasyLoader 11.5.1 {#new-in-easyloader-11.5.1 .title .sectiontitle}
 ------------------------
 
-EasyLoader 11.5.1 lets you connect to Oracle using your Operating System (OS) authentication (Windows credentials). The <span class="keyword wintitle">MapInfo Oracle Connect</span> dialog box has a new <span class="ph uicontrol">Use Operating System Authentication</span> check box to set this option.
+EasyLoader 11.5.1 lets you connect to Oracle using your Operating System (OS) authentication (Windows credentials). The `MapInfo Oracle Connect`{.uicontrol} dialog box has a new `Use Operating System Authentication`{.uicontrol} check box to set this option.
 
-When running EasyLoader from the command line with the <span class="keyword option">Connection</span> parameter and connecting with OS authentication, the parameter should contain only the server name (@ServerName) and not a user ID or password. For the database authentication, provide the user ID, password, and server name (UserName/Password@ServerName).
+When running EasyLoader from the command line with the <span class="keyword option">Connection`{.uicontrol} parameter and connecting with OS authentication, the parameter should contain only the server name (@ServerName) and not a user ID or password. For the database authentication, provide the user ID, password, and server name (UserName/Password@ServerName).
 
-The **/Z** parameter changed in EasyLoader to set the <span class="ph uicontrol">Auto Select</span> option instead of <span class="ph uicontrol">Always Geometry</span>.
+The **/Z** parameter changed in EasyLoader to set the `Auto Select`{.uicontrol} option instead of `Always Geometry`{.uicontrol}.
 
 This release fixes the following issues:
 

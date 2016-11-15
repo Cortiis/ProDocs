@@ -19,7 +19,7 @@ These functions may result in validation errors due to the tolerance level set b
 
 To resolve these errors, reset the tolerance within the USER\_SDO-GEOM\_METADATA by adjusting them downwards (by a factor of 10) and rerun the validation.
 
-<span class="notetitle">Note:</span> If you adjust the tolerance, you must re-create the spatial indexes because they use the tolerance when they are created.
+<span class="notetitle">Note:`{.uicontrol} If you adjust the tolerance, you must re-create the spatial indexes because they use the tolerance when they are created.
 
 To view the unsupported geometries in Oracle, see [Unsupported Geometry](guide/uploading/unsupportedgeometry.html){.- .topic/xref .ajaxLink}.
 
